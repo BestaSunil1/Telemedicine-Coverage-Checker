@@ -1,0 +1,69 @@
+package training.iqgateway.entities;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
+import org.springframework.data.mongodb.core.mapping.Document;
+import java.time.LocalDateTime;
+@Document(collection = "insurence_eligibilities")
+public class InsurenceEligibilities {
+	
+	@Id
+	private String id;
+	@DBRef
+	private Patient patient;
+	@DBRef
+	private InsurencePlan plan;
+	private String status;
+	private LocalDateTime verifiedAt;
+	private String benefitDetails;
+	
+	public InsurenceEligibilities() {
+	}
+	public InsurenceEligibilities(String id, Patient patient, InsurencePlan plan, String status,
+			LocalDateTime verifiedAt, String benefitDetails) {
+		super();
+		this.id = id;
+		this.patient = patient;
+		this.plan = plan;
+		this.status = status;
+		this.verifiedAt = verifiedAt;
+		this.benefitDetails = benefitDetails;
+	}
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public Patient getPatient() {
+		return patient;
+	}
+	public void setPatient(Patient patient) {
+		this.patient = patient;
+	}
+	public InsurencePlan getPlan() {
+		return plan;
+	}
+	public void setPlan(InsurencePlan plan) {
+		this.plan = plan;
+	}
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	public LocalDateTime getVerifiedAt() {
+		return verifiedAt;
+	}
+	public void setVerifiedAt(LocalDateTime verifiedAt) {
+		this.verifiedAt = verifiedAt;
+	}
+	public String getBenefitDetails() {
+		return benefitDetails;
+	}
+	public void setBenefitDetails(String benefitDetails) {
+		this.benefitDetails = benefitDetails;
+	}
+	
+}

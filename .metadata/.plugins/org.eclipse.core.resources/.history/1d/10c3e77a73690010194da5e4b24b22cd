@@ -1,0 +1,18 @@
+package training.iqgateway.entities;
+
+import java.time.LocalDateTime;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
+
+public class Appointment {
+
+	@Id
+	private String id;
+	@DBRef
+	private Patient patient;
+	@DBRef
+	private Doctor doctor;
+	private LocalDateTime appointmentDate;
+	private AppointmentStatus status; // e.g., "Scheduled", "Completed", "Cancelled"
+}

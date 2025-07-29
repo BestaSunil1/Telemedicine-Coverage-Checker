@@ -1,0 +1,40 @@
+package training.iqgateway.dtos;
+
+import java.time.LocalDateTime;
+
+import training.iqgateway.entities.EligibilityStatus;
+import training.iqgateway.entities.InsuranceCoverageStatus;
+
+public class EligibilityCheckResponse {
+    private String patientId;
+    private String patientName;
+    private String insurancePlanId;
+    private String planName;
+    private String planProvider;
+    private EligibilityStatus eligibilityStatus;
+    private InsuranceCoverageStatus coverageStatus;
+    private String benefitDetails;
+    private LocalDateTime verifiedAt;
+    private boolean isEligibleForBooking;
+    private String message;
+    
+    public EligibilityCheckResponse() {
+	}
+    
+    public EligibilityCheckResponse(String patientId, String patientName, String insurancePlanId, String planName,
+			String planProvider, EligibilityStatus eligibilityStatus, InsuranceCoverageStatus coverageStatus,
+			String benefitDetails, LocalDateTime verifiedAt, boolean isEligibleForBooking, String message) {
+		this.patientId = patientId;
+		this.patientName = patientName;
+		this.insurancePlanId = insurancePlanId;
+		this.planName = planName;
+		this.planProvider = planProvider;
+		this.eligibilityStatus = eligibilityStatus;
+		this.coverageStatus = coverageStatus;
+		this.benefitDetails = benefitDetails;
+		this.verifiedAt = verifiedAt;
+		this.isEligibleForBooking = isEligibleForBooking;
+		this.message = message;
+	}
+}
+}

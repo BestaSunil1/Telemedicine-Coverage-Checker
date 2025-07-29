@@ -1,0 +1,8 @@
+package training.iqgateway.dtos;
+
+public enum Role {
+	
+	ADMIN,
+	PATIENT,
+	DOCTOR
+}

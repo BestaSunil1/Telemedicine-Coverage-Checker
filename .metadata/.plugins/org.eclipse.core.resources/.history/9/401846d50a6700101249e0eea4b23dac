@@ -1,0 +1,9 @@
+spring.application.name=zoom-service
+
+server.port=9999
+
+zoom.accountId=YPfeizHwQtSR6jjUzfK30Q
+zoom.clientId=6KE6jrEWQtObtEkeSKTq0Q
+zoom.clientSecret=EakKVkgmM5DqhW3qAD0iJxh8qWjDWPkU
+zoom.hostEmail=sunilbesta18@gmail.com
+

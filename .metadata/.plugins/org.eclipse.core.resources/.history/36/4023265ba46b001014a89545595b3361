@@ -1,0 +1,14 @@
+package training.iqgateway.repositories;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+import training.iqgateway.entities.Doctor;
+
+@Repository
+public interface DoctorRepository extends MongoRepository<Doctor, String> {
+
+	// Additional methods specific to Doctor can be added here
+	// For example, findBySpecialization, findByExperience, etc.
+
+}

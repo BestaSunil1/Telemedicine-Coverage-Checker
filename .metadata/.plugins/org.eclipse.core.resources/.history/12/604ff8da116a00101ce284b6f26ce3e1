@@ -1,0 +1,84 @@
+package training.iqgateway.services;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import training.iqgateway.entities.Appointment;
+import training.iqgateway.entities.AppointmentStatus;
+import training.iqgateway.entities.DoctorAvailability;
+import training.iqgateway.entities.InsuranceCoverageStatus;
+import training.iqgateway.repositories.AppointmentRepository;
+import training.iqgateway.repositories.DoctorAvalilabilityRepository;
+import training.iqgateway.repositories.DoctorRepository;
+import training.iqgateway.repositories.PatientRepository;
+
+@Service
+public class AppointmentService {
+
+	@Autowired
+	private AppointmentRepository appointmentRepository;
+	@Autowired
+	private  DoctorAvalilabilityRepository doctorAvailabilityRepository;
+	@Autowired
+	private DoctorRepository doctorRepository;
+	@Autowired
+	private PatientRepository patientRepository;
+
+	
+	public List<DoctorAvailability> getAllDoctorAvailabilities() {
+		return doctorAvailabilityRepository.findAll();
+	}
+	
+	public Optional<DoctorAvailability> getDoctorAvailabilityById(String id) {
+		return doctorAvailabilityRepository.findById(id);
+	}
+	
+	public DoctorAvailability getByDoctorId(String doctorId) {
+		return doctorAvailabilityRepository.findByDoctorId(doctorId);
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	// Add methods to handle appointment-related operations
+	public Appointment createAppointment(Appointment appointment) {
+		return appointmentRepository.save(appointment);
+	}
+	
+	public Optional<Appointment> getAppointmentById(String id) {
+		return appointmentRepository.findById(id);
+	}
+	
+	public void deleteAppointment(String id) {
+		appointmentRepository.deleteById(id);
+	}
+	public Appointment updateAppointment(Appointment appointment) {
+		return appointmentRepository.save(appointment);
+	}
+	
+	public List<Appointment> getAllAppointments() {
+		return appointmentRepository.findAll();
+	}
+	public List<Appointment> getAppointmentsByPatientId(String patientId) {
+		return appointmentRepository.findByPatientId(patientId);
+	}
+	public List<Appointment> getAppointmentsByDoctorId(String doctorId) {
+		return appointmentRepository.findByDoctorId(doctorId);
+	}
+	public List<Appointment> getAppointmentsByStatus(AppointmentStatus status) {
+		return appointmentRepository.findByStatus(status);
+	}
+	public List<Appointment> getAppointmentsByInsuranceCoverageStatus(InsuranceCoverageStatus insuranceCoverageStatus) {
+		return appointmentRepository.findByInsuranceCoverageStatus(insuranceCoverageStatus);
+	}
+
+}

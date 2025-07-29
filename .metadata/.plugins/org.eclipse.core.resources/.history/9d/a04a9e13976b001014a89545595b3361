@@ -1,0 +1,25 @@
+package training.iqgateway.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import training.iqgateway.entities.DoctorAvailability;
+import training.iqgateway.repositories.DoctorAvailabilityRepository;
+
+@Service
+public class DoctorAvailabilityService {
+	
+	@Autowired
+	private DoctorAvailabilityRepository doctorAvailabilityRepository;
+	
+	public List<DoctorAvailability> getAllAvailableDoctors() {
+		return doctorAvailabilityRepository.findAll();
+	}
+	
+	public DoctorAvailability find(String doctorId) {
+		return doctorAvailabilityRepository.findByDoctorDoctorId(doctorId)
+				.orElseThrow(() -> new IllegalArgumentException("Doctor with id " + doctorId + " does not exist."));
+	}
+}

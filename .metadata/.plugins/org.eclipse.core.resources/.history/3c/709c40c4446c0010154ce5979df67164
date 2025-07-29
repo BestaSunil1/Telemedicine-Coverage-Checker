@@ -1,0 +1,43 @@
+package training.iqgateway.dtos;
+
+public class EligibilityCheckRequest {
+	
+    private String patientId;
+    private String insurancePlanId;
+    private String userEmail; // Alternative identifier
+    
+    public EligibilityCheckRequest() {
+	}
+    
+    public EligibilityCheckRequest(String patientId, String insurancePlanId, String userEmail) {
+		this.patientId = patientId;
+		this.insurancePlanId = insurancePlanId;
+		this.userEmail = userEmail;
+	}
+
+	public String getPatientId() {
+		return patientId;
+	}
+
+	public void setPatientId(String patientId) {
+		this.patientId = patientId;
+	}
+
+	public String getInsurancePlanId() {
+		return insurancePlanId;
+	}
+
+	public void setInsurancePlanId(String insurancePlanId) {
+		this.insurancePlanId = insurancePlanId;
+	}
+
+	public String getUserEmail() {
+		return userEmail;
+	}
+
+	public void setUserEmail(String userEmail) {
+		this.userEmail = userEmail;
+	}
+    
+    
+}

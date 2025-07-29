@@ -1,0 +1,38 @@
+package training.iqgateway.dtos;
+
+import lombok.Builder;
+
+@Builder
+public class EligibilityCheckRequest {
+	
+    private String patientId;
+    private String insurancePlanId;
+  
+    
+    public EligibilityCheckRequest() {
+	}
+
+	public EligibilityCheckRequest(String patientId, String insurancePlanId) {
+		super();
+		this.patientId = patientId;
+		this.insurancePlanId = insurancePlanId;
+	}
+
+	public String getPatientId() {
+		return patientId;
+	}
+
+	public void setPatientId(String patientId) {
+		this.patientId = patientId;
+	}
+
+	public String getInsurancePlanId() {
+		return insurancePlanId;
+	}
+
+	public void setInsurancePlanId(String insurancePlanId) {
+		this.insurancePlanId = insurancePlanId;
+	}
+    
+    
+}

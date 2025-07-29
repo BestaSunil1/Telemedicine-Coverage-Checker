@@ -1,0 +1,16 @@
+package training.iqgateway.dtos;
+
+import java.util.List;
+
+public class DoctorDto {
+    private String id;
+    private UserDto user;
+    private String profilePictureBase64; // Base64 encoded profile picture
+    private boolean active = true;
+    private List<String> specializations;
+    private List<DoctorAvailabilityDto> availabilities;
+    
+    pubblic DoctorDto() {
+		// Default constructor
+	}
+}

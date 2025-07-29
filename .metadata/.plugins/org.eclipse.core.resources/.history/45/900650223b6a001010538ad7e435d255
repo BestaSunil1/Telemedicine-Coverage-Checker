@@ -1,0 +1,40 @@
+package training.iqgateway.repositories;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.mongodb.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import training.iqgateway.entities.Appointment;
+import training.iqgateway.entities.AppointmentStatus;
+import training.iqgateway.entities.InsuranceCoverageStatus;
+
+@Repository
+public interface AppointmentRepository extends MongoRepository<Appointment, String> {
+
+	// Custom query methods can be defined here if needed
+	// For example, to find appointments by patient or doctor, or by status
+	List<Appointment> findByPatientId(String patientId);
+	
+	List<Appointment> findByDoctorId(String doctorId);
+	
+	List<Appointment> findByStatus(AppointmentStatus status);
+	
+	List<Appointment> findByInsuranceCoverageStatus(InsuranceCoverageStatus insuranceCoverageStatus);
+
+    
+    List<Appointment> findByStatus(String status);
+    
+    List<Appointment> findByDoctorIdAndStatus(String doctorId, String status);
+    
+    @Query("{ 'doctorId': ?0, 'scheduledAt': ?1 }")
+    List<Appointment> findConflictingAppointments(String doctorId, LocalDateTime scheduledAt);
+    
+    @Query("{ 'doctorId': ?0, 'scheduledAt': { $gte: ?1, $lte: ?2 } }")
+    List<Appointment> findAppointmentsByDoctorAndDateRange(String doctorId,
+                                                          LocalDateTime startTime,
+                                                          LocalDateTime endTime);
+
+}

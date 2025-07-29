@@ -1,0 +1,8 @@
+package training.iqgateway.entities;
+
+public enum EligibilityStatus {
+	
+	ELIGIBLE,
+	NOTELIGIBLE
+
+}

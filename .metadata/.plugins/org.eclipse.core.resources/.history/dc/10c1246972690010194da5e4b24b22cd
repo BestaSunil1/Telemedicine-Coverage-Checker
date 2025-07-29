@@ -1,0 +1,13 @@
+package training.iqgateway.entities;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
+
+public class Appointment {
+
+	@Id
+	private String id;
+	@DBRef
+	private Patient patient;
+	private Doctor doctor;
+}

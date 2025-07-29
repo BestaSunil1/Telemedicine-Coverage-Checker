@@ -1,0 +1,14 @@
+package training.iqgateway.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import training.iqgateway.repositories.PatientRepository;
+
+@Service
+public class PatientService {
+
+	@Autowired
+	private  PatientRepository patientRepository;
+	
+}

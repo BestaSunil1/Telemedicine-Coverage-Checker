@@ -1,0 +1,19 @@
+package training.iqgateway.dtos;
+
+import java.util.List;
+
+public class DoctorRegistrationDto {
+	
+	private String username;
+    private String email;
+    private String password;
+    private String role = "Doctor";
+    
+    // Doctor details
+    private String profilePictureBase64;
+    private boolean active = true;
+    private List<String> specializations;
+    
+    // Availability details
+    private List<DoctorAvailabilityDto> availabilities;
+}

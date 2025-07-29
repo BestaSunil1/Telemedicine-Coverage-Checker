@@ -1,0 +1,151 @@
+package training.iqgateway.filter;
+
+
+
+import jakarta.servlet.Filter;
+import jakarta.servlet.FilterChain;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.ServletRequest;
+import jakarta.servlet.ServletResponse;
+import jakarta.servlet.annotation.WebFilter;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import training.iqgateway.entities.Role;
+import training.iqgateway.entities.User;
+import training.iqgateway.repository.UserRepository;
+import training.iqgateway.service.AuthService;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.web.bind.annotation.CrossOrigin;
+
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.Optional;
+
+@WebFilter(urlPatterns = {"/api/*", "/admin/*", "/doctor/*", "/patient/*"})
+public class AuthenticationFilter implements Filter {
+
+    private static final Logger logger = LoggerFactory.getLogger(AuthenticationFilter.class);
+    private final AuthService authService;
+    private final UserRepository userRepository;
+
+    // CORS settings
+    private static final String ALLOWED_ORIGIN = "http://localhost:5174";
+
+    // Whitelisted public routes
+    private static final String[] UNAUTHENTICATED_PATHS = {
+        "/api/auth/login",
+        "/api/users/register"
+    };
+
+    public AuthenticationFilter(AuthService authService, UserRepository userRepository) {
+        this.authService = authService;
+        this.userRepository = userRepository;
+        logger.info("Authentication Filter Initialized");
+    }
+
+    @Override
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+            throws IOException, ServletException {
+        try {
+            executeFilterLogic(request, response, chain);
+        } catch (Exception e) {
+            logger.error("Unexpected error in AuthenticationFilter", e);
+            sendErrorResponse((HttpServletResponse) response, HttpServletResponse.SC_INTERNAL_SERVER_ERROR,
+                    "Internal server error.");
+        }
+    }
+
+    private void executeFilterLogic(ServletRequest request, ServletResponse response, FilterChain chain)
+            throws IOException, ServletException {
+
+        HttpServletRequest httpRequest = (HttpServletRequest) request;
+        HttpServletResponse httpResponse = (HttpServletResponse) response;
+        String requestURI = httpRequest.getRequestURI();
+
+        logger.info("Auth Filter → Request URI: {}", requestURI);
+
+        // Allow public endpoints
+        if (Arrays.asList(UNAUTHENTICATED_PATHS).contains(requestURI)) {
+            chain.doFilter(request, response);
+            return;
+        }
+
+        // Handle preflight OPTIONS request
+        if ("OPTIONS".equalsIgnoreCase(httpRequest.getMethod())) {
+            setCORSHeaders(httpResponse);
+            return;
+        }
+
+        // Extract JWT from cookies
+        String token = getAuthTokenFromCookies(httpRequest);
+        logger.debug("Auth Token: {}", token);
+
+        if (token == null || !authService.validateToken(token)) {
+            sendErrorResponse(httpResponse, HttpServletResponse.SC_UNAUTHORIZED, "Unauthorized: Invalid or missing token.");
+            return;
+        }
+
+        // Extract user ID from token
+        String userId = authService.extractUserId(token);
+        Optional<User> optionalUser = userRepository.findById(userId);
+
+        if (optionalUser.isEmpty()) {
+            sendErrorResponse(httpResponse, HttpServletResponse.SC_UNAUTHORIZED, "Unauthorized: User not found.");
+            return;
+        }
+
+        User user = optionalUser.get();
+        Role role = user.getRole();
+        logger.info("Authenticated user: {}, Role: {}", user.getUsername(), role);
+
+        // Role-based route protection
+        if (requestURI.startsWith("/admin/") && role != Role.ADMIN) {
+            sendErrorResponse(httpResponse, HttpServletResponse.SC_FORBIDDEN, "Forbidden: Admin access required");
+            return;
+        }
+
+        if (requestURI.startsWith("/patient/") && role != Role.PATIENT) {
+            sendErrorResponse(httpResponse, HttpServletResponse.SC_FORBIDDEN, "Forbidden: Patient access required");
+            return;
+        }
+
+        if (requestURI.startsWith("/doctor/") && role != Role.DOCTOR) {
+            sendErrorResponse(httpResponse, HttpServletResponse.SC_FORBIDDEN, "Forbidden: Doctor access required");
+            return;
+        }
+
+        // Attach authenticated user to request for downstream use
+        httpRequest.setAttribute("authenticatedUser", user);
+
+        // Continue the filter chain
+        chain.doFilter(httpRequest, httpResponse);
+    }
+
+    private void setCORSHeaders(HttpServletResponse response) {
+        response.setHeader("Access-Control-Allow-Origin", ALLOWED_ORIGIN);
+        response.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+        response.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
+        response.setHeader("Access-Control-Allow-Credentials", "true");
+        response.setStatus(HttpServletResponse.SC_OK);
+    }
+
+    private void sendErrorResponse(HttpServletResponse response, int statusCode, String message) throws IOException {
+        response.setStatus(statusCode);
+        response.getWriter().write(message);
+    }
+
+    private String getAuthTokenFromCookies(HttpServletRequest request) {
+        Cookie[] cookies = request.getCookies();
+        if (cookies != null) {
+            return Arrays.stream(cookies)
+                         .filter(cookie -> "authToken".equals(cookie.getName()))
+                         .map(Cookie::getValue)
+                         .findFirst()
+                         .orElse(null);
+        }
+        return null;
+    }
+}

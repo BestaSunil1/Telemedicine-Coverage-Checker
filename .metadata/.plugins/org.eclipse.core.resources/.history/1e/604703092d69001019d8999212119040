@@ -1,0 +1,5 @@
+package training.iqgateway.contollers;
+
+public class PatientController {
+
+}

@@ -1,0 +1,22 @@
+package training.iqgateway.repository;
+
+
+
+import java.util.Optional;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+
+@Repository
+public interface JWTTokenRepository extends MongoRepository<JWTToken, String> {
+
+    // ✅ Find token by token string
+    Optional<JWTToken> findByToken(String token);
+
+    // ✅ Find token by user
+    Optional<JWTToken> findByUser(User user); // or List if storing multiple tokens per user
+
+    // ✅ Delete token(s) by user
+    void deleteByUser(User user);
+}

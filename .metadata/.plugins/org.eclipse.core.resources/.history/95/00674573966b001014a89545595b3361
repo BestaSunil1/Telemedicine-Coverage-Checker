@@ -1,0 +1,46 @@
+package training.iqgateway.services;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import training.iqgateway.entities.Doctor;
+import training.iqgateway.repositories.DoctorRepository;
+
+@Service
+public class DoctorService {
+
+	@Autowired
+	private DoctorRepository doctorRepository;
+	
+	public Doctor createDoctor(Doctor doctor) {
+		return doctorRepository.save(doctor);
+	}
+	
+	public Optional<Doctor> getDoctorById(String id) {
+		return doctorRepository.findById(id);
+}
+	
+	public void deleteDoctor(String id) {
+		doctorRepository.deleteById(id);
+	}
+	
+	public Doctor updateDoctor(Doctor doctor) {
+		if (doctorRepository.existsById(doctor.getId())) {
+			return doctorRepository.save(doctor);
+		} else {
+			throw new IllegalArgumentException("Doctor with id " + doctor.getId() + " does not exist.");
+		}
+	}
+	
+	public Iterable<Doctor> getAllDoctors() {
+		return doctorRepository.findAll();
+	}
+
+	public List<Doctor> getDoctorsBySpecialization(String name) {
+		// TODO Auto-generated method stub
+		return doctorRepository.findBySpecializationsContaining(name);
+	}
+}

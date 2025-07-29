@@ -1,0 +1,10 @@
+package training.iqgateway.entities;
+
+import org.springframework.data.annotation.Id;
+
+public class Appointment {
+
+	@Id
+	private String id;
+	private Patient patient;
+}
