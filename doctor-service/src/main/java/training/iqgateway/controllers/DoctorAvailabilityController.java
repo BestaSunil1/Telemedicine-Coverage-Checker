@@ -39,4 +39,5 @@ public class DoctorAvailabilityController {
         List<DoctorAvailabilityResponseDto> availabilities = doctorService.getDoctorAvailabilitiesByDay(dayOfWeek);
         return new ResponseEntity<>(availabilities, HttpStatus.OK);
     }
+
 }

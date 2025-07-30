@@ -11,7 +11,7 @@
 	<groupId>com.iqgateway</groupId>
 	<artifactId>search-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>search-service</name>
+	<name>doctor-service</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
