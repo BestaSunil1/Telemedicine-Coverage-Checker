@@ -21,7 +21,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 @RestController
 @RequestMapping("/api/zoom")
-@CrossOrigin(origins = "http://localhost:5173")
+
 public class ZoomController {
 
     @Value("${zoom.accountId}")

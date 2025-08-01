@@ -25,7 +25,7 @@ import training.iqgateway.services.NotificationService;
 
 @RestController
 @RequestMapping("/api/appointments")
-@CrossOrigin(origins = "*") // Allow all origins for CORS
+
 public class AppointmentController {
 
 	@Autowired

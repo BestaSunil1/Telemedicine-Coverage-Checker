@@ -1,12 +1,11 @@
 package training.iqgateway.services;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Base64;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
-
-
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -16,9 +15,11 @@ import org.springframework.transaction.annotation.Transactional;
 import training.iqgateway.dtos.DoctorAvailabilityDto;
 import training.iqgateway.dtos.DoctorDto;
 import training.iqgateway.dtos.DoctorRegistrationDto;
+import training.iqgateway.dtos.PatientRegistrationDTO;
 import training.iqgateway.dtos.UserDto;
 import training.iqgateway.entities.Doctor;
 import training.iqgateway.entities.DoctorAvailability;
+import training.iqgateway.entities.Patient;
 import training.iqgateway.entities.User;
 import training.iqgateway.repositories.DoctorAvailabilityRepository;
 import training.iqgateway.repositories.DoctorRepository;
@@ -206,5 +207,98 @@ public class AdminService {
         
         dto.setAvailabilities(availabilityDtos);
         return dto;
+    }
+    
+  
+    
+    public Patient registerPatient(PatientRegistrationDTO registrationDTO) {
+        // Create User first
+        User user = new User();
+        user.setUsername(registrationDTO.getUsername());
+        user.setEmail(registrationDTO.getEmail());
+        user.setPassword(registrationDTO.getPassword()); // Consider encrypting password
+        user.setRole(registrationDTO.getRole());
+        user.setCreatedAt(LocalDateTime.now());
+        user.setUpdatedAt(LocalDateTime.now());
+        
+        // Save user
+        User savedUser = userRepository.save(user);
+        
+        // Create Patient
+        Patient patient = new Patient();
+        patient.setUser(savedUser);
+        patient.setDateOfBirth(registrationDTO.getDateOfBirth());
+        patient.setGender(registrationDTO.getGender());
+        patient.setContactNumber(registrationDTO.getContactNumber());
+        
+        return patientRepository.save(patient);
+    }
+    
+    public List<Patient> getAllPatients() {
+        return patientRepository.findAll();
+    }
+    
+    public Optional<Patient> getPatientById(String id) {
+        return patientRepository.findById(id);
+    }
+    
+    public Optional<Patient> getPatientByUserId(String userId) {
+        return patientRepository.findByUserId(userId);
+    }
+    
+    public Optional<Patient> getPatientByEmail(String email) {
+        return patientRepository.findByUserEmail(email);
+    }
+    
+    public Patient updatePatient(String id, Patient updatedPatient) {
+        Optional<Patient> existingPatient = patientRepository.findById(id);
+        if (existingPatient.isPresent()) {
+            Patient patient = existingPatient.get();
+            
+            // Update patient fields
+            if (updatedPatient.getDateOfBirth() != null) {
+                patient.setDateOfBirth(updatedPatient.getDateOfBirth());
+            }
+            if (updatedPatient.getGender() != null) {
+                patient.setGender(updatedPatient.getGender());
+            }
+            if (updatedPatient.getContactNumber() != null) {
+                patient.setContactNumber(updatedPatient.getContactNumber());
+            }
+            
+            // Update user fields if provided
+            if (updatedPatient.getUser() != null) {
+                User user = patient.getUser();
+                if (updatedPatient.getUser().getUsername() != null) {
+                    user.setUsername(updatedPatient.getUser().getUsername());
+                }
+                if (updatedPatient.getUser().getEmail() != null) {
+                    user.setEmail(updatedPatient.getUser().getEmail());
+                }
+                user.setUpdatedAt(LocalDateTime.now());
+                userRepository.save(user);
+            }
+            
+            return patientRepository.save(patient);
+        }
+        return null;
+    }
+    
+    public boolean deletePatient(String id) {
+        Optional<Patient> patient = patientRepository.findById(id);
+        if (patient.isPresent()) {
+            // Delete patient first
+            patientRepository.deleteById(id);
+            // Optionally delete associated user
+            if (patient.get().getUser() != null) {
+                userRepository.deleteById(patient.get().getUser().getId());
+            }
+            return true;
+        }
+        return false;
+    }
+    
+    public boolean existsByUser(User user) {
+        return patientRepository.existsByUser(user);
     }
 }

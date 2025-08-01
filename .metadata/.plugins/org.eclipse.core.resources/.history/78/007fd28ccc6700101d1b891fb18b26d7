@@ -1,5 +1,0 @@
-package training.iqgateway.repository;
-
-public interface JWTTokenInterface {
-
-}

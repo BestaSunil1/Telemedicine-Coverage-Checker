@@ -16,7 +16,7 @@ import training.iqgateway.services.DoctorService;
 
 @RestController
 @RequestMapping("/api/doctors")
-@CrossOrigin(origins = "*")
+
 public class DoctorController {
 
     @Autowired

@@ -8,6 +8,7 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -24,6 +25,7 @@ public class AuthService {
     private final Key SIGNING_KEY;
     private final UserRepository userRepository;
     private final JWTTokenRepository jwtTokenRepository;
+    private final BCryptPasswordEncoder passwordEncoder;
 
     public AuthService(
             UserRepository userRepository,
@@ -32,6 +34,8 @@ public class AuthService {
     ) {
         this.userRepository = userRepository;
         this.jwtTokenRepository = jwtTokenRepository;
+        this.passwordEncoder = new BCryptPasswordEncoder();
+
 
         if (jwtSecret.getBytes(StandardCharsets.UTF_8).length < 64) {
             throw new IllegalArgumentException("JWT secret must be at least 64 characters (bytes) long for HS512.");
@@ -44,8 +48,8 @@ public class AuthService {
         User user = userRepository.findByEmail(email)
                 .orElseThrow(() -> new RuntimeException("Invalid email or password."));
 
-        if (!user.getPassword().equals(password)) {
-            throw new RuntimeException("Invalid email or password.");
+        if (!passwordEncoder.matches(password, user.getPassword())) {
+            throw new RuntimeException("Invalid username or password");
         }
 
         return user;

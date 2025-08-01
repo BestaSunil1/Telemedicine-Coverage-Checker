@@ -31,7 +31,7 @@ import training.iqgateway.service.InsuranceEligibilityService;
 @RestController
 @RequestMapping("/api/eligibility")
 @Slf4j
-@CrossOrigin(origins = "*")
+
 public class InsuranceEligibilityController {
     
     @Autowired

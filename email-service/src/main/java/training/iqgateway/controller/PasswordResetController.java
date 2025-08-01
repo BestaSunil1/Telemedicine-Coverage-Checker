@@ -20,7 +20,7 @@ import org.slf4j.LoggerFactory;
 
 @RestController
 @RequestMapping("/api/forgotpassword")
-@CrossOrigin(origins = "*")
+
 public class PasswordResetController {
     
     private static final Logger logger = LoggerFactory.getLogger(PasswordResetController.class);
