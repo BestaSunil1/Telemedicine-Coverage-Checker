@@ -1,4 +1,4 @@
-Points Given By Rakesh Sir
+
  
 	We have set the following expectations:
 	Tech Stack: React JS, Microservices REST API (Spring Boot), MongoDB
