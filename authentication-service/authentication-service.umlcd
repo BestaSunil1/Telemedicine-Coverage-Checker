@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_OThKAHXrEfC_3fo_KXq00A">
+  <modelElement href="authentication-service.uml#_OyasgHXrEfC_3fo_KXq00A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PtplsHXrEfC_3fo_KXq00A" sourceAnchor="86.0,0.0" targetAnchor="0.0,36.0" target="_PuqSUHXrEfC_3fo_KXq00A" source="_PtpluXXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PAngkHXrEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_1waLIHXrEfC_3fo_KXq00A" sourceY="-42" targetX="923" targetY="-241"/>
+    <bendpoints xmi:id="_1waLIXXrEfC_3fo_KXq00A" sourceX="-1102" sourceY="-43" targetX="-179" targetY="-242"/>
+    <bendpoints xmi:id="_1waLInXrEfC_3fo_KXq00A" sourceX="-1102" sourceY="199" targetX="-179"/>
+    <stereotypes xmi:id="_PtplsXXrEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="authentication-service.uml#_PAu1UHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PtplsnXrEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_P6d5sHXrEfC_3fo_KXq00A" position="1.0000000000002274,40.99999999999966"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Ptpls3XrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PAngkXXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6dSo3XrEfC_3fo_KXq00A" position="-152.0,-93.0"/>
+      <visibility xmi:id="_PtpltHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PtpltXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PtpltnXrEfC_3fo_KXq00A" aggregationKind="NONE" name="userService" navigable="true">
+      <modelElement href="authentication-service.uml#_PAEuAHXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6d5sXXrEfC_3fo_KXq00A" position="-138.0,-49.99999999999977"/>
+      <visibility xmi:id="_Ptplt3XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PtpluHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ptw6cHXrEfC_3fo_KXq00A" sourceAnchor="0.0,66.0" targetAnchor="295.0,231.0" target="_PuwY-XXrEfC_3fo_KXq00A" source="_Ptw6eXXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PA2KEHXrEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Ptw6cXXrEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="authentication-service.uml#_PA8QsHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ptw6cnXrEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_P6egwHXrEfC_3fo_KXq00A" position="-2.8571428571428896,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Ptw6c3XrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PA2KEXXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6d5snXrEfC_3fo_KXq00A" position="-42.58823529411768,2.0"/>
+      <visibility xmi:id="_Ptw6dHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Ptw6dXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ptw6dnXrEfC_3fo_KXq00A" aggregationKind="NONE" name="authService" navigable="true">
+      <modelElement href="authentication-service.uml#_PAJmgHXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6egwXXrEfC_3fo_KXq00A" position="42.5,2.0"/>
+      <visibility xmi:id="_Ptw6d3XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Ptw6eHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Pt-V0HXrEfC_3fo_KXq00A" sourceAnchor="50.0,115.0" targetAnchor="179.0,180.0" target="_Pt_j-XXrEfC_3fo_KXq00A" source="_PuEccHXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PAgy4XXrEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_1wZkFHXrEfC_3fo_KXq00A" sourceY="365" targetX="-612" targetY="359"/>
+    <bendpoints xmi:id="_1wZkFXXrEfC_3fo_KXq00A" sourceX="647" sourceY="365" targetX="35" targetY="359"/>
+    <bendpoints xmi:id="_1wZkFnXrEfC_3fo_KXq00A" sourceX="648" sourceY="6" targetX="36"/>
+    <nameVisual xmi:id="_Pt-V0XXrEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_P6fH0HXrEfC_3fo_KXq00A" position="-52.000000000000114,-19.999999999999886"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Pt-V0nXrEfC_3fo_KXq00A" aggregationKind="NONE" name="role" navigable="true">
+      <modelElement href="authentication-service.uml#_PAN38nXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6egwnXrEfC_3fo_KXq00A" position="-37.0,41.0"/>
+      <visibility xmi:id="_Pt-V03XrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt-V1HXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Pt-V1XXrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PAhZ8HXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6fH0XXrEfC_3fo_KXq00A" position="20.0,40.99999999999994"/>
+      <visibility xmi:id="_Pt-V1nXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt-V13XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Pt-84HXrEfC_3fo_KXq00A" source="_Pt_j-XXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PA83wHXrEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Pt-84XXrEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="authentication-service.uml#_PBBJMHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Pt-84nXrEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_Pt-843XrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PA83wXXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Pt-85HXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt-85XXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Pt-85nXrEfC_3fo_KXq00A" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="authentication-service.uml#_PAOfAXXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Pt-853XrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt-86HXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Pt_j8HXrEfC_3fo_KXq00A" source="_Pt_j-XXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PBBJMXXrEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Pt_j8XXrEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="authentication-service.uml#_PBGBsHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Pt_j8nXrEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_Pt_j83XrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PBBJMnXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Pt_j9HXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt_j9XXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Pt_j9nXrEfC_3fo_KXq00A" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="authentication-service.uml#_PAOfBHXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Pt_j93XrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt_j-HXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PuHfwHXrEfC_3fo_KXq00A" sourceAnchor="0.0,125.0" targetAnchor="179.0,108.0" target="_Pt_j-XXrEfC_3fo_KXq00A" source="_PuO0gHXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PAu1UXXrEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_PuLxNHXrEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="authentication-service.uml#_PA1jAHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PuLxMXXrEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_P6fH03XrEfC_3fo_KXq00A" position="-18.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PuLxMnXrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PAu1UnXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6fH0nXrEfC_3fo_KXq00A" position="-8.0,46.0"/>
+      <visibility xmi:id="_PuNmYXXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuNmYHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PuLxM3XrEfC_3fo_KXq00A" aggregationKind="NONE" name="user" navigable="true">
+      <modelElement href="authentication-service.uml#_PAHxUXXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6fH1HXrEfC_3fo_KXq00A" position="-14.0,-51.0"/>
+      <visibility xmi:id="_PuNmY3XrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuNmYnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PuLxMHXrEfC_3fo_KXq00A" target="_PuO0gHXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PAfkwHXrEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_PuM_UHXrEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_PuM_UXXrEfC_3fo_KXq00A" aggregationKind="NONE" name="expiresAt" navigable="true">
+      <modelElement href="authentication-service.uml#_PAI_cnXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_PuONcXXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuONcHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PuM_UnXrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PAfkwXXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_PuONdHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuONc3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PuTtAHXrEfC_3fo_KXq00A" sourceAnchor="0.0,139.0" targetAnchor="0.0,129.0" target="_PuwY-XXrEfC_3fo_KXq00A" source="_PuaauXXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PBN9gXXrEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_1wZkEHXrEfC_3fo_KXq00A" sourceX="-484" targetX="-22" targetY="-272"/>
+    <bendpoints xmi:id="_1wZkEXXrEfC_3fo_KXq00A" sourceX="-483" sourceY="272" targetX="-21"/>
+    <stereotypes xmi:id="_PuWwUnXrEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="authentication-service.uml#_PBUEIHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PuWJQHXrEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_P6fu4XXrEfC_3fo_KXq00A" position="41.0,-134.99999999999997"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PuWwUHXrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PBN9gnXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6fu4HXrEfC_3fo_KXq00A" position="-101.0,-51.0"/>
+      <visibility xmi:id="_PuX-cXXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuX-cHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PuWwUXXrEfC_3fo_KXq00A" aggregationKind="NONE" name="authService" navigable="true">
+      <modelElement href="authentication-service.uml#_PAPtI3XrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6fu4nXrEfC_3fo_KXq00A" position="-98.0,-161.00000000000003"/>
+      <visibility xmi:id="_PuX-c3XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PuX-cnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PuZMkHXrEfC_3fo_KXq00A" source="_PuaauXXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PBGBsXXrEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_PuZMkXXrEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="authentication-service.uml#_PBN9gHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PuZMknXrEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_PuZMk3XrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PBGBsnXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_PuZMlHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuZMlXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PuZMlnXrEfC_3fo_KXq00A" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="authentication-service.uml#_PAPtIHXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_PuZMl3XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PuZMmHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PuaasHXrEfC_3fo_KXq00A" sourceAnchor="0.0,199.0" targetAnchor="207.0,52.0" target="_PukywHXrEfC_3fo_KXq00A" source="_PuaauXXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PBUEIXXrEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_PuaasXXrEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="authentication-service.uml#_PBZjsHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PuaasnXrEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_P6gV8XXrEfC_3fo_KXq00A" position="-18.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Puaas3XrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PBUEInXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6gV8HXrEfC_3fo_KXq00A" position="-16.0,41.0"/>
+      <visibility xmi:id="_PuaatHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuaatXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PuaatnXrEfC_3fo_KXq00A" aggregationKind="NONE" name="userRepository" navigable="true">
+      <modelElement href="authentication-service.uml#_PAQUMHXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6gV8nXrEfC_3fo_KXq00A" position="-30.0,-51.0"/>
+      <visibility xmi:id="_Puaat3XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PuaauHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Pui9kHXrEfC_3fo_KXq00A" sourceAnchor="280.0,0.0" targetAnchor="59.0,110.0" target="_PukywHXrEfC_3fo_KXq00A" source="_PuwY-XXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PBfqUXXrEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Pujko3XrEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="authentication-service.uml#_PBlw8HXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PujkoHXrEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_P6iLIHXrEfC_3fo_KXq00A" position="-21.0,-7.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PujkoXXrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PBfqUnXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6hkEnXrEfC_3fo_KXq00A" position="-56.0,-37.0"/>
+      <visibility xmi:id="_PujkqXXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PujkqHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PujkonXrEfC_3fo_KXq00A" aggregationKind="NONE" name="userRepository" navigable="true">
+      <modelElement href="authentication-service.uml#_PASJYXXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6iLIXXrEfC_3fo_KXq00A" position="36.0,-160.00000000000003"/>
+      <visibility xmi:id="_PukLsXXrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PukLsHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Pui9kXXrEfC_3fo_KXq00A" sourceAnchor="215.0,20.0" targetAnchor="0.0,52.0" target="_PukywHXrEfC_3fo_KXq00A" source="_PuqSUHXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PBzzYXXrEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Pujkp3XrEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="authentication-service.uml#_PB4r4HXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PujkpHXrEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_P6hkEHXrEfC_3fo_KXq00A" position="-18.0,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PujkpXXrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PBzzYnXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6g9AHXrEfC_3fo_KXq00A" position="-2.0,12.0"/>
+      <visibility xmi:id="_PukLs3XrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PukLsnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PujkpnXrEfC_3fo_KXq00A" aggregationKind="NONE" name="userRepository" navigable="true">
+      <modelElement href="authentication-service.uml#_PATXgHXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6hkEXXrEfC_3fo_KXq00A" position="-53.0,-75.0"/>
+      <stereotypes xmi:id="_PukLtnXrEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="authentication-service.uml#_PAT-kHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PukLtXXrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PukLtHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Pumn8HXrEfC_3fo_KXq00A" sourceAnchor="0.0,161.0" targetAnchor="0.0,65.0" target="_Pun2FHXrEfC_3fo_KXq00A" source="_PuwY-XXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PBlw8XXrEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_1wZkEnXrEfC_3fo_KXq00A" sourceX="-51" targetX="-59" targetY="388"/>
+    <bendpoints xmi:id="_1wZkE3XrEfC_3fo_KXq00A" sourceX="-52" sourceY="-388" targetX="-60"/>
+    <stereotypes xmi:id="_PunPA3XrEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="authentication-service.uml#_PBseoHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PunPAHXrEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_P6iyMXXrEfC_3fo_KXq00A" position="-43.0,-26.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PunPAXXrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PBlw8nXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6iyMHXrEfC_3fo_KXq00A" position="-50.0,-90.0"/>
+      <visibility xmi:id="_Pun2EXXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pun2EHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PunPAnXrEfC_3fo_KXq00A" aggregationKind="NONE" name="jwtTokenRepository" navigable="true">
+      <modelElement href="authentication-service.uml#_PASwcHXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6iyMnXrEfC_3fo_KXq00A" position="-180.0,42.0"/>
+      <visibility xmi:id="_Pun2E3XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Pun2EnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Puvx4HXrEfC_3fo_KXq00A" source="_PuwY-XXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PBZjsXXrEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Puvx4XXrEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="authentication-service.uml#_PBfqUHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Puvx4nXrEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_Puvx43XrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PBZjsnXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Puvx5HXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Puvx5XXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Puvx5nXrEfC_3fo_KXq00A" aggregationKind="NONE" name="SIGNING_KEY" navigable="true">
+      <modelElement href="authentication-service.uml#_PASJYHXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Puvx53XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Puvx6HXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PuwY8HXrEfC_3fo_KXq00A" source="_PuwY-XXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PBtFsHXrEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_PuwY8XXrEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="authentication-service.uml#_PBzzYHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PuwY8nXrEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_PuwY83XrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PBtFsXXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_PuwY9HXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuwY9XXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PuwY9nXrEfC_3fo_KXq00A" aggregationKind="NONE" name="passwordEncoder" navigable="true">
+      <modelElement href="authentication-service.uml#_PASwcXXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_PuwY93XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PuwY-HXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Pu3GoHXrEfC_3fo_KXq00A" sourceAnchor="255.0,92.0" targetAnchor="148.0,263.0" target="_PuwY-XXrEfC_3fo_KXq00A" source="_Pu6xCXXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PB9kYXXrEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_1waLI3XrEfC_3fo_KXq00A" sourceX="146" targetX="1079" targetY="-330"/>
+    <bendpoints xmi:id="_1waLJHXrEfC_3fo_KXq00A" sourceX="146" sourceY="530" targetX="1079" targetY="200"/>
+    <bendpoints xmi:id="_1waLJXXrEfC_3fo_KXq00A" sourceX="-933" sourceY="530" targetY="200"/>
+    <stereotypes xmi:id="_Pu3ts3XrEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="authentication-service.uml#_PCESEHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Pu3tsHXrEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_P6jZQXXrEfC_3fo_KXq00A" position="-559.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Pu3tsXXrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PB9kYnXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6jZQHXrEfC_3fo_KXq00A" position="91.0,0.0"/>
+      <visibility xmi:id="_Pu4UwXXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pu4UwHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Pu3tsnXrEfC_3fo_KXq00A" aggregationKind="NONE" name="authService" navigable="true">
+      <modelElement href="authentication-service.uml#_PAUlonXrEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_P6kAUHXrEfC_3fo_KXq00A" position="1.0,30.999999999999943"/>
+      <visibility xmi:id="_Pu4Uw3XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Pu4UwnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Pu5i4HXrEfC_3fo_KXq00A" source="_Pu6xCXXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PB5S8HXrEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Pu5i4XXrEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="authentication-service.uml#_PB9kYHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Pu5i4nXrEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_Pu5i43XrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PB5S8XXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Pu5i5HXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pu5i5XXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Pu5i5nXrEfC_3fo_KXq00A" aggregationKind="NONE" name="mockMvc" navigable="true">
+      <modelElement href="authentication-service.uml#_PAT-knXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Pu5i53XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Pu5i6HXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Pu6xAHXrEfC_3fo_KXq00A" source="_Pu6xCXXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_PCESEXXrEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Pu6xAXXrEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="authentication-service.uml#_PCH8cHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Pu6xAnXrEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_Pu6xA3XrEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="authentication-service.uml#_PCESEnXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Pu6xBHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pu6xBXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Pu6xBnXrEfC_3fo_KXq00A" aggregationKind="NONE" name="objectMapper" navigable="true">
+      <modelElement href="authentication-service.uml#_PAUlpXXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Pu6xB3XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Pu6xCHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Pun2FHXrEfC_3fo_KXq00A" name="JWTTokenRepository" associationsIn="_Pumn8HXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_O0kooHXrEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Pun2FXXrEfC_3fo_KXq00A" position="-1335.0,-333.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Pun2FnXrEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="authentication-service.uml#_O0l2wHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Pun2F3XrEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="authentication-service.uml#_O0nE4HXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Pun2GHXrEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_Pun2GXXrEfC_3fo_KXq00A" name="findByToken">
+      <modelElement href="authentication-service.uml#_O0l2wXXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pun2GnXrEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="authentication-service.uml#_O0md0HXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Pun2G3XrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O0md0XXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pun2HHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pun2HXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Pun2HnXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_PAAckHXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_Pun2H3XrEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="authentication-service.uml#_O-1-8XXrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Pun2IHXrEfC_3fo_KXq00A" name="token">
+        <modelElement href="authentication-service.uml#_O0l2wnXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Pun2IXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Pun2InXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Pun2I3XrEfC_3fo_KXq00A" name="findByUser">
+      <modelElement href="authentication-service.uml#_O_Q1sXXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pun2JHXrEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="authentication-service.uml#_O_RcwHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Pun2JXXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O_RcwXXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pun2JnXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pun2J3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Pun2KHXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_PAAckXXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_Pun2KXXrEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="authentication-service.uml#_O-1-8XXrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Pun2KnXrEfC_3fo_KXq00A" name="user">
+        <modelElement href="authentication-service.uml#_O_Q1snXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Pun2K3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Pun2LHXrEfC_3fo_KXq00A" name="User">
+          <modelElement href="authentication-service.uml#_O0UxAHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Pun2LXXrEfC_3fo_KXq00A" name="deleteByUser">
+      <modelElement href="authentication-service.uml#_O_RcwnXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pun2LnXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O_SD0HXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pun2L3XrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pun2MHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Pun2MXXrEfC_3fo_KXq00A" name="user">
+        <modelElement href="authentication-service.uml#_O_Rcw3XrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Pun2MnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Pun2M3XrEfC_3fo_KXq00A" name="User">
+          <modelElement href="authentication-service.uml#_O0UxAHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PuqSUHXrEfC_3fo_KXq00A" name="UserService" associationsIn="_PtplsHXrEfC_3fo_KXq00A" associationsOut="_Pui9kXXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_O0zSIHXrEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_PuqSUXXrEfC_3fo_KXq00A" position="-1350.0,-144.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PuqSUnXrEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="authentication-service.uml#_O0z5MHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PuqSU3XrEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="authentication-service.uml#_O00gQHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_PuqSVHXrEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_PuqSVXXrEfC_3fo_KXq00A" name="userRepository">
+      <modelElement href="authentication-service.uml#_PATXgHXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_PuqSVnXrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PuqSV3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_PuqSWHXrEfC_3fo_KXq00A" name="UserRepository">
+        <modelElement href="authentication-service.uml#_O0o6EHXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PuqSWXXrEfC_3fo_KXq00A" name="insertUser">
+      <modelElement href="authentication-service.uml#_O_cb4HXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PuqSWnXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O_dC8HXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PuqSW3XrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuqSXHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PuqSXXXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O_cb4nXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_PuqSXnXrEfC_3fo_KXq00A" name="User">
+          <modelElement href="authentication-service.uml#_O0UxAHXrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PuqSX3XrEfC_3fo_KXq00A" name="user">
+        <modelElement href="authentication-service.uml#_O_cb4XXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuqSYHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuqSYXXrEfC_3fo_KXq00A" name="User">
+          <modelElement href="authentication-service.uml#_O0UxAHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PuaauXXrEfC_3fo_KXq00A" name="AuthenticationFilter" associationsOut="_PuTtAHXrEfC_3fo_KXq00A _PuZMkHXrEfC_3fo_KXq00A _PuaasHXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_O0dT4HXrEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_PuaaunXrEfC_3fo_KXq00A" position="-881.0,-323.0" size="344.0,243.0"/>
+    <stereotypes xmi:id="_Puaau3XrEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="authentication-service.uml#_O0d68HXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PuaavHXrEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="authentication-service.uml#_O0fwIHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_PuaavXXrEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_PuaavnXrEfC_3fo_KXq00A" defaultValue="LoggerFactory.getLogger(AuthenticationFilter.class)" name="logger" staticAttribute="true">
+      <modelElement href="authentication-service.uml#_PAPtIHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Puaav3XrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_PAPtInXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PuaawHXrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PuaawXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_PuaawnXrEfC_3fo_KXq00A" name="Logger">
+        <modelElement href="authentication-service.uml#_O_KvEXXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Puaaw3XrEfC_3fo_KXq00A" name="authService">
+      <modelElement href="authentication-service.uml#_PAPtI3XrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_PuaaxHXrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PuaaxXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_PuaaxnXrEfC_3fo_KXq00A" name="AuthService">
+        <modelElement href="authentication-service.uml#_O0skcHXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Puaax3XrEfC_3fo_KXq00A" name="userRepository">
+      <modelElement href="authentication-service.uml#_PAQUMHXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_PuaayHXrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PuaayXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_PuaaynXrEfC_3fo_KXq00A" name="UserRepository">
+        <modelElement href="authentication-service.uml#_O0o6EHXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Puaay3XrEfC_3fo_KXq00A" defaultValue="&quot;http://localhost:5174&quot;" name="ALLOWED_ORIGIN" staticAttribute="true">
+      <modelElement href="authentication-service.uml#_PAQUMXXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PuaazHXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_PAQUM3XrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PuaazXXrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PuaaznXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Puaaz3XrEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PubBwHXrEfC_3fo_KXq00A" defaultValue="{&#xD;&#xA;        &quot;/api/auth/login&quot;,&#xD;&#xA;        &quot;/api/users/register&quot;&#xD;&#xA;    }" name="UNAUTHENTICATED_PATHS" staticAttribute="true">
+      <modelElement href="authentication-service.uml#_PAQ7QHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PubBwXXrEfC_3fo_KXq00A" name="Array">
+        <modelElement href="authentication-service.uml#_PAQ7QnXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PubBwnXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_PARiUXXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PubBw3XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PubBxHXrEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_PubBxXXrEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PubBxnXrEfC_3fo_KXq00A" name="AuthenticationFilter">
+      <modelElement href="authentication-service.uml#_O_MkQHXrEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_PubBx3XrEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_PubByHXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O_MkRnXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PubByXXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PubBynXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PubBy3XrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O_MkRXXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_PubBzHXrEfC_3fo_KXq00A" name="AuthenticationFilter">
+          <modelElement href="authentication-service.uml#_O0dT4HXrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PubBzXXrEfC_3fo_KXq00A" name="authService">
+        <modelElement href="authentication-service.uml#_O_MkQXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PubBznXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PubBz3XrEfC_3fo_KXq00A" name="AuthService">
+          <modelElement href="authentication-service.uml#_O0skcHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PubB0HXrEfC_3fo_KXq00A" name="userRepository">
+        <modelElement href="authentication-service.uml#_O_MkQnXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PubB0XXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PubB0nXrEfC_3fo_KXq00A" name="UserRepository">
+          <modelElement href="authentication-service.uml#_O0o6EHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PubB03XrEfC_3fo_KXq00A" name="doFilter">
+      <modelElement href="authentication-service.uml#_O_69AHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PubB1HXrEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="authentication-service.uml#_O_7kEHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PubB1XXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PubB1nXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PubB13XrEfC_3fo_KXq00A" name="request">
+        <modelElement href="authentication-service.uml#_O_69AXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PubB2HXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PubB2XXrEfC_3fo_KXq00A" name="ServletRequest">
+          <modelElement href="authentication-service.uml#_O_KIAHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PubB2nXrEfC_3fo_KXq00A" name="response">
+        <modelElement href="authentication-service.uml#_O_69AnXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PubB23XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PubB3HXrEfC_3fo_KXq00A" name="ServletResponse">
+          <modelElement href="authentication-service.uml#_O_KIAnXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PubB3XXrEfC_3fo_KXq00A" name="chain">
+        <modelElement href="authentication-service.uml#_O_69A3XrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PubB3nXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PubB33XrEfC_3fo_KXq00A" name="FilterChain">
+          <modelElement href="authentication-service.uml#_O_IS0XXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PubB4HXrEfC_3fo_KXq00A" name="executeFilterLogic">
+      <modelElement href="authentication-service.uml#_O_8LIXXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PubB4XXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O_8yMXXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PubB4nXrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PubB43XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PubB5HXrEfC_3fo_KXq00A" name="request">
+        <modelElement href="authentication-service.uml#_O_8LInXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PubB5XXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PubB5nXrEfC_3fo_KXq00A" name="ServletRequest">
+          <modelElement href="authentication-service.uml#_O_KIAHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PubB53XrEfC_3fo_KXq00A" name="response">
+        <modelElement href="authentication-service.uml#_O_8LI3XrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PubB6HXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PubB6XXrEfC_3fo_KXq00A" name="ServletResponse">
+          <modelElement href="authentication-service.uml#_O_KIAnXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PubB6nXrEfC_3fo_KXq00A" name="chain">
+        <modelElement href="authentication-service.uml#_O_8yMHXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PubB63XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PubB7HXrEfC_3fo_KXq00A" name="FilterChain">
+          <modelElement href="authentication-service.uml#_O_IS0XXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PubB7XXrEfC_3fo_KXq00A" name="setCORSHeaders">
+      <modelElement href="authentication-service.uml#_O_8yMnXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PubB7nXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O_9ZQHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PubB73XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PubB8HXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PubB8XXrEfC_3fo_KXq00A" name="response">
+        <modelElement href="authentication-service.uml#_O_8yM3XrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PubB8nXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PubB83XrEfC_3fo_KXq00A" name="HttpServletResponse">
+          <modelElement href="authentication-service.uml#_O_BlIXXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PubB9HXrEfC_3fo_KXq00A" name="sendErrorResponse">
+      <modelElement href="authentication-service.uml#_O_9ZQXXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PubB9XXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O_-AUnXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PubB9nXrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PubB93XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PubB-HXrEfC_3fo_KXq00A" name="response">
+        <modelElement href="authentication-service.uml#_O_9ZQnXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PubB-XXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PubB-nXrEfC_3fo_KXq00A" name="HttpServletResponse">
+          <modelElement href="authentication-service.uml#_O_BlIXXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PubB-3XrEfC_3fo_KXq00A" name="statusCode">
+        <modelElement href="authentication-service.uml#_O_-AUHXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PubB_HXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PubB_XXrEfC_3fo_KXq00A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PubB_nXrEfC_3fo_KXq00A" name="message">
+        <modelElement href="authentication-service.uml#_O_-AUXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PubB_3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PubCAHXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PubCAXXrEfC_3fo_KXq00A" name="getAuthTokenFromCookies">
+      <modelElement href="authentication-service.uml#_O_-nYHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PubCAnXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O_-nY3XrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PubCA3XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PubCBHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PubCBXXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O_-nYnXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_PubCBnXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PubCB3XrEfC_3fo_KXq00A" name="request">
+        <modelElement href="authentication-service.uml#_O_-nYXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PubCCHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PubCCXXrEfC_3fo_KXq00A" name="HttpServletRequest">
+          <modelElement href="authentication-service.uml#_O_A-EnXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_PukywHXrEfC_3fo_KXq00A" name="UserRepository" associationsIn="_PuaasHXrEfC_3fo_KXq00A _Pui9kHXrEfC_3fo_KXq00A _Pui9kXXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_O0o6EHXrEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_PukywXXrEfC_3fo_KXq00A" position="-1123.0,-176.0" size="207.0,110.0"/>
+    <stereotypes xmi:id="_PukywnXrEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="authentication-service.uml#_O0phIHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Pukyw3XrEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="authentication-service.uml#_O0r9YHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_PukyxHXrEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_PukyxXXrEfC_3fo_KXq00A" name="findByEmail">
+      <modelElement href="authentication-service.uml#_O0qIMHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PukyxnXrEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="authentication-service.uml#_O0qIMnXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Pukyx3XrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O0qvQHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PukyyHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PukyyXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PukyynXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_PABDoXXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_Pukyy3XrEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="authentication-service.uml#_O-1-8XXrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PukyzHXrEfC_3fo_KXq00A" name="email">
+        <modelElement href="authentication-service.uml#_O0qIMXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PukyzXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PukyznXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Pukyz3XrEfC_3fo_KXq00A" name="findByUsername">
+      <modelElement href="authentication-service.uml#_O0qvQXXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Puky0HXrEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="authentication-service.uml#_O0rWUHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Puky0XXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O0rWUXXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Puky0nXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Puky03XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Puky1HXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_PABDonXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_Puky1XXrEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="authentication-service.uml#_O-1-8XXrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Puky1nXrEfC_3fo_KXq00A" name="username">
+        <modelElement href="authentication-service.uml#_O0qvQnXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Puky13XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Puky2HXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Pt_j-XXrEfC_3fo_KXq00A" name="User" associationsIn="_Pt-V0HXrEfC_3fo_KXq00A _PuHfwHXrEfC_3fo_KXq00A" associationsOut="_Pt-84HXrEfC_3fo_KXq00A _Pt_j8HXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_O0UxAHXrEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Pt_j-nXrEfC_3fo_KXq00A" position="-1031.0,-48.0" size="179.0,223.0"/>
+    <stereotypes xmi:id="_Pt_j-3XrEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="authentication-service.uml#_O0VYEHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Pt_j_HXrEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="authentication-service.uml#_O0YbYHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Pt_j_XXrEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_Pt_j_nXrEfC_3fo_KXq00A" name="id">
+      <modelElement href="authentication-service.uml#_PAK0oHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pt_j_3XrEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="authentication-service.uml#_PAK0oXXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Pt_kAHXrEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="authentication-service.uml#_PAMCwHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pt_kAXXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt_kAnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Pt_kA3XrEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Pt_kBHXrEfC_3fo_KXq00A" name="username">
+      <modelElement href="authentication-service.uml#_PAMCwXXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pt_kBXXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_PAMCwnXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pt_kBnXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt_kB3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Pt_kCHXrEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Pt_kCXXrEfC_3fo_KXq00A" name="email">
+      <modelElement href="authentication-service.uml#_PAMCw3XrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pt_kCnXrEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="authentication-service.uml#_PAMp0HXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Pt_kC3XrEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="authentication-service.uml#_PANQ4XXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pt_kDHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt_kDXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Pt_kDnXrEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Pt_kD3XrEfC_3fo_KXq00A" name="password">
+      <modelElement href="authentication-service.uml#_PAN38HXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pt_kEHXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_PAN38XXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pt_kEXXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt_kEnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Pt_kE3XrEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Pt_kFHXrEfC_3fo_KXq00A" name="role">
+      <modelElement href="authentication-service.uml#_PAN38nXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pt_kFXXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_PAOfAHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pt_kFnXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt_kF3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Pt_kGHXrEfC_3fo_KXq00A" name="Role">
+        <modelElement href="authentication-service.uml#_O0AA4HXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Pt_kGXXrEfC_3fo_KXq00A" defaultValue="LocalDateTime.now()" name="createdAt">
+      <modelElement href="authentication-service.uml#_PAOfAXXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pt_kGnXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_PAOfA3XrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pt_kG3XrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt_kHHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Pt_kHXXrEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="authentication-service.uml#_O-8FkHXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Pt_kHnXrEfC_3fo_KXq00A" defaultValue="LocalDateTime.now()" name="updatedAt">
+      <modelElement href="authentication-service.uml#_PAOfBHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pt_kH3XrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_PAPGEHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pt_kIHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt_kIXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Pt_kInXrEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="authentication-service.uml#_O-8FkHXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Pt_kI3XrEfC_3fo_KXq00A" name="User">
+      <modelElement href="authentication-service.uml#_O0XNQHXrEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_Pt_kJHXrEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_Pt_kJXXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt_kJnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Pt_kJ3XrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O0XNQ3XrEfC_3fo_KXq00A"/>
+        <type xmi:id="_Pt_kKHXrEfC_3fo_KXq00A" name="User">
+          <modelElement href="authentication-service.uml#_O0UxAHXrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Pt_kKXXrEfC_3fo_KXq00A" name="User">
+      <modelElement href="authentication-service.uml#_O_v94HXrEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_Pt_kKnXrEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_Pt_kK3XrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O_wk-HXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pt_kLHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt_kLXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Pt_kLnXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O_wk93XrEfC_3fo_KXq00A"/>
+        <type xmi:id="_Pt_kL3XrEfC_3fo_KXq00A" name="User">
+          <modelElement href="authentication-service.uml#_O0UxAHXrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Pt_kMHXrEfC_3fo_KXq00A" name="id">
+        <modelElement href="authentication-service.uml#_O_v94XXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Pt_kMXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Pt_kMnXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Pt_kM3XrEfC_3fo_KXq00A" name="username">
+        <modelElement href="authentication-service.uml#_O_v94nXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Pt_kNHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Pt_kNXXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Pt_kNnXrEfC_3fo_KXq00A" name="email">
+        <modelElement href="authentication-service.uml#_O_wk8HXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Pt_kN3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Pt_kOHXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Pt_kOXXrEfC_3fo_KXq00A" name="password">
+        <modelElement href="authentication-service.uml#_O_wk8XXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Pt_kOnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Pt_kO3XrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Pt_kPHXrEfC_3fo_KXq00A" name="role">
+        <modelElement href="authentication-service.uml#_O_wk8nXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Pt_kPXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Pt_kPnXrEfC_3fo_KXq00A" name="Role">
+          <modelElement href="authentication-service.uml#_O0AA4HXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Pt_kP3XrEfC_3fo_KXq00A" name="createdAt">
+        <modelElement href="authentication-service.uml#_O_wk83XrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Pt_kQHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Pt_kQXXrEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="authentication-service.uml#_O-8FkHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Pt_kQnXrEfC_3fo_KXq00A" name="updatedAt">
+        <modelElement href="authentication-service.uml#_O_wk9HXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Pt_kQ3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Pt_kRHXrEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="authentication-service.uml#_O-8FkHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PuwY-XXrEfC_3fo_KXq00A" name="AuthService" associationsIn="_Ptw6cHXrEfC_3fo_KXq00A _PuTtAHXrEfC_3fo_KXq00A _Pu3GoHXrEfC_3fo_KXq00A" associationsOut="_Pui9kHXrEfC_3fo_KXq00A _Pumn8HXrEfC_3fo_KXq00A _Puvx4HXrEfC_3fo_KXq00A _PuwY8HXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_O0skcHXrEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_PuwY-nXrEfC_3fo_KXq00A" position="-1344.0,-41.0" size="295.0,263.0"/>
+    <stereotypes xmi:id="_PuwY-3XrEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="authentication-service.uml#_O0tLgHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PuwY_HXrEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="authentication-service.uml#_O0wO0HXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_PuwY_XXrEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_PuwY_nXrEfC_3fo_KXq00A" name="SIGNING_KEY">
+      <modelElement href="authentication-service.uml#_PASJYHXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_PuwY_3XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PuwZAHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_PuwZAXXrEfC_3fo_KXq00A" name="Key">
+        <modelElement href="authentication-service.uml#_O_UgEHXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PuwZAnXrEfC_3fo_KXq00A" name="userRepository">
+      <modelElement href="authentication-service.uml#_PASJYXXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_PuwZA3XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PuwZBHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_PuwZBXXrEfC_3fo_KXq00A" name="UserRepository">
+        <modelElement href="authentication-service.uml#_O0o6EHXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PuwZBnXrEfC_3fo_KXq00A" name="jwtTokenRepository">
+      <modelElement href="authentication-service.uml#_PASwcHXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_PuwZB3XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PuwZCHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_PuwZCXXrEfC_3fo_KXq00A" name="JWTTokenRepository">
+        <modelElement href="authentication-service.uml#_O0kooHXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PuwZCnXrEfC_3fo_KXq00A" name="passwordEncoder">
+      <modelElement href="authentication-service.uml#_PASwcXXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_PuwZC3XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PuwZDHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_PuwZDXXrEfC_3fo_KXq00A" name="BCryptPasswordEncoder">
+        <modelElement href="authentication-service.uml#_O_VuNHXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PuwZDnXrEfC_3fo_KXq00A" name="authenticate">
+      <modelElement href="authentication-service.uml#_O0tykHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PuwZD3XrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O0uZonXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PuwZEHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuwZEXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PuwZEnXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O_YKdHXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_PuwZE3XrEfC_3fo_KXq00A" name="User">
+          <modelElement href="authentication-service.uml#_O0UxAHXrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PuwZFHXrEfC_3fo_KXq00A" name="email">
+        <modelElement href="authentication-service.uml#_O0uZoHXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuwZFXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuwZFnXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PuwZF3XrEfC_3fo_KXq00A" name="password">
+        <modelElement href="authentication-service.uml#_O0uZoXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuwZGHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuwZGXXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PuwZGnXrEfC_3fo_KXq00A" name="validateToken">
+      <modelElement href="authentication-service.uml#_O0vAsHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PuwZG3XrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O0vAs3XrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PuwZHHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuwZHXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PuwZHnXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O0vAsnXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_PuwZH3XrEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PuwZIHXrEfC_3fo_KXq00A" name="token">
+        <modelElement href="authentication-service.uml#_O0vAsXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuwZIXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuwZInXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PuwZI3XrEfC_3fo_KXq00A" name="extractUserId">
+      <modelElement href="authentication-service.uml#_O0vnwHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PuwZJHXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O0vnw3XrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PuwZJXXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuwZJnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PuwZJ3XrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O0vnwnXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_PuwZKHXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PuwZKXXrEfC_3fo_KXq00A" name="token">
+        <modelElement href="authentication-service.uml#_O0vnwXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuwZKnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuwZK3XrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PuwZLHXrEfC_3fo_KXq00A" name="AuthService">
+      <modelElement href="authentication-service.uml#_O_XjYHXrEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_PuwZLXXrEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_PuwZLnXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuwZL3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PuwZMHXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O_YKcHXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_PuwZMXXrEfC_3fo_KXq00A" name="AuthService">
+          <modelElement href="authentication-service.uml#_O0skcHXrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PuwZMnXrEfC_3fo_KXq00A" name="userRepository">
+        <modelElement href="authentication-service.uml#_O_XjYXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuwZM3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuwZNHXrEfC_3fo_KXq00A" name="UserRepository">
+          <modelElement href="authentication-service.uml#_O0o6EHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PuwZNXXrEfC_3fo_KXq00A" name="jwtTokenRepository">
+        <modelElement href="authentication-service.uml#_O_XjYnXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuwZNnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuwZN3XrEfC_3fo_KXq00A" name="JWTTokenRepository">
+          <modelElement href="authentication-service.uml#_O0kooHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PuwZOHXrEfC_3fo_KXq00A" name="jwtSecret">
+        <modelElement href="authentication-service.uml#_O_XjY3XrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuwZOXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuwZOnXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PuwZO3XrEfC_3fo_KXq00A" name="generateToken">
+      <modelElement href="authentication-service.uml#_O_YKdXXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PuwZPHXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O_YxgnXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PuwZPXXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuwZPnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PuwZP3XrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O_YxgXXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_PuwZQHXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PuwZQXXrEfC_3fo_KXq00A" name="user">
+        <modelElement href="authentication-service.uml#_O_YxgHXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuwZQnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuwZQ3XrEfC_3fo_KXq00A" name="User">
+          <modelElement href="authentication-service.uml#_O0UxAHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PuwZRHXrEfC_3fo_KXq00A" name="generateNewToken">
+      <modelElement href="authentication-service.uml#_O_ZYkHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PuwZRXXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O_ZYk3XrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PuwZRnXrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PuwZR3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PuwZSHXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O_ZYknXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_PuwZSXXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PuwZSnXrEfC_3fo_KXq00A" name="user">
+        <modelElement href="authentication-service.uml#_O_ZYkXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuwZS3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuwZTHXrEfC_3fo_KXq00A" name="User">
+          <modelElement href="authentication-service.uml#_O0UxAHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PuwZTXXrEfC_3fo_KXq00A" name="saveToken">
+      <modelElement href="authentication-service.uml#_O_Z_oHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PuwZTnXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O_Z_o3XrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PuwZT3XrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuwZUHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PuwZUXXrEfC_3fo_KXq00A" name="user">
+        <modelElement href="authentication-service.uml#_O_Z_oXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuwZUnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuwZU3XrEfC_3fo_KXq00A" name="User">
+          <modelElement href="authentication-service.uml#_O0UxAHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PuwZVHXrEfC_3fo_KXq00A" name="token">
+        <modelElement href="authentication-service.uml#_O_Z_onXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuwZVXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuwZVnXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PuwZV3XrEfC_3fo_KXq00A" name="logout">
+      <modelElement href="authentication-service.uml#_O_amsHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PuwZWHXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O_amsnXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PuwZWXXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuwZWnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PuwZW3XrEfC_3fo_KXq00A" name="user">
+        <modelElement href="authentication-service.uml#_O_amsXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuwZXHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuwZXXXrEfC_3fo_KXq00A" name="User">
+          <modelElement href="authentication-service.uml#_O0UxAHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PuO0gHXrEfC_3fo_KXq00A" name="JWTToken" associationsIn="_PuLxMHXrEfC_3fo_KXq00A" associationsOut="_PuHfwHXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_O0GHgHXrEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_PuO0gXXrEfC_3fo_KXq00A" position="-842.0,-65.0" size="272.0,183.0"/>
+    <stereotypes xmi:id="_PuO0gnXrEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="authentication-service.uml#_O0GukHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PuO0g3XrEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="authentication-service.uml#_O0LnEHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_PuO0hHXrEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_PuO0hXXrEfC_3fo_KXq00A" name="id">
+      <modelElement href="authentication-service.uml#_PAF8IHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PuO0hnXrEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="authentication-service.uml#_PAHKQHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PuO0h3XrEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="authentication-service.uml#_PAHxUHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PuO0iHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuO0iXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_PuO0inXrEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PuO0i3XrEfC_3fo_KXq00A" name="user">
+      <modelElement href="authentication-service.uml#_PAHxUXXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PuO0jHXrEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="authentication-service.uml#_PAHxUnXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PuO0jXXrEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="authentication-service.uml#_PAIYY3XrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PuO0jnXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuO0j3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_PuO0kHXrEfC_3fo_KXq00A" name="User">
+        <modelElement href="authentication-service.uml#_O0UxAHXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PuO0kXXrEfC_3fo_KXq00A" name="token">
+      <modelElement href="authentication-service.uml#_PAI_cHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PuO0knXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_PAI_cXXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PuO0k3XrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuO0lHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_PuO0lXXrEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PuO0lnXrEfC_3fo_KXq00A" name="expiresAt">
+      <modelElement href="authentication-service.uml#_PAI_cnXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PuO0l3XrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_PAI_c3XrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PuO0mHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuO0mXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_PuO0mnXrEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="authentication-service.uml#_O-8FkHXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PuO0m3XrEfC_3fo_KXq00A" name="JWTToken">
+      <modelElement href="authentication-service.uml#_O0IjwHXrEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_PuO0nHXrEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_PuO0nXXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuO0nnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PuO0n3XrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O0JK0nXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_PuO0oHXrEfC_3fo_KXq00A" name="JWTToken">
+          <modelElement href="authentication-service.uml#_O0GHgHXrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PuO0oXXrEfC_3fo_KXq00A" name="JWTToken">
+      <modelElement href="authentication-service.uml#_O_p3QHXrEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_PuO0onXrEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_PuO0o3XrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O_qeUnXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PuO0pHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuO0pXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PuO0pnXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O_qeUXXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_PuO0p3XrEfC_3fo_KXq00A" name="JWTToken">
+          <modelElement href="authentication-service.uml#_O0GHgHXrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PuO0qHXrEfC_3fo_KXq00A" name="id">
+        <modelElement href="authentication-service.uml#_O_p3QXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuO0qXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuO0qnXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PuO0q3XrEfC_3fo_KXq00A" name="user">
+        <modelElement href="authentication-service.uml#_O_p3QnXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuO0rHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuO0rXXrEfC_3fo_KXq00A" name="User">
+          <modelElement href="authentication-service.uml#_O0UxAHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PuO0rnXrEfC_3fo_KXq00A" name="token">
+        <modelElement href="authentication-service.uml#_O_p3Q3XrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuO0r3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuO0sHXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PuO0sXXrEfC_3fo_KXq00A" name="expiresAt">
+        <modelElement href="authentication-service.uml#_O_p3RHXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuO0snXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuO0s3XrEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="authentication-service.uml#_O-8FkHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PuO0tHXrEfC_3fo_KXq00A" name="JWTToken">
+      <modelElement href="authentication-service.uml#_O_qeU3XrEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_PuO0tXXrEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_PuO0tnXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O_rFZXXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PuO0t3XrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_PuO0uHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PuO0uXXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O_rFZHXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_PuO0unXrEfC_3fo_KXq00A" name="JWTToken">
+          <modelElement href="authentication-service.uml#_O0GHgHXrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PuO0u3XrEfC_3fo_KXq00A" name="user">
+        <modelElement href="authentication-service.uml#_O_qeVHXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuO0vHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuO0vXXrEfC_3fo_KXq00A" name="User">
+          <modelElement href="authentication-service.uml#_O0UxAHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PuO0vnXrEfC_3fo_KXq00A" name="token">
+        <modelElement href="authentication-service.uml#_O_rFYHXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuO0v3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuO0wHXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PuO0wXXrEfC_3fo_KXq00A" name="expiresAt">
+        <modelElement href="authentication-service.uml#_O_rFYXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_PuO0wnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PuO0w3XrEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="authentication-service.uml#_O-8FkHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_PuEccHXrEfC_3fo_KXq00A" name="Role" associationsOut="_Pt-V0HXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_O0AA4HXrEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_PuEccXXrEfC_3fo_KXq00A" position="-1514.0,11.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PuEccnXrEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="authentication-service.uml#_O0An8HXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_PuEcc3XrEfC_3fo_KXq00A" label="+"/>
+    <literals xmi:id="_PuEcdHXrEfC_3fo_KXq00A" name="ADMIN">
+      <modelElement href="authentication-service.uml#_O0An8XXrEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_PuEcdXXrEfC_3fo_KXq00A" name="PATIENT">
+      <modelElement href="authentication-service.uml#_O0An8nXrEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_PuEcdnXrEfC_3fo_KXq00A" name="DOCTOR">
+      <modelElement href="authentication-service.uml#_O0An83XrEfC_3fo_KXq00A"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Pti4AHXrEfC_3fo_KXq00A" name="AuthenticationServiceApplication">
+    <modelElement href="authentication-service.uml#_Oz6hUHXrEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Pti4AXXrEfC_3fo_KXq00A" position="-1437.0,237.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Pti4AnXrEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="authentication-service.uml#_Oz89kHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Pti4A3XrEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="authentication-service.uml#_Oz_Z0XXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Pti4BHXrEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_Pti4BXXrEfC_3fo_KXq00A" name="main" staticOperation="true">
+      <modelElement href="authentication-service.uml#_Oz-ywHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pti4BnXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_Oz-ywnXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pti4B3XrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pti4CHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Pti4CXXrEfC_3fo_KXq00A" name="args">
+        <modelElement href="authentication-service.uml#_Oz-ywXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Pti4CnXrEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Pti4C3XrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PtpluXXrEfC_3fo_KXq00A" name="UserController" associationsOut="_PtplsHXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_O0An9HXrEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_PtplunXrEfC_3fo_KXq00A" position="-514.0,-306.0" size="172.0,76.0"/>
+    <stereotypes xmi:id="_Ptplu3XrEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="authentication-service.uml#_O0BPAHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PtplvHXrEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="authentication-service.uml#_O0B2EHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_PtplvXXrEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_PtplvnXrEfC_3fo_KXq00A" name="userService">
+      <modelElement href="authentication-service.uml#_PAEuAHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Ptplv3XrEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="authentication-service.uml#_PAFVEHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PtplwHXrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_PtplwXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_PtplwnXrEfC_3fo_KXq00A" name="UserService">
+        <modelElement href="authentication-service.uml#_O0zSIHXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ptplw3XrEfC_3fo_KXq00A" name="insertUser">
+      <modelElement href="authentication-service.uml#_O-6QYHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_PtplxHXrEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="authentication-service.uml#_O-63cHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PtplxXXrEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="authentication-service.uml#_O-7egHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_PtplxnXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Ptplx3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PtplyHXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O_opIHXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_PtplyXXrEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="authentication-service.uml#_O-2mA3XrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PtplynXrEfC_3fo_KXq00A" name="user">
+        <modelElement href="authentication-service.uml#_O-6QYXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Ptply3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_PtplzHXrEfC_3fo_KXq00A" name="User">
+          <modelElement href="authentication-service.uml#_O0UxAHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Pu6xCXXrEfC_3fo_KXq00A" name="AuthControllerTest" associationsOut="_Pu3GoHXrEfC_3fo_KXq00A _Pu5i4HXrEfC_3fo_KXq00A _Pu6xAHXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_O028gnXrEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Pu6xCnXrEfC_3fo_KXq00A" position="-518.0,-200.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Pu6xC3XrEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="authentication-service.uml#_O03jk3XrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Pu6xDHXrEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="authentication-service.uml#_O07N8nXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Pu6xDXXrEfC_3fo_KXq00A" label="~"/>
+    <attributes xmi:id="_Pu6xDnXrEfC_3fo_KXq00A" name="mockMvc">
+      <modelElement href="authentication-service.uml#_PAT-knXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pu6xD3XrEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="authentication-service.uml#_PAUloHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pu6xEHXrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Pu6xEXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Pu6xEnXrEfC_3fo_KXq00A" name="MockMvc">
+        <modelElement href="authentication-service.uml#_O_iigXXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Pu6xE3XrEfC_3fo_KXq00A" name="authService">
+      <modelElement href="authentication-service.uml#_PAUlonXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pu6xFHXrEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="authentication-service.uml#_PAUlo3XrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pu6xFXXrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Pu6xFnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Pu6xF3XrEfC_3fo_KXq00A" name="AuthService">
+        <modelElement href="authentication-service.uml#_O0skcHXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Pu6xGHXrEfC_3fo_KXq00A" name="objectMapper">
+      <modelElement href="authentication-service.uml#_PAUlpXXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pu6xGXXrEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="authentication-service.uml#_PAVMsHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pu6xGnXrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Pu6xG3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Pu6xHHXrEfC_3fo_KXq00A" name="ObjectMapper">
+        <modelElement href="authentication-service.uml#_O_e4IXXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Pu6xHXXrEfC_3fo_KXq00A" name="testLogin_Success">
+      <modelElement href="authentication-service.uml#_O04KoHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pu6xHnXrEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="authentication-service.uml#_O04xsHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pu6xH3XrEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_Pu6xIHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Pu6xIXXrEfC_3fo_KXq00A" name="testLogin_Failure_Unauthorized">
+      <modelElement href="authentication-service.uml#_O04xsnXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pu6xInXrEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="authentication-service.uml#_O05YwHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pu6xI3XrEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_Pu6xJHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Pu6xJXXrEfC_3fo_KXq00A" name="testLogout_Success">
+      <modelElement href="authentication-service.uml#_O05YwnXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pu6xJnXrEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="authentication-service.uml#_O05_0HXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pu6xJ3XrEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_Pu6xKHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Pu6xKXXrEfC_3fo_KXq00A" name="testLogout_Failure">
+      <modelElement href="authentication-service.uml#_O05_0nXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Pu6xKnXrEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="authentication-service.uml#_O07N8HXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pu6xK3XrEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_Pu6xLHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ptw6eXXrEfC_3fo_KXq00A" name="AuthController" associationsOut="_Ptw6cHXrEfC_3fo_KXq00A">
+    <modelElement href="authentication-service.uml#_O0QfkHXrEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Ptw6enXrEfC_3fo_KXq00A" position="-806.0,124.0" size="271.0,116.0"/>
+    <stereotypes xmi:id="_Ptw6e3XrEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="authentication-service.uml#_O0RGoHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Ptw6fHXrEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="authentication-service.uml#_O0SUwHXrEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Ptw6fXXrEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_Ptw6fnXrEfC_3fo_KXq00A" name="authService">
+      <modelElement href="authentication-service.uml#_PAJmgHXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Ptw6f3XrEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Ptw6gHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ptw6gXXrEfC_3fo_KXq00A" name="AuthService">
+        <modelElement href="authentication-service.uml#_O0skcHXrEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ptw6gnXrEfC_3fo_KXq00A" name="AuthController">
+      <modelElement href="authentication-service.uml#_O_CMMXXrEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_Ptw6g3XrEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_Ptw6hHXrEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="authentication-service.uml#_O_CzQHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ptw6hXXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Ptw6hnXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ptw6h3XrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O_CMNXXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_Ptw6iHXrEfC_3fo_KXq00A" name="AuthController">
+          <modelElement href="authentication-service.uml#_O0QfkHXrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ptw6iXXrEfC_3fo_KXq00A" name="authService">
+        <modelElement href="authentication-service.uml#_O_CMMnXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Ptw6inXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ptw6i3XrEfC_3fo_KXq00A" name="AuthService">
+          <modelElement href="authentication-service.uml#_O0skcHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ptw6jHXrEfC_3fo_KXq00A" name="login">
+      <modelElement href="authentication-service.uml#_O_sTgHXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Ptw6jXXrEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="authentication-service.uml#_O_s6kHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ptw6jnXrEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="authentication-service.uml#_O_thonXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ptw6j3XrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Ptw6kHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ptw6kXXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O_s6kXXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_Ptw6knXrEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="authentication-service.uml#_O-2mA3XrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ptw6k3XrEfC_3fo_KXq00A" name="loginRequest">
+        <modelElement href="authentication-service.uml#_O_sTgXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Ptw6lHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ptw6lXXrEfC_3fo_KXq00A" name="LoginRequest">
+          <modelElement href="authentication-service.uml#_O0DrQHXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ptw6lnXrEfC_3fo_KXq00A" name="response">
+        <modelElement href="authentication-service.uml#_O_sTgnXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Ptw6l3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ptw6mHXrEfC_3fo_KXq00A" name="HttpServletResponse">
+          <modelElement href="authentication-service.uml#_O_BlIXXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ptw6mXXrEfC_3fo_KXq00A" name="logout">
+      <modelElement href="authentication-service.uml#_O_uIsnXrEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Ptw6mnXrEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="authentication-service.uml#_O_uvwHXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ptw6m3XrEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="authentication-service.uml#_O_uvwnXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ptw6nHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Ptw6nXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ptw6nnXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O_uvwXXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_Ptw6n3XrEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="authentication-service.uml#_O-2mA3XrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ptw6oHXrEfC_3fo_KXq00A" name="request">
+        <modelElement href="authentication-service.uml#_O_uIs3XrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Ptw6oXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ptw6onXrEfC_3fo_KXq00A" name="HttpServletRequest">
+          <modelElement href="authentication-service.uml#_O_A-EnXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ptw6o3XrEfC_3fo_KXq00A" name="response">
+        <modelElement href="authentication-service.uml#_O_uItHXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Ptw6pHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ptw6pXXrEfC_3fo_KXq00A" name="HttpServletResponse">
+          <modelElement href="authentication-service.uml#_O_BlIXXrEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Pt3BEHXrEfC_3fo_KXq00A" name="LoginRequest">
+    <modelElement href="authentication-service.uml#_O0DrQHXrEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Pt3BEXXrEfC_3fo_KXq00A" position="-545.0,1.0" size="228.0,124.0"/>
+    <visibility xmi:id="_Pt3BEnXrEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_Pt3BE3XrEfC_3fo_KXq00A" name="email">
+      <modelElement href="authentication-service.uml#_PAFVEnXrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Pt3BFHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt3BFXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Pt3BFnXrEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Pt3BF3XrEfC_3fo_KXq00A" name="password">
+      <modelElement href="authentication-service.uml#_PAFVE3XrEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Pt3BGHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt3BGXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Pt3BGnXrEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Pt3BG3XrEfC_3fo_KXq00A" name="LoginRequest">
+      <modelElement href="authentication-service.uml#_O0ESUHXrEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_Pt3BHHXrEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_Pt3BHXXrEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="authentication-service.uml#_O0E5YnXrEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Pt3BHnXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt3BH3XrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Pt3BIHXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O0E5Y3XrEfC_3fo_KXq00A"/>
+        <type xmi:id="_Pt3BIXXrEfC_3fo_KXq00A" name="LoginRequest">
+          <modelElement href="authentication-service.uml#_O0DrQHXrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Pt3BInXrEfC_3fo_KXq00A" name="LoginRequest">
+      <modelElement href="authentication-service.uml#_O0FgcHXrEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_Pt3BI3XrEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_Pt3BJHXrEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Pt3BJXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Pt3BJnXrEfC_3fo_KXq00A">
+        <modelElement href="authentication-service.uml#_O0FgdXXrEfC_3fo_KXq00A"/>
+        <type xmi:id="_Pt3BJ3XrEfC_3fo_KXq00A" name="LoginRequest">
+          <modelElement href="authentication-service.uml#_O0DrQHXrEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Pt3BKHXrEfC_3fo_KXq00A" name="email">
+        <modelElement href="authentication-service.uml#_O0FgcXXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Pt3BKXXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Pt3BKnXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Pt3BK3XrEfC_3fo_KXq00A" name="password">
+        <modelElement href="authentication-service.uml#_O0FgcnXrEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Pt3BLHXrEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Pt3BLXXrEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

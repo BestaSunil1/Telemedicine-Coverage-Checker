@@ -7,13 +7,14 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import training.iqgateway.dtos.AppointmentBookingRequest;
@@ -90,8 +91,9 @@ public class AppointmentController {
 		}
 	}
 
+
 	// Get available slots for doctor on specific date
-	@GetMapping("/available-slots/{doctorId}/{date}")
+	@GetMapping("/availableslots/{doctorId}/{date}")
 	public ResponseEntity<List<LocalDateTime>> getAvailableSlots(@PathVariable String doctorId,
 			@PathVariable String date) {
 		try {
@@ -147,5 +149,46 @@ public class AppointmentController {
 			return ResponseEntity.internalServerError().build();
 		}
 	}
+	@GetMapping("/patientId/{doctorId}")
+	public ResponseEntity<?> getAppointmentByPatientId(@PathVariable String doctorId) {
+		try {
+			List<Appointment> appointments = appointmentService.getAppointmentsByPatientId(doctorId);
+			return ResponseEntity.ok(appointments);
+		} catch (Exception e) {
+			return ResponseEntity.internalServerError().build();
+		}
+	}
+	@PutMapping("/{id}/read")
+    public ResponseEntity<?> updateReadStatus(
+            @PathVariable("id") String notificationId,
+            @RequestParam("read") boolean isRead) {
 
+        Notifications updatedNotification = notificationService.updateRead(notificationId, isRead);
+
+        if (updatedNotification != null) {
+            return ResponseEntity.ok(updatedNotification);
+        } else {
+            return ResponseEntity.notFound().build();
+        }
+    }
+	
+	@GetMapping("/confirmed/{doctorId}")
+	public ResponseEntity<List<Appointment>> getConfirmedAppointments(@PathVariable String doctorId) {
+		try {
+			List<Appointment> appointments = appointmentService.getConfirmedAppointmentsDoctor(doctorId);
+			return ResponseEntity.ok(appointments);
+		} catch (Exception e) {
+			return ResponseEntity.internalServerError().build();
+		}
+	}
+	
+	@GetMapping("/patient/conform/{patinetId}")
+	public ResponseEntity<List<Appointment>> getConfirmedAppointmentsPatinet(@PathVariable String patinetId) {
+		try {
+			List<Appointment> appointments = appointmentService.getConfirmedAppointmentsPatinet(patinetId);
+			return ResponseEntity.ok(appointments);
+		} catch (Exception e) {
+			return ResponseEntity.internalServerError().build();
+		}
+	}
 }

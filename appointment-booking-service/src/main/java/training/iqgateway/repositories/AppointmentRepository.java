@@ -25,6 +25,7 @@ public interface AppointmentRepository extends MongoRepository<Appointment, Stri
     List<Appointment> findByInsuranceCoverageStatus(InsuranceCoverageStatus insuranceCoverageStatus);
     
     List<Appointment> findByDoctor_IdAndStatus(String doctorId, String status);
+    List<Appointment> findByPatient_IdAndStatus(String patientId, String status);
 
     
     @Query("{ 'doctor.$id': ?0, 'appointmentDate': ?1 }")

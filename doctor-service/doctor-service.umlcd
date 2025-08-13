@@ -1,0 +1,1896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_CareUHXsEfC_3fo_KXq00A">
+  <modelElement href="doctor-service.uml#_Co3EQHXsEfC_3fo_KXq00A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_E2nVQHXsEfC_3fo_KXq00A" sourceAnchor="227.0,56.0" targetAnchor="0.0,30.0" target="_E3MkEHXsEfC_3fo_KXq00A" source="_E2nVSXXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_CuxfAHXsEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_E2nVQXXsEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="doctor-service.uml#_Cu2-kHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_E2nVQnXsEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_FAdNxnXsEfC_3fo_KXq00A" position="-3.0,-55.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_E2nVQ3XsEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="doctor-service.uml#_CuxfAXXsEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_FAdNxXXsEfC_3fo_KXq00A" position="1.0,-25.0"/>
+      <visibility xmi:id="_E2nVRHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2nVRXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_E2nVRnXsEfC_3fo_KXq00A" aggregationKind="NONE" name="doctorService" navigable="true">
+      <modelElement href="doctor-service.uml#_Ct-NwHXsEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_FAdNx3XsEfC_3fo_KXq00A" position="-79.0,46.0"/>
+      <visibility xmi:id="_E2nVR3XsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E2nVSHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_E2tb4HXsEfC_3fo_KXq00A" sourceAnchor="0.0,161.0" targetAnchor="361.0,82.0" target="_E3MkEHXsEfC_3fo_KXq00A" source="_E2vRFXXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_Cu2-kXXsEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_E2uqA3XsEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="doctor-service.uml#_Cu8eIHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_E2uqAHXsEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_FAd00XXsEfC_3fo_KXq00A" position="-4.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_E2uqAXXsEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="doctor-service.uml#_Cu2-knXsEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_FAd00HXsEfC_3fo_KXq00A" position="-16.0,-90.0"/>
+      <visibility xmi:id="_E2vREXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2vREHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_E2uqAnXsEfC_3fo_KXq00A" aggregationKind="NONE" name="doctorService" navigable="true">
+      <modelElement href="doctor-service.uml#_Ct-00XXsEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_FAd00nXsEfC_3fo_KXq00A" position="32.0,7.000000000000028"/>
+      <visibility xmi:id="_E2vRE3XsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E2vREnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_E22l0HXsEfC_3fo_KXq00A" target="_E23M6HXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_CuqKQHXsEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_E22l0XXsEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_E22l0nXsEfC_3fo_KXq00A" aggregationKind="NONE" name="startTime" navigable="true">
+      <modelElement href="doctor-service.uml#_CuBRE3XsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E22l03XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E22l1HXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_E22l1XXsEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="doctor-service.uml#_CuqKQXXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E22l1nXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E22l13XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_E23M4HXsEfC_3fo_KXq00A" target="_E23M6HXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_CuqKQnXsEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_E23M4XXsEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_E23M4nXsEfC_3fo_KXq00A" aggregationKind="NONE" name="endTime" navigable="true">
+      <modelElement href="doctor-service.uml#_CuBRFHXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E23M43XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E23M5HXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_E23M5XXsEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="doctor-service.uml#_CuqKQ3XsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E23M5nXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E23M53XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_E26QMHXsEfC_3fo_KXq00A" sourceAnchor="0.0,117.0" targetAnchor="235.0,91.0" target="_E2_vwHXsEfC_3fo_KXq00A" source="_E27eYnXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_CvB9sHXsEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_E263Q3XsEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="doctor-service.uml#_CvG2MHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_E263QHXsEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_FAd01HXsEfC_3fo_KXq00A" position="-13.0,6.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_E263QXXsEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="doctor-service.uml#_CvB9sXXsEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_FAd003XsEfC_3fo_KXq00A" position="-16.0,40.0"/>
+      <visibility xmi:id="_E27eUXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E27eUHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_E263QnXsEfC_3fo_KXq00A" aggregationKind="NONE" name="doctor" navigable="true">
+      <modelElement href="doctor-service.uml#_CuIl0XXsEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_FAd01XXsEfC_3fo_KXq00A" position="-17.0,-52.0"/>
+      <visibility xmi:id="_E27eU3XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E27eUnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_E26QMXXsEfC_3fo_KXq00A" source="_E27eYnXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_CvG2MXXsEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_E263R3XsEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="doctor-service.uml#_CvLHoHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_E263RHXsEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_E263RXXsEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="doctor-service.uml#_CvG2MnXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E27eV3XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E27eVnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_E263RnXsEfC_3fo_KXq00A" aggregationKind="NONE" name="startTime" navigable="true">
+      <modelElement href="doctor-service.uml#_CuKbBHXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E27eWXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E27eWHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_E26QMnXsEfC_3fo_KXq00A" source="_E27eYnXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_CvLHoXXsEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_E263S3XsEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="doctor-service.uml#_CvQnMHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_E263SHXsEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_E263SXXsEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="doctor-service.uml#_CvLHonXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E27eXXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E27eXHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_E263SnXsEfC_3fo_KXq00A" aggregationKind="NONE" name="endTime" navigable="true">
+      <modelElement href="doctor-service.uml#_CuLpI3XsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E27eX3XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E27eXnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_E29TgHXsEfC_3fo_KXq00A" sourceAnchor="0.0,99.0" targetAnchor="328.0,109.0" target="_E296qXXsEfC_3fo_KXq00A" source="_E2_vwHXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_Cu8eIXXsEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_E29ThnXsEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="doctor-service.uml#_CvBWoHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_E29Tg3XsEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_FAeb4XXsEfC_3fo_KXq00A" position="-18.0,6.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_E29ThHXsEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="doctor-service.uml#_Cu8eInXsEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_FAeb4HXsEfC_3fo_KXq00A" position="-16.0,40.0"/>
+      <visibility xmi:id="_E296knXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E296kXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_E29ThXXsEfC_3fo_KXq00A" aggregationKind="NONE" name="user" navigable="true">
+      <modelElement href="doctor-service.uml#_CuE7cXXsEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_FAeb4nXsEfC_3fo_KXq00A" position="-11.0,-52.0"/>
+      <stereotypes xmi:id="_E296lXXsEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="doctor-service.uml#_CuFigHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E296lnXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CuGJknXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E296lHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E296k3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_E29TgXXsEfC_3fo_KXq00A" source="_E296qXXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_CvQnMXXsEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_E29TinXsEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="doctor-service.uml#_CvWt0HXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_E29Th3XsEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_E29TiHXsEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="doctor-service.uml#_CvQnMnXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E296mHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E296l3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_E29TiXXsEfC_3fo_KXq00A" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="doctor-service.uml#_CubgwXXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E296mnXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E296mXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_E29TgnXsEfC_3fo_KXq00A" source="_E296qXXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_CvWt0XXsEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_E296kHXsEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="doctor-service.uml#_CvcNYHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_E29Ti3XsEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_E29TjHXsEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="doctor-service.uml#_CvWt0nXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E296nXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E296nHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_E29TjXXsEfC_3fo_KXq00A" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="doctor-service.uml#_CubgxHXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E296n3XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E296nnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_E296oXXsEfC_3fo_KXq00A" sourceAnchor="50.0,0.0" targetAnchor="35.0,223.0" target="_E296qXXsEfC_3fo_KXq00A" source="_E3Bk8HXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_Cur_cnXsEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_E296onXsEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_FAeb5HXsEfC_3fo_KXq00A" position="2.0,-10.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_E296o3XsEfC_3fo_KXq00A" aggregationKind="NONE" name="role" navigable="true">
+      <modelElement href="doctor-service.uml#_Cua5tXXsEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_FAeb43XsEfC_3fo_KXq00A" position="46.0,-13.0"/>
+      <visibility xmi:id="_E296pHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E296pXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_E296pnXsEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="doctor-service.uml#_Cur_c3XsEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_FAeb5XXsEfC_3fo_KXq00A" position="-56.0,-41.999999999999986"/>
+      <visibility xmi:id="_E296p3XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E296qHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_E3CMAHXsEfC_3fo_KXq00A" sourceAnchor="0.0,154.0" targetAnchor="460.0,15.0" target="_E3CzFXXsEfC_3fo_KXq00A" source="_E3MkEHXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_Cvc0cHXsEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_E3CMBHXsEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="doctor-service.uml#_Cvhs8HXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_E3CMAXXsEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_FAfC8HXsEfC_3fo_KXq00A" position="-54.0,41.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_E3CMAnXsEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="doctor-service.uml#_Cvc0cXXsEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_FAeb5nXsEfC_3fo_KXq00A" position="-16.0,41.0"/>
+      <visibility xmi:id="_E3CzEXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3CzEHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_E3CMA3XsEfC_3fo_KXq00A" aggregationKind="NONE" name="availabilityRepository" navigable="true">
+      <modelElement href="doctor-service.uml#_CucH0XXsEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_FAfC8XXsEfC_3fo_KXq00A" position="-7.5,5.5"/>
+      <stereotypes xmi:id="_E3CzFHXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_Cucu4HXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3CzE3XsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E3CzEnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_E3GdcHXsEfC_3fo_KXq00A" sourceAnchor="361.0,178.0" targetAnchor="0.0,55.0" target="_E3Hrk3XsEfC_3fo_KXq00A" source="_E3MkEHXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_Cvhs8XXsEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_E3GddHXsEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="doctor-service.uml#_CvnzkHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_E3GdcXXsEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_FAfC83XsEfC_3fo_KXq00A" position="-18.0,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_E3GdcnXsEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="doctor-service.uml#_Cvhs8nXsEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_FAfC8nXsEfC_3fo_KXq00A" position="13.0,-51.0"/>
+      <visibility xmi:id="_E3HEgXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3HEgHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_E3Gdc3XsEfC_3fo_KXq00A" aggregationKind="NONE" name="doctorRepository" navigable="true">
+      <modelElement href="doctor-service.uml#_Cucu4nXsEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_FAfC9HXsEfC_3fo_KXq00A" position="-114.0,2.0"/>
+      <stereotypes xmi:id="_E3HrknXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_Cucu43XsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3HrkXXsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E3HrkHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_E3SDoHXsEfC_3fo_KXq00A" sourceAnchor="241.0,131.0" targetAnchor="0.0,102.0" target="_E3MkEHXsEfC_3fo_KXq00A" source="_E3TRyXXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_Cvt6MXXsEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_E3SDpHXsEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="doctor-service.uml#_Cv0A0HXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_E3SDoXXsEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_FAfC9nXsEfC_3fo_KXq00A" position="-73.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_E3SDonXsEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="doctor-service.uml#_Cvt6MnXsEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_FAfC9XXsEfC_3fo_KXq00A" position="14.0,2.0"/>
+      <visibility xmi:id="_E3SDpnXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3SDpXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_E3SDo3XsEfC_3fo_KXq00A" aggregationKind="NONE" name="doctorService" navigable="true">
+      <modelElement href="doctor-service.uml#_CudV83XsEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_FAfC93XsEfC_3fo_KXq00A" position="-144.0,2.0"/>
+      <visibility xmi:id="_E3SDqHXsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E3SDp3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_E3SqsHXsEfC_3fo_KXq00A" source="_E3TRyXXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_CvnzkXXsEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_E3SqsXXsEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="doctor-service.uml#_Cvt6MHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_E3SqsnXsEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_E3Sqs3XsEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="doctor-service.uml#_CvnzknXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E3SqtHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3SqtXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_E3SqtnXsEfC_3fo_KXq00A" aggregationKind="NONE" name="mockMvc" navigable="true">
+      <modelElement href="doctor-service.uml#_CudV8HXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E3Sqt3XsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E3SquHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_E3TRwHXsEfC_3fo_KXq00A" source="_E3TRyXXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_Cv0A0XXsEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_E3TRwXXsEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="doctor-service.uml#_Cv6HcHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_E3TRwnXsEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_E3TRw3XsEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="doctor-service.uml#_Cv0A0nXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E3TRxHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3TRxXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_E3TRxnXsEfC_3fo_KXq00A" aggregationKind="NONE" name="objectMapper" navigable="true">
+      <modelElement href="doctor-service.uml#_Cud9AnXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E3TRx3XsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E3TRyHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_E3Bk8HXsEfC_3fo_KXq00A" name="Role" associationsOut="_E296oXXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_Cp8pYHXsEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_E3Bk8XXsEfC_3fo_KXq00A" position="-2602.0,34.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_E3Bk8nXsEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="doctor-service.uml#_Cp8pYXXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_E3Bk83XsEfC_3fo_KXq00A" label="+"/>
+    <literals xmi:id="_E3Bk9HXsEfC_3fo_KXq00A" name="ADMIN">
+      <modelElement href="doctor-service.uml#_Cp9QcHXsEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_E3Bk9XXsEfC_3fo_KXq00A" name="PATIENT">
+      <modelElement href="doctor-service.uml#_Cp9QcXXsEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_E3Bk9nXsEfC_3fo_KXq00A" name="DOCTOR">
+      <modelElement href="doctor-service.uml#_Cp9QcnXsEfC_3fo_KXq00A"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_E2_vwHXsEfC_3fo_KXq00A" name="Doctor" associationsIn="_E26QMHXsEfC_3fo_KXq00A" associationsOut="_E29TgHXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_CpzfcHXsEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_E2_vwXXsEfC_3fo_KXq00A" position="-2243.0,-195.0" size="235.0,183.0"/>
+    <stereotypes xmi:id="_E2_vwnXsEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="doctor-service.uml#_Cp0GgHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_E2_vw3XsEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="doctor-service.uml#_Cp17sHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_E2_vxHXsEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_E2_vxXXsEfC_3fo_KXq00A" name="id">
+      <modelElement href="doctor-service.uml#_CuCfMHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E2_vxnXsEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="doctor-service.uml#_CuEUYHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E2_vx3XsEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="doctor-service.uml#_CuE7cHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2_vyHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2_vyXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E2_vynXsEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E2_vy3XsEfC_3fo_KXq00A" name="user">
+      <modelElement href="doctor-service.uml#_CuE7cXXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E2_vzHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2_vzXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E2_vznXsEfC_3fo_KXq00A" name="User">
+        <modelElement href="doctor-service.uml#_Cp9Qc3XsEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E2_vz3XsEfC_3fo_KXq00A" name="profilePhoto">
+      <modelElement href="doctor-service.uml#_CuGwoXXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E2_v0HXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CuGwonXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2_v0XXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2_v0nXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E2_v03XsEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E2_v1HXsEfC_3fo_KXq00A" defaultValue="true" name="active">
+      <modelElement href="doctor-service.uml#_CuGwo3XsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E2_v1XXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CuHXsHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2_v1nXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2_v13XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E2_v2HXsEfC_3fo_KXq00A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E2_v2XXsEfC_3fo_KXq00A" name="specializations">
+      <modelElement href="doctor-service.uml#_CuHXsXXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E2_v2nXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CuHXs3XsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2_v23XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2_v3HXsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_E2_v3XXsEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_E2_v3nXsEfC_3fo_KXq00A" name="Doctor">
+      <modelElement href="doctor-service.uml#_Cp0tkHXsEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_E2_v33XsEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_E2_v4HXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2_v4XXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E2_v4nXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_Cp1UonXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E2_v43XsEfC_3fo_KXq00A" name="Doctor">
+          <modelElement href="doctor-service.uml#_CpzfcHXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E2_v5HXsEfC_3fo_KXq00A" name="Doctor">
+      <modelElement href="doctor-service.uml#_Ct1q4HXsEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_E2_v5XXsEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_E2_v5nXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_Ct2R8HXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2_v53XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2_v6HXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E2_v6XXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_Ct1q6HXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E2_v6nXsEfC_3fo_KXq00A" name="Doctor">
+          <modelElement href="doctor-service.uml#_CpzfcHXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E2_v63XsEfC_3fo_KXq00A" name="id">
+        <modelElement href="doctor-service.uml#_Ct1q4XXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E2_v7HXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E2_v7XXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E2_v7nXsEfC_3fo_KXq00A" name="user">
+        <modelElement href="doctor-service.uml#_Ct1q4nXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E2_v73XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E2_v8HXsEfC_3fo_KXq00A" name="User">
+          <modelElement href="doctor-service.uml#_Cp9Qc3XsEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E2_v8XXsEfC_3fo_KXq00A" name="profilePicture">
+        <modelElement href="doctor-service.uml#_Ct1q43XsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E2_v8nXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E2_v83XsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E2_v9HXsEfC_3fo_KXq00A" name="active">
+        <modelElement href="doctor-service.uml#_Ct1q5HXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E2_v9XXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E2_v9nXsEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E2_v93XsEfC_3fo_KXq00A" name="specializations">
+        <modelElement href="doctor-service.uml#_Ct1q5XXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E2_v-HXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E2_v-XXsEfC_3fo_KXq00A" name="List">
+          <modelElement href="doctor-service.uml#_CtUtgXXsEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_E27eYnXsEfC_3fo_KXq00A" name="DoctorAvailability" associationsOut="_E26QMHXsEfC_3fo_KXq00A _E26QMXXsEfC_3fo_KXq00A _E26QMnXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_Cp3J0HXsEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_E27eY3XsEfC_3fo_KXq00A" position="-1992.0,-221.0" size="361.0,263.0"/>
+    <stereotypes xmi:id="_E27eZHXsEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="doctor-service.uml#_Cp4X8HXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_E27eZXXsEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="doctor-service.uml#_Cp6NIXXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_E27eZnXsEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_E27eZ3XsEfC_3fo_KXq00A" name="id">
+      <modelElement href="doctor-service.uml#_CuH-wHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E27eaHXsEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="doctor-service.uml#_CuH-wXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E27eaXXsEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="doctor-service.uml#_CuIl0HXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E27eanXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E27ea3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E27ebHXsEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E27ebXXsEfC_3fo_KXq00A" name="doctor">
+      <modelElement href="doctor-service.uml#_CuIl0XXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E27ebnXsEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="doctor-service.uml#_CuJM4HXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E27eb3XsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CuJM5XXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E27ecHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E27ecXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E27ecnXsEfC_3fo_KXq00A" name="Doctor">
+        <modelElement href="doctor-service.uml#_CpzfcHXsEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E27ec3XsEfC_3fo_KXq00A" name="dayOfWeek">
+      <modelElement href="doctor-service.uml#_CuJz8HXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E27edHXsEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="doctor-service.uml#_CuJz8XXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E27edXXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CuKbAXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E27ednXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E27ed3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E27eeHXsEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E27eeXXsEfC_3fo_KXq00A" name="startTime">
+      <modelElement href="doctor-service.uml#_CuKbBHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E27eenXsEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="doctor-service.uml#_CuLCEHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E27ee3XsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CuLpIHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E27efHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E27efXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E27efnXsEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="doctor-service.uml#_CtaNEnXsEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E27ef3XsEfC_3fo_KXq00A" name="endTime">
+      <modelElement href="doctor-service.uml#_CuLpI3XsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E27egHXsEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="doctor-service.uml#_CuLpJHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E27egXXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CuMQM3XsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E27egnXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E27eg3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E27ehHXsEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="doctor-service.uml#_CtaNEnXsEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E27ehXXsEfC_3fo_KXq00A" name="isAvailable">
+      <modelElement href="doctor-service.uml#_CuMQNnXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E27ehnXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CuM3QHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E27eh3XsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E27eiHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E27eiXXsEfC_3fo_KXq00A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E27einXsEfC_3fo_KXq00A" name="appointmentDuration">
+      <modelElement href="doctor-service.uml#_CuM3Q3XsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E27ei3XsEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="doctor-service.uml#_CuNeUHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E27ejHXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CuOFYHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E27ejXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E27ejnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E27ej3XsEfC_3fo_KXq00A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_E27ekHXsEfC_3fo_KXq00A" name="DoctorAvailability">
+      <modelElement href="doctor-service.uml#_Cp4_AHXsEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_E27ekXXsEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_E27eknXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_Cp5mEnXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E27ek3XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E27elHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E27elXXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_Cp5mEXXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E27elnXsEfC_3fo_KXq00A" name="DoctorAvailability">
+          <modelElement href="doctor-service.uml#_Cp3J0HXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E27el3XsEfC_3fo_KXq00A" name="isAvailable">
+      <modelElement href="doctor-service.uml#_Cp5mE3XsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E27emHXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_Cp5mFXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E27emXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E27emnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E27em3XsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_Cp5mFHXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E27enHXsEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E27enXXsEfC_3fo_KXq00A" name="setAvailable">
+      <modelElement href="doctor-service.uml#_Cp5mFnXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E27ennXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_Cp6NIHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E27en3XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E27eoHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_E27eoXXsEfC_3fo_KXq00A" name="isAvailable">
+        <modelElement href="doctor-service.uml#_Cp5mF3XsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E27eonXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E27eo3XsEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E27epHXsEfC_3fo_KXq00A" name="DoctorAvailability">
+      <modelElement href="doctor-service.uml#_Ct25AHXsEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_E27epXXsEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_E27epnXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_Ct3gGXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E27ep3XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E27eqHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E27eqXXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_Ct3gGHXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E27eqnXsEfC_3fo_KXq00A" name="DoctorAvailability">
+          <modelElement href="doctor-service.uml#_Cp3J0HXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E27eq3XsEfC_3fo_KXq00A" name="id">
+        <modelElement href="doctor-service.uml#_Ct25AXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E27erHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E27erXXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E27ernXsEfC_3fo_KXq00A" name="doctor">
+        <modelElement href="doctor-service.uml#_Ct3gEHXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E27er3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E27esHXsEfC_3fo_KXq00A" name="Doctor">
+          <modelElement href="doctor-service.uml#_CpzfcHXsEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E27esXXsEfC_3fo_KXq00A" name="dayOfWeek">
+        <modelElement href="doctor-service.uml#_Ct3gEXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E27esnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E27es3XsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E27etHXsEfC_3fo_KXq00A" name="startTime">
+        <modelElement href="doctor-service.uml#_Ct3gEnXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E27etXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E27etnXsEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="doctor-service.uml#_CtaNEnXsEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E27et3XsEfC_3fo_KXq00A" name="endTime">
+        <modelElement href="doctor-service.uml#_Ct3gE3XsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E27euHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E27euXXsEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="doctor-service.uml#_CtaNEnXsEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E27eunXsEfC_3fo_KXq00A" name="isAvailable">
+        <modelElement href="doctor-service.uml#_Ct3gFHXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E27eu3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E27evHXsEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E27evXXsEfC_3fo_KXq00A" name="appointmentDuration">
+        <modelElement href="doctor-service.uml#_Ct3gFXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E27evnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E27ev3XsEfC_3fo_KXq00A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_E296qXXsEfC_3fo_KXq00A" name="User" associationsIn="_E29TgHXsEfC_3fo_KXq00A _E296oXXsEfC_3fo_KXq00A" associationsOut="_E29TgXXsEfC_3fo_KXq00A _E29TgnXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_Cp9Qc3XsEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_E296qnXsEfC_3fo_KXq00A" position="-2587.0,-205.0" size="328.0,223.0"/>
+    <stereotypes xmi:id="_E296q3XsEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="doctor-service.uml#_Cp93gHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_E296rHXsEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="doctor-service.uml#_Cp_ssHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_E296rXXsEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_E296rnXsEfC_3fo_KXq00A" name="id">
+      <modelElement href="doctor-service.uml#_CuOscHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E296r3XsEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="doctor-service.uml#_CuOscXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E296sHXsEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="doctor-service.uml#_CuZrkHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E296sXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E296snXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E296s3XsEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E296tHXsEfC_3fo_KXq00A" name="username">
+      <modelElement href="doctor-service.uml#_CuZrkXXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E296tXXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CuZrknXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E296tnXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E296t3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E296uHXsEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E296uXXsEfC_3fo_KXq00A" name="email">
+      <modelElement href="doctor-service.uml#_CuaSoHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E296unXsEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="doctor-service.uml#_CuaSoXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E296u3XsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_Cua5sHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E296vHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E296vXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E296vnXsEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E296v3XsEfC_3fo_KXq00A" name="password">
+      <modelElement href="doctor-service.uml#_Cua5s3XsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E296wHXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_Cua5tHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E296wXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E296wnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E296w3XsEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E296xHXsEfC_3fo_KXq00A" name="role">
+      <modelElement href="doctor-service.uml#_Cua5tXXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E296xXXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CubgwHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E296xnXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E296x3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E296yHXsEfC_3fo_KXq00A" name="Role">
+        <modelElement href="doctor-service.uml#_Cp8pYHXsEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E296yXXsEfC_3fo_KXq00A" defaultValue="LocalDateTime.now()" name="createdAt">
+      <modelElement href="doctor-service.uml#_CubgwXXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E296ynXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_Cubgw3XsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E296y3XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E296zHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E296zXXsEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="doctor-service.uml#_CtaNEnXsEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E296znXsEfC_3fo_KXq00A" defaultValue="LocalDateTime.now()" name="updatedAt">
+      <modelElement href="doctor-service.uml#_CubgxHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E296z3XsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CucH0HXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2960HXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2960XXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E2960nXsEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="doctor-service.uml#_CtaNEnXsEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_E29603XsEfC_3fo_KXq00A" name="User">
+      <modelElement href="doctor-service.uml#_Cp-ekHXsEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_E2961HXsEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_E2961XXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2961nXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E29613XsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_Cp_FoHXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E2962HXsEfC_3fo_KXq00A" name="User">
+          <modelElement href="doctor-service.uml#_Cp9Qc3XsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E2962XXsEfC_3fo_KXq00A" name="User">
+      <modelElement href="doctor-service.uml#_Ct4uMHXsEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_E2962nXsEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_E29623XsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_Ct5VQHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2963HXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2963XXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E2963nXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_Ct4uOnXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E29633XsEfC_3fo_KXq00A" name="User">
+          <modelElement href="doctor-service.uml#_Cp9Qc3XsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E2964HXsEfC_3fo_KXq00A" name="id">
+        <modelElement href="doctor-service.uml#_Ct4uMXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E2964XXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E2964nXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E29643XsEfC_3fo_KXq00A" name="username">
+        <modelElement href="doctor-service.uml#_Ct4uMnXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E2965HXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E2965XXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E2965nXsEfC_3fo_KXq00A" name="email">
+        <modelElement href="doctor-service.uml#_Ct4uM3XsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E29653XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E2966HXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E2966XXsEfC_3fo_KXq00A" name="password">
+        <modelElement href="doctor-service.uml#_Ct4uNHXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E2966nXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E29663XsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E2967HXsEfC_3fo_KXq00A" name="role">
+        <modelElement href="doctor-service.uml#_Ct4uNXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E2967XXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E2967nXsEfC_3fo_KXq00A" name="Role">
+          <modelElement href="doctor-service.uml#_Cp8pYHXsEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E29673XsEfC_3fo_KXq00A" name="createdAt">
+        <modelElement href="doctor-service.uml#_Ct4uNnXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E2968HXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E2968XXsEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="doctor-service.uml#_CtaNEnXsEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E2968nXsEfC_3fo_KXq00A" name="updatedAt">
+        <modelElement href="doctor-service.uml#_Ct4uN3XsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E29683XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E2969HXsEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="doctor-service.uml#_CtaNEnXsEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_E23M6HXsEfC_3fo_KXq00A" name="DoctorAvailabilityResponseDto" associationsIn="_E22l0HXsEfC_3fo_KXq00A _E23M4HXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_Cpum8HXsEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_E23M6XXsEfC_3fo_KXq00A" position="-1604.0,-206.0" size="264.0,344.0"/>
+    <visibility xmi:id="_E23M6nXsEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_E23M63XsEfC_3fo_KXq00A" name="id">
+      <modelElement href="doctor-service.uml#_CuAC8HXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E23M7HXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E23M7XXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E23M7nXsEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E23M73XsEfC_3fo_KXq00A" name="doctorId">
+      <modelElement href="doctor-service.uml#_CuAC8XXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E23M8HXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E23M8XXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E23M8nXsEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E23M83XsEfC_3fo_KXq00A" name="doctorName">
+      <modelElement href="doctor-service.uml#_CuAC8nXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E23M9HXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E23M9XXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E23M9nXsEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E23M93XsEfC_3fo_KXq00A" name="doctorEmail">
+      <modelElement href="doctor-service.uml#_CuAC83XsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E23M-HXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E23M-XXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E23M-nXsEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E23M-3XsEfC_3fo_KXq00A" name="doctorSpecializations">
+      <modelElement href="doctor-service.uml#_CuBREHXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E23M_HXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E23M_XXsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_E23M_nXsEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E23M_3XsEfC_3fo_KXq00A" name="dayOfWeek">
+      <modelElement href="doctor-service.uml#_CuBREnXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E23NAHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E23NAXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E23NAnXsEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E23NA3XsEfC_3fo_KXq00A" name="startTime">
+      <modelElement href="doctor-service.uml#_CuBRE3XsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E23NBHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E23NBXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E23NBnXsEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="doctor-service.uml#_CtaNEnXsEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E23NB3XsEfC_3fo_KXq00A" name="endTime">
+      <modelElement href="doctor-service.uml#_CuBRFHXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E23NCHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E23NCXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E23NCnXsEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="doctor-service.uml#_CtaNEnXsEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E23NC3XsEfC_3fo_KXq00A" name="isAvailable">
+      <modelElement href="doctor-service.uml#_CuBRFXXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E23NDHXsEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="doctor-service.uml#_CuB4IHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E23NDXXsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E23NDnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E23ND3XsEfC_3fo_KXq00A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E23NEHXsEfC_3fo_KXq00A" name="appointmentDuration">
+      <modelElement href="doctor-service.uml#_CuB4IXXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E23NEXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E23NEnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E23NE3XsEfC_3fo_KXq00A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E23NFHXsEfC_3fo_KXq00A" name="doctorActive">
+      <modelElement href="doctor-service.uml#_CuB4InXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E23NFXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E23NFnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E23NF3XsEfC_3fo_KXq00A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_E23NGHXsEfC_3fo_KXq00A" name="DoctorAvailabilityResponseDto">
+      <modelElement href="doctor-service.uml#_CpwcIHXsEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_E23NGXXsEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_E23NGnXsEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="doctor-service.uml#_CpxDMHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E23NG3XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E23NHHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E23NHXXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CpxDMXXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E23NHnXsEfC_3fo_KXq00A" name="DoctorAvailabilityResponseDto">
+          <modelElement href="doctor-service.uml#_Cpum8HXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E23NH3XsEfC_3fo_KXq00A" name="isAvailable">
+      <modelElement href="doctor-service.uml#_CpxqQHXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E23NIHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E23NIXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E23NInXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CpxqQXXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E23NI3XsEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E23NJHXsEfC_3fo_KXq00A" name="setAvailable">
+      <modelElement href="doctor-service.uml#_CpxqQnXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E23NJXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E23NJnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_E23NJ3XsEfC_3fo_KXq00A" name="isAvailable">
+        <modelElement href="doctor-service.uml#_CpxqQ3XsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E23NKHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E23NKXXsEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E23NKnXsEfC_3fo_KXq00A" name="DoctorAvailabilityResponseDto">
+      <modelElement href="doctor-service.uml#_Ct0cwHXsEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_E23NK3XsEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_E23NLHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E23NLXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E23NLnXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_Ct0cznXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E23NL3XsEfC_3fo_KXq00A" name="DoctorAvailabilityResponseDto">
+          <modelElement href="doctor-service.uml#_Cpum8HXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E23NMHXsEfC_3fo_KXq00A" name="id">
+        <modelElement href="doctor-service.uml#_Ct0cwXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E23NMXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E23NMnXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E23NM3XsEfC_3fo_KXq00A" name="doctorId">
+        <modelElement href="doctor-service.uml#_Ct0cwnXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E23NNHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E23NNXXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E23NNnXsEfC_3fo_KXq00A" name="doctorName">
+        <modelElement href="doctor-service.uml#_Ct0cw3XsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E23NN3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E23NOHXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E23NOXXsEfC_3fo_KXq00A" name="doctorEmail">
+        <modelElement href="doctor-service.uml#_Ct0cxHXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E23NOnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E23NO3XsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E23NPHXsEfC_3fo_KXq00A" name="doctorSpecializations">
+        <modelElement href="doctor-service.uml#_Ct0cxXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E23NPXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E23NPnXsEfC_3fo_KXq00A" name="List">
+          <modelElement href="doctor-service.uml#_CtUtgXXsEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E23NP3XsEfC_3fo_KXq00A" name="dayOfWeek">
+        <modelElement href="doctor-service.uml#_Ct0cxnXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E23NQHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E23NQXXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E23NQnXsEfC_3fo_KXq00A" name="startTime">
+        <modelElement href="doctor-service.uml#_Ct0cx3XsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E23NQ3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E23NRHXsEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="doctor-service.uml#_CtaNEnXsEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E23NRXXsEfC_3fo_KXq00A" name="endTime">
+        <modelElement href="doctor-service.uml#_Ct0cyHXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E23NRnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E23NR3XsEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="doctor-service.uml#_CtaNEnXsEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E23NSHXsEfC_3fo_KXq00A" name="isAvailable">
+        <modelElement href="doctor-service.uml#_Ct0cyXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E23NSXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E23NSnXsEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E23NS3XsEfC_3fo_KXq00A" name="appointmentDuration">
+        <modelElement href="doctor-service.uml#_Ct0cynXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E23NTHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E23NTXXsEfC_3fo_KXq00A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E23NTnXsEfC_3fo_KXq00A" name="doctorActive">
+        <modelElement href="doctor-service.uml#_Ct0cy3XsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E23NT3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E23NUHXsEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_E3TRyXXsEfC_3fo_KXq00A" name="DoctorAvailabilityControllerTest" associationsOut="_E3SDoHXsEfC_3fo_KXq00A _E3SqsHXsEfC_3fo_KXq00A _E3TRwHXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_CqWSBHXsEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_E3TRynXsEfC_3fo_KXq00A" position="-2475.0,41.0" size="241.0,163.0"/>
+    <stereotypes xmi:id="_E3TRy3XsEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="doctor-service.uml#_CqW5EnXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_E3TRzHXsEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="doctor-service.uml#_CqYHMHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_E3TRzXXsEfC_3fo_KXq00A" label="~"/>
+    <attributes xmi:id="_E3TRznXsEfC_3fo_KXq00A" name="mockMvc">
+      <modelElement href="doctor-service.uml#_CudV8HXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3TRz3XsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CudV8XXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3TR0HXsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E3TR0XXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E3TR0nXsEfC_3fo_KXq00A" name="MockMvc">
+        <modelElement href="doctor-service.uml#_CttvEXXsEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E3TR03XsEfC_3fo_KXq00A" name="doctorService">
+      <modelElement href="doctor-service.uml#_CudV83XsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3TR1HXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_Cud9AHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3TR1XXsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E3TR1nXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E3TR13XsEfC_3fo_KXq00A" name="DoctorService">
+        <modelElement href="doctor-service.uml#_CqQycnXsEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E3TR2HXsEfC_3fo_KXq00A" name="objectMapper">
+      <modelElement href="doctor-service.uml#_Cud9AnXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3TR2XXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_Cud9A3XsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3TR2nXsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E3TR23XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E3TR3HXsEfC_3fo_KXq00A" name="ObjectMapper">
+        <modelElement href="doctor-service.uml#_Ctr54XXsEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_E3TR3XXsEfC_3fo_KXq00A" name="testGetAllDoctorAvailabilities">
+      <modelElement href="doctor-service.uml#_CqW5E3XsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3TR3nXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CqXgIHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3TR33XsEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_E3TR4HXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_E3TR4XXsEfC_3fo_KXq00A" name="testGetAllAvailableDoctorAvailabilities">
+      <modelElement href="doctor-service.uml#_CqXgInXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3TR4nXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CqXgI3XsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3TR43XsEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_E3TR5HXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_E3TR5XXsEfC_3fo_KXq00A" name="testGetDoctorAvailabilitiesByDay">
+      <modelElement href="doctor-service.uml#_CqXgJXXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3TR5nXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CqXgJnXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3TR53XsEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_E3TR6HXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_E2nVSXXsEfC_3fo_KXq00A" name="DoctorAvailabilityController" associationsOut="_E2nVQHXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_Cpk19HXsEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_E2nVSnXsEfC_3fo_KXq00A" position="-2225.0,44.0" size="227.0,116.0"/>
+    <stereotypes xmi:id="_E2nVS3XsEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="doctor-service.uml#_CpldAHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_E2nVTHXsEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="doctor-service.uml#_CpnSNnXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_E2nVTXXsEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_E2nVTnXsEfC_3fo_KXq00A" name="doctorService">
+      <modelElement href="doctor-service.uml#_Ct-NwHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E2nVT3XsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_Ct-NwXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2nVUHXsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E2nVUXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E2nVUnXsEfC_3fo_KXq00A" name="DoctorService">
+        <modelElement href="doctor-service.uml#_CqQycnXsEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_E2nVU3XsEfC_3fo_KXq00A" name="getAllDoctorAvailabilities">
+      <modelElement href="doctor-service.uml#_CpldAXXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E2nVVHXsEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="doctor-service.uml#_CpmEEHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E2nVVXXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CpmEEXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2nVVnXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2nVV3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E2nVWHXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CtzOoHXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E2nVWXXsEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="doctor-service.uml#_CtV7oXXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E2nVWnXsEfC_3fo_KXq00A" name="getAllAvailableDoctorAvailabilities">
+      <modelElement href="doctor-service.uml#_CpmEE3XsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E2nVW3XsEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="doctor-service.uml#_CpmEFHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E2nVXHXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CpmrIHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2nVXXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2nVXnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E2nVX3XsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CtzOoXXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E2nVYHXsEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="doctor-service.uml#_CtV7oXXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E2nVYXXsEfC_3fo_KXq00A" name="getDoctorAvailabilitiesByDay">
+      <modelElement href="doctor-service.uml#_CpmrI3XsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E2nVYnXsEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="doctor-service.uml#_CpnSMHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E2nVY3XsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CpnSM3XsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2nVZHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2nVZXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E2nVZnXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CtzOonXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E2nVZ3XsEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="doctor-service.uml#_CtV7oXXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E2nVaHXsEfC_3fo_KXq00A" name="dayOfWeek">
+        <modelElement href="doctor-service.uml#_CpmrJHXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E2nVaXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E2nVanXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_E3KH0HXsEfC_3fo_KXq00A" name="UserRepository">
+    <modelElement href="doctor-service.uml#_CqNvIHXsEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_E3KH0XXsEfC_3fo_KXq00A" position="-1324.0,-198.0" size="262.0,175.0"/>
+    <stereotypes xmi:id="_E3KH0nXsEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="doctor-service.uml#_CqOWMHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_E3KH03XsEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="doctor-service.uml#_CqQycHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_E3KH1HXsEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_E3KH1XXsEfC_3fo_KXq00A" name="findByUsername">
+      <modelElement href="doctor-service.uml#_CqO9QHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3KH1nXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqO9QnXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3KH13XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3KH2HXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E3KH2XXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CtoPgHXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3KH2nXsEfC_3fo_KXq00A" name="User">
+          <modelElement href="doctor-service.uml#_Cp9Qc3XsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3KH23XsEfC_3fo_KXq00A" name="username">
+        <modelElement href="doctor-service.uml#_CqO9QXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3KH3HXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3KH3XXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E3KH3nXsEfC_3fo_KXq00A" name="findByEmail">
+      <modelElement href="doctor-service.uml#_CqO9Q3XsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3KH33XsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqO9RXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3KH4HXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3KH4XXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E3KH4nXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CtoPgXXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3KH43XsEfC_3fo_KXq00A" name="User">
+          <modelElement href="doctor-service.uml#_Cp9Qc3XsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3KH5HXsEfC_3fo_KXq00A" name="email">
+        <modelElement href="doctor-service.uml#_CqO9RHXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3KH5XXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3KH5nXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E3KH53XsEfC_3fo_KXq00A" name="findByRole">
+      <modelElement href="doctor-service.uml#_CqPkUHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3KH6HXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqPkVHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3KH6XXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3KH6nXsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_E3KH63XsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqPkUnXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3KH7HXsEfC_3fo_KXq00A" name="User">
+          <modelElement href="doctor-service.uml#_Cp9Qc3XsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3KH7XXsEfC_3fo_KXq00A" name="role">
+        <modelElement href="doctor-service.uml#_CqPkUXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3KH7nXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3KH73XsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E3KH8HXsEfC_3fo_KXq00A" name="existsByEmail">
+      <modelElement href="doctor-service.uml#_CqPkVXXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3KH8XXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqQLYXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3KH8nXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3KH83XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E3KH9HXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqQLYHXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3KH9XXsEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3KH9nXsEfC_3fo_KXq00A" name="email">
+        <modelElement href="doctor-service.uml#_CqPkVnXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3KH93XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3KH-HXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E3KH-XXsEfC_3fo_KXq00A" name="existsByUsername">
+      <modelElement href="doctor-service.uml#_CqQLYnXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3KH-nXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqQLZXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3KH-3XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3KH_HXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E3KH_XXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqQLZHXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3KH_nXsEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3KH_3XsEfC_3fo_KXq00A" name="username">
+        <modelElement href="doctor-service.uml#_CqQLY3XsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3KIAHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3KIAXXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_E2vRFXXsEfC_3fo_KXq00A" name="DoctorController" associationsOut="_E2tb4HXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_Cpn5QHXsEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_E2v4IHXsEfC_3fo_KXq00A" position="-1321.0,-9.0" size="348.0,176.0"/>
+    <stereotypes xmi:id="_E2v4IXXsEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="doctor-service.uml#_CppHYHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_E2v4InXsEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="doctor-service.uml#_CptY0HXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_E2v4I3XsEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_E2v4JHXsEfC_3fo_KXq00A" name="doctorService">
+      <modelElement href="doctor-service.uml#_Ct-00XXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E2v4JXXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_Ct-00nXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2v4JnXsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E2v4J3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E2v4KHXsEfC_3fo_KXq00A" name="DoctorService">
+        <modelElement href="doctor-service.uml#_CqQycnXsEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_E2v4KXXsEfC_3fo_KXq00A" name="getAllDoctorAvailabilities">
+      <modelElement href="doctor-service.uml#_CppHYXXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E2v4KnXsEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="doctor-service.uml#_CppucHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E2v4K3XsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CppucXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2v4LHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2v4LXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E2v4LnXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CtzOo3XsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E2v4L3XsEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="doctor-service.uml#_CtV7oXXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E2v4MHXsEfC_3fo_KXq00A" name="getAllAvailableDoctorAvailabilities">
+      <modelElement href="doctor-service.uml#_CppudHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E2v4MXXsEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="doctor-service.uml#_CpqVgHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E2v4MnXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CpqVgXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2v4M3XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2v4NHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E2v4NXXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CtzOpHXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E2v4NnXsEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="doctor-service.uml#_CtV7oXXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E2v4N3XsEfC_3fo_KXq00A" name="getDoctorAvailabilitiesByDay">
+      <modelElement href="doctor-service.uml#_CpqVhHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E2v4OHXsEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="doctor-service.uml#_Cpq8kHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E2v4OXXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CprjoHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2v4OnXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2v4O3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E2v4PHXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_Ctz1sHXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E2v4PXXsEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="doctor-service.uml#_CtV7oXXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E2v4PnXsEfC_3fo_KXq00A" name="dayOfWeek">
+        <modelElement href="doctor-service.uml#_CpqVhXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E2v4P3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E2v4QHXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E2v4QXXsEfC_3fo_KXq00A" name="getByUserId">
+      <modelElement href="doctor-service.uml#_Cprjo3XsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E2v4QnXsEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="doctor-service.uml#_CprjpXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E2v4Q3XsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CpsKsnXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2v4RHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2v4RXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E2v4RnXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_Ctz1sXXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E2v4R3XsEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="doctor-service.uml#_CtV7oXXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E2v4SHXsEfC_3fo_KXq00A" name="userId">
+        <modelElement href="doctor-service.uml#_CprjpHXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E2v4SXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E2v4SnXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E2v4S3XsEfC_3fo_KXq00A" name="getAllDoctors">
+      <modelElement href="doctor-service.uml#_CpsKtXXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E2v4THXsEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="doctor-service.uml#_CpsxwHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E2v4TXXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CpsxwXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2v4TnXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2v4T3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E2v4UHXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_Ctz1s3XsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E2v4UXXsEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="doctor-service.uml#_CtV7oXXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E2v4UnXsEfC_3fo_KXq00A" name="updateDoctor">
+      <modelElement href="doctor-service.uml#_CtY-83XsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E2v4U3XsEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="doctor-service.uml#_CtZmAnXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E2v4VHXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CtZmB3XsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E2v4VXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E2v4VnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E2v4V3XsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_Ctz1snXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E2v4WHXsEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="doctor-service.uml#_CtV7oXXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E2v4WXXsEfC_3fo_KXq00A" name="id">
+        <modelElement href="doctor-service.uml#_CtZmAHXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E2v4WnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E2v4W3XsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E2v4XHXsEfC_3fo_KXq00A" name="patient">
+        <modelElement href="doctor-service.uml#_CtZmAXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E2v4XXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E2v4XnXsEfC_3fo_KXq00A" name="Doctor">
+          <modelElement href="doctor-service.uml#_CpzfcHXsEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_E3Hrk3XsEfC_3fo_KXq00A" name="DoctorRepository" associationsIn="_E3GdcHXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_CqI2oHXsEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_E3HrlHXsEfC_3fo_KXq00A" position="-1492.0,193.0" size="261.0,155.0"/>
+    <stereotypes xmi:id="_E3HrlXXsEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="doctor-service.uml#_CqJdsHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_E3HrlnXsEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="doctor-service.uml#_CqMhA3XsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_E3Hrl3XsEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_E3HrmHXsEfC_3fo_KXq00A" name="findByUser_Id">
+      <modelElement href="doctor-service.uml#_CqKEwHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3HrmXXsEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="doctor-service.uml#_CqKr0HXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_E3HrmnXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqKr0XXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3Hrm3XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3HrnHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E3HrnXXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_Ct7KcXXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3HrnnXsEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="doctor-service.uml#_CtnBYHXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3Hrn3XsEfC_3fo_KXq00A" name="userId">
+        <modelElement href="doctor-service.uml#_CqKEwXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3HroHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3HroXXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E3HronXsEfC_3fo_KXq00A" name="findByActiveTrue">
+      <modelElement href="doctor-service.uml#_CqKr0nXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3Hro3XsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqLS4HXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3HrpHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3HrpXXsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_E3HrpnXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqKr03XsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3Hrp3XsEfC_3fo_KXq00A" name="Doctor">
+          <modelElement href="doctor-service.uml#_CpzfcHXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E3HrqHXsEfC_3fo_KXq00A" name="findBySpecializationsContaining">
+      <modelElement href="doctor-service.uml#_CqLS4XXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3HrqXXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqL58nXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3HrqnXsEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_E3Hrq3XsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_E3HrrHXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqL58HXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3HrrXXsEfC_3fo_KXq00A" name="Doctor">
+          <modelElement href="doctor-service.uml#_CpzfcHXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3HrrnXsEfC_3fo_KXq00A" name="specialization">
+        <modelElement href="doctor-service.uml#_CqLS4nXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3Hrr3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3HrsHXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E3HrsXXsEfC_3fo_KXq00A" name="findByActiveTrueAndSpecializationsContaining">
+      <modelElement href="doctor-service.uml#_CqL583XsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3HrsnXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqMhAnXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3Hrs3XsEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_E3HrtHXsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_E3HrtXXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqMhAHXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3HrtnXsEfC_3fo_KXq00A" name="Doctor">
+          <modelElement href="doctor-service.uml#_CpzfcHXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3Hrt3XsEfC_3fo_KXq00A" name="specialization">
+        <modelElement href="doctor-service.uml#_CqL59HXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3HruHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3HruXXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_E3MkEHXsEfC_3fo_KXq00A" name="DoctorService" associationsIn="_E2nVQHXsEfC_3fo_KXq00A _E2tb4HXsEfC_3fo_KXq00A _E3SDoHXsEfC_3fo_KXq00A" associationsOut="_E3CMAHXsEfC_3fo_KXq00A _E3GdcHXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_CqQycnXsEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_E3MkEXXsEfC_3fo_KXq00A" position="-1977.0,70.0" size="360.0,196.0"/>
+    <stereotypes xmi:id="_E3MkEnXsEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="doctor-service.uml#_CqSAkHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_E3MkE3XsEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="doctor-service.uml#_CqT1wXXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_E3MkFHXsEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_E3MkFXXsEfC_3fo_KXq00A" name="availabilityRepository">
+      <modelElement href="doctor-service.uml#_CucH0XXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E3MkFnXsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E3MkF3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E3MkGHXsEfC_3fo_KXq00A" name="DoctorAvailabilityRepository">
+        <modelElement href="doctor-service.uml#_CqCI8HXsEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_E3MkGXXsEfC_3fo_KXq00A" name="doctorRepository">
+      <modelElement href="doctor-service.uml#_Cucu4nXsEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_E3MkGnXsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E3MkG3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_E3MkHHXsEfC_3fo_KXq00A" name="DoctorRepository">
+        <modelElement href="doctor-service.uml#_CqI2oHXsEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_E3MkHXXsEfC_3fo_KXq00A" name="getAllDoctorAvailabilities">
+      <modelElement href="doctor-service.uml#_CqSAkXXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3MkHnXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqSnoHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3MkH3XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3MkIHXsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_E3MkIXXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqSAknXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3MkInXsEfC_3fo_KXq00A" name="DoctorAvailabilityResponseDto">
+          <modelElement href="doctor-service.uml#_Cpum8HXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E3MkI3XsEfC_3fo_KXq00A" name="getAllAvailableDoctorAvailabilities">
+      <modelElement href="doctor-service.uml#_CqSnoXXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3MkJHXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqSnpHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3MkJXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3MkJnXsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_E3MkJ3XsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqSnonXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3MkKHXsEfC_3fo_KXq00A" name="DoctorAvailabilityResponseDto">
+          <modelElement href="doctor-service.uml#_Cpum8HXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E3MkKXXsEfC_3fo_KXq00A" name="getDoctorAvailabilitiesByDay">
+      <modelElement href="doctor-service.uml#_CqSnpXXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3MkKnXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqSnqXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3MkK3XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3MkLHXsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_E3MkLXXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqSnp3XsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3MkLnXsEfC_3fo_KXq00A" name="DoctorAvailabilityResponseDto">
+          <modelElement href="doctor-service.uml#_Cpum8HXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3MkL3XsEfC_3fo_KXq00A" name="dayOfWeek">
+        <modelElement href="doctor-service.uml#_CqSnpnXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3MkMHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3MkMXXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E3MkMnXsEfC_3fo_KXq00A" name="getByUserId">
+      <modelElement href="doctor-service.uml#_CqTOsHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3MkM3XsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqTOsnXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3MkNHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3MkNXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E3MkNnXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CtqrxHXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3MkN3XsEfC_3fo_KXq00A" name="Doctor">
+          <modelElement href="doctor-service.uml#_CpzfcHXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3MkOHXsEfC_3fo_KXq00A" name="userId">
+        <modelElement href="doctor-service.uml#_CqTOsXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3MkOXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3MkOnXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E3MkO3XsEfC_3fo_KXq00A" name="getAllDoctors">
+      <modelElement href="doctor-service.uml#_CqTOs3XsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3MkPHXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqT1wHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3MkPXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3MkPnXsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_E3MkP3XsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqTOtHXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3MkQHXsEfC_3fo_KXq00A" name="Doctor">
+          <modelElement href="doctor-service.uml#_CpzfcHXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E3MkQXXsEfC_3fo_KXq00A" name="convertToAvailabilityResponseDto">
+      <modelElement href="doctor-service.uml#_CtqrwHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3MkQnXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_Ctqrw3XsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3MkQ3XsEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_E3MkRHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E3MkRXXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CtqrwnXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3MkRnXsEfC_3fo_KXq00A" name="DoctorAvailabilityResponseDto">
+          <modelElement href="doctor-service.uml#_Cpum8HXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3MkR3XsEfC_3fo_KXq00A" name="availability">
+        <modelElement href="doctor-service.uml#_CtqrwXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3MkSHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3MkSXXsEfC_3fo_KXq00A" name="DoctorAvailability">
+          <modelElement href="doctor-service.uml#_Cp3J0HXsEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E3MkSnXsEfC_3fo_KXq00A" name="updateDoctor">
+      <modelElement href="doctor-service.uml#_CtqrxXXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3MkS3XsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CtrS0XXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3MkTHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3MkTXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_E3MkTnXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CtrS0HXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3MkT3XsEfC_3fo_KXq00A" name="Doctor">
+          <modelElement href="doctor-service.uml#_CpzfcHXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3MkUHXsEfC_3fo_KXq00A" name="id">
+        <modelElement href="doctor-service.uml#_CtqrxnXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3MkUXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3MkUnXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E3MkU3XsEfC_3fo_KXq00A" name="updatedDoctor">
+        <modelElement href="doctor-service.uml#_Ctqrx3XsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3MkVHXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3MkVXXsEfC_3fo_KXq00A" name="Doctor">
+          <modelElement href="doctor-service.uml#_CpzfcHXsEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_E3CzFXXsEfC_3fo_KXq00A" name="DoctorAvailabilityRepository" associationsIn="_E3CMAHXsEfC_3fo_KXq00A">
+    <modelElement href="doctor-service.uml#_CqCI8HXsEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_E3CzFnXsEfC_3fo_KXq00A" position="-2548.0,209.0" size="460.0,235.0"/>
+    <stereotypes xmi:id="_E3CzF3XsEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="doctor-service.uml#_CqCwAHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_E3CzGHXsEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="doctor-service.uml#_CqHogHXsEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_E3CzGXXsEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_E3CzGnXsEfC_3fo_KXq00A" name="findByDoctorId">
+      <modelElement href="doctor-service.uml#_CqCwAXXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3CzG3XsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqDXE3XsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3CzHHXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3CzHXXsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_E3CzHnXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqDXEXXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3CzH3XsEfC_3fo_KXq00A" name="DoctorAvailability">
+          <modelElement href="doctor-service.uml#_Cp3J0HXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3CzIHXsEfC_3fo_KXq00A" name="doctorId">
+        <modelElement href="doctor-service.uml#_CqDXEHXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3CzIXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3CzInXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E3CzI3XsEfC_3fo_KXq00A" name="findByDoctorIdAndDayOfWeek">
+      <modelElement href="doctor-service.uml#_CqD-IHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3CzJHXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqD-JXXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3CzJXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3CzJnXsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_E3CzJ3XsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqD-I3XsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3CzKHXsEfC_3fo_KXq00A" name="DoctorAvailability">
+          <modelElement href="doctor-service.uml#_Cp3J0HXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3CzKXXsEfC_3fo_KXq00A" name="doctorId">
+        <modelElement href="doctor-service.uml#_CqD-IXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3CzKnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3CzK3XsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_E3CzLHXsEfC_3fo_KXq00A" name="dayOfWeek">
+        <modelElement href="doctor-service.uml#_CqD-InXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3CzLXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3CzLnXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E3CzL3XsEfC_3fo_KXq00A" name="findByDoctorIdAndIsAvailableTrue">
+      <modelElement href="doctor-service.uml#_CqElMHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3CzMHXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqElNHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3CzMXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3CzMnXsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_E3CzM3XsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqElMnXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3CzNHXsEfC_3fo_KXq00A" name="DoctorAvailability">
+          <modelElement href="doctor-service.uml#_Cp3J0HXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3CzNXXsEfC_3fo_KXq00A" name="doctorId">
+        <modelElement href="doctor-service.uml#_CqElMXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3CzNnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3CzN3XsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E3CzOHXsEfC_3fo_KXq00A" name="deleteByDoctorId">
+      <modelElement href="doctor-service.uml#_CqFMQHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3CzOXXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqFMQnXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3CzOnXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3CzO3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_E3CzPHXsEfC_3fo_KXq00A" name="doctorId">
+        <modelElement href="doctor-service.uml#_CqFMQXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3CzPXXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3CzPnXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E3CzP3XsEfC_3fo_KXq00A" name="findAllAvailabilities">
+      <modelElement href="doctor-service.uml#_CqFMQ3XsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3CzQHXsEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="doctor-service.uml#_CqFzUHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3CzQXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3CzQnXsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_E3CzQ3XsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqFMRHXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3CzRHXsEfC_3fo_KXq00A" name="DoctorAvailability">
+          <modelElement href="doctor-service.uml#_Cp3J0HXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E3CzRXXsEfC_3fo_KXq00A" name="findByIsAvailableTrue">
+      <modelElement href="doctor-service.uml#_CqFzU3XsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3CzRnXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqFzVnXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3CzR3XsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3CzSHXsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_E3CzSXXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqFzVHXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3CzSnXsEfC_3fo_KXq00A" name="DoctorAvailability">
+          <modelElement href="doctor-service.uml#_Cp3J0HXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_E3CzS3XsEfC_3fo_KXq00A" name="findByDayOfWeek">
+      <modelElement href="doctor-service.uml#_CqGaYHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3CzTHXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqGaZHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3CzTXXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3CzTnXsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_E3CzT3XsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqGaYnXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3CzUHXsEfC_3fo_KXq00A" name="DoctorAvailability">
+          <modelElement href="doctor-service.uml#_Cp3J0HXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3CzUXXsEfC_3fo_KXq00A" name="dayOfWeek">
+        <modelElement href="doctor-service.uml#_CqGaYXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3CzUnXsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3CzU3XsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_E3CzVHXsEfC_3fo_KXq00A" name="findByDayOfWeekAndIsAvailableTrue">
+      <modelElement href="doctor-service.uml#_CqHBcHXsEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_E3CzVXXsEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="doctor-service.uml#_CqHBdHXsEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_E3CzVnXsEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_E3CzV3XsEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_E3CzWHXsEfC_3fo_KXq00A">
+        <modelElement href="doctor-service.uml#_CqHBcnXsEfC_3fo_KXq00A"/>
+        <type xmi:id="_E3CzWXXsEfC_3fo_KXq00A" name="DoctorAvailability">
+          <modelElement href="doctor-service.uml#_Cp3J0HXsEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_E3CzWnXsEfC_3fo_KXq00A" name="dayOfWeek">
+        <modelElement href="doctor-service.uml#_CqHBcXXsEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_E3CzW3XsEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_E3CzXHXsEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

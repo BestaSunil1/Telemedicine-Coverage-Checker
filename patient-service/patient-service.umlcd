@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_RlwaAHXvEfC_3fo_KXq00A">
+  <modelElement href="patient-service.uml#_Rx8b4HXvEfC_3fo_KXq00A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SPescHXvEfC_3fo_KXq00A" sourceAnchor="153.0,0.0" targetAnchor="182.0,177.0" target="_SPyOcHXvEfC_3fo_KXq00A" source="_SPeseXXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_R1A-AHXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_SPescXXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="patient-service.uml#_R1FPcHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SPescnXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_SYvWJHXvEfC_3fo_KXq00A" position="1.0,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SPesc3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="patient-service.uml#_R1A-AXXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYvWI3XvEfC_3fo_KXq00A" position="40.0,-40.0"/>
+      <visibility xmi:id="_SPesdHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPesdXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SPesdnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="patientService" navigable="true">
+      <modelElement href="patient-service.uml#_R0rm0HXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYvWJXXvEfC_3fo_KXq00A" position="-91.0,-9.0"/>
+      <visibility xmi:id="_SPesd3XvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_SPeseHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SPf6kHXvEfC_3fo_KXq00A" target="_SPf6oXXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_R096snXvEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_SPf6kXXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_SPf6knXvEfC_3fo_KXq00A" aggregationKind="NONE" name="expiresAt" navigable="true">
+      <modelElement href="patient-service.uml#_R0zip3XvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_SPf6k3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPf6lHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SPf6lXXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="patient-service.uml#_R096s3XvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_SPf6lnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPf6l3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SPf6mHXvEfC_3fo_KXq00A" sourceAnchor="0.0,40.0" targetAnchor="291.0,205.0" target="_SPqSpnXvEfC_3fo_KXq00A" source="_SPf6oXXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_R1MkMXXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_SPf6mXXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="patient-service.uml#_R1PngHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SPf6mnXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_SYv9MHXvEfC_3fo_KXq00A" position="-18.0,-10.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SPf6m3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="patient-service.uml#_R1MkMnXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYvWJnXvEfC_3fo_KXq00A" position="-21.0,46.0"/>
+      <visibility xmi:id="_SPf6nHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPf6nXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SPf6nnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="user" navigable="true">
+      <modelElement href="patient-service.uml#_R0y7kXXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYv9MXXvEfC_3fo_KXq00A" position="-13.0,12.0"/>
+      <visibility xmi:id="_SPf6n3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPf6oHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SPhIsHXvEfC_3fo_KXq00A" sourceAnchor="252.0,0.0" targetAnchor="291.0,5.0" target="_SPqSpnXvEfC_3fo_KXq00A" source="_SPhvyHXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_R1PngXXvEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_qQ-9oHXvEfC_3fo_KXq00A" sourceX="-34" sourceY="-361" targetX="226" targetY="4"/>
+    <stereotypes xmi:id="_SPhvwXXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="patient-service.uml#_R1Sq0HXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SPhIsXXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_SYv9M3XvEfC_3fo_KXq00A" position="-149.0,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SPhIsnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="patient-service.uml#_R1PngnXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYv9MnXvEfC_3fo_KXq00A" position="2.0,-89.0"/>
+      <visibility xmi:id="_SPhvw3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPhvwnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SPhvwHXvEfC_3fo_KXq00A" aggregationKind="NONE" name="user" navigable="true">
+      <modelElement href="patient-service.uml#_R00wwXXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYv9NHXvEfC_3fo_KXq00A" position="28.0,-51.0"/>
+      <visibility xmi:id="_SPhvxXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPhvxHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SPjk8HXvEfC_3fo_KXq00A" sourceAnchor="0.0,79.0" targetAnchor="291.0,105.0" target="_SPqSpnXvEfC_3fo_KXq00A" source="_SPjk-XXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_R0-hwnXvEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_SPjk8XXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_SYwkQ3XvEfC_3fo_KXq00A" position="-7.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SPjk8nXvEfC_3fo_KXq00A" aggregationKind="NONE" name="role" navigable="true">
+      <modelElement href="patient-service.uml#_R030EXXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYwkQnXvEfC_3fo_KXq00A" position="-30.0,40.0"/>
+      <stereotypes xmi:id="_SPjk9nXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R030EnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPjk9XXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPjk9HXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SPjk83XvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="patient-service.uml#_R0-hw3XvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYwkRHXvEfC_3fo_KXq00A" position="3.0,-57.0"/>
+      <visibility xmi:id="_SPjk-HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPjk93XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SPkMAHXvEfC_3fo_KXq00A" sourceAnchor="141.0,163.0" targetAnchor="264.0,119.0" target="_SPhvyHXvEfC_3fo_KXq00A" source="_SPmBOXXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_R1FPcXXvEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_qQ-9o3XvEfC_3fo_KXq00A" sourceY="176" targetX="583"/>
+    <stereotypes xmi:id="_SPkzGHXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="patient-service.uml#_R1Jg4HXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SPkzFXXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_SYwkRnXvEfC_3fo_KXq00A" position="-309.75,2.0000000000000284"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SPkzFnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="patient-service.uml#_R1FPcnXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYwkRXXvEfC_3fo_KXq00A" position="-16.5,86.0"/>
+      <visibility xmi:id="_SPlaKXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPlaKHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SPkzF3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="patient" navigable="true">
+      <modelElement href="patient-service.uml#_R0uqIXXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYwkR3XvEfC_3fo_KXq00A" position="45.04166666666697,2.0"/>
+      <visibility xmi:id="_SPlaK3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPlaKnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SPkzEHXvEfC_3fo_KXq00A" sourceAnchor="58.0,0.0" targetAnchor="204.0,0.0" target="_SPmBOXXvEfC_3fo_KXq00A" source="_SPi94HXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_R09To3XvEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_qQ-9oXXvEfC_3fo_KXq00A" sourceY="-15" targetX="-401" targetY="-185"/>
+    <bendpoints xmi:id="_qQ-9onXvEfC_3fo_KXq00A" sourceX="401" sourceY="-15" targetY="-185"/>
+    <nameVisual xmi:id="_SPkzEXXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_SYwkQHXvEfC_3fo_KXq00A" position="12.409090909090992,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SPkzEnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="status" navigable="true">
+      <modelElement href="patient-service.uml#_R0wfU3XvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYv9NXXvEfC_3fo_KXq00A" position="39.77777777777783,-66.0"/>
+      <visibility xmi:id="_SPlaIXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPlaIHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SPkzE3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="patient-service.uml#_R09TpHXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYwkQXXvEfC_3fo_KXq00A" position="2.0,-83.5"/>
+      <visibility xmi:id="_SPlaJHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPlaI3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SPkzFHXvEfC_3fo_KXq00A" target="_SPmBOXXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_R09TpXXvEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_SPlaJXXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_SPlaJnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="verifiedAt" navigable="true">
+      <modelElement href="patient-service.uml#_R0wfVXXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_SPlaL3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPlaLnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SPlaJ3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="patient-service.uml#_R09TpnXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_SPlaMnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPlaMXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SPmBMHXvEfC_3fo_KXq00A" sourceAnchor="171.0,163.0" targetAnchor="145.0,283.0" target="_SPtV8HXvEfC_3fo_KXq00A" source="_SPmBOXXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_R1Jg4XXvEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_qQ_ksHXvEfC_3fo_KXq00A" sourceY="295" targetX="1025" targetY="75"/>
+    <bendpoints xmi:id="_qQ_ksXXvEfC_3fo_KXq00A" sourceX="-1025" sourceY="295" targetY="75"/>
+    <stereotypes xmi:id="_SPmBMXXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="patient-service.uml#_R1MkMHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SPmBMnXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_SYxLUXXvEfC_3fo_KXq00A" position="-62.59090909090901,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SPmBM3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="patient-service.uml#_R1Jg4nXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYxLUHXvEfC_3fo_KXq00A" position="-17.5,35.85714285714286"/>
+      <visibility xmi:id="_SPmBNHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPmBNXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SPmBNnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="plan" navigable="true">
+      <modelElement href="patient-service.uml#_R0v4QHXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYxLUnXvEfC_3fo_KXq00A" position="41.0,25.0"/>
+      <visibility xmi:id="_SPmBN3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPmBOHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SPodcHXvEfC_3fo_KXq00A" source="_SPqSpnXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_R1Sq0XXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_SPprk3XvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="patient-service.uml#_R1VuIHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SPprkHXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_SPprkXXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="patient-service.uml#_R1Sq0nXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_SPprmXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPprmHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SPprknXvEfC_3fo_KXq00A" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="patient-service.uml#_R030E3XvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_SPprm3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPprmnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SPodcXXvEfC_3fo_KXq00A" source="_SPqSpnXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_R1VuIXXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_SPprl3XvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="patient-service.uml#_R1ZYgHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SPprlHXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_SPprlXXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="patient-service.uml#_R1VuInXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_SPqSonXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPqSoXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SPprlnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="patient-service.uml#_R030FnXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_SPqSpHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPqSo3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SPvLIHXvEfC_3fo_KXq00A" sourceAnchor="14.0,0.0" targetAnchor="178.0,95.0" target="_SPvyOXXvEfC_3fo_KXq00A" source="_SPyOcHXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_R1ZYgXXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_SPvyM3XvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="patient-service.uml#_R1b0wHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SPvyMHXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_SYxLVHXvEfC_3fo_KXq00A" position="-82.0,-1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SPvyMXXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="patient-service.uml#_R1ZYgnXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYxLU3XvEfC_3fo_KXq00A" position="-32.0,-34.0"/>
+      <visibility xmi:id="_SPvyNXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPvyNHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SPvyMnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="patientRepository" navigable="true">
+      <modelElement href="patient-service.uml#_R04bIXXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYxLVXXvEfC_3fo_KXq00A" position="7.0,-6.0"/>
+      <stereotypes xmi:id="_SPvyOHXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="patient-service.uml#_R04bInXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPvyN3XvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_SPvyNnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SP0DoHXvEfC_3fo_KXq00A" sourceAnchor="65.0,124.0" targetAnchor="362.0,0.0" target="_SPyOcHXvEfC_3fo_KXq00A" source="_SP0qxnXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_R1e4EXXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_SP0DpHXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="patient-service.uml#_R1hUUHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SP0DoXXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_SYxyYXXvEfC_3fo_KXq00A" position="-38.0,-11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SP0DonXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="patient-service.uml#_R1e4EnXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYxyYHXvEfC_3fo_KXq00A" position="-56.0,-11.0"/>
+      <visibility xmi:id="_SP0qsHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SP0DpXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SP0Do3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="patientService" navigable="true">
+      <modelElement href="patient-service.uml#_R05CM3XvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_SYxyYnXvEfC_3fo_KXq00A" position="7.0,-24.0"/>
+      <visibility xmi:id="_SP0qsnXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_SP0qsXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SP0qtHXvEfC_3fo_KXq00A" source="_SP0qxnXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_R1cb0HXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_SP0qtXXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="patient-service.uml#_R1e4EHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SP0qtnXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_SP0qt3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="patient-service.uml#_R1cb0XXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_SP0quHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SP0quXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SP0qunXvEfC_3fo_KXq00A" aggregationKind="NONE" name="mockMvc" navigable="true">
+      <modelElement href="patient-service.uml#_R05CMHXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_SP0qu3XvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_SP0qvHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SP0qvXXvEfC_3fo_KXq00A" source="_SP0qxnXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_R1hUUXXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_SP0qvnXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="patient-service.uml#_R1k-sHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SP0qv3XvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_SP0qwHXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="patient-service.uml#_R1hUUnXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_SP0qwXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SP0qwnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SP0qw3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="objectMapper" navigable="true">
+      <modelElement href="patient-service.uml#_R05CNnXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_SP0qxHXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_SP0qxXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SPqSpnXvEfC_3fo_KXq00A" name="User" associationsIn="_SPjk8HXvEfC_3fo_KXq00A _SPf6mHXvEfC_3fo_KXq00A _SPhIsHXvEfC_3fo_KXq00A" associationsOut="_SPodcHXvEfC_3fo_KXq00A _SPodcXXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_RynKRXXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_SPqSp3XvEfC_3fo_KXq00A" position="-2463.0,-265.0" size="291.0,223.0"/>
+    <stereotypes xmi:id="_SPqSqHXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="patient-service.uml#_RynxUHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_SPqSqXXvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="patient-service.uml#_RyoYY3XvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_SPqSqnXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_SPqSq3XvEfC_3fo_KXq00A" name="id">
+      <modelElement href="patient-service.uml#_R01-4XXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPqSrHXvEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="patient-service.uml#_R01-4nXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPqSrXXvEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="patient-service.uml#_R02l8HXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPqSrnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPqSr3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPqSsHXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPqSsXXvEfC_3fo_KXq00A" name="username">
+      <modelElement href="patient-service.uml#_R02l8XXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPqSsnXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R02l8nXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPqSs3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPqStHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPqStXXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPqStnXvEfC_3fo_KXq00A" name="email">
+      <modelElement href="patient-service.uml#_R02l83XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPqSt3XvEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="patient-service.uml#_R03NAHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPqSuHXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="patient-service.uml#_R03NBXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPqSuXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPqSunXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPqSu3XvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPqSvHXvEfC_3fo_KXq00A" name="password">
+      <modelElement href="patient-service.uml#_R03NCHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPqSvXXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R030EHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPqSvnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPqSv3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPqSwHXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPqSwXXvEfC_3fo_KXq00A" name="role">
+      <modelElement href="patient-service.uml#_R030EXXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_SPqSwnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPqSw3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPqSxHXvEfC_3fo_KXq00A" name="Role">
+        <modelElement href="patient-service.uml#_RynKQHXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPqSxXXvEfC_3fo_KXq00A" defaultValue="LocalDateTime.now()" name="createdAt">
+      <modelElement href="patient-service.uml#_R030E3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPqSxnXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R030FXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPqSx3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPqSyHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPqSyXXvEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="patient-service.uml#_R0UacXXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPqSynXvEfC_3fo_KXq00A" defaultValue="LocalDateTime.now()" name="updatedAt">
+      <modelElement href="patient-service.uml#_R030FnXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPqSy3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R04bIHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPqSzHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPqSzXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPqSznXvEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="patient-service.uml#_R0UacXXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SPqSz3XvEfC_3fo_KXq00A" name="User">
+      <modelElement href="patient-service.uml#_RynxUXXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_SPqS0HXvEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_SPqS0XXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPqS0nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPqS03XvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_RyoYYnXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPqS1HXvEfC_3fo_KXq00A" name="User">
+          <modelElement href="patient-service.uml#_RynKRXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SPqS1XXvEfC_3fo_KXq00A" name="User">
+      <modelElement href="patient-service.uml#_R0n8cHXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_SPqS1nXvEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_SPqS13XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0ojgnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPqS2HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPqS2XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPqS2nXvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_R0ojgXXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPqS23XvEfC_3fo_KXq00A" name="User">
+          <modelElement href="patient-service.uml#_RynKRXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPqS3HXvEfC_3fo_KXq00A" name="id">
+        <modelElement href="patient-service.uml#_R0n8cXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPqS3XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPqS3nXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPqS33XvEfC_3fo_KXq00A" name="username">
+        <modelElement href="patient-service.uml#_R0n8cnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPqS4HXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPqS4XXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPqS4nXvEfC_3fo_KXq00A" name="email">
+        <modelElement href="patient-service.uml#_R0n8c3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPqS43XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPqS5HXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPqS5XXvEfC_3fo_KXq00A" name="password">
+        <modelElement href="patient-service.uml#_R0n8dHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPqS5nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPqS53XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPqS6HXvEfC_3fo_KXq00A" name="role">
+        <modelElement href="patient-service.uml#_R0n8dXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPqS6XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPqS6nXvEfC_3fo_KXq00A" name="Role">
+          <modelElement href="patient-service.uml#_RynKQHXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPqS63XvEfC_3fo_KXq00A" name="createdAt">
+        <modelElement href="patient-service.uml#_R0n8dnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPqS7HXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPqS7XXvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="patient-service.uml#_R0UacXXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPqS7nXvEfC_3fo_KXq00A" name="updatedAt">
+        <modelElement href="patient-service.uml#_R0n8d3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPqS73XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPqS8HXvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="patient-service.uml#_R0UacXXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SPtV8HXvEfC_3fo_KXq00A" name="InsurencePlan" associationsIn="_SPmBMHXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_RyeAUHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_SPtV8XXvEfC_3fo_KXq00A" position="-2457.0,-14.0" size="290.0,283.0"/>
+    <stereotypes xmi:id="_SPtV8nXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="patient-service.uml#_RyenYHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_SPtV83XvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="patient-service.uml#_Ryf1knXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_SPtV9HXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_SPtV9XXvEfC_3fo_KXq00A" name="id">
+      <modelElement href="patient-service.uml#_R0xGYHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPtV9nXvEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="patient-service.uml#_R0xGYXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPtV93XvEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="patient-service.uml#_R0xtcHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPtV-HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPtV-XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPtV-nXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPtV-3XvEfC_3fo_KXq00A" name="planProvider">
+      <modelElement href="patient-service.uml#_R0xtcXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPtV_HXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0xtcnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPtV_XXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPtV_nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPtV_3XvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPtWAHXvEfC_3fo_KXq00A" name="planName">
+      <modelElement href="patient-service.uml#_R0xtc3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPtWAXXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0xtdHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPtWAnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPtWA3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPtWBHXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPtWBXXvEfC_3fo_KXq00A" name="planType">
+      <modelElement href="patient-service.uml#_R0xtdXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPtWBnXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0xtdnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPtWB3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPtWCHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPtWCXXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPtWCnXvEfC_3fo_KXq00A" name="planDescription">
+      <modelElement href="patient-service.uml#_R0xtd3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPtWC3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0xteHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPtWDHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPtWDXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPtWDnXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPtWD3XvEfC_3fo_KXq00A" name="planCost">
+      <modelElement href="patient-service.uml#_R0xteXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPtWEHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0xtenXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPtWEXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPtWEnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPtWE3XvEfC_3fo_KXq00A" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPtWFHXvEfC_3fo_KXq00A" name="isActive">
+      <modelElement href="patient-service.uml#_R0yUgHXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_SPtWFXXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_SPtWFnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPtWF3XvEfC_3fo_KXq00A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SPtWGHXvEfC_3fo_KXq00A" name="InsurencePlan">
+      <modelElement href="patient-service.uml#_RyenYXXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_SPtWGXXvEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_SPtWGnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPtWG3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPtWHHXvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_RyenZHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPtWHXXvEfC_3fo_KXq00A" name="InsurencePlan">
+          <modelElement href="patient-service.uml#_RyeAUHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SPtWHnXvEfC_3fo_KXq00A" name="InsurencePlan">
+      <modelElement href="patient-service.uml#_Ryf1gHXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_SPtWH3XvEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_SPtWIHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_Ryf1i3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPtWIXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPtWInXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPtWI3XvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_Ryf1inXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPtWJHXvEfC_3fo_KXq00A" name="InsurencePlan">
+          <modelElement href="patient-service.uml#_RyeAUHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPtWJXXvEfC_3fo_KXq00A" name="id">
+        <modelElement href="patient-service.uml#_Ryf1gXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPtWJnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPtWJ3XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPtWKHXvEfC_3fo_KXq00A" name="planProvider">
+        <modelElement href="patient-service.uml#_Ryf1gnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPtWKXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPtWKnXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPtWK3XvEfC_3fo_KXq00A" name="planName">
+        <modelElement href="patient-service.uml#_Ryf1g3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPtWLHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPtWLXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPtWLnXvEfC_3fo_KXq00A" name="planType">
+        <modelElement href="patient-service.uml#_Ryf1hHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPtWL3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPtWMHXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPtWMXXvEfC_3fo_KXq00A" name="planDescription">
+        <modelElement href="patient-service.uml#_Ryf1hXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPtWMnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPtWM3XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPtWNHXvEfC_3fo_KXq00A" name="planCost">
+        <modelElement href="patient-service.uml#_Ryf1hnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPtWNXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPtWNnXvEfC_3fo_KXq00A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPtWN3XvEfC_3fo_KXq00A" name="isActive">
+        <modelElement href="patient-service.uml#_Ryf1h3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPtWOHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPtWOXXvEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SPtWOnXvEfC_3fo_KXq00A" name="isActive">
+      <modelElement href="patient-service.uml#_Ryf1jHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPtWO3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_Ryf1jnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPtWPHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPtWPXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPtWPnXvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_Ryf1jXXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPtWP3XvEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SPtWQHXvEfC_3fo_KXq00A" name="setActive">
+      <modelElement href="patient-service.uml#_Ryf1j3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPtWQXXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_Ryf1kXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPtWQnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPtWQ3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SPtWRHXvEfC_3fo_KXq00A" name="isActive">
+        <modelElement href="patient-service.uml#_Ryf1kHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPtWRXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPtWRnXvEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_SPjk-XXvEfC_3fo_KXq00A" name="Role" associationsOut="_SPjk8HXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_RynKQHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_SPjk-nXvEfC_3fo_KXq00A" position="-2147.0,-239.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_SPjk-3XvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="patient-service.uml#_RynKQXXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_SPjk_HXvEfC_3fo_KXq00A" label="+"/>
+    <literals xmi:id="_SPjk_XXvEfC_3fo_KXq00A" name="ADMIN">
+      <modelElement href="patient-service.uml#_RynKQnXvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_SPjk_nXvEfC_3fo_KXq00A" name="PATIENT">
+      <modelElement href="patient-service.uml#_RynKQ3XvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_SPjk_3XvEfC_3fo_KXq00A" name="DOCTOR">
+      <modelElement href="patient-service.uml#_RynKRHXvEfC_3fo_KXq00A"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SPf6oXXvEfC_3fo_KXq00A" name="JWTToken" associationsIn="_SPf6kHXvEfC_3fo_KXq00A" associationsOut="_SPf6mHXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_RyhDoHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_SPf6onXvEfC_3fo_KXq00A" position="-2141.0,-100.0" size="216.0,183.0"/>
+    <stereotypes xmi:id="_SPf6o3XvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="patient-service.uml#_RyhqsHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_SPf6pHXvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="patient-service.uml#_Ryi40HXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_SPf6pXXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_SPf6pnXvEfC_3fo_KXq00A" name="id">
+      <modelElement href="patient-service.uml#_R0yUgXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPf6p3XvEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="patient-service.uml#_R0yUgnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPf6qHXvEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="patient-service.uml#_R0y7kHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPf6qXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPf6qnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPf6q3XvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPf6rHXvEfC_3fo_KXq00A" name="user">
+      <modelElement href="patient-service.uml#_R0y7kXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPf6rXXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="patient-service.uml#_R0y7knXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPf6rnXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="patient-service.uml#_R0zio3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPf6r3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPf6sHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPf6sXXvEfC_3fo_KXq00A" name="User">
+        <modelElement href="patient-service.uml#_RynKRXXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPf6snXvEfC_3fo_KXq00A" name="token">
+      <modelElement href="patient-service.uml#_R0zipXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPf6s3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0zipnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPf6tHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPf6tXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPf6tnXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPf6t3XvEfC_3fo_KXq00A" name="expiresAt">
+      <modelElement href="patient-service.uml#_R0zip3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPf6uHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R00JsHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPf6uXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPf6unXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPf6u3XvEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="patient-service.uml#_R0UacXXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SPf6vHXvEfC_3fo_KXq00A" name="JWTToken">
+      <modelElement href="patient-service.uml#_RyhqsXXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_SPf6vXXvEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_SPf6vnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPf6v3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPf6wHXvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_RyhqtHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPf6wXXvEfC_3fo_KXq00A" name="JWTToken">
+          <modelElement href="patient-service.uml#_RyhDoHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SPf6wnXvEfC_3fo_KXq00A" name="JWTToken">
+      <modelElement href="patient-service.uml#_R0mHQHXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_SPf6w3XvEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_SPf6xHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0mHSHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPf6xXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPf6xnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPf6x3XvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_R0mHR3XvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPf6yHXvEfC_3fo_KXq00A" name="JWTToken">
+          <modelElement href="patient-service.uml#_RyhDoHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPf6yXXvEfC_3fo_KXq00A" name="id">
+        <modelElement href="patient-service.uml#_R0mHQXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPf6ynXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPf6y3XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPf6zHXvEfC_3fo_KXq00A" name="user">
+        <modelElement href="patient-service.uml#_R0mHQnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPf6zXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPf6znXvEfC_3fo_KXq00A" name="User">
+          <modelElement href="patient-service.uml#_RynKRXXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPf6z3XvEfC_3fo_KXq00A" name="token">
+        <modelElement href="patient-service.uml#_R0mHQ3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPf60HXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPf60XXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPf60nXvEfC_3fo_KXq00A" name="expiresAt">
+        <modelElement href="patient-service.uml#_R0mHRHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPf603XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPf61HXvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="patient-service.uml#_R0UacXXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SPf61XXvEfC_3fo_KXq00A" name="JWTToken">
+      <modelElement href="patient-service.uml#_R0muUHXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_SPf61nXvEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_SPf613XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0muV3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPf62HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPf62XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPf62nXvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_R0muVnXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPf623XvEfC_3fo_KXq00A" name="JWTToken">
+          <modelElement href="patient-service.uml#_RyhDoHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPf63HXvEfC_3fo_KXq00A" name="user">
+        <modelElement href="patient-service.uml#_R0muUXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPf63XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPf63nXvEfC_3fo_KXq00A" name="User">
+          <modelElement href="patient-service.uml#_RynKRXXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPf633XvEfC_3fo_KXq00A" name="token">
+        <modelElement href="patient-service.uml#_R0muUnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPf64HXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPf64XXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPf64nXvEfC_3fo_KXq00A" name="expiresAt">
+        <modelElement href="patient-service.uml#_R0muU3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPf643XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPf65HXvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="patient-service.uml#_R0UacXXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SPhvyHXvEfC_3fo_KXq00A" name="Patient" associationsIn="_SPkMAHXvEfC_3fo_KXq00A" associationsOut="_SPhIsHXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_Ryjf4HXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_SPhvyXXvEfC_3fo_KXq00A" position="-2164.0,106.0" size="264.0,223.0"/>
+    <stereotypes xmi:id="_SPhvynXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="patient-service.uml#_RykuAHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_SPhvy3XvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="patient-service.uml#_RylVFHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_SPhvzHXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_SPhvzXXvEfC_3fo_KXq00A" name="id">
+      <modelElement href="patient-service.uml#_R00JsXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPhvznXvEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="patient-service.uml#_R00JsnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPhvz3XvEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="patient-service.uml#_R00wwHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPhv0HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPhv0XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPhv0nXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPhv03XvEfC_3fo_KXq00A" name="user">
+      <modelElement href="patient-service.uml#_R00wwXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPhv1HXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="patient-service.uml#_R00wwnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPhv1XXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="patient-service.uml#_R01X0XXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPhv1nXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPhv13XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPhv2HXvEfC_3fo_KXq00A" name="User">
+        <modelElement href="patient-service.uml#_RynKRXXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPhv2XXvEfC_3fo_KXq00A" name="dateOfBirth">
+      <modelElement href="patient-service.uml#_R01X03XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPhv2nXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R01X1HXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPhv23XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPhv3HXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPhv3XXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPhv3nXvEfC_3fo_KXq00A" name="gender">
+      <modelElement href="patient-service.uml#_R01X1XXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPhv33XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R01X1nXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPhv4HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPhv4XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPhv4nXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPhv43XvEfC_3fo_KXq00A" name="contactNumber">
+      <modelElement href="patient-service.uml#_R01X13XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPhv5HXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R01X2HXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPhv5XXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPhv5nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPhv53XvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPhv6HXvEfC_3fo_KXq00A" name="profilePhoto">
+      <modelElement href="patient-service.uml#_R01X2XXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPhv6XXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R01-4HXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPhv6nXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPhv63XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPhv7HXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SPhv7XXvEfC_3fo_KXq00A" name="Patient">
+      <modelElement href="patient-service.uml#_RylVEHXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_SPhv7nXvEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_SPhv73XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPhv8HXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPhv8XXvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_RylVE3XvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPhv8nXvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="patient-service.uml#_Ryjf4HXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SPhv83XvEfC_3fo_KXq00A" name="Patient">
+      <modelElement href="patient-service.uml#_R0XdwHXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_SPhv9HXvEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_SPhv9XXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0YE0HXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPhv9nXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPhv93XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPhv-HXvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_R0XdyXXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPhv-XXvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="patient-service.uml#_Ryjf4HXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPhv-nXvEfC_3fo_KXq00A" name="id">
+        <modelElement href="patient-service.uml#_R0XdwXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPhv-3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPhv_HXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPhv_XXvEfC_3fo_KXq00A" name="user">
+        <modelElement href="patient-service.uml#_R0XdwnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPhv_nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPhv_3XvEfC_3fo_KXq00A" name="User">
+          <modelElement href="patient-service.uml#_RynKRXXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPhwAHXvEfC_3fo_KXq00A" name="dateOfBirth">
+        <modelElement href="patient-service.uml#_R0Xdw3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPhwAXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPhwAnXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPhwA3XvEfC_3fo_KXq00A" name="gender">
+        <modelElement href="patient-service.uml#_R0XdxHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPhwBHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPhwBXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPhwBnXvEfC_3fo_KXq00A" name="contactNumber">
+        <modelElement href="patient-service.uml#_R0XdxXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPhwB3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPhwCHXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPhwCXXvEfC_3fo_KXq00A" name="profilePhoto">
+        <modelElement href="patient-service.uml#_R0XdxnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPhwCnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPhwC3XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SPhwDHXvEfC_3fo_KXq00A" name="Patient">
+      <modelElement href="patient-service.uml#_R0YE0XXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_SPhwDXXvEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_SPhwDnXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0YE2nXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPhwD3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPhwEHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPhwEXXvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_R0YE2XXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPhwEnXvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="patient-service.uml#_Ryjf4HXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPhwE3XvEfC_3fo_KXq00A" name="id">
+        <modelElement href="patient-service.uml#_R0YE0nXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPhwFHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPhwFXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPhwFnXvEfC_3fo_KXq00A" name="user">
+        <modelElement href="patient-service.uml#_R0YE03XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPhwF3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPhwGHXvEfC_3fo_KXq00A" name="User">
+          <modelElement href="patient-service.uml#_RynKRXXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPhwGXXvEfC_3fo_KXq00A" name="dateOfBirth">
+        <modelElement href="patient-service.uml#_R0YE1HXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPhwGnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPhwG3XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPhwHHXvEfC_3fo_KXq00A" name="gender">
+        <modelElement href="patient-service.uml#_R0YE1XXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPhwHXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPhwHnXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPhwH3XvEfC_3fo_KXq00A" name="contactNumber">
+        <modelElement href="patient-service.uml#_R0YE1nXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPhwIHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPhwIXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SPyOcHXvEfC_3fo_KXq00A" name="PatientService" associationsIn="_SPescHXvEfC_3fo_KXq00A _SP0DoHXvEfC_3fo_KXq00A" associationsOut="_SPvLIHXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_Ryq0pXXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_SPyOcXXvEfC_3fo_KXq00A" position="-1854.0,-133.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_SPyOcnXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="patient-service.uml#_RyrbsHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_SPyOc3XvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="patient-service.uml#_Rysp13XvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_SPyOdHXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_SPyOdXXvEfC_3fo_KXq00A" name="patientRepository">
+      <modelElement href="patient-service.uml#_R04bIXXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_SPyOdnXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_SPyOd3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPyOeHXvEfC_3fo_KXq00A" name="PatientRepository">
+        <modelElement href="patient-service.uml#_RyqNlHXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SPyOeXXvEfC_3fo_KXq00A" name="getPatientById">
+      <modelElement href="patient-service.uml#_RysCwHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPyOenXvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="patient-service.uml#_RysCwnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPyOe3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_RysCw3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPyOfHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPyOfXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPyOfnXvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_R0pxonXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPyOf3XvEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="patient-service.uml#_R0bvMXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPyOgHXvEfC_3fo_KXq00A" name="id">
+        <modelElement href="patient-service.uml#_RysCwXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPyOgXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPyOgnXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SPyOg3XvEfC_3fo_KXq00A" name="deletePatient">
+      <modelElement href="patient-service.uml#_RysCxHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPyOhHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_RysCxnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPyOhXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPyOhnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SPyOh3XvEfC_3fo_KXq00A" name="id">
+        <modelElement href="patient-service.uml#_RysCxXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPyOiHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPyOiXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SPyOinXvEfC_3fo_KXq00A" name="getAllPatients">
+      <modelElement href="patient-service.uml#_RysCx3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPyOi3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_Rysp0nXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPyOjHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPyOjXXvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_SPyOjnXvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_Rysp0HXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPyOj3XvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="patient-service.uml#_Ryjf4HXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SPyOkHXvEfC_3fo_KXq00A" name="getPatientByUserId">
+      <modelElement href="patient-service.uml#_Rysp03XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPyOkXXvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="patient-service.uml#_Rysp1XXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPyOknXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_Rysp1nXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPyOk3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPyOlHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPyOlXXvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_R0pxo3XvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPyOlnXvEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="patient-service.uml#_R0bvMXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPyOl3XvEfC_3fo_KXq00A" name="userId">
+        <modelElement href="patient-service.uml#_Rysp1HXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPyOmHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPyOmXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SPyOmnXvEfC_3fo_KXq00A" name="createPatient">
+      <modelElement href="patient-service.uml#_R0c9UHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPyOm3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0c9U3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPyOnHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPyOnXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPyOnnXvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_R0c9UnXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPyOn3XvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="patient-service.uml#_Ryjf4HXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPyOoHXvEfC_3fo_KXq00A" name="patient">
+        <modelElement href="patient-service.uml#_R0c9UXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPyOoXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPyOonXvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="patient-service.uml#_Ryjf4HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SPyOo3XvEfC_3fo_KXq00A" name="updatePatient">
+      <modelElement href="patient-service.uml#_R0c9VHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPyOpHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0c9WHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPyOpXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPyOpnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPyOp3XvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_R0c9V3XvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPyOqHXvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="patient-service.uml#_Ryjf4HXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPyOqXXvEfC_3fo_KXq00A" name="id">
+        <modelElement href="patient-service.uml#_R0c9VXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPyOqnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPyOq3XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPyOrHXvEfC_3fo_KXq00A" name="updatedPatient">
+        <modelElement href="patient-service.uml#_R0c9VnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPyOrXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPyOrnXvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="patient-service.uml#_Ryjf4HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SPeseXXvEfC_3fo_KXq00A" name="PatientController" associationsOut="_SPescHXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_RyYgzHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_SPesenXvEfC_3fo_KXq00A" position="-1825.0,74.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_SPese3XvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="patient-service.uml#_RyZH0HXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_SPesfHXvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="patient-service.uml#_RyaV9XXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_SPesfXXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_SPesfnXvEfC_3fo_KXq00A" name="patientService">
+      <modelElement href="patient-service.uml#_R0rm0HXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPesf3XvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="patient-service.uml#_R0sN4HXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPesgHXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_SPesgXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPesgnXvEfC_3fo_KXq00A" name="PatientService">
+        <modelElement href="patient-service.uml#_Ryq0pXXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SPesg3XvEfC_3fo_KXq00A" name="getAllPatients">
+      <modelElement href="patient-service.uml#_RyZu4HXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPeshHXvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="patient-service.uml#_RyZu4XXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPeshXXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="patient-service.uml#_RyZu4nXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPeshnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPesh3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPesiHXvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_R0jD8HXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPesiXXvEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="patient-service.uml#_R0NswXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SPesinXvEfC_3fo_KXq00A" name="getPatientByUserId">
+      <modelElement href="patient-service.uml#_RyZu5HXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPesi3XvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="patient-service.uml#_RyZu5nXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPesjHXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="patient-service.uml#_RyaV8nXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPesjXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPesjnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPesj3XvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_R0jD8nXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPeskHXvEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="patient-service.uml#_R0NswXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPeskXXvEfC_3fo_KXq00A" name="userId">
+        <modelElement href="patient-service.uml#_RyZu5XXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPesknXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPesk3XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SPeslHXvEfC_3fo_KXq00A" name="createPatient">
+      <modelElement href="patient-service.uml#_R0QJAHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPeslXXvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="patient-service.uml#_R0QwEHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPeslnXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="patient-service.uml#_R0RXIHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPesl3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPesmHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPesmXXvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_R0ic4HXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPesmnXvEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="patient-service.uml#_R0NswXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPesm3XvEfC_3fo_KXq00A" name="patient">
+        <modelElement href="patient-service.uml#_R0QJAXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPesnHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPesnXXvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="patient-service.uml#_Ryjf4HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SPesnnXvEfC_3fo_KXq00A" name="updatePatient">
+      <modelElement href="patient-service.uml#_R0RXI3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPesn3XvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="patient-service.uml#_R0R-MHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPesoHXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="patient-service.uml#_R0SlQHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPesoXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPesonXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPeso3XvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_R0jD8XXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPespHXvEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="patient-service.uml#_R0NswXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPespXXvEfC_3fo_KXq00A" name="id">
+        <modelElement href="patient-service.uml#_R0RXJHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPespnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPesp3XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPesqHXvEfC_3fo_KXq00A" name="patient">
+        <modelElement href="patient-service.uml#_R0RXJXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPesqXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPesqnXvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="patient-service.uml#_Ryjf4HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_SPvyOXXvEfC_3fo_KXq00A" name="PatientRepository" associationsIn="_SPvLIHXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_RyqNlHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_SPvyOnXvEfC_3fo_KXq00A" position="-2018.0,-266.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_SPvyO3XvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="patient-service.uml#_RyqNlXXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_SPvyPHXvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="patient-service.uml#_Ryq0o3XvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_SPvyPXXvEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_SPvyPnXvEfC_3fo_KXq00A" name="findByUser_Id">
+      <modelElement href="patient-service.uml#_RyqNlnXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPvyP3XvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="patient-service.uml#_Ryq0oXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPvyQHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_Ryq0onXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPvyQXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPvyQnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPvyQ3XvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_R0pxoXXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPvyRHXvEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="patient-service.uml#_R0bvMXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPvyRXXvEfC_3fo_KXq00A" name="userId">
+        <modelElement href="patient-service.uml#_Ryq0oHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPvyRnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPvyR3XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_SPi94HXvEfC_3fo_KXq00A" name="EligibilityStatus" associationsOut="_SPkzEHXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_Rya9AHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_SPi94XXvEfC_3fo_KXq00A" position="-1713.0,-284.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_SPi94nXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="patient-service.uml#_Rya9AXXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_SPi943XvEfC_3fo_KXq00A" label="+"/>
+    <literals xmi:id="_SPi95HXvEfC_3fo_KXq00A" name="verified">
+      <modelElement href="patient-service.uml#_Rya9AnXvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_SPi95XXvEfC_3fo_KXq00A" name="pending">
+      <modelElement href="patient-service.uml#_Rya9A3XvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_SPi95nXvEfC_3fo_KXq00A" name="not_eligible">
+      <modelElement href="patient-service.uml#_Rya9BHXvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_SPi953XvEfC_3fo_KXq00A" name="expired">
+      <modelElement href="patient-service.uml#_Rya9BXXvEfC_3fo_KXq00A"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SP0qxnXvEfC_3fo_KXq00A" name="PatientControllerTest" associationsOut="_SP0DoHXvEfC_3fo_KXq00A _SP0qtHXvEfC_3fo_KXq00A _SP0qvXXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_Ryt39HXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_SP0qx3XvEfC_3fo_KXq00A" position="-1557.0,-284.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_SP0qyHXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="patient-service.uml#_RyufA3XvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_SP0qyXXvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="patient-service.uml#_RyvGE3XvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_SP0qynXvEfC_3fo_KXq00A" label="~"/>
+    <attributes xmi:id="_SP0qy3XvEfC_3fo_KXq00A" name="mockMvc">
+      <modelElement href="patient-service.uml#_R05CMHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SP0qzHXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="patient-service.uml#_R05CMXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SP0qzXXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_SP0qznXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SP0qz3XvEfC_3fo_KXq00A" name="MockMvc">
+        <modelElement href="patient-service.uml#_R0eLd3XvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SP0q0HXvEfC_3fo_KXq00A" name="patientService">
+      <modelElement href="patient-service.uml#_R05CM3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SP0q0XXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="patient-service.uml#_R05CNHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SP0q0nXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_SP0q03XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SP0q1HXvEfC_3fo_KXq00A" name="PatientService">
+        <modelElement href="patient-service.uml#_Ryq0pXXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SP0q1XXvEfC_3fo_KXq00A" name="objectMapper">
+      <modelElement href="patient-service.uml#_R05CNnXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SP0q1nXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="patient-service.uml#_R05pQHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SP0q13XvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_SP0q2HXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SP0q2XXvEfC_3fo_KXq00A" name="ObjectMapper">
+        <modelElement href="patient-service.uml#_R0dkY3XvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SP0q2nXvEfC_3fo_KXq00A" name="updatePatient_NotFound_Returns404">
+      <modelElement href="patient-service.uml#_RyvGEHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SP0q23XvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="patient-service.uml#_RyvGEXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SP0q3HXvEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_SP0q3XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SPmBOXXvEfC_3fo_KXq00A" name="InsurenceEligibilities" associationsIn="_SPkzEHXvEfC_3fo_KXq00A _SPkzFHXvEfC_3fo_KXq00A" associationsOut="_SPkMAHXvEfC_3fo_KXq00A _SPmBMHXvEfC_3fo_KXq00A">
+    <modelElement href="patient-service.uml#_Rya9BnXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_SPmBOnXvEfC_3fo_KXq00A" position="-1458.0,-114.0" size="281.0,163.0"/>
+    <stereotypes xmi:id="_SPmBO3XvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="patient-service.uml#_RybkEHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_SPmBPHXvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="patient-service.uml#_RycLI3XvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_SPmBPXXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_SPmBPnXvEfC_3fo_KXq00A" name="id">
+      <modelElement href="patient-service.uml#_R0sN4nXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPmBP3XvEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="patient-service.uml#_R0uDEHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPmBQHXvEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="patient-service.uml#_R0uqIHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPmBQXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPmBQnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPmBQ3XvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPmBRHXvEfC_3fo_KXq00A" name="patient">
+      <modelElement href="patient-service.uml#_R0uqIXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPmBRXXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="patient-service.uml#_R0vRMHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPmBRnXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="patient-service.uml#_R0vRNXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPmBR3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPmBSHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPmBSXXvEfC_3fo_KXq00A" name="Patient">
+        <modelElement href="patient-service.uml#_Ryjf4HXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPmBSnXvEfC_3fo_KXq00A" name="plan">
+      <modelElement href="patient-service.uml#_R0v4QHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPmBS3XvEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="patient-service.uml#_R0v4QXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPmBTHXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="patient-service.uml#_R0wfUXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPmBTXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPmBTnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPmBT3XvEfC_3fo_KXq00A" name="InsurencePlan">
+        <modelElement href="patient-service.uml#_RyeAUHXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPmBUHXvEfC_3fo_KXq00A" name="status">
+      <modelElement href="patient-service.uml#_R0wfU3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPmBUXXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0wfVHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPmBUnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPmBU3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPmBVHXvEfC_3fo_KXq00A" name="EligibilityStatus">
+        <modelElement href="patient-service.uml#_Rya9AHXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPmBVXXvEfC_3fo_KXq00A" name="verifiedAt">
+      <modelElement href="patient-service.uml#_R0wfVXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPmBVnXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0wfVnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPmBV3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPmBWHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPmBWXXvEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="patient-service.uml#_R0UacXXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPmBWnXvEfC_3fo_KXq00A" name="benefitDetails">
+      <modelElement href="patient-service.uml#_R0wfV3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_SPmBW3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0wfWHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPmBXHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPmBXXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_SPmBXnXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SPmBX3XvEfC_3fo_KXq00A" name="InsurenceEligibilities">
+      <modelElement href="patient-service.uml#_RybkEXXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_SPmBYHXvEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_SPmBYXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPmBYnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPmBY3XvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_RycLInXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPmBZHXvEfC_3fo_KXq00A" name="InsurenceEligibilities">
+          <modelElement href="patient-service.uml#_Rya9BnXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SPmBZXXvEfC_3fo_KXq00A" name="InsurenceEligibilities">
+      <modelElement href="patient-service.uml#_R0jrAHXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_SPmBZnXvEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_SPmBZ3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="patient-service.uml#_R0kSGHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_SPmBaHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_SPmBaXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SPmBanXvEfC_3fo_KXq00A">
+        <modelElement href="patient-service.uml#_R0kSF3XvEfC_3fo_KXq00A"/>
+        <type xmi:id="_SPmBa3XvEfC_3fo_KXq00A" name="InsurenceEligibilities">
+          <modelElement href="patient-service.uml#_Rya9BnXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPmBbHXvEfC_3fo_KXq00A" name="id">
+        <modelElement href="patient-service.uml#_R0jrAXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPmBbXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPmBbnXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPmBb3XvEfC_3fo_KXq00A" name="patient">
+        <modelElement href="patient-service.uml#_R0kSEHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPmBcHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPmBcXXvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="patient-service.uml#_Ryjf4HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPmBcnXvEfC_3fo_KXq00A" name="plan">
+        <modelElement href="patient-service.uml#_R0kSEXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPmBc3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPmBdHXvEfC_3fo_KXq00A" name="InsurencePlan">
+          <modelElement href="patient-service.uml#_RyeAUHXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPmBdXXvEfC_3fo_KXq00A" name="status">
+        <modelElement href="patient-service.uml#_R0kSEnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPmBdnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPmBd3XvEfC_3fo_KXq00A" name="EligibilityStatus">
+          <modelElement href="patient-service.uml#_Rya9AHXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPmBeHXvEfC_3fo_KXq00A" name="verifiedAt">
+        <modelElement href="patient-service.uml#_R0kSE3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPmBeXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPmBenXvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="patient-service.uml#_R0UacXXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPmBe3XvEfC_3fo_KXq00A" name="benefitDetails">
+        <modelElement href="patient-service.uml#_R0kSFHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_SPmBfHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_SPmBfXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

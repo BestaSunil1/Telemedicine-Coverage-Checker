@@ -44,12 +44,37 @@ public class AuthService {
         this.SIGNING_KEY = Keys.hmacShaKeyFor(jwtSecret.getBytes(StandardCharsets.UTF_8));
     }
 
+//    public User authenticate(String email, String password) {
+//        User user = userRepository.findByEmail(email)
+//                .orElseThrow(() -> new RuntimeException("Invalid email or password."));
+//
+//        if (!user.getPassword().equals(password) || !passwordEncoder.matches(password, user.getPassword())) {
+//            throw new RuntimeException("Invalid username or password");
+//        }
+//
+//        return user;
+//    }
     public User authenticate(String email, String password) {
         User user = userRepository.findByEmail(email)
                 .orElseThrow(() -> new RuntimeException("Invalid email or password."));
+        System.out.println(user.getId() + " " + user.getEmail() + " " + user.getPassword());
 
-        if (!passwordEncoder.matches(password, user.getPassword())) {
-            throw new RuntimeException("Invalid username or password");
+        String storedPassword = user.getPassword();
+
+        boolean isHashed = storedPassword.startsWith("$2a$") || 
+                           storedPassword.startsWith("$2b$") ||
+                           storedPassword.startsWith("$2y$");
+
+        // If BCrypt hash, use passwordEncoder.matches
+        if (isHashed) {
+            if (!passwordEncoder.matches(password, storedPassword)) {
+                throw new RuntimeException("Invalid email or password.");
+            }
+        } else {
+            // Plain password match
+            if (!storedPassword.equals(password)) {
+                throw new RuntimeException("Invalid email or password.");
+            }
         }
 
         return user;

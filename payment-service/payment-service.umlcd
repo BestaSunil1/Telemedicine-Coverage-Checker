@@ -1,0 +1,2857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_zlufcHXvEfC_3fo_KXq00A">
+  <modelElement href="payment-service.uml#_z4RA8nXvEfC_3fo_KXq00A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0X-bwHXvEfC_3fo_KXq00A" source="_0X_C0HXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z70EMHXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_0X-bwXXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z72gcHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0X-bwnXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_0X-bw3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z70EMXXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0X-bxHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0X-bxXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0X-bxnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="payment-service.uml#_z7jlinXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0X-bx3XvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0X-byHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YA4AHXvEfC_3fo_KXq00A" source="_0YCGKXXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z748sXXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_0YBfE3XvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z76x4HXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YBfEHXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_0YBfEXXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z748snXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YBfFXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YBfFHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YBfEnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="payment-service.uml#_z7kMk3XvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YBfF3XvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0YBfFnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YCGIHXvEfC_3fo_KXq00A" sourceAnchor="214.0,183.0" targetAnchor="518.0,0.0" target="_0YupsHXvEfC_3fo_KXq00A" source="_0YCGKXXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z72gcXXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_0YCGIXXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z748sHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YCGInXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_0jQet3XvEfC_3fo_KXq00A" position="2.0,0.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YCGI3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z72gcnXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jQetnXvEfC_3fo_KXq00A" position="-17.0,3.0"/>
+      <visibility xmi:id="_0YCGJHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YCGJXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YCGJnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="paymentService" navigable="true">
+      <modelElement href="payment-service.uml#_z7kMkHXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jRFwHXvEfC_3fo_KXq00A" position="-139.0,-58.0"/>
+      <visibility xmi:id="_0YCGJ3XvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0YCGKHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YFJcHXvEfC_3fo_KXq00A" sourceAnchor="86.0,0.0" targetAnchor="84.0,204.0" target="_0YFJeHXvEfC_3fo_KXq00A" source="_0YYEYHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z7xA4XXvEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_0YFJcXXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_0jUJE3XvEfC_3fo_KXq00A" position="2.0,-10.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YFJcnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="status" navigable="true">
+      <modelElement href="payment-service.uml#_z7kzpXXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jUJEnXvEfC_3fo_KXq00A" position="41.0,-15.0"/>
+      <visibility xmi:id="_0YFJc3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YFJdHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YFJdXXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z7xA4nXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jUJFHXvEfC_3fo_KXq00A" position="-17.0,-15.0"/>
+      <visibility xmi:id="_0YFJdnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YFJd3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YIMwHXvEfC_3fo_KXq00A" target="_0YIMyHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z7wZ2HXvEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_0YIMwXXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_0YIMwnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="timestamp" navigable="true">
+      <modelElement href="payment-service.uml#_z7kMmHXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YIMw3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YIMxHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YIMxXXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z7xA4HXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YIMxnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YIMx3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YL3IHXvEfC_3fo_KXq00A" source="_0YMePXXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z8ARcXXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_0YL3JXXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z8DUwHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YL3InXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_0YL3I3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z8ARcnXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YL3K3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YL3KnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YL3JHXvEfC_3fo_KXq00A" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="payment-service.uml#_z7oeDHXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YL3LXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YL3LHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YL3IXXvEfC_3fo_KXq00A" source="_0YMePXXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z8D70HXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_0YL3KXXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z8HmMHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YL3JnXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_0YL3J3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z8D70XXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YMeMXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YMeMHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YL3KHXvEfC_3fo_KXq00A" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="payment-service.uml#_z7oeD3XvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YMeM3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YMeMnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YMeNXXvEfC_3fo_KXq00A" sourceAnchor="0.0,57.0" targetAnchor="332.0,189.0" target="_0YMePXXvEfC_3fo_KXq00A" source="_0YPhgHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z7xA6HXvEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_0YMeNnXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_0jST43XvEfC_3fo_KXq00A" position="-9.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YMeN3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="role" navigable="true">
+      <modelElement href="payment-service.uml#_z7oeCnXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jST4nXvEfC_3fo_KXq00A" position="-30.0,40.0"/>
+      <visibility xmi:id="_0YMeOHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YMeOXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YMeOnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z7xA6XXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jST5HXvEfC_3fo_KXq00A" position="5.0,-52.0"/>
+      <visibility xmi:id="_0YMeO3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YMePHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YNsUHXvEfC_3fo_KXq00A" sourceAnchor="62.0,0.0" targetAnchor="164.0,0.0" target="_0YMePXXvEfC_3fo_KXq00A" source="_0YOTZXXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z79OIXXvEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_lcNKkXXwEfC_3fo_KXq00A" sourceY="-21" targetX="-584" targetY="-33"/>
+    <bendpoints xmi:id="_lcNKknXwEfC_3fo_KXq00A" sourceX="584" sourceY="-22" targetY="-34"/>
+    <stereotypes xmi:id="_0YNsVHXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z8ARcHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YNsUXXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_0jST4HXvEfC_3fo_KXq00A" position="-10.0,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YNsUnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z79OInXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jRs03XvEfC_3fo_KXq00A" position="49.0,-72.0"/>
+      <visibility xmi:id="_0YOTYHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YNsVXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YNsU3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="user" navigable="true">
+      <modelElement href="payment-service.uml#_z7nP4nXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jST4XXvEfC_3fo_KXq00A" position="-209.0,-85.0"/>
+      <visibility xmi:id="_0YOTYnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YOTYXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YPhh3XvEfC_3fo_KXq00A" sourceAnchor="0.0,98.0" targetAnchor="188.0,92.0" target="_0YOTZXXvEfC_3fo_KXq00A" source="_0YRWuXXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z8L3oHXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_0YQIlnXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z8PiAHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YQIk3XvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_0jS68XXvEfC_3fo_KXq00A" position="-18.0,40.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YQIlHXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z8L3oXXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jS68HXvEfC_3fo_KXq00A" position="-21.0,-91.0"/>
+      <visibility xmi:id="_0YQvpXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YQvpHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YQIlXXvEfC_3fo_KXq00A" aggregationKind="NONE" name="patient" navigable="true">
+      <modelElement href="payment-service.uml#_z7psJ3XvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jS68nXvEfC_3fo_KXq00A" position="-15.0,-25.0"/>
+      <visibility xmi:id="_0YQvp3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YQvpnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YQIkHXvEfC_3fo_KXq00A" target="_0YRWuXXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z7xn-3XvEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_0YQIl3XvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_0YQImHXvEfC_3fo_KXq00A" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="payment-service.uml#_z7qTPnXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YQvq3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YQvqnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YQImXXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z7xn_HXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YQvrnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YQvrXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YQIkXXvEfC_3fo_KXq00A" target="_0YRWuXXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z7xn_XXvEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_0YQImnXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_0YQIm3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="payment-service.uml#_z7qTQHXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YQvsHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YQvr3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YQvoHXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z7xn_nXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YQvs3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YQvsnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YQIknXvEfC_3fo_KXq00A" target="_0YRWuXXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z7xn_3XvEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_0YQvoXXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_0YQvonXvEfC_3fo_KXq00A" aggregationKind="NONE" name="processedAt" navigable="true">
+      <modelElement href="payment-service.uml#_z7qTQnXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YQvtXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YQvtHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YQvo3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z7xoAHXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YQvuHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YQvt3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YQvuXXvEfC_3fo_KXq00A" sourceAnchor="62.0,0.0" targetAnchor="92.0,0.0" target="_0YRWuXXvEfC_3fo_KXq00A" source="_0YeLAHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z7xn-XXvEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_lcNKnnXwEfC_3fo_KXq00A" sourceY="-22" targetX="600" targetY="-45"/>
+    <bendpoints xmi:id="_lcNKn3XwEfC_3fo_KXq00A" sourceX="-600" sourceY="-22" targetY="-45"/>
+    <nameVisual xmi:id="_0YQvunXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_0jVXM3XvEfC_3fo_KXq00A" position="-35.0,1.9999999999999432"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YQvu3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="paymentMethod" navigable="true">
+      <modelElement href="payment-service.uml#_z7qTNnXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jVXMnXvEfC_3fo_KXq00A" position="-188.0,-73.0"/>
+      <visibility xmi:id="_0YQvvHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YQvvXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YQvvnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z7xn-nXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jVXNHXvEfC_3fo_KXq00A" position="53.0,-96.00000000000006"/>
+      <visibility xmi:id="_0YQvv3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YQvwHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YRWsHXvEfC_3fo_KXq00A" sourceAnchor="64.0,303.0" targetAnchor="108.0,183.0" target="_0YbHsHXvEfC_3fo_KXq00A" source="_0YRWuXXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z8HmMXXvEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_lcNKlnXwEfC_3fo_KXq00A" sourceX="1" sourceY="298" targetX="-559" targetY="134"/>
+    <bendpoints xmi:id="_lcNKl3XwEfC_3fo_KXq00A" sourceX="560" sourceY="298" targetY="134"/>
+    <stereotypes xmi:id="_0YRWsXXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z8LQkHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YRWsnXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_0jTiAHXvEfC_3fo_KXq00A" position="-42.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YRWs3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z8HmMnXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jS683XvEfC_3fo_KXq00A" position="-17.0,37.0"/>
+      <visibility xmi:id="_0YRWtHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRWtXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YRWtnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="appointment" navigable="true">
+      <modelElement href="payment-service.uml#_z7pFE3XvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jTiAXXvEfC_3fo_KXq00A" position="-85.0,53.0"/>
+      <visibility xmi:id="_0YRWt3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRWuHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YUaAHXvEfC_3fo_KXq00A" sourceAnchor="158.0,0.0" targetAnchor="164.0,223.0" target="_0YMePXXvEfC_3fo_KXq00A" source="_0YW2QHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z76x4XXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_0YVoJHXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z79OIHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YVoIXXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_0jUJEHXvEfC_3fo_KXq00A" position="-21.0,-6.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YVoInXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z76x4nXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jTiAnXvEfC_3fo_KXq00A" position="-57.0,-38.0"/>
+      <visibility xmi:id="_0YWPNXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YWPNHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YVoI3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="user" navigable="true">
+      <modelElement href="payment-service.uml#_z7mBwnXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jUJEXXvEfC_3fo_KXq00A" position="45.0,4.0"/>
+      <visibility xmi:id="_0YWPN3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YWPNnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YVoIHXvEfC_3fo_KXq00A" sourceAnchor="0.0,74.0" targetAnchor="204.0,89.0" target="_0YW2QHXvEfC_3fo_KXq00A" source="_0YbHsHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z8muYXXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_0YWPM3XvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z8pKoHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YWPMHXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_0jVXMHXvEfC_3fo_KXq00A" position="-18.0,-61.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YWPMXXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z8muYnXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jUwI3XvEfC_3fo_KXq00A" position="-16.0,-25.0"/>
+      <visibility xmi:id="_0YWPO3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YWPOnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YWPMnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="doctor" navigable="true">
+      <modelElement href="payment-service.uml#_z7sIaXXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jVXMXXvEfC_3fo_KXq00A" position="-18.0,45.0"/>
+      <stereotypes xmi:id="_0YWPPnXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="payment-service.uml#_z7sIanXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YWPP3XvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7svcXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YWPPXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YWPPHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YYrcHXvEfC_3fo_KXq00A" sourceAnchor="280.0,50.0" targetAnchor="94.0,0.0" target="_0YOTZXXvEfC_3fo_KXq00A" source="_0YbHsHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z8kSIHXvEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_lcNKmHXwEfC_3fo_KXq00A" sourceX="1169" targetX="2081" targetY="328"/>
+    <bendpoints xmi:id="_lcNKmXXwEfC_3fo_KXq00A" sourceX="1169" sourceY="-349" targetX="2081" targetY="-21"/>
+    <bendpoints xmi:id="_lcNKmnXwEfC_3fo_KXq00A" sourceX="-912" sourceY="-349" targetY="-21"/>
+    <stereotypes xmi:id="_0YZSjXXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z8muYHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YZSinXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_0jUwIXXvEfC_3fo_KXq00A" position="-1059.0,2.000000000000057"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YZSi3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z8kSIXXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jUwIHXvEfC_3fo_KXq00A" position="1.0,-90.0"/>
+      <visibility xmi:id="_0YZ5pHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YZ5o3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YZSjHXvEfC_3fo_KXq00A" aggregationKind="NONE" name="patient" navigable="true">
+      <modelElement href="payment-service.uml#_z7sIYXXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jUwInXvEfC_3fo_KXq00A" position="-93.0,-55.00000000000006"/>
+      <visibility xmi:id="_0YZ5pnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YZ5pXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YYrcXXvEfC_3fo_KXq00A" sourceAnchor="124.0,96.0" targetAnchor="76.0,183.0" target="_0YbHsHXvEfC_3fo_KXq00A" source="_0YLQEHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z7yPA3XvEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_lcNKk3XwEfC_3fo_KXq00A" sourceX="214" targetX="-522" targetY="-149"/>
+    <bendpoints xmi:id="_lcNKlHXwEfC_3fo_KXq00A" sourceX="238" sourceY="155" targetX="-498" targetY="6"/>
+    <bendpoints xmi:id="_lcNKlXXwEfC_3fo_KXq00A" sourceX="737" sourceY="155" targetX="1" targetY="6"/>
+    <nameVisual xmi:id="_0YZSgnXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_0jRs0XXvEfC_3fo_KXq00A" position="226.0,2.0000000000000284"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YZSg3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="status" navigable="true">
+      <modelElement href="payment-service.uml#_z7svdXXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jRs0HXvEfC_3fo_KXq00A" position="38.0,2.0"/>
+      <visibility xmi:id="_0YZ5lHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YZ5k3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YZShHXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z7yPBHXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jRs0nXvEfC_3fo_KXq00A" position="-73.0,17.0"/>
+      <visibility xmi:id="_0YZ5l3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YZ5lnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YZSgHXvEfC_3fo_KXq00A" sourceAnchor="0.0,66.0" targetAnchor="140.0,183.0" target="_0YbHsHXvEfC_3fo_KXq00A" source="_0YKpAHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z7yPBXXvEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_lcNKm3XwEfC_3fo_KXq00A" sourceX="-23" targetX="-561" targetY="-73"/>
+    <bendpoints xmi:id="_lcNKnHXwEfC_3fo_KXq00A" sourceX="-23" sourceY="237" targetX="-561" targetY="164"/>
+    <bendpoints xmi:id="_lcNKnXXwEfC_3fo_KXq00A" sourceX="538" sourceY="237" targetY="164"/>
+    <nameVisual xmi:id="_0YZShXXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_0jRFwnXvEfC_3fo_KXq00A" position="339.0,-20.999999999999943"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YZShnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="insuranceCoverageStatus" navigable="true">
+      <modelElement href="payment-service.uml#_z7svd3XvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jRFwXXvEfC_3fo_KXq00A" position="-22.0,152.0"/>
+      <visibility xmi:id="_0YZ5mXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YZ5mHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YZSh3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z7yPBnXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jRFw3XvEfC_3fo_KXq00A" position="-16.0,82.0"/>
+      <visibility xmi:id="_0YZ5nHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YZ5m3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YZSgXXvEfC_3fo_KXq00A" target="_0YbHsHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z7yPAXXvEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_0YZ5kHXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_0YZ5kXXvEfC_3fo_KXq00A" aggregationKind="NONE" name="appointmentDate" navigable="true">
+      <modelElement href="payment-service.uml#_z7svc3XvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YagoXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YagoHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YZ5knXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z7yPAnXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YagpHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0Yago3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YZSiHXvEfC_3fo_KXq00A" target="_0YbHsHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z7yPB3XvEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_0YZ5nXXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_0YZ5nnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="coverageCheckDate" navigable="true">
+      <modelElement href="payment-service.uml#_z7sveXXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YagpnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YagpXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YZ5n3XvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z7yPCHXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YagqXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YagqHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YZSiXXvEfC_3fo_KXq00A" target="_0YbHsHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z7yPCXXvEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_0YZ5oHXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_0YZ5oXXvEfC_3fo_KXq00A" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="payment-service.uml#_z7sve3XvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0Yagq3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YagqnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YZ5onXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z7yPCnXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YagrnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YagrXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YfZIHXvEfC_3fo_KXq00A" sourceAnchor="540.0,9.0" targetAnchor="0.0,169.0" target="_0YhOUHXvEfC_3fo_KXq00A" source="_0YupsHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z8TzcXXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_0YgnQnXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z8YE4HXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YgAMHXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_0jWlUXXvEfC_3fo_KXq00A" position="-32.0,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YgnQHXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z8TzcnXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jWlUHXvEfC_3fo_KXq00A" position="14.0,2.0"/>
+      <visibility xmi:id="_0YgnRHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YgnQ3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YgnQXXvEfC_3fo_KXq00A" aggregationKind="NONE" name="appointmentRepository" navigable="true">
+      <modelElement href="payment-service.uml#_z7q6Q3XvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jWlUnXvEfC_3fo_KXq00A" position="-174.0,2.0"/>
+      <stereotypes xmi:id="_0YgnR3XvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7q6RHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YgnRnXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0YgnRXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YkRoHXvEfC_3fo_KXq00A" sourceAnchor="270.0,0.0" targetAnchor="165.0,195.0" target="_0YlfwHXvEfC_3fo_KXq00A" source="_0YupsHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z8PiAXXvEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_lcMjgHXwEfC_3fo_KXq00A" sourceY="-273" targetX="-1132" targetY="165"/>
+    <bendpoints xmi:id="_lcNKkHXwEfC_3fo_KXq00A" sourceX="1132" sourceY="-272" targetY="166"/>
+    <stereotypes xmi:id="_0Yk4s3XvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z8TzcHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0Yk4sHXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_0jV-QXXvEfC_3fo_KXq00A" position="-71.0,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0Yk4sXXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z8PiAnXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jV-QHXvEfC_3fo_KXq00A" position="-17.0,-87.0"/>
+      <visibility xmi:id="_0Yk4tXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0Yk4tHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0Yk4snXvEfC_3fo_KXq00A" aggregationKind="NONE" name="paymentRepository" navigable="true">
+      <modelElement href="payment-service.uml#_z7q6QHXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jV-QnXvEfC_3fo_KXq00A" position="-119.99999999999977,76.00000000000006"/>
+      <stereotypes xmi:id="_0Yk4uHXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7q6QXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Yk4t3XvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0Yk4tnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0Ymt4HXvEfC_3fo_KXq00A" sourceAnchor="540.0,224.0" targetAnchor="0.0,107.0" target="_0Yn8BXXvEfC_3fo_KXq00A" source="_0YupsHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z8YE4XXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_0YnU83XvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z8cWUHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YnU8HXvEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_0jXMYHXvEfC_3fo_KXq00A" position="-22.333333333333258,2.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YnU8XXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z8YE4nXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jWlU3XvEfC_3fo_KXq00A" position="10.400000000000091,-50.5"/>
+      <visibility xmi:id="_0Yn8AXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0Yn8AHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YnU8nXvEfC_3fo_KXq00A" aggregationKind="NONE" name="patientRepository" navigable="true">
+      <modelElement href="payment-service.uml#_z7q6RnXvEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_0jXMYXXvEfC_3fo_KXq00A" position="-86.0,41.5"/>
+      <stereotypes xmi:id="_0Yn8BHXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7q6R3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Yn8A3XvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0Yn8AnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YrmYHXvEfC_3fo_KXq00A" source="_0YupsHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z8cWUXXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_0Ys0g3XvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z8gAsHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0Ys0gHXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_0Ys0gXXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z8cWUnXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YuCoXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YuCoHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0Ys0gnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="razorpayClient" navigable="true">
+      <modelElement href="payment-service.uml#_z7q6SXXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YuCo3XvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0YuConXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YrmYXXvEfC_3fo_KXq00A" source="_0YupsHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z8gAsXXvEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_0Ys0h3XvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z8jrEHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0Ys0hHXvEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_0Ys0hXXvEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="payment-service.uml#_z8gAsnXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YuCpnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YuCpXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0Ys0hnXvEfC_3fo_KXq00A" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="payment-service.uml#_z7rhUXXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YuCqHXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0YuCp3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YAQ8HXvEfC_3fo_KXq00A" name="RazorpayException">
+    <modelElement href="payment-service.uml#_z7DPMXXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YAQ8XXvEfC_3fo_KXq00A" position="49.0,1131.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0YAQ8nXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z7DPMnXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0YAQ83XvEfC_3fo_KXq00A" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YyUEHXvEfC_3fo_KXq00A" name="Exception">
+    <modelElement href="payment-service.uml#_z7f7IXXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YyUEXXvEfC_3fo_KXq00A" position="233.0,1126.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0YyUEnXvEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="payment-service.uml#_z7giMHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0YyUE3XvEfC_3fo_KXq00A" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_0YYEYHXvEfC_3fo_KXq00A" name="PaymentStatus" associationsOut="_0YFJcHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z5M1FXXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YYEYXXvEfC_3fo_KXq00A" position="-1674.0,-179.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0YYEYnXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="payment-service.uml#_z5M1FnXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0YYEY3XvEfC_3fo_KXq00A" label="+"/>
+    <literals xmi:id="_0YYEZHXvEfC_3fo_KXq00A" name="PENDING">
+      <modelElement href="payment-service.uml#_z5M1F3XvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YYEZXXvEfC_3fo_KXq00A" name="SUCCESS">
+      <modelElement href="payment-service.uml#_z5M1GHXvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YYEZnXvEfC_3fo_KXq00A" name="FAILED">
+      <modelElement href="payment-service.uml#_z5M1GXXvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YYEZ3XvEfC_3fo_KXq00A" name="REFUNDED">
+      <modelElement href="payment-service.uml#_z5M1GnXvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YYEaHXvEfC_3fo_KXq00A" name="CANCELLED">
+      <modelElement href="payment-service.uml#_z5M1G3XvEfC_3fo_KXq00A"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_0YhOUHXvEfC_3fo_KXq00A" name="AppointmentRepository" associationsIn="_0YfZIHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z5OqQ3XvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YhOUXXvEfC_3fo_KXq00A" position="-925.0,419.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0YhOUnXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="payment-service.uml#_z5PRUHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0YhOU3XvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="payment-service.uml#_z5Qfc3XvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0YhOVHXvEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_0YhOVXXvEfC_3fo_KXq00A" name="findByPatient_Id">
+      <modelElement href="payment-service.uml#_z5PRUXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YhOVnXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z5P4YnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YhOV3XvEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_0YhOWHXvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0YhOWXXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5P4YHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YhOWnXvEfC_3fo_KXq00A" name="Appointment">
+          <modelElement href="payment-service.uml#_z5aQcHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YhOW3XvEfC_3fo_KXq00A" name="patientId">
+        <modelElement href="payment-service.uml#_z5PRUnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YhOXHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YhOXXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YhOXnXvEfC_3fo_KXq00A" name="findByDoctor_Id">
+      <modelElement href="payment-service.uml#_z5P4Y3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YhOX3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z5P4Z3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YhOYHXvEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_0YhOYXXvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0YhOYnXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5P4ZXXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YhOY3XvEfC_3fo_KXq00A" name="Appointment">
+          <modelElement href="payment-service.uml#_z5aQcHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YhOZHXvEfC_3fo_KXq00A" name="doctorId">
+        <modelElement href="payment-service.uml#_z5P4ZHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YhOZXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YhOZnXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YhOZ3XvEfC_3fo_KXq00A" name="findByDoctor_IdAndStatus">
+      <modelElement href="payment-service.uml#_z5P4aHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YhOaHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z5QfcnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YhOaXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YhOanXvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0YhOa3XvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5QfcHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YhObHXvEfC_3fo_KXq00A" name="Appointment">
+          <modelElement href="payment-service.uml#_z5aQcHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YhObXXvEfC_3fo_KXq00A" name="doctorId">
+        <modelElement href="payment-service.uml#_z5P4aXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YhObnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YhOb3XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YhOcHXvEfC_3fo_KXq00A" name="status">
+        <modelElement href="payment-service.uml#_z5P4anXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YhOcXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YhOcnXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YhOc3XvEfC_3fo_KXq00A" name="findByStatus">
+      <modelElement href="payment-service.uml#_z7QDgXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YhOdHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7QDhXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YhOdXXvEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_0YhOdnXvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0YhOd3XvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7QDg3XvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YhOeHXvEfC_3fo_KXq00A" name="Appointment">
+          <modelElement href="payment-service.uml#_z5aQcHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YhOeXXvEfC_3fo_KXq00A" name="status">
+        <modelElement href="payment-service.uml#_z7QDgnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YhOenXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YhOe3XvEfC_3fo_KXq00A" name="AppointmentStatus">
+          <modelElement href="payment-service.uml#_z5FgVnXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YhOfHXvEfC_3fo_KXq00A" name="findByInsuranceCoverageStatus">
+      <modelElement href="payment-service.uml#_z7QDhnXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YhOfXXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7QDinXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YhOfnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YhOf3XvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0YhOgHXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7QDiHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YhOgXXvEfC_3fo_KXq00A" name="Appointment">
+          <modelElement href="payment-service.uml#_z5aQcHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YhOgnXvEfC_3fo_KXq00A" name="insuranceCoverageStatus">
+        <modelElement href="payment-service.uml#_z7QDh3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YhOg3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YhOhHXvEfC_3fo_KXq00A" name="InsuranceCoverageStatus">
+          <modelElement href="payment-service.uml#_z5KY0HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YhOhXXvEfC_3fo_KXq00A" name="findConflictingAppointments">
+      <modelElement href="payment-service.uml#_z7de4nXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YhOhnXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7de53XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YhOh3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YhOiHXvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0YhOiXXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7de5XXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YhOinXvEfC_3fo_KXq00A" name="Appointment">
+          <modelElement href="payment-service.uml#_z5aQcHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YhOi3XvEfC_3fo_KXq00A" name="doctorId">
+        <modelElement href="payment-service.uml#_z7de43XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YhOjHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YhOjXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YhOjnXvEfC_3fo_KXq00A" name="appointmentDate">
+        <modelElement href="payment-service.uml#_z7de5HXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YhOj3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YhOkHXvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YhOkXXvEfC_3fo_KXq00A" name="findAppointmentsByDoctorAndDateRange">
+      <modelElement href="payment-service.uml#_z7eF8HXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YhOknXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7eF9nXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YhOk3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YhOlHXvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0YhOlXXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7eF9HXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YhOlnXvEfC_3fo_KXq00A" name="Appointment">
+          <modelElement href="payment-service.uml#_z5aQcHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YhOl3XvEfC_3fo_KXq00A" name="doctorId">
+        <modelElement href="payment-service.uml#_z7eF8XXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YhOmHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YhOmXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YhOmnXvEfC_3fo_KXq00A" name="startTime">
+        <modelElement href="payment-service.uml#_z7eF8nXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YhOm3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YhOnHXvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YhOnXXvEfC_3fo_KXq00A" name="endTime">
+        <modelElement href="payment-service.uml#_z7eF83XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YhOnnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YhOn3XvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YhOoHXvEfC_3fo_KXq00A" name="findByAppointmentDateBetween">
+      <modelElement href="payment-service.uml#_z7eF-XXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YhOoXXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7eF_nXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YhOonXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YhOo3XvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0YhOpHXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7eF_HXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YhOpXXvEfC_3fo_KXq00A" name="Appointment">
+          <modelElement href="payment-service.uml#_z5aQcHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YhOpnXvEfC_3fo_KXq00A" name="startDate">
+        <modelElement href="payment-service.uml#_z7eF-nXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YhOp3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YhOqHXvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YhOqXXvEfC_3fo_KXq00A" name="endDate">
+        <modelElement href="payment-service.uml#_z7eF-3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YhOqnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YhOq3XvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YhOrHXvEfC_3fo_KXq00A" name="findByCreatedAtBetween">
+      <modelElement href="payment-service.uml#_z7etAHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YhOrXXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7etBXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YhOrnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YhOr3XvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0YhOsHXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7etA3XvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YhOsXXvEfC_3fo_KXq00A" name="Appointment">
+          <modelElement href="payment-service.uml#_z5aQcHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YhOsnXvEfC_3fo_KXq00A" name="startDate">
+        <modelElement href="payment-service.uml#_z7etAXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YhOs3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YhOtHXvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YhOtXXvEfC_3fo_KXq00A" name="endDate">
+        <modelElement href="payment-service.uml#_z7etAnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YhOtnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YhOt3XvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YCGKXXvEfC_3fo_KXq00A" name="PaymentController" associationsOut="_0YA4AHXvEfC_3fo_KXq00A _0YCGIHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z4-yoHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YCGKnXvEfC_3fo_KXq00A" position="-1402.0,337.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0YCGK3XvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="payment-service.uml#_z4-yoXXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0YCGLHXvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="payment-service.uml#_z5AAxnXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0YCGLXXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_0YCGLnXvEfC_3fo_KXq00A" name="paymentService">
+      <modelElement href="payment-service.uml#_z7kMkHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YCGL3XvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7kMkXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YCGMHXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0YCGMXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YCGMnXvEfC_3fo_KXq00A" name="PaymentService">
+        <modelElement href="payment-service.uml#_z5YbQHXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YCGM3XvEfC_3fo_KXq00A" defaultValue="LoggerFactory.getLogger(PaymentController.class)" name="logger" staticAttribute="true">
+      <modelElement href="payment-service.uml#_z7kMk3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YCGNHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7kMlXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YCGNXXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0YCGNnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YCGN3XvEfC_3fo_KXq00A" name="Logger">
+        <modelElement href="payment-service.uml#_z7CBEHXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0YCGOHXvEfC_3fo_KXq00A" name="getPatientPayments">
+      <modelElement href="payment-service.uml#_z4-yonXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YCGOXXvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="payment-service.uml#_z4-ypHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YCGOnXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z4_ZsHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YCGO3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YCGPHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YCGPXXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7Z0gHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YCGPnXvEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="payment-service.uml#_z7EdUXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YCGP3XvEfC_3fo_KXq00A" name="patientId">
+        <modelElement href="payment-service.uml#_z4-yo3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YCGQHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YCGQXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YCGQnXvEfC_3fo_KXq00A" name="getAppointmentPayment">
+      <modelElement href="payment-service.uml#_z4_Zs3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YCGQ3XvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="payment-service.uml#_z4_ZtXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YCGRHXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z4_ZuHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YCGRXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YCGRnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YCGR3XvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7Z0gXXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YCGSHXvEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="payment-service.uml#_z7EdUXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YCGSXXvEfC_3fo_KXq00A" name="appointmentId">
+        <modelElement href="payment-service.uml#_z4_ZtHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YCGSnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YCGS3XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YCGTHXvEfC_3fo_KXq00A" name="refundPayment">
+      <modelElement href="payment-service.uml#_z4_Zu3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YCGTXXvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="payment-service.uml#_z5AAwHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YCGTnXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z5AAw3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YCGT3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YCGUHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YCGUXXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7Z0gnXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YCGUnXvEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="payment-service.uml#_z7EdUXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YCGU3XvEfC_3fo_KXq00A" name="paymentId">
+        <modelElement href="payment-service.uml#_z4_ZvHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YCGVHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YCGVXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YCGVnXvEfC_3fo_KXq00A" name="initiatePayment">
+      <modelElement href="payment-service.uml#_z7G5kHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YCGV3XvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="payment-service.uml#_z7G5knXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YCGWHXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7HgoHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YCGWXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YCGWnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YCGW3XvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7ZNcHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YCGXHXvEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="payment-service.uml#_z7EdUXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YCGXXXvEfC_3fo_KXq00A" name="request">
+        <modelElement href="payment-service.uml#_z7G5kXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YCGXnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YCGX3XvEfC_3fo_KXq00A" name="PaymentRequest">
+          <modelElement href="payment-service.uml#_z5B18HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YCGYHXvEfC_3fo_KXq00A" name="verifyPayment">
+      <modelElement href="payment-service.uml#_z7Hgo3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YCGYXXvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="payment-service.uml#_z7IHsHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YCGYnXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7IuwHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YCGY3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YCGZHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YCGZXXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7ZNcXXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YCGZnXvEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="payment-service.uml#_z7EdUXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YCGZ3XvEfC_3fo_KXq00A" name="request">
+        <modelElement href="payment-service.uml#_z7HgpHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YCGaHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YCGaXXvEfC_3fo_KXq00A" name="PaymentVerificationRequest">
+          <modelElement href="payment-service.uml#_z5ESMHXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YupsHXvEfC_3fo_KXq00A" name="PaymentService" associationsIn="_0YCGIHXvEfC_3fo_KXq00A" associationsOut="_0YkRoHXvEfC_3fo_KXq00A _0YfZIHXvEfC_3fo_KXq00A _0Ymt4HXvEfC_3fo_KXq00A _0YrmYHXvEfC_3fo_KXq00A _0YrmYXXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z5YbQHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YupsXXvEfC_3fo_KXq00A" position="-1706.0,579.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0YupsnXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="payment-service.uml#_z5YbQXXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0Yups3XvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="payment-service.uml#_z5ZpYXXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0YuptHXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_0YuptXXvEfC_3fo_KXq00A" name="paymentRepository">
+      <modelElement href="payment-service.uml#_z7q6QHXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YuptnXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0Yupt3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YupuHXvEfC_3fo_KXq00A" name="PaymentRepository">
+        <modelElement href="payment-service.uml#_z5GudHXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YupuXXvEfC_3fo_KXq00A" name="appointmentRepository">
+      <modelElement href="payment-service.uml#_z7q6Q3XvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YupunXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0Yupu3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YupvHXvEfC_3fo_KXq00A" name="AppointmentRepository">
+        <modelElement href="payment-service.uml#_z5OqQ3XvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YupvXXvEfC_3fo_KXq00A" name="patientRepository">
+      <modelElement href="payment-service.uml#_z7q6RnXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YupvnXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0Yupv3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YupwHXvEfC_3fo_KXq00A" name="PatientRepository">
+        <modelElement href="payment-service.uml#_z5SUoHXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YupwXXvEfC_3fo_KXq00A" name="razorpayClient">
+      <modelElement href="payment-service.uml#_z7q6SXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YupwnXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7q6SnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Yupw3XvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0YupxHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YupxXXvEfC_3fo_KXq00A" name="RazorpayClient">
+        <modelElement href="payment-service.uml#_z7CoJXXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YupxnXvEfC_3fo_KXq00A" name="razorpayKeySecret">
+      <modelElement href="payment-service.uml#_z7q6THXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Yupx3XvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7q6TXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YupyHXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0YupyXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YupynXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0Yupy3XvEfC_3fo_KXq00A" defaultValue="LoggerFactory.getLogger(PaymentService.class)" name="logger" staticAttribute="true">
+      <modelElement href="payment-service.uml#_z7rhUXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YupzHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7rhU3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YupzXXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0YupznXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0Yupz3XvEfC_3fo_KXq00A" name="Logger">
+        <modelElement href="payment-service.uml#_z7CBEHXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0Yup0HXvEfC_3fo_KXq00A" name="verifyRazorpaySignature">
+      <modelElement href="payment-service.uml#_z5ZCUHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Yup0XXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z5ZCVXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Yup0nXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0Yup03XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0Yup1HXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5ZCVHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Yup1XXvEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Yup1nXvEfC_3fo_KXq00A" name="orderId">
+        <modelElement href="payment-service.uml#_z5ZCUXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Yup13XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Yup2HXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0Yup2XXvEfC_3fo_KXq00A" name="paymentId">
+        <modelElement href="payment-service.uml#_z5ZCUnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Yup2nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Yup23XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0Yup3HXvEfC_3fo_KXq00A" name="signature">
+        <modelElement href="payment-service.uml#_z5ZCU3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Yup3XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Yup3nXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Yup33XvEfC_3fo_KXq00A" name="hmacSha256">
+      <modelElement href="payment-service.uml#_z5ZCVnXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Yup4HXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z5ZCWnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Yup4XXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0Yup4nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0Yup43XvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5ZCWXXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Yup5HXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Yup5XXvEfC_3fo_KXq00A" name="data">
+        <modelElement href="payment-service.uml#_z5ZCV3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Yup5nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Yup53XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0Yup6HXvEfC_3fo_KXq00A" name="key">
+        <modelElement href="payment-service.uml#_z5ZCWHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Yup6XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Yup6nXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Yup63XvEfC_3fo_KXq00A" name="getPaymentsByPatient">
+      <modelElement href="payment-service.uml#_z5ZCW3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Yup7HXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z5ZCX3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Yup7XXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0Yup7nXvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0Yup73XvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5ZCXXXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Yup8HXvEfC_3fo_KXq00A" name="BookingPayment">
+          <modelElement href="payment-service.uml#_z5V_BXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Yup8XXvEfC_3fo_KXq00A" name="patientId">
+        <modelElement href="payment-service.uml#_z5ZCXHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Yup8nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Yup83XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Yup9HXvEfC_3fo_KXq00A" name="getPaymentByAppointment">
+      <modelElement href="payment-service.uml#_z5ZCYHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Yup9XXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z5ZCYnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Yup9nXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0Yup93XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0Yup-HXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7VjFXXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Yup-XXvEfC_3fo_KXq00A" name="BookingPayment">
+          <modelElement href="payment-service.uml#_z5V_BXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Yup-nXvEfC_3fo_KXq00A" name="appointmentId">
+        <modelElement href="payment-service.uml#_z5ZCYXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Yup-3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Yup_HXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Yup_XXvEfC_3fo_KXq00A" name="refundPayment">
+      <modelElement href="payment-service.uml#_z5ZCY3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Yup_nXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z5ZpYHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Yup_3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YuqAHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YuqAXXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7VjFnXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YuqAnXvEfC_3fo_KXq00A" name="PaymentResponse">
+          <modelElement href="payment-service.uml#_z5CdAHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YuqA3XvEfC_3fo_KXq00A" name="paymentId">
+        <modelElement href="payment-service.uml#_z5ZCZHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YuqBHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YuqBXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YuqBnXvEfC_3fo_KXq00A" name="initiatePayment">
+      <modelElement href="payment-service.uml#_z7U8AXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YuqB3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7VjEHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YuqCHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YuqCXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YuqCnXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7U8A3XvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YuqC3XvEfC_3fo_KXq00A" name="PaymentResponse">
+          <modelElement href="payment-service.uml#_z5CdAHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YuqDHXvEfC_3fo_KXq00A" name="request">
+        <modelElement href="payment-service.uml#_z7U8AnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YuqDXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YuqDnXvEfC_3fo_KXq00A" name="PaymentRequest">
+          <modelElement href="payment-service.uml#_z5B18HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YuqD3XvEfC_3fo_KXq00A" name="verifyPayment">
+      <modelElement href="payment-service.uml#_z7VjEXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YuqEHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7VjFHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YuqEXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YuqEnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YuqE3XvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7VjE3XvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YuqFHXvEfC_3fo_KXq00A" name="PaymentResponse">
+          <modelElement href="payment-service.uml#_z5CdAHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YuqFXXvEfC_3fo_KXq00A" name="request">
+        <modelElement href="payment-service.uml#_z7VjEnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YuqFnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YuqF3XvEfC_3fo_KXq00A" name="PaymentVerificationRequest">
+          <modelElement href="payment-service.uml#_z5ESMHXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YFJeHXvEfC_3fo_KXq00A" name="PaymentResponse" associationsIn="_0YFJcHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z5CdAHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YFJeXXvEfC_3fo_KXq00A" position="-1672.0,-403.0" size="172.0,204.0"/>
+    <visibility xmi:id="_0YFJenXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_0YFJe3XvEfC_3fo_KXq00A" name="paymentId">
+      <modelElement href="payment-service.uml#_z7kzoHXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YFJfHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YFJfXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YFJfnXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YFJf3XvEfC_3fo_KXq00A" name="razorpayOrderId">
+      <modelElement href="payment-service.uml#_z7kzoXXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YFJgHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YFJgXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YFJgnXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YFJg3XvEfC_3fo_KXq00A" name="appointmentId">
+      <modelElement href="payment-service.uml#_z7kzonXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YFJhHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YFJhXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YFJhnXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YFJh3XvEfC_3fo_KXq00A" name="amount">
+      <modelElement href="payment-service.uml#_z7kzo3XvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YFJiHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YFJiXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YFJinXvEfC_3fo_KXq00A" name="BigDecimal">
+        <modelElement href="payment-service.uml#_z7Kj8HXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YFJi3XvEfC_3fo_KXq00A" name="currency">
+      <modelElement href="payment-service.uml#_z7kzpHXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YFJjHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YFJjXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YFJjnXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YFJj3XvEfC_3fo_KXq00A" name="status">
+      <modelElement href="payment-service.uml#_z7kzpXXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YFJkHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YFJkXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YFJknXvEfC_3fo_KXq00A" name="PaymentStatus">
+        <modelElement href="payment-service.uml#_z5M1FXXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YFJk3XvEfC_3fo_KXq00A" name="message">
+      <modelElement href="payment-service.uml#_z7kzpnXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YFJlHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YFJlXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YFJlnXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0YFJl3XvEfC_3fo_KXq00A" name="PaymentResponse">
+      <modelElement href="payment-service.uml#_z5DEEHXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_0YFJmHXvEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_0YFJmXXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="payment-service.uml#_z5DEE3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YFJmnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YFJm3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YFJnHXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5DEFHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YFJnXXvEfC_3fo_KXq00A" name="PaymentResponse">
+          <modelElement href="payment-service.uml#_z5CdAHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0YFJnnXvEfC_3fo_KXq00A" name="PaymentResponse">
+      <modelElement href="payment-service.uml#_z7ablnXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_0YFJn3XvEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_0YFJoHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YFJoXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YFJonXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7aboHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YFJo3XvEfC_3fo_KXq00A" name="PaymentResponse">
+          <modelElement href="payment-service.uml#_z5CdAHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YFJpHXvEfC_3fo_KXq00A" name="paymentId">
+        <modelElement href="payment-service.uml#_z7abl3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YFJpXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YFJpnXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YFJp3XvEfC_3fo_KXq00A" name="razorpayOrderId">
+        <modelElement href="payment-service.uml#_z7abmHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YFJqHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YFJqXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YFJqnXvEfC_3fo_KXq00A" name="appointmentId">
+        <modelElement href="payment-service.uml#_z7abmXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YFJq3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YFJrHXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YFJrXXvEfC_3fo_KXq00A" name="amount">
+        <modelElement href="payment-service.uml#_z7abmnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YFJrnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YFJr3XvEfC_3fo_KXq00A" name="BigDecimal">
+          <modelElement href="payment-service.uml#_z7Kj8HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YFJsHXvEfC_3fo_KXq00A" name="currency">
+        <modelElement href="payment-service.uml#_z7abm3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YFJsXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YFJsnXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YFJs3XvEfC_3fo_KXq00A" name="status">
+        <modelElement href="payment-service.uml#_z7abnHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YFJtHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YFJtXXvEfC_3fo_KXq00A" name="PaymentStatus">
+          <modelElement href="payment-service.uml#_z5M1FXXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YFJtnXvEfC_3fo_KXq00A" name="message">
+        <modelElement href="payment-service.uml#_z7abnXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YFJt3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YFJuHXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YOTZXXvEfC_3fo_KXq00A" name="Patient" associationsIn="_0YPhh3XvEfC_3fo_KXq00A _0YYrcHXvEfC_3fo_KXq00A" associationsOut="_0YNsUHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z5KY1XXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YOTZnXvEfC_3fo_KXq00A" position="-1490.0,-404.0" size="188.0,183.0"/>
+    <stereotypes xmi:id="_0YOTZ3XvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="payment-service.uml#_z5K_4HXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0YOTaHXvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="payment-service.uml#_z5Lm83XvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0YOTaXXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_0YOTanXvEfC_3fo_KXq00A" name="id">
+      <modelElement href="payment-service.uml#_z7mo3XXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YOTa3XvEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="payment-service.uml#_z7nP4HXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YOTbHXvEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="payment-service.uml#_z7nP4XXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YOTbXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YOTbnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YOTb3XvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YOTcHXvEfC_3fo_KXq00A" name="user">
+      <modelElement href="payment-service.uml#_z7nP4nXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YOTcXXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="payment-service.uml#_z7nP43XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YOTcnXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7nP6HXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YOTc3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YOTdHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YOTdXXvEfC_3fo_KXq00A" name="User">
+        <modelElement href="payment-service.uml#_z5M1IXXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YOTdnXvEfC_3fo_KXq00A" name="dateOfBirth">
+      <modelElement href="payment-service.uml#_z7nP6nXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YOTd3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7n28HXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YOTeHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YOTeXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YOTenXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YOTe3XvEfC_3fo_KXq00A" name="gender">
+      <modelElement href="payment-service.uml#_z7n28XXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YOTfHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7n28nXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YOTfXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YOTfnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YOTf3XvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YOTgHXvEfC_3fo_KXq00A" name="contactNumber">
+      <modelElement href="payment-service.uml#_z7n283XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YOTgXXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7n29HXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YOTgnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YOTg3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YOThHXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0YOThXXvEfC_3fo_KXq00A" name="Patient">
+      <modelElement href="payment-service.uml#_z5K_4XXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_0YOThnXvEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_0YOTh3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YOTiHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YOTiXXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5Lm8nXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YOTinXvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="payment-service.uml#_z5KY1XXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0YOTi3XvEfC_3fo_KXq00A" name="Patient">
+      <modelElement href="payment-service.uml#_z7OOUHXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_0YOTjHXvEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_0YOTjXXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7OOWXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YOTjnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YOTj3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YOTkHXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7OOWHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YOTkXXvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="payment-service.uml#_z5KY1XXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YOTknXvEfC_3fo_KXq00A" name="id">
+        <modelElement href="payment-service.uml#_z7OOUXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YOTk3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YOTlHXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YOTlXXvEfC_3fo_KXq00A" name="user">
+        <modelElement href="payment-service.uml#_z7OOUnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YOTlnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YOTl3XvEfC_3fo_KXq00A" name="User">
+          <modelElement href="payment-service.uml#_z5M1IXXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YOTmHXvEfC_3fo_KXq00A" name="dateOfBirth">
+        <modelElement href="payment-service.uml#_z7OOU3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YOTmXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YOTmnXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YOTm3XvEfC_3fo_KXq00A" name="gender">
+        <modelElement href="payment-service.uml#_z7OOVHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YOTnHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YOTnXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YOTnnXvEfC_3fo_KXq00A" name="contactNumber">
+        <modelElement href="payment-service.uml#_z7OOVXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YOTn3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YOToHXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_0YLQEHXvEfC_3fo_KXq00A" name="AppointmentStatus" associationsOut="_0YYrcXXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z5FgVnXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YLQEXXvEfC_3fo_KXq00A" position="-1548.0,-188.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0YLQEnXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="payment-service.uml#_z5GHYHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0YLQE3XvEfC_3fo_KXq00A" label="+"/>
+    <literals xmi:id="_0YLQFHXvEfC_3fo_KXq00A" name="BOOKED">
+      <modelElement href="payment-service.uml#_z5GHYXXvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YLQFXXvEfC_3fo_KXq00A" name="CONFIRMED">
+      <modelElement href="payment-service.uml#_z5GucHXvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YLQFnXvEfC_3fo_KXq00A" name="PENDINIG">
+      <modelElement href="payment-service.uml#_z5GucXXvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YLQF3XvEfC_3fo_KXq00A" name="COMPLETED">
+      <modelElement href="payment-service.uml#_z5GucnXvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YLQGHXvEfC_3fo_KXq00A" name="REJECTED">
+      <modelElement href="payment-service.uml#_z5Guc3XvEfC_3fo_KXq00A"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YIMyHXvEfC_3fo_KXq00A" name="ErrorResponse" associationsIn="_0YIMwHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z5An0HXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YIMyXXvEfC_3fo_KXq00A" position="-1664.0,-5.0" size="173.0,124.0"/>
+    <visibility xmi:id="_0YIMynXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_0YIMy3XvEfC_3fo_KXq00A" name="error">
+      <modelElement href="payment-service.uml#_z7kMlnXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YIMzHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YIMzXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YIMznXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YIMz3XvEfC_3fo_KXq00A" name="message">
+      <modelElement href="payment-service.uml#_z7kMl3XvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YIM0HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YIM0XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YIM0nXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YIM03XvEfC_3fo_KXq00A" name="timestamp">
+      <modelElement href="payment-service.uml#_z7kMmHXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YIM1HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YIM1XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YIM1nXvEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0YIM13XvEfC_3fo_KXq00A" name="ErrorResponse">
+      <modelElement href="payment-service.uml#_z5BO4HXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_0YIM2HXvEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_0YIM2XXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YIM2nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YIM23XvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5BO5XXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YIM3HXvEfC_3fo_KXq00A" name="ErrorResponse">
+          <modelElement href="payment-service.uml#_z5An0HXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YIM3XXvEfC_3fo_KXq00A" name="error">
+        <modelElement href="payment-service.uml#_z5BO4XXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YIM3nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YIM33XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YIM4HXvEfC_3fo_KXq00A" name="message">
+        <modelElement href="payment-service.uml#_z5BO4nXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YIM4XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YIM4nXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0X_C0HXvEfC_3fo_KXq00A" name="RazorpayConfig" associationsOut="_0X-bwHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z49kkHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0X_C0XXvEfC_3fo_KXq00A" position="-1473.0,-28.0" size="215.0,163.0"/>
+    <stereotypes xmi:id="_0X_C0nXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="payment-service.uml#_z49kkXXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0X_C03XvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="payment-service.uml#_z4-LlnXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0X_C1HXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_0X_C1XXvEfC_3fo_KXq00A" name="razorpayKeyId">
+      <modelElement href="payment-service.uml#_z7i-cHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0X_C1nXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="payment-service.uml#_z7jlgHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0X_C13XvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7jlg3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0X_C2HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0X_C2XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0X_C2nXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0X_C23XvEfC_3fo_KXq00A" name="razorpayKeySecret">
+      <modelElement href="payment-service.uml#_z7jlhnXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0X_C3HXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7jlh3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0X_C3XXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0X_C3nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0X_C33XvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0X_C4HXvEfC_3fo_KXq00A" defaultValue="LoggerFactory.getLogger(RazorpayConfig.class)" name="logger" staticAttribute="true">
+      <modelElement href="payment-service.uml#_z7jlinXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0X_C4XXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7jljHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0X_C4nXvEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_0X_C43XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0X_C5HXvEfC_3fo_KXq00A" name="Logger">
+        <modelElement href="payment-service.uml#_z7CBEHXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0X_C5XXvEfC_3fo_KXq00A" name="razorpayClient">
+      <modelElement href="payment-service.uml#_z4-LkHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0X_C5nXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z4-LkXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0X_C53XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0X_C6HXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0X_C6XXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7YmYHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0X_C6nXvEfC_3fo_KXq00A" name="RazorpayClient">
+          <modelElement href="payment-service.uml#_z7CoJXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0X_C63XvEfC_3fo_KXq00A" name="getRazorpayKeySecret">
+      <modelElement href="payment-service.uml#_z4-Lk3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0X_C7HXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z4-LlXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0X_C7XXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0X_C7nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0X_C73XvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z4-LlHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0X_C8HXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YRWuXXvEfC_3fo_KXq00A" name="BookingPayment" associationsIn="_0YQIkHXvEfC_3fo_KXq00A _0YQIkXXvEfC_3fo_KXq00A _0YQIknXvEfC_3fo_KXq00A _0YQvuXXvEfC_3fo_KXq00A" associationsOut="_0YPhh3XvEfC_3fo_KXq00A _0YRWsHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z5V_BXXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YRWunXvEfC_3fo_KXq00A" position="-1280.0,-410.0" size="185.0,303.0"/>
+    <stereotypes xmi:id="_0YRWu3XvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="payment-service.uml#_z5WmEHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0YRWvHXvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="payment-service.uml#_z5XNIXXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0YRWvXXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_0YRWvnXvEfC_3fo_KXq00A" name="id">
+      <modelElement href="payment-service.uml#_z7pFEHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YRWv3XvEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="payment-service.uml#_z7pFEXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YRWwHXvEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="payment-service.uml#_z7pFEnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YRWwXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRWwnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YRWw3XvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YRWxHXvEfC_3fo_KXq00A" name="appointment">
+      <modelElement href="payment-service.uml#_z7pFE3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YRWxXXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="payment-service.uml#_z7psIHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YRWxnXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7psJXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YRWx3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRWyHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YRWyXXvEfC_3fo_KXq00A" name="Appointment">
+        <modelElement href="payment-service.uml#_z5aQcHXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YRWynXvEfC_3fo_KXq00A" name="patient">
+      <modelElement href="payment-service.uml#_z7psJ3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YRWy3XvEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="payment-service.uml#_z7psKHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YRWzHXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7psLXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YRWzXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRWznXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YRWz3XvEfC_3fo_KXq00A" name="Patient">
+        <modelElement href="payment-service.uml#_z5KY1XXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YRW0HXvEfC_3fo_KXq00A" name="amount">
+      <modelElement href="payment-service.uml#_z7psL3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YRW0XXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7qTMHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YRW0nXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRW03XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YRW1HXvEfC_3fo_KXq00A" name="BigDecimal">
+        <modelElement href="payment-service.uml#_z7Kj8HXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YRW1XXvEfC_3fo_KXq00A" defaultValue="&quot;INR&quot;" name="currency">
+      <modelElement href="payment-service.uml#_z7qTMXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YRW1nXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7qTM3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YRW13XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRW2HXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YRW2XXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YRW2nXvEfC_3fo_KXq00A" name="status">
+      <modelElement href="payment-service.uml#_z7qTNHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YRW23XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7qTNXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YRW3HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRW3XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YRW3nXvEfC_3fo_KXq00A" name="PaymentStatus">
+        <modelElement href="payment-service.uml#_z5M1FXXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YRW33XvEfC_3fo_KXq00A" name="paymentMethod">
+      <modelElement href="payment-service.uml#_z7qTNnXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YRW4HXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7qTN3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YRW4XXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRW4nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YRW43XvEfC_3fo_KXq00A" name="PaymentMethod">
+        <modelElement href="payment-service.uml#_z5MOAHXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YRW5HXvEfC_3fo_KXq00A" name="razorpayOrderId">
+      <modelElement href="payment-service.uml#_z7qTOHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YRW5XXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7qTOXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YRW5nXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRW53XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YRW6HXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YRW6XXvEfC_3fo_KXq00A" name="razorpayPaymentId">
+      <modelElement href="payment-service.uml#_z7qTOnXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YRW6nXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7qTO3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YRW63XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRW7HXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YRW7XXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YRW7nXvEfC_3fo_KXq00A" name="razorpaySignature">
+      <modelElement href="payment-service.uml#_z7qTPHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YRW73XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7qTPXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YRW8HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRW8XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YRW8nXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YRW83XvEfC_3fo_KXq00A" name="createdAt">
+      <modelElement href="payment-service.uml#_z7qTPnXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YRW9HXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7qTP3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YRW9XXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRW9nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YRW93XvEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YRW-HXvEfC_3fo_KXq00A" name="updatedAt">
+      <modelElement href="payment-service.uml#_z7qTQHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YRW-XXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7qTQXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YRW-nXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRW-3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YRW_HXvEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YRW_XXvEfC_3fo_KXq00A" name="processedAt">
+      <modelElement href="payment-service.uml#_z7qTQnXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YRW_nXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7qTQ3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YRW_3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRXAHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YRXAXXvEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0YRXAnXvEfC_3fo_KXq00A" name="BookingPayment">
+      <modelElement href="payment-service.uml#_z5WmEXXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_0YRXA3XvEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_0YRXBHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z5XNIHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YRXBXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRXBnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YRXB3XvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5WmFHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YRXCHXvEfC_3fo_KXq00A" name="BookingPayment">
+          <modelElement href="payment-service.uml#_z5V_BXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0YRXCXXvEfC_3fo_KXq00A" name="setStatus">
+      <modelElement href="payment-service.uml#_z7R4sHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YRXCnXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7SfwHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YRXC3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YRXDHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0YRXDXXvEfC_3fo_KXq00A" name="status">
+        <modelElement href="payment-service.uml#_z7R4sXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YRXDnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YRXD3XvEfC_3fo_KXq00A" name="PaymentStatus">
+          <modelElement href="payment-service.uml#_z5M1FXXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YMePXXvEfC_3fo_KXq00A" name="User" associationsIn="_0YMeNXXvEfC_3fo_KXq00A _0YNsUHXvEfC_3fo_KXq00A _0YUaAHXvEfC_3fo_KXq00A" associationsOut="_0YL3IHXvEfC_3fo_KXq00A _0YL3IXXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z5M1IXXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YMePnXvEfC_3fo_KXq00A" position="-1008.0,-391.0" size="331.0,223.0"/>
+    <stereotypes xmi:id="_0YMeP3XvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="payment-service.uml#_z5NcIHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0YMeQHXvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="payment-service.uml#_z5OqQHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0YMeQXXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_0YMeQnXvEfC_3fo_KXq00A" name="id">
+      <modelElement href="payment-service.uml#_z7n29XXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YMeQ3XvEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="payment-service.uml#_z7n29nXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YMeRHXvEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="payment-service.uml#_z7n293XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YMeRXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YMeRnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YMeR3XvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YMeSHXvEfC_3fo_KXq00A" name="username">
+      <modelElement href="payment-service.uml#_z7n2-HXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YMeSXXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7n2-XXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YMeSnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YMeS3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YMeTHXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YMeTXXvEfC_3fo_KXq00A" name="email">
+      <modelElement href="payment-service.uml#_z7n2-nXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YMeTnXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="payment-service.uml#_z7oeAHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YMeT3XvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7oeBXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YMeUHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YMeUXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YMeUnXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YMeU3XvEfC_3fo_KXq00A" name="password">
+      <modelElement href="payment-service.uml#_z7oeCHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YMeVHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7oeCXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YMeVXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YMeVnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YMeV3XvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YMeWHXvEfC_3fo_KXq00A" name="role">
+      <modelElement href="payment-service.uml#_z7oeCnXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YMeWXXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7oeC3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YMeWnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YMeW3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YMeXHXvEfC_3fo_KXq00A" name="Role">
+        <modelElement href="payment-service.uml#_z5M1HHXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YMeXXXvEfC_3fo_KXq00A" defaultValue="LocalDateTime.now()" name="createdAt">
+      <modelElement href="payment-service.uml#_z7oeDHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YMeXnXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7oeDnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YMeX3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YMeYHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YMeYXXvEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YMeYnXvEfC_3fo_KXq00A" defaultValue="LocalDateTime.now()" name="updatedAt">
+      <modelElement href="payment-service.uml#_z7oeD3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YMeY3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7oeEXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YMeZHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YMeZXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YMeZnXvEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0YMeZ3XvEfC_3fo_KXq00A" name="User">
+      <modelElement href="payment-service.uml#_z5NcIXXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_0YMeaHXvEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_0YMeaXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YMeanXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YMea3XvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5NcJHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YMebHXvEfC_3fo_KXq00A" name="User">
+          <modelElement href="payment-service.uml#_z5M1IXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0YMebXXvEfC_3fo_KXq00A" name="User">
+      <modelElement href="payment-service.uml#_z7c30HXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_0YMebnXvEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_0YMeb3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7c323XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YMecHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YMecXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YMecnXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7c32nXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YMec3XvEfC_3fo_KXq00A" name="User">
+          <modelElement href="payment-service.uml#_z5M1IXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YMedHXvEfC_3fo_KXq00A" name="id">
+        <modelElement href="payment-service.uml#_z7c30XXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YMedXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YMednXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YMed3XvEfC_3fo_KXq00A" name="username">
+        <modelElement href="payment-service.uml#_z7c30nXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YMeeHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YMeeXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YMeenXvEfC_3fo_KXq00A" name="email">
+        <modelElement href="payment-service.uml#_z7c303XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YMee3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YMefHXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YMefXXvEfC_3fo_KXq00A" name="password">
+        <modelElement href="payment-service.uml#_z7c31HXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YMefnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YMef3XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YMegHXvEfC_3fo_KXq00A" name="role">
+        <modelElement href="payment-service.uml#_z7c31XXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YMegXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YMegnXvEfC_3fo_KXq00A" name="Role">
+          <modelElement href="payment-service.uml#_z5M1HHXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YMeg3XvEfC_3fo_KXq00A" name="createdAt">
+        <modelElement href="payment-service.uml#_z7c31nXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YMehHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YMehXXvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YMehnXvEfC_3fo_KXq00A" name="updatedAt">
+        <modelElement href="payment-service.uml#_z7c313XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YMeh3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YMeiHXvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YW2QHXvEfC_3fo_KXq00A" name="Doctor" associationsIn="_0YVoIHXvEfC_3fo_KXq00A" associationsOut="_0YUaAHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z5IjoHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YW2QXXvEfC_3fo_KXq00A" position="-1002.0,-141.0" size="204.0,183.0"/>
+    <stereotypes xmi:id="_0YW2QnXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="payment-service.uml#_z5JKsHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0YW2Q3XvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="payment-service.uml#_z5JxwnXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0YW2RHXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_0YW2RXXvEfC_3fo_KXq00A" name="id">
+      <modelElement href="payment-service.uml#_z7kzqnXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YW2RnXvEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="payment-service.uml#_z7mBwHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YW2R3XvEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="payment-service.uml#_z7mBwXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YW2SHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YW2SXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YW2SnXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YW2S3XvEfC_3fo_KXq00A" name="user">
+      <modelElement href="payment-service.uml#_z7mBwnXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YW2THXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="payment-service.uml#_z7mBw3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YW2TXXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7mo0XXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YW2TnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YW2T3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YW2UHXvEfC_3fo_KXq00A" name="User">
+        <modelElement href="payment-service.uml#_z5M1IXXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YW2UXXvEfC_3fo_KXq00A" name="profilePicture">
+      <modelElement href="payment-service.uml#_z7mo1HXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YW2UnXvEfC_3fo_KXq00A" name="Array">
+        <modelElement href="payment-service.uml#_z7mo1nXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YW2U3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7mo13XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YW2VHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YW2VXXvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0YW2VnXvEfC_3fo_KXq00A" name="byte">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YW2V3XvEfC_3fo_KXq00A" name="active">
+      <modelElement href="payment-service.uml#_z7mo2HXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YW2WHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7mo2XXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YW2WXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YW2WnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YW2W3XvEfC_3fo_KXq00A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YW2XHXvEfC_3fo_KXq00A" name="specializations">
+      <modelElement href="payment-service.uml#_z7mo2nXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YW2XXXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7mo3HXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YW2XnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YW2X3XvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0YW2YHXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0YW2YXXvEfC_3fo_KXq00A" name="Doctor">
+      <modelElement href="payment-service.uml#_z5JKsXXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_0YW2YnXvEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_0YW2Y3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YW2ZHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YW2ZXXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5JxwXXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YW2ZnXvEfC_3fo_KXq00A" name="Doctor">
+          <modelElement href="payment-service.uml#_z5IjoHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0YW2Z3XvEfC_3fo_KXq00A" name="Doctor">
+      <modelElement href="payment-service.uml#_z7bpsnXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_0YW2aHXvEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_0YW2aXXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7bpu3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YW2anXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YW2a3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YW2bHXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7bpunXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YW2bXXvEfC_3fo_KXq00A" name="Doctor">
+          <modelElement href="payment-service.uml#_z5IjoHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YW2bnXvEfC_3fo_KXq00A" name="id">
+        <modelElement href="payment-service.uml#_z7bps3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YW2b3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YW2cHXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YW2cXXvEfC_3fo_KXq00A" name="user">
+        <modelElement href="payment-service.uml#_z7bptHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YW2cnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YW2c3XvEfC_3fo_KXq00A" name="User">
+          <modelElement href="payment-service.uml#_z5M1IXXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YW2dHXvEfC_3fo_KXq00A" name="profilePicture">
+        <modelElement href="payment-service.uml#_z7bptXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YW2dXXvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_0YW2dnXvEfC_3fo_KXq00A" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YW2d3XvEfC_3fo_KXq00A" name="active">
+        <modelElement href="payment-service.uml#_z7bptnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YW2eHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YW2eXXvEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YW2enXvEfC_3fo_KXq00A" name="specializations">
+        <modelElement href="payment-service.uml#_z7bpt3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YW2e3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YW2fHXvEfC_3fo_KXq00A" name="List">
+          <modelElement href="payment-service.uml#_z7D2QHXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YbHsHXvEfC_3fo_KXq00A" name="Appointment" associationsIn="_0YYrcXXvEfC_3fo_KXq00A _0YZSgHXvEfC_3fo_KXq00A _0YRWsHXvEfC_3fo_KXq00A _0YZSgXXvEfC_3fo_KXq00A _0YZSiHXvEfC_3fo_KXq00A _0YZSiXXvEfC_3fo_KXq00A" associationsOut="_0YYrcHXvEfC_3fo_KXq00A _0YVoIHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z5aQcHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YbHsXXvEfC_3fo_KXq00A" position="-764.0,-126.0" size="280.0,183.0"/>
+    <stereotypes xmi:id="_0YbHsnXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="payment-service.uml#_z5a3gHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0YbHs3XvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="payment-service.uml#_z5a3hXXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0YbHtHXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_0YbHtXXvEfC_3fo_KXq00A" name="id">
+      <modelElement href="payment-service.uml#_z7rhVHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YbHtnXvEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="payment-service.uml#_z7rhVXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YbHt3XvEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="payment-service.uml#_z7sIYHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YbHuHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YbHuXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YbHunXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YbHu3XvEfC_3fo_KXq00A" name="patient">
+      <modelElement href="payment-service.uml#_z7sIYXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YbHvHXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="payment-service.uml#_z7sIYnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YbHvXXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z7sIZ3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YbHvnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YbHv3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YbHwHXvEfC_3fo_KXq00A" name="Patient">
+        <modelElement href="payment-service.uml#_z5KY1XXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YbHwXXvEfC_3fo_KXq00A" name="doctor">
+      <modelElement href="payment-service.uml#_z7sIaXXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YbHwnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YbHw3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YbHxHXvEfC_3fo_KXq00A" name="Doctor">
+        <modelElement href="payment-service.uml#_z5IjoHXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YbHxXXvEfC_3fo_KXq00A" name="appointmentDate">
+      <modelElement href="payment-service.uml#_z7svc3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YbHxnXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7svdHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YbHx3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YbHyHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YbHyXXvEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YbHynXvEfC_3fo_KXq00A" name="status">
+      <modelElement href="payment-service.uml#_z7svdXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YbHy3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7svdnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YbHzHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YbHzXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YbHznXvEfC_3fo_KXq00A" name="AppointmentStatus">
+        <modelElement href="payment-service.uml#_z5FgVnXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YbHz3XvEfC_3fo_KXq00A" name="insuranceCoverageStatus">
+      <modelElement href="payment-service.uml#_z7svd3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YbH0HXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7sveHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YbH0XXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YbH0nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YbH03XvEfC_3fo_KXq00A" name="InsuranceCoverageStatus">
+        <modelElement href="payment-service.uml#_z5KY0HXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YbH1HXvEfC_3fo_KXq00A" name="coverageCheckDate">
+      <modelElement href="payment-service.uml#_z7sveXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YbH1XXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7svenXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YbH1nXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YbH13XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YbH2HXvEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YbH2XXvEfC_3fo_KXq00A" name="createdAt">
+      <modelElement href="payment-service.uml#_z7sve3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YbH2nXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7svfHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YbH23XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YbH3HXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YbH3XXvEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0YbH3nXvEfC_3fo_KXq00A" name="Appointment">
+      <modelElement href="payment-service.uml#_z5a3gXXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_0YbH33XvEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_0YbH4HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YbH4XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YbH4nXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5a3hHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YbH43XvEfC_3fo_KXq00A" name="Appointment">
+          <modelElement href="payment-service.uml#_z5aQcHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0YbH5HXvEfC_3fo_KXq00A" name="Appointment">
+      <modelElement href="payment-service.uml#_z7giMXXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_0YbH5XXvEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_0YbH5nXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7hJSnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YbH53XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YbH6HXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YbH6XXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7hJSXXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YbH6nXvEfC_3fo_KXq00A" name="Appointment">
+          <modelElement href="payment-service.uml#_z5aQcHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YbH63XvEfC_3fo_KXq00A" name="id">
+        <modelElement href="payment-service.uml#_z7giMnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YbH7HXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YbH7XXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YbH7nXvEfC_3fo_KXq00A" name="patient">
+        <modelElement href="payment-service.uml#_z7hJQHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YbH73XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YbH8HXvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="payment-service.uml#_z5KY1XXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YbH8XXvEfC_3fo_KXq00A" name="doctor">
+        <modelElement href="payment-service.uml#_z7hJQXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YbH8nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YbH83XvEfC_3fo_KXq00A" name="Doctor">
+          <modelElement href="payment-service.uml#_z5IjoHXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YbH9HXvEfC_3fo_KXq00A" name="appointmentDate">
+        <modelElement href="payment-service.uml#_z7hJQnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YbH9XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YbH9nXvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YbH93XvEfC_3fo_KXq00A" name="status">
+        <modelElement href="payment-service.uml#_z7hJQ3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YbH-HXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YbH-XXvEfC_3fo_KXq00A" name="AppointmentStatus">
+          <modelElement href="payment-service.uml#_z5FgVnXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YbH-nXvEfC_3fo_KXq00A" name="insuranceCoverageStatus">
+        <modelElement href="payment-service.uml#_z7hJRHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YbH-3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YbH_HXvEfC_3fo_KXq00A" name="InsuranceCoverageStatus">
+          <modelElement href="payment-service.uml#_z5KY0HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YbH_XXvEfC_3fo_KXq00A" name="coverageCheckDate">
+        <modelElement href="payment-service.uml#_z7hJRXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YbH_nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YbH_3XvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YbIAHXvEfC_3fo_KXq00A" name="createdAt">
+        <modelElement href="payment-service.uml#_z7hJRnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YbIAXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YbIAnXvEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="payment-service.uml#_z7JV0HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YJa4HXvEfC_3fo_KXq00A" name="PaymentRequest">
+    <modelElement href="payment-service.uml#_z5B18HXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YJa4XXvEfC_3fo_KXq00A" position="-468.0,-263.0" size="204.0,172.0"/>
+    <visibility xmi:id="_0YJa4nXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_0YJa43XvEfC_3fo_KXq00A" name="appointmentId">
+      <modelElement href="payment-service.uml#_z7kMmXXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YJa5HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YJa5XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YJa5nXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YJa53XvEfC_3fo_KXq00A" name="patientId">
+      <modelElement href="payment-service.uml#_z7kMmnXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YJa6HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YJa6XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YJa6nXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YJa63XvEfC_3fo_KXq00A" name="amount">
+      <modelElement href="payment-service.uml#_z7kMm3XvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YJa7HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YJa7XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YJa7nXvEfC_3fo_KXq00A" name="BigDecimal">
+        <modelElement href="payment-service.uml#_z7Kj8HXvEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YJa73XvEfC_3fo_KXq00A" defaultValue="&quot;INR&quot;" name="currency">
+      <modelElement href="payment-service.uml#_z7kMnHXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YJa8HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YJa8XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YJa8nXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0YJa83XvEfC_3fo_KXq00A" name="PaymentRequest">
+      <modelElement href="payment-service.uml#_z5B18XXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_0YJa9HXvEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_0YJa9XXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="payment-service.uml#_z5B19HXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YJa9nXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YJa93XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YJa-HXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5B19XXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YJa-XXvEfC_3fo_KXq00A" name="PaymentRequest">
+          <modelElement href="payment-service.uml#_z5B18HXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0YJa-nXvEfC_3fo_KXq00A" name="PaymentRequest">
+      <modelElement href="payment-service.uml#_z7Z0g3XvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_0YJa-3XvEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_0YJa_HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YJa_XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YJa_nXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7ablXXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YJa_3XvEfC_3fo_KXq00A" name="PaymentRequest">
+          <modelElement href="payment-service.uml#_z5B18HXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YJbAHXvEfC_3fo_KXq00A" name="appointmentId">
+        <modelElement href="payment-service.uml#_z7abkHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YJbAXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YJbAnXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YJbA3XvEfC_3fo_KXq00A" name="patientId">
+        <modelElement href="payment-service.uml#_z7abkXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YJbBHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YJbBXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YJbBnXvEfC_3fo_KXq00A" name="amount">
+        <modelElement href="payment-service.uml#_z7abknXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YJbB3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YJbCHXvEfC_3fo_KXq00A" name="BigDecimal">
+          <modelElement href="payment-service.uml#_z7Kj8HXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_0YKpAHXvEfC_3fo_KXq00A" name="InsuranceCoverageStatus" associationsOut="_0YZSgHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z5KY0HXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YKpAXXvEfC_3fo_KXq00A" position="-1161.0,-82.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0YKpAnXvEfC_3fo_KXq00A" label="+"/>
+    <literals xmi:id="_0YKpA3XvEfC_3fo_KXq00A" name="COVERED">
+      <modelElement href="payment-service.uml#_z5KY0XXvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YKpBHXvEfC_3fo_KXq00A" name="NOT_COVERED">
+      <modelElement href="payment-service.uml#_z5KY0nXvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YKpBXXvEfC_3fo_KXq00A" name="UNKNOWN">
+      <modelElement href="payment-service.uml#_z5KY03XvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YKpBnXvEfC_3fo_KXq00A" name="PENDING">
+      <modelElement href="payment-service.uml#_z5KY1HXvEfC_3fo_KXq00A"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_0YlfwHXvEfC_3fo_KXq00A" name="PaymentRepository" associationsIn="_0YkRoHXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z5GudHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YlfwXXvEfC_3fo_KXq00A" position="-469.0,-55.0" size="333.0,195.0"/>
+    <stereotypes xmi:id="_0YlfwnXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="payment-service.uml#_z5GudXXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0Ylfw3XvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="payment-service.uml#_z5H8l3XvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0YlfxHXvEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_0YlfxXXvEfC_3fo_KXq00A" name="findByAppointmentId">
+      <modelElement href="payment-service.uml#_z5GudnXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0YlfxnXvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="payment-service.uml#_z5HVgHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0Ylfx3XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z5HVgXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YlfyHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YlfyXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YlfynXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7bConXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Ylfy3XvEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="payment-service.uml#_z7LyE3XvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YlfzHXvEfC_3fo_KXq00A" name="appointmentId">
+        <modelElement href="payment-service.uml#_z5Gud3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YlfzXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YlfznXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Ylfz3XvEfC_3fo_KXq00A" name="findByRazorpayOrderId">
+      <modelElement href="payment-service.uml#_z5HVgnXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Ylf0HXvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="payment-service.uml#_z5HVhHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0Ylf0XXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z5HVhXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Ylf0nXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0Ylf03XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0Ylf1HXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7bpsHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Ylf1XXvEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="payment-service.uml#_z7LyE3XvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Ylf1nXvEfC_3fo_KXq00A" name="razorpayOrderId">
+        <modelElement href="payment-service.uml#_z5HVg3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Ylf13XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Ylf2HXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Ylf2XXvEfC_3fo_KXq00A" name="findByRazorpayPaymentId">
+      <modelElement href="payment-service.uml#_z5HVhnXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Ylf2nXvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="payment-service.uml#_z5H8kHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0Ylf23XvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z5H8kXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Ylf3HXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0Ylf3XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0Ylf3nXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7bpsXXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Ylf33XvEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="payment-service.uml#_z7LyE3XvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Ylf4HXvEfC_3fo_KXq00A" name="razorpayPaymentId">
+        <modelElement href="payment-service.uml#_z5HVh3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Ylf4XXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Ylf4nXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Ylf43XvEfC_3fo_KXq00A" name="findByPatientId">
+      <modelElement href="payment-service.uml#_z5H8knXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Ylf5HXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z5H8lnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Ylf5XXvEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_0Ylf5nXvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0Ylf53XvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5H8lHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Ylf6HXvEfC_3fo_KXq00A" name="BookingPayment">
+          <modelElement href="payment-service.uml#_z5V_BXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Ylf6XXvEfC_3fo_KXq00A" name="patientId">
+        <modelElement href="payment-service.uml#_z5H8k3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Ylf6nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Ylf63XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Ylf7HXvEfC_3fo_KXq00A" name="findByPatientIdAndStatus">
+      <modelElement href="payment-service.uml#_z7MZI3XvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Ylf7XXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7MZKHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Ylf7nXvEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_0Ylf73XvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0Ylf8HXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7MZJnXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Ylf8XXvEfC_3fo_KXq00A" name="BookingPayment">
+          <modelElement href="payment-service.uml#_z5V_BXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Ylf8nXvEfC_3fo_KXq00A" name="patientId">
+        <modelElement href="payment-service.uml#_z7MZJHXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Ylf83XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Ylf9HXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0Ylf9XXvEfC_3fo_KXq00A" name="status">
+        <modelElement href="payment-service.uml#_z7MZJXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Ylf9nXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Ylf93XvEfC_3fo_KXq00A" name="PaymentStatus">
+          <modelElement href="payment-service.uml#_z5M1FXXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Ylf-HXvEfC_3fo_KXq00A" name="findByStatus">
+      <modelElement href="payment-service.uml#_z7MZKXXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Ylf-XXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z7MZLXXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Ylf-nXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0Ylf-3XvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0Ylf_HXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7MZK3XvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Ylf_XXvEfC_3fo_KXq00A" name="BookingPayment">
+          <modelElement href="payment-service.uml#_z5V_BXXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Ylf_nXvEfC_3fo_KXq00A" name="status">
+        <modelElement href="payment-service.uml#_z7MZKnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Ylf_3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YlgAHXvEfC_3fo_KXq00A" name="PaymentStatus">
+          <modelElement href="payment-service.uml#_z5M1FXXvEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_0YeLAHXvEfC_3fo_KXq00A" name="PaymentMethod" associationsOut="_0YQvuXXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z5MOAHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YeLAXXvEfC_3fo_KXq00A" position="-650.0,-433.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0YeLAnXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="payment-service.uml#_z5MOAXXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0YeLA3XvEfC_3fo_KXq00A" label="+"/>
+    <literals xmi:id="_0YeLBHXvEfC_3fo_KXq00A" name="RAZORPAY">
+      <modelElement href="payment-service.uml#_z5M1EHXvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YeLBXXvEfC_3fo_KXq00A" name="CARD">
+      <modelElement href="payment-service.uml#_z5M1EXXvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YeLBnXvEfC_3fo_KXq00A" name="UPI">
+      <modelElement href="payment-service.uml#_z5M1EnXvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YeLB3XvEfC_3fo_KXq00A" name="NETBANKING">
+      <modelElement href="payment-service.uml#_z5M1E3XvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YeLCHXvEfC_3fo_KXq00A" name="WALLET">
+      <modelElement href="payment-service.uml#_z5M1FHXvEfC_3fo_KXq00A"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_0YPhgHXvEfC_3fo_KXq00A" name="Role" associationsOut="_0YMeNXXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z5M1HHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YPhgXXvEfC_3fo_KXq00A" position="-653.0,-259.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0YPhgnXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="payment-service.uml#_z5M1HXXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0YPhg3XvEfC_3fo_KXq00A" label="+"/>
+    <literals xmi:id="_0YPhhHXvEfC_3fo_KXq00A" name="ADMIN">
+      <modelElement href="payment-service.uml#_z5M1HnXvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YPhhXXvEfC_3fo_KXq00A" name="PATIENT">
+      <modelElement href="payment-service.uml#_z5M1H3XvEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_0YPhhnXvEfC_3fo_KXq00A" name="DOCTOR">
+      <modelElement href="payment-service.uml#_z5M1IHXvEfC_3fo_KXq00A"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_0Yn8BXXvEfC_3fo_KXq00A" name="PatientRepository" associationsIn="_0Ymt4HXvEfC_3fo_KXq00A">
+    <modelElement href="payment-service.uml#_z5SUoHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0Yn8BnXvEfC_3fo_KXq00A" position="-1102.0,696.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0Yn8B3XvEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="payment-service.uml#_z5S7sHXvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0Yn8CHXvEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="payment-service.uml#_z5V_A3XvEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_0Yn8CXXvEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_0Yn8CnXvEfC_3fo_KXq00A" name="findByEmail">
+      <modelElement href="payment-service.uml#_z5TiwHXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Yn8C3XvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="payment-service.uml#_z5TiwnXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0Yn8DHXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z5Tiw3XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Yn8DXXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0Yn8DnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0Yn8D3XvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7etCnXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Yn8EHXvEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="payment-service.uml#_z7LyE3XvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Yn8EXXvEfC_3fo_KXq00A" name="email">
+        <modelElement href="payment-service.uml#_z5TiwXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Yn8EnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Yn8E3XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Yn8FHXvEfC_3fo_KXq00A" name="findByContactNumber">
+      <modelElement href="payment-service.uml#_z5UJ0nXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Yn8FXXvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="payment-service.uml#_z5UJ1HXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0Yn8FnXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z5UJ1XXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Yn8F3XvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0Yn8GHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0Yn8GXXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7etC3XvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Yn8GnXvEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="payment-service.uml#_z7LyE3XvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Yn8G3XvEfC_3fo_KXq00A" name="contactNumber">
+        <modelElement href="payment-service.uml#_z5UJ03XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Yn8HHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Yn8HXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Yn8HnXvEfC_3fo_KXq00A" name="findByNameContainingIgnoreCase">
+      <modelElement href="payment-service.uml#_z5UJ1nXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Yn8H3XvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z5Uw4XXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Yn8IHXvEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_0Yn8IXXvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0Yn8InXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5UJ2HXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Yn8I3XvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="payment-service.uml#_z5KY1XXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Yn8JHXvEfC_3fo_KXq00A" name="name">
+        <modelElement href="payment-service.uml#_z5UJ13XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Yn8JXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Yn8JnXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Yn8J3XvEfC_3fo_KXq00A" name="findByGender">
+      <modelElement href="payment-service.uml#_z5Uw5HXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Yn8KHXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z5Uw6HXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Yn8KXXvEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_0Yn8KnXvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0Yn8K3XvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5Uw5nXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Yn8LHXvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="payment-service.uml#_z5KY1XXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Yn8LXXvEfC_3fo_KXq00A" name="gender">
+        <modelElement href="payment-service.uml#_z5Uw5XXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Yn8LnXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Yn8L3XvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Yn8MHXvEfC_3fo_KXq00A" name="findByDateOfBirth">
+      <modelElement href="payment-service.uml#_z5Uw6XXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Yn8MXXvEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="payment-service.uml#_z5Uw7XXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Yn8MnXvEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_0Yn8M3XvEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0Yn8NHXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5Uw63XvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Yn8NXXvEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="payment-service.uml#_z5KY1XXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Yn8NnXvEfC_3fo_KXq00A" name="dateOfBirth">
+        <modelElement href="payment-service.uml#_z5Uw6nXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Yn8N3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Yn8OHXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Yn8OXXvEfC_3fo_KXq00A" name="findByUsername">
+      <modelElement href="payment-service.uml#_z5VX8HXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Yn8OnXvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="payment-service.uml#_z5VX8nXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0Yn8O3XvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z5VX83XvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Yn8PHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0Yn8PXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0Yn8PnXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7fUEHXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Yn8P3XvEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="payment-service.uml#_z7LyE3XvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Yn8QHXvEfC_3fo_KXq00A" name="username">
+        <modelElement href="payment-service.uml#_z5VX8XXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Yn8QXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Yn8QnXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Yn8Q3XvEfC_3fo_KXq00A" name="findByUserId">
+      <modelElement href="payment-service.uml#_z5VX9nXvEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_0Yn8RHXvEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="payment-service.uml#_z5VX-HXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0Yn8RXXvEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="payment-service.uml#_z5V_AHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Yn8RnXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0Yn8R3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0Yn8SHXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z7fUEXXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0Yn8SXXvEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="payment-service.uml#_z7LyE3XvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Yn8SnXvEfC_3fo_KXq00A" name="userId">
+        <modelElement href="payment-service.uml#_z5VX93XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0Yn8S3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0Yn8THXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YG-oHXvEfC_3fo_KXq00A" name="PaymentVerificationRequest">
+    <modelElement href="payment-service.uml#_z5ESMHXvEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_0YG-oXXvEfC_3fo_KXq00A" position="-632.0,759.0" size="421.0,144.0"/>
+    <visibility xmi:id="_0YG-onXvEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_0YG-o3XvEfC_3fo_KXq00A" name="razorpayOrderId">
+      <modelElement href="payment-service.uml#_z7kzp3XvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YG-pHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YG-pXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YG-pnXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YG-p3XvEfC_3fo_KXq00A" name="razorpayPaymentId">
+      <modelElement href="payment-service.uml#_z7kzqHXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YG-qHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YG-qXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YG-qnXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YG-q3XvEfC_3fo_KXq00A" name="razorpaySignature">
+      <modelElement href="payment-service.uml#_z7kzqXXvEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_0YG-rHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YG-rXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_0YG-rnXvEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0YG-r3XvEfC_3fo_KXq00A" name="PaymentVerificationRequest">
+      <modelElement href="payment-service.uml#_z5ESMXXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_0YG-sHXvEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_0YG-sXXvEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="payment-service.uml#_z5ESNHXvEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_0YG-snXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YG-s3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YG-tHXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5ESNXXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YG-tXXvEfC_3fo_KXq00A" name="PaymentVerificationRequest">
+          <modelElement href="payment-service.uml#_z5ESMHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0YG-tnXvEfC_3fo_KXq00A" name="PaymentVerificationRequest">
+      <modelElement href="payment-service.uml#_z5E5QHXvEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_0YG-t3XvEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_0YG-uHXvEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_0YG-uXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YG-unXvEfC_3fo_KXq00A">
+        <modelElement href="payment-service.uml#_z5E5RnXvEfC_3fo_KXq00A"/>
+        <type xmi:id="_0YG-u3XvEfC_3fo_KXq00A" name="PaymentVerificationRequest">
+          <modelElement href="payment-service.uml#_z5ESMHXvEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YG-vHXvEfC_3fo_KXq00A" name="razorpayOrderId">
+        <modelElement href="payment-service.uml#_z5E5QXXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YG-vXXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YG-vnXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YG-v3XvEfC_3fo_KXq00A" name="razorpayPaymentId">
+        <modelElement href="payment-service.uml#_z5E5QnXvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YG-wHXvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YG-wXXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YG-wnXvEfC_3fo_KXq00A" name="razorpaySignature">
+        <modelElement href="payment-service.uml#_z5E5Q3XvEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_0YG-w3XvEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_0YG-xHXvEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

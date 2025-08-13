@@ -3,7 +3,7 @@ package training.iqgateway.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import training.iqgateway.dto.LoginRequest;
+
 import training.iqgateway.entities.User;
 import training.iqgateway.repository.UserRepository;
 

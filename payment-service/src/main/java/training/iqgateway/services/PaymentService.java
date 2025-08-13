@@ -20,11 +20,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-// Razorpay
 import com.razorpay.Order;
-import com.razorpay.Payment;
 import com.razorpay.RazorpayClient;
-import com.razorpay.RazorpayException;
 import com.razorpay.Refund;
 
 
@@ -139,7 +136,7 @@ public class PaymentService {
                 
                 // Update appointment status to confirmed
                 Appointment appointment = payment.getAppointment();
-                appointment.setStatus(AppointmentStatus.CONFIRMED);
+                appointment.setStatus(AppointmentStatus.BOOKED);
                 appointmentRepository.save(appointment);
                 
                 return new PaymentResponse(

@@ -53,6 +53,8 @@ public class AuthController {
             responseBody.put("message", "Login successful");
             responseBody.put("username", user.getUsername());
             responseBody.put("role", user.getRole().name());
+            responseBody.put("email", user.getEmail());
+            responseBody.put("userId", user.getId());
 
             return ResponseEntity.ok(responseBody);
 

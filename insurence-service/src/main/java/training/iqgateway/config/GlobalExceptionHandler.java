@@ -6,10 +6,13 @@ import java.util.Map;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
-import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-@ControllerAdvice
+import io.swagger.v3.oas.annotations.Hidden;
+
+@RestControllerAdvice
+@Hidden
 public class GlobalExceptionHandler {
     
     @ExceptionHandler(RuntimeException.class)

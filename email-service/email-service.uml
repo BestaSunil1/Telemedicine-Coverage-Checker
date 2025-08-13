@@ -1,0 +1,1707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persistency="http:///schemas/Persistency/NS/0" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Persistency/NS/0 pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_C-F38HXtEfC_3fo_KXq00A" name="email_service">
+    <eAnnotations xmi:id="_DEPjQHXtEfC_3fo_KXq00A" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_DEQKUHXtEfC_3fo_KXq00A" source="codegen">
+        <details xmi:id="_DEQKUXXtEfC_3fo_KXq00A" key="codegenDirectory" value="/email-service/src/main/java"/>
+        <details xmi:id="_DyizsHXtEfC_3fo_KXq00A" key="AssociatedSourceCode" value="/email-service/src/main/java/training/iqgateway/EmailServiceApplication.java;3420311543/1;/email-service/src/main/java/training/iqgateway/config/ScheduledTasks.java;2411552502/1;/email-service/src/main/java/training/iqgateway/config/SecurityConfig.java;2012822972/1;/email-service/src/main/java/training/iqgateway/repositories/UserRepository.java;4215727188/1;/email-service/src/main/java/training/iqgateway/dtos/ApiResponse.java;2947710289/1;/email-service/src/main/java/training/iqgateway/dtos/ForgotPasswordRequest.java;55737666/1;/email-service/src/main/java/training/iqgateway/dtos/ResetPasswordRequest.java;2136358324/1;/email-service/src/main/java/training/iqgateway/entities/PasswordResetToken.java;1572852775/1;/email-service/src/main/java/training/iqgateway/entities/Role.java;2043567540/1;/email-service/src/main/java/training/iqgateway/entities/User.java;734953788/1;/email-service/src/main/java/training/iqgateway/repositories/PasswordResetTokenRepository.java;3177012816/1;/email-service/src/main/java/training/iqgateway/controller/PasswordResetController.java;4108309592/1;/email-service/src/main/java/training/iqgateway/services/EmailService.java;1232893031/1;/email-service/src/main/java/training/iqgateway/services/PasswordResetService.java;2163677934/1;/email-service/src/test/java/training/iqgateway/EmailServiceApplicationTests.java;1086429974/1;/email-service/src/test/java/training/iqgateway/controller/PasswordResetControllerTest.java;580659917/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_DLT0kHXtEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_DLT0kXXtEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_DLT0knXtEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_DLT0k3XtEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_DLT0lHXtEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_DLT0lXXtEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_DLT0lnXtEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_DLT0l3XtEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_DLT0mHXtEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DKsJgHXtEfC_3fo_KXq00A" name="training">
+      <packagedElement xmi:type="uml:Package" xmi:id="_DKswkHXtEfC_3fo_KXq00A" name="iqgateway">
+        <packagedElement xmi:type="uml:Package" xmi:id="_DKtXonXtEfC_3fo_KXq00A" name="services">
+          <packagedElement xmi:type="uml:Class" xmi:id="_DLroAHXtEfC_3fo_KXq00A" name="EmailService">
+            <ownedAttribute xmi:id="_DQPX4HXtEfC_3fo_KXq00A" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_DPr-QXXtEfC_3fo_KXq00A" isReadOnly="true" association="_DQq1sXXtEfC_3fo_KXq00A">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_DQPX4XXtEfC_3fo_KXq00A" value="LoggerFactory.getLogger(EmailService.class)"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_DQPX43XtEfC_3fo_KXq00A" name="mailSender" visibility="private" type="_DPwPsXXtEfC_3fo_KXq00A" association="_DQvHIHXtEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_DQPX5nXtEfC_3fo_KXq00A" name="fromEmail" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_DQQmA3XtEfC_3fo_KXq00A" name="frontendUrl" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQWFkHXtEfC_3fo_KXq00A" name="sendPasswordResetEmail" specification="_DLsPEHXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQWFkXXtEfC_3fo_KXq00A" name="toEmail">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQWFknXtEfC_3fo_KXq00A" name="resetToken">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQWFk3XtEfC_3fo_KXq00A" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>try {&#xD;
+         MimeMessage message = mailSender.createMimeMessage();&#xD;
+         MimeMessageHelper helper = new MimeMessageHelper(message, true);&#xD;
+         &#xD;
+         helper.setFrom(fromEmail);&#xD;
+         helper.setTo(toEmail);&#xD;
+         helper.setSubject(&quot;Password Reset Request - Healthcare System&quot;);&#xD;
+         &#xD;
+         String resetUrl = frontendUrl + &quot;/reset-password?token=&quot; + resetToken;&#xD;
+         &#xD;
+         String htmlContent = buildPasswordResetEmailTemplate(username, resetUrl);&#xD;
+         helper.setText(htmlContent, true);&#xD;
+         &#xD;
+         mailSender.send(message);&#xD;
+         logger.info(&quot;Password reset email sent successfully to: {}&quot;, toEmail);&#xD;
+         &#xD;
+     } catch (MessagingException e) {&#xD;
+         logger.error(&quot;Failed to send password reset email to: {}&quot;, toEmail, e);&#xD;
+         throw new RuntimeException(&quot;Failed to send email&quot;, e);&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQWFlHXtEfC_3fo_KXq00A" name="sendPasswordResetConfirmationEmail" specification="_DLsPFXXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQWFlXXtEfC_3fo_KXq00A" name="toEmail">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQWFlnXtEfC_3fo_KXq00A" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>try {&#xD;
+         MimeMessage message = mailSender.createMimeMessage();&#xD;
+         MimeMessageHelper helper = new MimeMessageHelper(message, true);&#xD;
+         &#xD;
+         helper.setFrom(fromEmail);&#xD;
+         helper.setTo(toEmail);&#xD;
+         helper.setSubject(&quot;Password Reset Successful - Healthcare System&quot;);&#xD;
+         &#xD;
+         String htmlContent = buildPasswordResetConfirmationTemplate(username);&#xD;
+         helper.setText(htmlContent, true);&#xD;
+         &#xD;
+         mailSender.send(message);&#xD;
+         logger.info(&quot;Password reset confirmation email sent to: {}&quot;, toEmail);&#xD;
+         &#xD;
+     } catch (MessagingException e) {&#xD;
+         logger.error(&quot;Failed to send confirmation email to: {}&quot;, toEmail, e);&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQWFl3XtEfC_3fo_KXq00A" name="buildPasswordResetEmailTemplate" specification="_DLs2IHXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQWFmHXtEfC_3fo_KXq00A" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQWFmXXtEfC_3fo_KXq00A" name="resetUrl">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQWFmnXtEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return &quot;&lt;!DOCTYPE html>&quot; +&#xD;
+            &quot;&lt;html>&quot; +&#xD;
+            &quot;&lt;head>&quot; +&#xD;
+            &quot;&lt;style>&quot; +&#xD;
+            &quot;body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }&quot; +&#xD;
+            &quot;.container { max-width: 600px; margin: 0 auto; padding: 20px; }&quot; +&#xD;
+            &quot;.header { background-color: #007bff; color: white; padding: 20px; text-align: center; }&quot; +&#xD;
+            &quot;.content { padding: 30px; background-color: #f9f9f9; }&quot; +&#xD;
+            &quot;.button { display: inline-block; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; margin: 20px 0; }&quot; +&#xD;
+            &quot;.footer { padding: 20px; text-align: center; color: #666; font-size: 12px; }&quot; +&#xD;
+            &quot;&lt;/style>&quot; +&#xD;
+            &quot;&lt;/head>&quot; +&#xD;
+            &quot;&lt;body>&quot; +&#xD;
+            &quot;&lt;div class='container'>&quot; +&#xD;
+            &quot;&lt;div class='header'>&quot; +&#xD;
+            &quot;&lt;h1>Healthcare System&lt;/h1>&quot; +&#xD;
+            &quot;&lt;/div>&quot; +&#xD;
+            &quot;&lt;div class='content'>&quot; +&#xD;
+            &quot;&lt;h2>Password Reset Request&lt;/h2>&quot; +&#xD;
+            &quot;&lt;p>Hello &quot; + username + &quot;,&lt;/p>&quot; +&#xD;
+            &quot;&lt;p>We received a request to reset your password for your Healthcare System account.&lt;/p>&quot; +&#xD;
+            &quot;&lt;p>Click the button below to reset your password:&lt;/p>&quot; +&#xD;
+            &quot;&lt;a href='&quot; + resetUrl + &quot;' class='button'>Reset Password&lt;/a>&quot; +&#xD;
+            &quot;&lt;p>If the button doesn't work, copy and paste this link into your browser:&lt;/p>&quot; +&#xD;
+            &quot;&lt;p>&quot; + resetUrl + &quot;&lt;/p>&quot; +&#xD;
+            &quot;&lt;p>&lt;strong>This link will expire in 1 hour.&lt;/strong>&lt;/p>&quot; +&#xD;
+            &quot;&lt;p>If you didn't request this password reset, please ignore this email. Your password will remain unchanged.&lt;/p>&quot; +&#xD;
+            &quot;&lt;/div>&quot; +&#xD;
+            &quot;&lt;div class='footer'>&quot; +&#xD;
+            &quot;&lt;p>This is an automated message, please do not reply to this email.&lt;/p>&quot; +&#xD;
+            &quot;&lt;p>&amp;copy; 2025 Healthcare System. All rights reserved.&lt;/p>&quot; +&#xD;
+            &quot;&lt;/div>&quot; +&#xD;
+            &quot;&lt;/div>&quot; +&#xD;
+            &quot;&lt;/body>&quot; +&#xD;
+            &quot;&lt;/html>&quot;;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQWFm3XtEfC_3fo_KXq00A" name="buildPasswordResetConfirmationTemplate" specification="_DLs2JXXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQWFnHXtEfC_3fo_KXq00A" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQWFnXXtEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return &quot;&lt;!DOCTYPE html>&quot; +&#xD;
+            &quot;&lt;html>&quot; +&#xD;
+            &quot;&lt;head>&quot; +&#xD;
+            &quot;&lt;style>&quot; +&#xD;
+            &quot;body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }&quot; +&#xD;
+            &quot;.container { max-width: 600px; margin: 0 auto; padding: 20px; }&quot; +&#xD;
+            &quot;.header { background-color: #28a745; color: white; padding: 20px; text-align: center; }&quot; +&#xD;
+            &quot;.content { padding: 30px; background-color: #f9f9f9; }&quot; +&#xD;
+            &quot;.footer { padding: 20px; text-align: center; color: #666; font-size: 12px; }&quot; +&#xD;
+            &quot;&lt;/style>&quot; +&#xD;
+            &quot;&lt;/head>&quot; +&#xD;
+            &quot;&lt;body>&quot; +&#xD;
+            &quot;&lt;div class='container'>&quot; +&#xD;
+            &quot;&lt;div class='header'>&quot; +&#xD;
+            &quot;&lt;h1>Healthcare System&lt;/h1>&quot; +&#xD;
+            &quot;&lt;/div>&quot; +&#xD;
+            &quot;&lt;div class='content'>&quot; +&#xD;
+            &quot;&lt;h2>Password Reset Successful&lt;/h2>&quot; +&#xD;
+            &quot;&lt;p>Hello &quot; + username + &quot;,&lt;/p>&quot; +&#xD;
+            &quot;&lt;p>Your password has been successfully reset for your Healthcare System account.&lt;/p>&quot; +&#xD;
+            &quot;&lt;p>If you didn't make this change, please contact our support team immediately.&lt;/p>&quot; +&#xD;
+            &quot;&lt;/div>&quot; +&#xD;
+            &quot;&lt;div class='footer'>&quot; +&#xD;
+            &quot;&lt;p>This is an automated message, please do not reply to this email.&lt;/p>&quot; +&#xD;
+            &quot;&lt;p>&amp;copy; 2025 Healthcare System. All rights reserved.&lt;/p>&quot; +&#xD;
+            &quot;&lt;/div>&quot; +&#xD;
+            &quot;&lt;/div>&quot; +&#xD;
+            &quot;&lt;/body>&quot; +&#xD;
+            &quot;&lt;/html>&quot;;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_DLsPEHXtEfC_3fo_KXq00A" name="sendPasswordResetEmail" method="_DQWFkHXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DLsPEXXtEfC_3fo_KXq00A" name="toEmail">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DLsPEnXtEfC_3fo_KXq00A" name="resetToken">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DLsPE3XtEfC_3fo_KXq00A" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DLsPFXXtEfC_3fo_KXq00A" name="sendPasswordResetConfirmationEmail" method="_DQWFlHXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DLsPFnXtEfC_3fo_KXq00A" name="toEmail">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DLsPF3XtEfC_3fo_KXq00A" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DLs2IHXtEfC_3fo_KXq00A" name="buildPasswordResetEmailTemplate" visibility="private" method="_DQWFl3XtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DLs2IXXtEfC_3fo_KXq00A" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DLs2InXtEfC_3fo_KXq00A" name="resetUrl">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DLs2I3XtEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DLs2JXXtEfC_3fo_KXq00A" name="buildPasswordResetConfirmationTemplate" visibility="private" method="_DQWFm3XtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DLs2JnXtEfC_3fo_KXq00A" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DLs2J3XtEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_DLtdMHXtEfC_3fo_KXq00A" name="PasswordResetService">
+            <ownedAttribute xmi:id="_DQQmB3XtEfC_3fo_KXq00A" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_DPr-QXXtEfC_3fo_KXq00A" isReadOnly="true" association="_DQz_oXXtEfC_3fo_KXq00A">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_DQRNEHXtEfC_3fo_KXq00A" value="LoggerFactory.getLogger(PasswordResetService.class)"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_DQRNEnXtEfC_3fo_KXq00A" name="TOKEN_EXPIRY_HOURS" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_DQRNE3XtEfC_3fo_KXq00A" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_DQRNFXXtEfC_3fo_KXq00A" name="userRepository" visibility="private" type="_DLYGAHXtEfC_3fo_KXq00A" association="_DQ44IXXtEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_DQSbMnXtEfC_3fo_KXq00A" name="tokenRepository" visibility="private" type="_DLmIcHXtEfC_3fo_KXq00A" association="_DQ9woHXtEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_DQSbNXXtEfC_3fo_KXq00A" name="emailService" visibility="private" type="_DLroAHXtEfC_3fo_KXq00A" association="_DRCCEXXtEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_DQSbOHXtEfC_3fo_KXq00A" name="passwordEncoder" visibility="private" type="_DPei5XXtEfC_3fo_KXq00A" association="_DRFscXXtEfC_3fo_KXq00A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQWFnnXtEfC_3fo_KXq00A" name="initiatePasswordReset" specification="_DLuEQXXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQWFn3XtEfC_3fo_KXq00A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQWFoHXtEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>try {&#xD;
+         Optional&lt;User> userOpt = userRepository.findByEmail(email);&#xD;
+         if (userOpt.isEmpty()) {&#xD;
+             logger.warn(&quot;Password reset attempted for non-existent email: {}&quot;, email);&#xD;
+             return false;&#xD;
+         }&#xD;
+         &#xD;
+         User user = userOpt.get();&#xD;
+         &#xD;
+         // Delete any existing tokens for this user&#xD;
+         tokenRepository.deleteByEmail(email);&#xD;
+         &#xD;
+         // Generate new token&#xD;
+         String token = UUID.randomUUID().toString();&#xD;
+         LocalDateTime expiryTime = LocalDateTime.now().plusHours(TOKEN_EXPIRY_HOURS);&#xD;
+         &#xD;
+         PasswordResetToken resetToken = new PasswordResetToken(token, user, email, expiryTime);&#xD;
+         tokenRepository.save(resetToken);&#xD;
+         &#xD;
+         // Send email&#xD;
+         emailService.sendPasswordResetEmail(email, token, user.getUsername());&#xD;
+         &#xD;
+         logger.info(&quot;Password reset initiated for user: {}&quot;, email);&#xD;
+         return true;&#xD;
+         &#xD;
+     } catch (Exception e) {&#xD;
+         logger.error(&quot;Error initiating password reset for email: {}&quot;, email, e);&#xD;
+         return false;&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQWFoXXtEfC_3fo_KXq00A" name="resetPassword" specification="_DLurUXXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQWFonXtEfC_3fo_KXq00A" name="token">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQWFo3XtEfC_3fo_KXq00A" name="newPassword">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQWFpHXtEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>try {&#xD;
+         Optional&lt;PasswordResetToken> tokenOpt = tokenRepository.findByTokenAndUsedFalse(token);&#xD;
+         &#xD;
+         if (tokenOpt.isEmpty()) {&#xD;
+             logger.warn(&quot;Invalid or already used reset token: {}&quot;, token);&#xD;
+             return false;&#xD;
+         }&#xD;
+         &#xD;
+         PasswordResetToken resetToken = tokenOpt.get();&#xD;
+         &#xD;
+         if (resetToken.isExpired()) {&#xD;
+             logger.warn(&quot;Expired reset token used: {}&quot;, token);&#xD;
+             tokenRepository.delete(resetToken);&#xD;
+             return false;&#xD;
+         }&#xD;
+         &#xD;
+         Optional&lt;User> userOpt = userRepository.findById(resetToken.getUserId().getId());&#xD;
+         if (userOpt.isEmpty()) {&#xD;
+             logger.error(&quot;User not found for reset token: {}&quot;, token);&#xD;
+             return false;&#xD;
+         }&#xD;
+         &#xD;
+         User user = userOpt.get();&#xD;
+         &#xD;
+         // Update password&#xD;
+         user.setPassword(passwordEncoder.encode(newPassword));&#xD;
+         user.setUpdatedAt(LocalDateTime.now());&#xD;
+         userRepository.save(user);&#xD;
+         &#xD;
+         // Mark token as used&#xD;
+         resetToken.setUsed(true);&#xD;
+         tokenRepository.save(resetToken);&#xD;
+         &#xD;
+         // Send confirmation email&#xD;
+         emailService.sendPasswordResetConfirmationEmail(user.getEmail(), user.getUsername());&#xD;
+         &#xD;
+         logger.info(&quot;Password reset successful for user: {}&quot;, user.getEmail());&#xD;
+         return true;&#xD;
+         &#xD;
+     } catch (Exception e) {&#xD;
+         logger.error(&quot;Error resetting password for token: {}&quot;, token, e);&#xD;
+         return false;&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQWFpXXtEfC_3fo_KXq00A" name="validateResetToken" specification="_DLurVnXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQWFpnXtEfC_3fo_KXq00A" name="token">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQWFp3XtEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Optional&lt;PasswordResetToken> tokenOpt = tokenRepository.findByTokenAndUsedFalse(token);&#xD;
+     &#xD;
+     if (tokenOpt.isEmpty()) {&#xD;
+         return false;&#xD;
+     }&#xD;
+     &#xD;
+     PasswordResetToken resetToken = tokenOpt.get();&#xD;
+     return !resetToken.isExpired();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQWFqHXtEfC_3fo_KXq00A" name="cleanupExpiredTokens" specification="_DLvSY3XtEfC_3fo_KXq00A">
+              <language>java</language>
+              <body>tokenRepository.deleteByExpiresAtBefore(LocalDateTime.now());&#xD;
+     logger.info(&quot;Cleaned up expired password reset tokens&quot;);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_DLuEQXXtEfC_3fo_KXq00A" name="initiatePasswordReset" method="_DQWFnnXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DLuEQnXtEfC_3fo_KXq00A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DLuEQ3XtEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DLurUXXtEfC_3fo_KXq00A" name="resetPassword" method="_DQWFoXXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DLurUnXtEfC_3fo_KXq00A" name="token">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DLurU3XtEfC_3fo_KXq00A" name="newPassword">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DLurVHXtEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DLurVnXtEfC_3fo_KXq00A" name="validateResetToken" method="_DQWFpXXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DLvSYHXtEfC_3fo_KXq00A" name="token">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DLvSYXXtEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DLvSY3XtEfC_3fo_KXq00A" name="cleanupExpiredTokens" method="_DQWFqHXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DQq1sXXtEfC_3fo_KXq00A" name="" memberEnd="_DQq1snXtEfC_3fo_KXq00A _DQPX4HXtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DQq1snXtEfC_3fo_KXq00A" name="" type="_DLroAHXtEfC_3fo_KXq00A" association="_DQq1sXXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DQvHIHXtEfC_3fo_KXq00A" name="" memberEnd="_DQvHIXXtEfC_3fo_KXq00A _DQPX43XtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DQvHIXXtEfC_3fo_KXq00A" name="" type="_DLroAHXtEfC_3fo_KXq00A" association="_DQvHIHXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DQz_oXXtEfC_3fo_KXq00A" name="" memberEnd="_DQz_onXtEfC_3fo_KXq00A _DQQmB3XtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DQz_onXtEfC_3fo_KXq00A" name="" type="_DLtdMHXtEfC_3fo_KXq00A" association="_DQz_oXXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DQ44IXXtEfC_3fo_KXq00A" name="" memberEnd="_DQ44InXtEfC_3fo_KXq00A _DQRNFXXtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DQ44InXtEfC_3fo_KXq00A" name="" type="_DLtdMHXtEfC_3fo_KXq00A" association="_DQ44IXXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DQ9woHXtEfC_3fo_KXq00A" name="" memberEnd="_DQ9woXXtEfC_3fo_KXq00A _DQSbMnXtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DQ9woXXtEfC_3fo_KXq00A" name="" type="_DLtdMHXtEfC_3fo_KXq00A" association="_DQ9woHXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DRCCEXXtEfC_3fo_KXq00A" name="" memberEnd="_DRCCEnXtEfC_3fo_KXq00A _DQSbNXXtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DRCCEnXtEfC_3fo_KXq00A" name="" type="_DLtdMHXtEfC_3fo_KXq00A" association="_DRCCEXXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DRFscXXtEfC_3fo_KXq00A" name="" memberEnd="_DRFscnXtEfC_3fo_KXq00A _DQSbOHXtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DRFscnXtEfC_3fo_KXq00A" name="" type="_DLtdMHXtEfC_3fo_KXq00A" association="_DRFscXXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DKtXo3XtEfC_3fo_KXq00A" name="config">
+          <packagedElement xmi:type="uml:Class" xmi:id="_DLVCsnXtEfC_3fo_KXq00A" name="ScheduledTasks">
+            <ownedAttribute xmi:id="_DQEYwHXtEfC_3fo_KXq00A" name="passwordResetService" visibility="private" type="_DLtdMHXtEfC_3fo_KXq00A" association="_DQZv8HXtEfC_3fo_KXq00A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQUQYHXtEfC_3fo_KXq00A" name="cleanupExpiredTokens" specification="_DLVpwXXtEfC_3fo_KXq00A">
+              <language>java</language>
+              <body>passwordResetService.cleanupExpiredTokens();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_DLVpwXXtEfC_3fo_KXq00A" name="cleanupExpiredTokens" method="_DQUQYHXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_DLW34HXtEfC_3fo_KXq00A" name="SecurityConfig">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQUQYXXtEfC_3fo_KXq00A" name="passwordEncoder" specification="_DLW34nXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQUQYnXtEfC_3fo_KXq00A" type="_DPei5XXtEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>return new BCryptPasswordEncoder();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQUQY3XtEfC_3fo_KXq00A" name="filterChain" specification="_DP7O0HXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQUQZHXtEfC_3fo_KXq00A" name="http" type="_DPd703XtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DQUQZXXtEfC_3fo_KXq00A" type="_DPfJ8XXtEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>http&#xD;
+         .csrf().disable()&#xD;
+         .authorizeHttpRequests(authz -> authz&#xD;
+             .requestMatchers(&quot;/api/forgotpassword/**&quot;).permitAll()&#xD;
+             .anyRequest().authenticated()&#xD;
+         );&#xD;
+     &#xD;
+     return http.build();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_DLW34nXtEfC_3fo_KXq00A" name="passwordEncoder" method="_DQUQYXXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DP6nwHXtEfC_3fo_KXq00A" type="_DPei5XXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DP7O0HXtEfC_3fo_KXq00A" name="filterChain" method="_DQUQY3XtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DP7O0XXtEfC_3fo_KXq00A" name="http" type="_DPd703XtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DP7O0nXtEfC_3fo_KXq00A" type="_DPfJ8XXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DQZv8HXtEfC_3fo_KXq00A" name="" memberEnd="_DQZv8XXtEfC_3fo_KXq00A _DQEYwHXtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DQZv8XXtEfC_3fo_KXq00A" name="" type="_DLVCsnXtEfC_3fo_KXq00A" association="_DQZv8HXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DKvM1nXtEfC_3fo_KXq00A" name="entities">
+          <packagedElement xmi:type="uml:Class" xmi:id="_DLfawHXtEfC_3fo_KXq00A" name="PasswordResetToken">
+            <ownedAttribute xmi:id="_DQG1AHXtEfC_3fo_KXq00A" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_DQHcEnXtEfC_3fo_KXq00A" name="token">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_DQIDKHXtEfC_3fo_KXq00A" name="userId" type="_DLjsMnXtEfC_3fo_KXq00A" association="_DQczQXXtEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_DQJRQnXtEfC_3fo_KXq00A" name="email">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_DQJRRHXtEfC_3fo_KXq00A" name="createdAt" type="_DPjbYHXtEfC_3fo_KXq00A" association="_DQXTunXtEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_DQJ4UXXtEfC_3fo_KXq00A" name="expiresAt" type="_DPjbYHXtEfC_3fo_KXq00A" association="_DQX6wXXtEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_DQJ4U3XtEfC_3fo_KXq00A" name="used">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQU3hHXtEfC_3fo_KXq00A" name="PasswordResetToken" specification="_DP9EAHXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQU3hXXtEfC_3fo_KXq00A" name="token">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQU3hnXtEfC_3fo_KXq00A" name="userId" type="_DLjsMnXtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DQU3h3XtEfC_3fo_KXq00A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQU3iHXtEfC_3fo_KXq00A" name="expiresAt" type="_DPjbYHXtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DQU3iXXtEfC_3fo_KXq00A" type="_DLfawHXtEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>this.token = token;&#xD;
+     this.userId = userId;&#xD;
+     this.email = email;&#xD;
+     this.createdAt = LocalDateTime.now();&#xD;
+     this.expiresAt = expiresAt;&#xD;
+     this.used = false;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQU3inXtEfC_3fo_KXq00A" name="isExpired" specification="_DLgo4HXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQU3i3XtEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return LocalDateTime.now().isAfter(this.expiresAt);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_DLgB0HXtEfC_3fo_KXq00A" name="PasswordResetToken">
+              <eAnnotations xmi:id="_DLgB0XXtEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_DLgB0nXtEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_DLgB03XtEfC_3fo_KXq00A" type="_DLfawHXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DLgo4HXtEfC_3fo_KXq00A" name="isExpired" method="_DQU3inXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DLgo4XXtEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DP9EAHXtEfC_3fo_KXq00A" name="PasswordResetToken" method="_DQU3hHXtEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_DP9EBXXtEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_DP9EBnXtEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_DP9EAXXtEfC_3fo_KXq00A" name="token">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DP9EAnXtEfC_3fo_KXq00A" name="userId" type="_DLjsMnXtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DP9EA3XtEfC_3fo_KXq00A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DP9EBHXtEfC_3fo_KXq00A" name="expiresAt" type="_DPjbYHXtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DP9EB3XtEfC_3fo_KXq00A" type="_DLfawHXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_DLjFIHXtEfC_3fo_KXq00A" name="Role">
+            <ownedLiteral xmi:id="_DLjFInXtEfC_3fo_KXq00A" name="ADMIN"/>
+            <ownedLiteral xmi:id="_DLjsMHXtEfC_3fo_KXq00A" name="PATIENT"/>
+            <ownedLiteral xmi:id="_DLjsMXXtEfC_3fo_KXq00A" name="DOCTOR"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_DLjsMnXtEfC_3fo_KXq00A" name="User">
+            <ownedAttribute xmi:id="_DQKfYHXtEfC_3fo_KXq00A" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_DQLtgXXtEfC_3fo_KXq00A" name="username">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_DQLtg3XtEfC_3fo_KXq00A" name="email">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_DQM7pHXtEfC_3fo_KXq00A" name="password">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_DQNisXXtEfC_3fo_KXq00A" name="role" type="_DLjFIHXtEfC_3fo_KXq00A" association="_DQX6xXXtEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_DQNis3XtEfC_3fo_KXq00A" name="createdAt" type="_DPjbYHXtEfC_3fo_KXq00A" association="_DQf2kHXtEfC_3fo_KXq00A">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_DQNitHXtEfC_3fo_KXq00A" value="LocalDateTime.now()"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_DQOJwXXtEfC_3fo_KXq00A" name="updatedAt" type="_DPjbYHXtEfC_3fo_KXq00A" association="_DQiS0XXtEfC_3fo_KXq00A">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_DQOJwnXtEfC_3fo_KXq00A" value="LocalDateTime.now()"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQVehHXtEfC_3fo_KXq00A" name="User" specification="_DP-5MHXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQVehXXtEfC_3fo_KXq00A" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQVehnXtEfC_3fo_KXq00A" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQVeh3XtEfC_3fo_KXq00A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQVeiHXtEfC_3fo_KXq00A" name="password">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQVeiXXtEfC_3fo_KXq00A" name="role" type="_DLjFIHXtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DQVeinXtEfC_3fo_KXq00A" name="createdAt" type="_DPjbYHXtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DQVei3XtEfC_3fo_KXq00A" name="updatedAt" type="_DPjbYHXtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DQVejHXtEfC_3fo_KXq00A" type="_DLjsMnXtEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.id = id;&#xD;
+		this.username = username;&#xD;
+		this.email = email;&#xD;
+		this.password = password;&#xD;
+		this.role = role;&#xD;
+		this.createdAt = createdAt;&#xD;
+		this.updatedAt = updatedAt;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_DLkTQHXtEfC_3fo_KXq00A" name="User">
+              <eAnnotations xmi:id="_DLkTQXXtEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_DLkTQnXtEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_DLkTQ3XtEfC_3fo_KXq00A" type="_DLjsMnXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DP-5MHXtEfC_3fo_KXq00A" name="User" method="_DQVehHXtEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_DP-5OHXtEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_DP-5OXXtEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_DP-5MXXtEfC_3fo_KXq00A" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DP-5MnXtEfC_3fo_KXq00A" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DP-5M3XtEfC_3fo_KXq00A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DP-5NHXtEfC_3fo_KXq00A" name="password">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DP-5NXXtEfC_3fo_KXq00A" name="role" type="_DLjFIHXtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DP-5NnXtEfC_3fo_KXq00A" name="createdAt" type="_DPjbYHXtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DP-5N3XtEfC_3fo_KXq00A" name="updatedAt" type="_DPjbYHXtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DP-5OnXtEfC_3fo_KXq00A" type="_DLjsMnXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DQXTunXtEfC_3fo_KXq00A" name="" memberEnd="_DQJRRHXtEfC_3fo_KXq00A _DQX6wHXtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DQX6wHXtEfC_3fo_KXq00A" name="" type="_DLfawHXtEfC_3fo_KXq00A" association="_DQXTunXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DQX6wXXtEfC_3fo_KXq00A" name="" memberEnd="_DQJ4UXXtEfC_3fo_KXq00A _DQX6wnXtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DQX6wnXtEfC_3fo_KXq00A" name="" type="_DLfawHXtEfC_3fo_KXq00A" association="_DQX6wXXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DQX6xXXtEfC_3fo_KXq00A" name="" memberEnd="_DQNisXXtEfC_3fo_KXq00A _DQX6xnXtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DQX6xnXtEfC_3fo_KXq00A" name="" type="_DLjsMnXtEfC_3fo_KXq00A" association="_DQX6xXXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DQczQXXtEfC_3fo_KXq00A" name="" memberEnd="_DQczQnXtEfC_3fo_KXq00A _DQIDKHXtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DQczQnXtEfC_3fo_KXq00A" name="" type="_DLfawHXtEfC_3fo_KXq00A" association="_DQczQXXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DQf2kHXtEfC_3fo_KXq00A" name="" memberEnd="_DQf2kXXtEfC_3fo_KXq00A _DQNis3XtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DQf2kXXtEfC_3fo_KXq00A" name="" type="_DLjsMnXtEfC_3fo_KXq00A" association="_DQf2kHXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DQiS0XXtEfC_3fo_KXq00A" name="" memberEnd="_DQiS0nXtEfC_3fo_KXq00A _DQOJwXXtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DQiS0nXtEfC_3fo_KXq00A" name="" type="_DLjsMnXtEfC_3fo_KXq00A" association="_DQiS0XXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DKvz4HXtEfC_3fo_KXq00A" name="repositories">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_DLYGAHXtEfC_3fo_KXq00A" name="UserRepository">
+            <generalization xmi:id="_DP7O1XXtEfC_3fo_KXq00A" general="_DPgYEXXtEfC_3fo_KXq00A"/>
+            <ownedOperation xmi:id="_DLYtEXXtEfC_3fo_KXq00A" name="findByEmail">
+              <ownedParameter xmi:id="_DLYtEnXtEfC_3fo_KXq00A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DP714HXtEfC_3fo_KXq00A" type="_DPfxAHXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DLZUInXtEfC_3fo_KXq00A" name="findByUsername">
+              <ownedParameter xmi:id="_DLZUI3XtEfC_3fo_KXq00A" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DP714XXtEfC_3fo_KXq00A" type="_DPfxAHXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DLZ7MnXtEfC_3fo_KXq00A" name="existsByEmail">
+              <ownedParameter xmi:id="_DLZ7M3XtEfC_3fo_KXq00A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DLZ7NHXtEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_DLmIcHXtEfC_3fo_KXq00A" name="PasswordResetTokenRepository">
+            <generalization xmi:id="_DQAHUHXtEfC_3fo_KXq00A" general="_DPgYEXXtEfC_3fo_KXq00A"/>
+            <ownedOperation xmi:id="_DLmvgXXtEfC_3fo_KXq00A" name="findByToken">
+              <ownedParameter xmi:id="_DLmvgnXtEfC_3fo_KXq00A" name="token">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQAuYHXtEfC_3fo_KXq00A" type="_DPfxAHXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DLmvhXXtEfC_3fo_KXq00A" name="findByTokenAndUsedFalse">
+              <ownedParameter xmi:id="_DLnWkHXtEfC_3fo_KXq00A" name="token">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQAuYXXtEfC_3fo_KXq00A" type="_DPfxAHXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DLnWk3XtEfC_3fo_KXq00A" name="deleteByUserId">
+              <ownedParameter xmi:id="_DLnWlHXtEfC_3fo_KXq00A" name="userId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DLn9oXXtEfC_3fo_KXq00A" name="deleteByEmail">
+              <ownedParameter xmi:id="_DLn9onXtEfC_3fo_KXq00A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DQAuYnXtEfC_3fo_KXq00A" name="deleteByExpiresAtBefore">
+              <ownedParameter xmi:id="_DQAuY3XtEfC_3fo_KXq00A" name="dateTime" type="_DPjbYHXtEfC_3fo_KXq00A"/>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DKwa8HXtEfC_3fo_KXq00A" name="dtos">
+          <packagedElement xmi:type="uml:Class" xmi:id="_DLaiQnXtEfC_3fo_KXq00A" name="ApiResponse">
+            <ownedAttribute xmi:id="_DQE_0HXtEfC_3fo_KXq00A" name="success">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_DQE_0XXtEfC_3fo_KXq00A" name="message">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_DQE_0nXtEfC_3fo_KXq00A" name="data" type="_DP714nXtEfC_3fo_KXq00A" association="_DQXTsHXtEfC_3fo_KXq00A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQUQZnXtEfC_3fo_KXq00A" name="ApiResponse" specification="_DLbJUHXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQUQZ3XtEfC_3fo_KXq00A" name="success">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQUQaHXtEfC_3fo_KXq00A" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQUQaXXtEfC_3fo_KXq00A" type="_DLaiQnXtEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>this.success = success;&#xD;
+     this.message = message;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQUQanXtEfC_3fo_KXq00A" name="ApiResponse" specification="_DP715HXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQUQa3XtEfC_3fo_KXq00A" name="success">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQUQbHXtEfC_3fo_KXq00A" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQUQbXXtEfC_3fo_KXq00A" name="data" type="_DP714nXtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DQUQbnXtEfC_3fo_KXq00A" type="_DLaiQnXtEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>this.success = success;&#xD;
+     this.message = message;&#xD;
+     this.data = data;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_DLbJUHXtEfC_3fo_KXq00A" name="ApiResponse" method="_DQUQZnXtEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_DLbJU3XtEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_DLbJVHXtEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_DLbJUXXtEfC_3fo_KXq00A" name="success">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DLbJUnXtEfC_3fo_KXq00A" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DLbJVXXtEfC_3fo_KXq00A" type="_DLaiQnXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DP715HXtEfC_3fo_KXq00A" name="ApiResponse" method="_DQUQanXtEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_DP8c8HXtEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_DP8c8XXtEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_DP715XXtEfC_3fo_KXq00A" name="success">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DP715nXtEfC_3fo_KXq00A" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DP7153XtEfC_3fo_KXq00A" name="data" type="_DP714nXtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DP8c8nXtEfC_3fo_KXq00A" type="_DLaiQnXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_DLbwYHXtEfC_3fo_KXq00A" name="ForgotPasswordRequest">
+            <ownedAttribute xmi:id="_DQE_03XtEfC_3fo_KXq00A" name="email">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedOperation xmi:id="_DLcXcHXtEfC_3fo_KXq00A" name="ForgotPasswordRequest">
+              <eAnnotations xmi:id="_DLcXcXXtEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_DLcXcnXtEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_DLc-gXXtEfC_3fo_KXq00A" type="_DLbwYHXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_DLc-gnXtEfC_3fo_KXq00A" name="ResetPasswordRequest">
+            <ownedAttribute xmi:id="_DQFm6XXtEfC_3fo_KXq00A" name="token">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_DQGN9XXtEfC_3fo_KXq00A" name="newPassword" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQU3eHXtEfC_3fo_KXq00A" name="getNewPassword" specification="_DLeMoHXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQU3eXXtEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return newPassword; </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQU3enXtEfC_3fo_KXq00A" name="setNewPassword" specification="_DLeMonXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQU3e3XtEfC_3fo_KXq00A" name="newPassword">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this.newPassword = newPassword; </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_DLdlkHXtEfC_3fo_KXq00A" name="ResetPasswordRequest">
+              <eAnnotations xmi:id="_DLdlkXXtEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_DLdlknXtEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_DLdllHXtEfC_3fo_KXq00A" type="_DLc-gnXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DLeMoHXtEfC_3fo_KXq00A" name="getNewPassword" method="_DQU3eHXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DLeMoXXtEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DLeMonXtEfC_3fo_KXq00A" name="setNewPassword" method="_DQU3enXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DLeMo3XtEfC_3fo_KXq00A" name="newPassword">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DQXTsHXtEfC_3fo_KXq00A" name="" memberEnd="_DQE_0nXtEfC_3fo_KXq00A _DQXTsXXtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DQXTsXXtEfC_3fo_KXq00A" name="" type="_DLaiQnXtEfC_3fo_KXq00A" association="_DQXTsHXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DK7aEHXtEfC_3fo_KXq00A" name="controller">
+          <packagedElement xmi:type="uml:Class" xmi:id="_DLoksHXtEfC_3fo_KXq00A" name="PasswordResetController">
+            <ownedAttribute xmi:id="_DQOw0HXtEfC_3fo_KXq00A" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_DPr-QXXtEfC_3fo_KXq00A" isReadOnly="true" association="_DQkvEXXtEfC_3fo_KXq00A">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_DQOw0XXtEfC_3fo_KXq00A" value="LoggerFactory.getLogger(PasswordResetController.class)"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_DQOw03XtEfC_3fo_KXq00A" name="passwordResetService" visibility="private" type="_DLtdMHXtEfC_3fo_KXq00A" association="_DQnyYXXtEfC_3fo_KXq00A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQVejXXtEfC_3fo_KXq00A" name="forgotPassword" specification="_DPslUXXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQVejnXtEfC_3fo_KXq00A" name="request" type="_DLbwYHXtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DQVej3XtEfC_3fo_KXq00A" type="_DPo68HXtEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         boolean result = passwordResetService.initiatePasswordReset(request.getEmail());&#xD;
+         &#xD;
+         // Always return success to prevent email enumeration attacks&#xD;
+         return ResponseEntity.ok(new ApiResponse(true, &#xD;
+             &quot;If an account with that email exists, we've sent you a password reset link.&quot;));&#xD;
+             &#xD;
+     } catch (Exception e) {&#xD;
+         logger.error(&quot;Error in forgot password endpoint&quot;, e);&#xD;
+         return ResponseEntity.status(500)&#xD;
+             .body(new ApiResponse(false, &quot;An error occurred. Please try again later.&quot;));&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQVekHXtEfC_3fo_KXq00A" name="resetPassword" specification="_DPtzdHXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQVekXXtEfC_3fo_KXq00A" name="request" type="_DLc-gnXtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DQVeknXtEfC_3fo_KXq00A" type="_DPo68HXtEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         boolean result = passwordResetService.resetPassword(request.getToken(), request.getNewPassword());&#xD;
+         &#xD;
+         if (result) {&#xD;
+             return ResponseEntity.ok(new ApiResponse(true, &quot;Password reset successfully.&quot;));&#xD;
+         } else {&#xD;
+             return ResponseEntity.badRequest()&#xD;
+                 .body(new ApiResponse(false, &quot;Invalid or expired reset token.&quot;));&#xD;
+         }&#xD;
+         &#xD;
+     } catch (Exception e) {&#xD;
+         logger.error(&quot;Error in reset password endpoint&quot;, e);&#xD;
+         return ResponseEntity.status(500)&#xD;
+             .body(new ApiResponse(false, &quot;An error occurred. Please try again later.&quot;));&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQVek3XtEfC_3fo_KXq00A" name="validateResetToken" specification="_DLpLwXXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DQVelHXtEfC_3fo_KXq00A" name="token">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQVelXXtEfC_3fo_KXq00A" type="_DPo68HXtEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         boolean isValid = passwordResetService.validateResetToken(token);&#xD;
+         &#xD;
+         if (isValid) {&#xD;
+             return ResponseEntity.ok(new ApiResponse(true, &quot;Token is valid.&quot;));&#xD;
+         } else {&#xD;
+             return ResponseEntity.badRequest()&#xD;
+                 .body(new ApiResponse(false, &quot;Invalid or expired token.&quot;));&#xD;
+         }&#xD;
+         &#xD;
+     } catch (Exception e) {&#xD;
+         logger.error(&quot;Error validating reset token&quot;, e);&#xD;
+         return ResponseEntity.status(500)&#xD;
+             .body(new ApiResponse(false, &quot;An error occurred. Please try again later.&quot;));&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_DLpLwXXtEfC_3fo_KXq00A" name="validateResetToken" method="_DQVek3XtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DLpLwnXtEfC_3fo_KXq00A" name="token">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_DQBVcnXtEfC_3fo_KXq00A" type="_DPo68HXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DPslUXXtEfC_3fo_KXq00A" name="forgotPassword" method="_DQVejXXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DPslUnXtEfC_3fo_KXq00A" name="request" type="_DLbwYHXtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DQBVcHXtEfC_3fo_KXq00A" type="_DPo68HXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_DPtzdHXtEfC_3fo_KXq00A" name="resetPassword" method="_DQVekHXtEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_DPtzdXXtEfC_3fo_KXq00A" name="request" type="_DLc-gnXtEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_DQBVcXXtEfC_3fo_KXq00A" type="_DPo68HXtEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_DLwghnXtEfC_3fo_KXq00A" name="PasswordResetControllerTest" visibility="package">
+            <eAnnotations xmi:id="_DLwgh3XtEfC_3fo_KXq00A" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_DLwgiHXtEfC_3fo_KXq00A" source="codegen">
+                <details xmi:id="_DLwgiXXtEfC_3fo_KXq00A" key="codegenDirectory" value="/email-service/src/test/java"/>
+              </contents>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_DQSbO3XtEfC_3fo_KXq00A" name="mockMvc" visibility="private" type="_DP29Y3XtEfC_3fo_KXq00A" association="_DRJ94XXtEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_DQSbPnXtEfC_3fo_KXq00A" name="passwordResetService" visibility="private" type="_DLtdMHXtEfC_3fo_KXq00A" association="_DROPUHXtEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_DQTpUXXtEfC_3fo_KXq00A" name="objectMapper" visibility="private" type="_DP1vQHXtEfC_3fo_KXq00A" association="_DRR5sXXtEfC_3fo_KXq00A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQWFqXXtEfC_3fo_KXq00A" name="forgotPassword_alwaysReturnsSuccessMessage" specification="_DLxHkHXtEfC_3fo_KXq00A">
+              <language>java</language>
+              <body>ForgotPasswordRequest req = new ForgotPasswordRequest();&#xD;
+     req.setEmail(&quot;user@example.com&quot;);&#xD;
+&#xD;
+     Mockito.when(passwordResetService.initiatePasswordReset(&quot;user@example.com&quot;)).thenReturn(true);&#xD;
+&#xD;
+     mockMvc.perform(post(&quot;/api/forgotpassword/forgot-password&quot;)&#xD;
+             .contentType(MediaType.APPLICATION_JSON)&#xD;
+             .content(objectMapper.writeValueAsString(req)))&#xD;
+         .andExpect(status().isOk())&#xD;
+         .andExpect(jsonPath(&quot;$.success&quot;).value(true))&#xD;
+         .andExpect(jsonPath(&quot;$.message&quot;)&#xD;
+                .value(&quot;If an account with that email exists, we've sent you a password reset link.&quot;));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQWFqnXtEfC_3fo_KXq00A" name="forgotPassword_returns500OnException" specification="_DLxHk3XtEfC_3fo_KXq00A">
+              <language>java</language>
+              <body>ForgotPasswordRequest req = new ForgotPasswordRequest();&#xD;
+     req.setEmail(&quot;user@example.com&quot;);&#xD;
+&#xD;
+     Mockito.when(passwordResetService.initiatePasswordReset(any())).thenThrow(new RuntimeException(&quot;failure&quot;));&#xD;
+&#xD;
+     mockMvc.perform(post(&quot;/api/forgotpassword/forgot-password&quot;)&#xD;
+             .contentType(MediaType.APPLICATION_JSON)&#xD;
+             .content(objectMapper.writeValueAsString(req)))&#xD;
+         .andExpect(status().isInternalServerError())&#xD;
+         .andExpect(jsonPath(&quot;$.success&quot;).value(false))&#xD;
+         .andExpect(jsonPath(&quot;$.message&quot;)&#xD;
+                .value(&quot;An error occurred. Please try again later.&quot;));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQWFq3XtEfC_3fo_KXq00A" name="resetPassword_success" specification="_DLxHlnXtEfC_3fo_KXq00A">
+              <language>java</language>
+              <body>ResetPasswordRequest req = new ResetPasswordRequest();&#xD;
+     req.setToken(&quot;valid-token&quot;);&#xD;
+     req.setNewPassword(&quot;NewPassword123!&quot;);&#xD;
+&#xD;
+     Mockito.when(passwordResetService.resetPassword(&quot;valid-token&quot;, &quot;NewPassword123!&quot;)).thenReturn(true);&#xD;
+&#xD;
+     mockMvc.perform(post(&quot;/api/forgotpassword/reset-password&quot;)&#xD;
+             .contentType(MediaType.APPLICATION_JSON)&#xD;
+             .content(objectMapper.writeValueAsString(req)))&#xD;
+         .andExpect(status().isOk())&#xD;
+         .andExpect(jsonPath(&quot;$.success&quot;).value(true))&#xD;
+         .andExpect(jsonPath(&quot;$.message&quot;).value(&quot;Password reset successfully.&quot;));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQWFrHXtEfC_3fo_KXq00A" name="resetPassword_invalidToken" specification="_DLxuoHXtEfC_3fo_KXq00A">
+              <language>java</language>
+              <body>ResetPasswordRequest req = new ResetPasswordRequest();&#xD;
+     req.setToken(&quot;bad-token&quot;);&#xD;
+     req.setNewPassword(&quot;password!&quot;);&#xD;
+&#xD;
+     Mockito.when(passwordResetService.resetPassword(eq(&quot;bad-token&quot;), eq(&quot;password!&quot;))).thenReturn(false);&#xD;
+&#xD;
+     mockMvc.perform(post(&quot;/api/forgotpassword/reset-password&quot;)&#xD;
+             .contentType(MediaType.APPLICATION_JSON)&#xD;
+             .content(objectMapper.writeValueAsString(req)))&#xD;
+         .andExpect(status().isBadRequest())&#xD;
+         .andExpect(jsonPath(&quot;$.success&quot;).value(false))&#xD;
+         .andExpect(jsonPath(&quot;$.message&quot;).value(&quot;Invalid or expired reset token.&quot;));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQWsoHXtEfC_3fo_KXq00A" name="resetPassword_returns500OnException" specification="_DLxuo3XtEfC_3fo_KXq00A">
+              <language>java</language>
+              <body>ResetPasswordRequest req = new ResetPasswordRequest();&#xD;
+     req.setToken(&quot;err-token&quot;);&#xD;
+     req.setNewPassword(&quot;pw&quot;);&#xD;
+&#xD;
+     Mockito.when(passwordResetService.resetPassword(any(), any())).thenThrow(new RuntimeException(&quot;fail&quot;));&#xD;
+&#xD;
+     mockMvc.perform(post(&quot;/api/forgotpassword/reset-password&quot;)&#xD;
+             .contentType(MediaType.APPLICATION_JSON)&#xD;
+             .content(objectMapper.writeValueAsString(req)))&#xD;
+         .andExpect(status().isInternalServerError())&#xD;
+         .andExpect(jsonPath(&quot;$.success&quot;).value(false))&#xD;
+         .andExpect(jsonPath(&quot;$.message&quot;)&#xD;
+                .value(&quot;An error occurred. Please try again later.&quot;));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQWsoXXtEfC_3fo_KXq00A" name="validateResetToken_validToken" specification="_DLxupnXtEfC_3fo_KXq00A">
+              <language>java</language>
+              <body>Mockito.when(passwordResetService.validateResetToken(&quot;good-token&quot;)).thenReturn(true);&#xD;
+&#xD;
+     mockMvc.perform(get(&quot;/api/forgotpassword/validate-reset-token&quot;)&#xD;
+             .param(&quot;token&quot;, &quot;good-token&quot;))&#xD;
+         .andExpect(status().isOk())&#xD;
+         .andExpect(jsonPath(&quot;$.success&quot;).value(true))&#xD;
+         .andExpect(jsonPath(&quot;$.message&quot;).value(&quot;Token is valid.&quot;));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQWsonXtEfC_3fo_KXq00A" name="validateResetToken_invalidToken" specification="_DLyVsHXtEfC_3fo_KXq00A">
+              <language>java</language>
+              <body>Mockito.when(passwordResetService.validateResetToken(&quot;bad-token&quot;)).thenReturn(false);&#xD;
+&#xD;
+     mockMvc.perform(get(&quot;/api/forgotpassword/validate-reset-token&quot;)&#xD;
+             .param(&quot;token&quot;, &quot;bad-token&quot;))&#xD;
+         .andExpect(status().isBadRequest())&#xD;
+         .andExpect(jsonPath(&quot;$.success&quot;).value(false))&#xD;
+         .andExpect(jsonPath(&quot;$.message&quot;).value(&quot;Invalid or expired token.&quot;));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DQWso3XtEfC_3fo_KXq00A" name="validateResetToken_returns500OnException" specification="_DLyVs3XtEfC_3fo_KXq00A">
+              <language>java</language>
+              <body>Mockito.when(passwordResetService.validateResetToken(any()))&#xD;
+            .thenThrow(new RuntimeException(&quot;fail&quot;));&#xD;
+&#xD;
+     mockMvc.perform(get(&quot;/api/forgotpassword/validate-reset-token&quot;)&#xD;
+             .param(&quot;token&quot;, &quot;any-token&quot;))&#xD;
+         .andExpect(status().isInternalServerError())&#xD;
+         .andExpect(jsonPath(&quot;$.success&quot;).value(false))&#xD;
+         .andExpect(jsonPath(&quot;$.message&quot;)&#xD;
+                .value(&quot;An error occurred. Please try again later.&quot;));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_DLxHkHXtEfC_3fo_KXq00A" name="forgotPassword_alwaysReturnsSuccessMessage" visibility="package" method="_DQWFqXXtEfC_3fo_KXq00A"/>
+            <ownedOperation xmi:id="_DLxHk3XtEfC_3fo_KXq00A" name="forgotPassword_returns500OnException" visibility="package" method="_DQWFqnXtEfC_3fo_KXq00A"/>
+            <ownedOperation xmi:id="_DLxHlnXtEfC_3fo_KXq00A" name="resetPassword_success" visibility="package" method="_DQWFq3XtEfC_3fo_KXq00A"/>
+            <ownedOperation xmi:id="_DLxuoHXtEfC_3fo_KXq00A" name="resetPassword_invalidToken" visibility="package" method="_DQWFrHXtEfC_3fo_KXq00A"/>
+            <ownedOperation xmi:id="_DLxuo3XtEfC_3fo_KXq00A" name="resetPassword_returns500OnException" visibility="package" method="_DQWsoHXtEfC_3fo_KXq00A"/>
+            <ownedOperation xmi:id="_DLxupnXtEfC_3fo_KXq00A" name="validateResetToken_validToken" visibility="package" method="_DQWsoXXtEfC_3fo_KXq00A"/>
+            <ownedOperation xmi:id="_DLyVsHXtEfC_3fo_KXq00A" name="validateResetToken_invalidToken" visibility="package" method="_DQWsonXtEfC_3fo_KXq00A"/>
+            <ownedOperation xmi:id="_DLyVs3XtEfC_3fo_KXq00A" name="validateResetToken_returns500OnException" visibility="package" method="_DQWso3XtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DQkvEXXtEfC_3fo_KXq00A" name="" memberEnd="_DQkvEnXtEfC_3fo_KXq00A _DQOw0HXtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DQkvEnXtEfC_3fo_KXq00A" name="" type="_DLoksHXtEfC_3fo_KXq00A" association="_DQkvEXXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DQnyYXXtEfC_3fo_KXq00A" name="" memberEnd="_DQnyYnXtEfC_3fo_KXq00A _DQOw03XtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DQnyYnXtEfC_3fo_KXq00A" name="" type="_DLoksHXtEfC_3fo_KXq00A" association="_DQnyYXXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DRJ94XXtEfC_3fo_KXq00A" name="" memberEnd="_DRJ94nXtEfC_3fo_KXq00A _DQSbO3XtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DRJ94nXtEfC_3fo_KXq00A" name="" type="_DLwghnXtEfC_3fo_KXq00A" association="_DRJ94XXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DROPUHXtEfC_3fo_KXq00A" name="" memberEnd="_DROPUXXtEfC_3fo_KXq00A _DQSbPnXtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DROPUXXtEfC_3fo_KXq00A" name="" type="_DLwghnXtEfC_3fo_KXq00A" association="_DROPUHXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DRR5sXXtEfC_3fo_KXq00A" name="" memberEnd="_DRR5snXtEfC_3fo_KXq00A _DQTpUXXtEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_DRR5snXtEfC_3fo_KXq00A" name="" type="_DLwghnXtEfC_3fo_KXq00A" association="_DRR5sXXtEfC_3fo_KXq00A"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DKsJgXXtEfC_3fo_KXq00A" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_DKsJgnXtEfC_3fo_KXq00A" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_DKsJg3XtEfC_3fo_KXq00A" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="_DKsJhHXtEfC_3fo_KXq00A" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_DPctsHXtEfC_3fo_KXq00A" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_DLA5o3XtEfC_3fo_KXq00A" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="_DLA5pHXtEfC_3fo_KXq00A" name="context">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_DP1IMXXtEfC_3fo_KXq00A" name="SpringBootTest"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_DLBgtXXtEfC_3fo_KXq00A" name="autoconfigure">
+              <packagedElement xmi:type="uml:Package" xmi:id="_DLBgtnXtEfC_3fo_KXq00A" name="web">
+                <packagedElement xmi:type="uml:Package" xmi:id="_DLBgt3XtEfC_3fo_KXq00A" name="servlet">
+                  <packagedElement xmi:type="uml:Interface" xmi:id="_DP2WUXXtEfC_3fo_KXq00A" name="WebMvcTest"/>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_DLCHwHXtEfC_3fo_KXq00A" name="mock">
+              <packagedElement xmi:type="uml:Package" xmi:id="_DLCHwXXtEfC_3fo_KXq00A" name="mockito">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_DP2WU3XtEfC_3fo_KXq00A" name="MockBean"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_DPbfkHXtEfC_3fo_KXq00A" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DKswkXXtEfC_3fo_KXq00A" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_DKswknXtEfC_3fo_KXq00A" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_DKswk3XtEfC_3fo_KXq00A" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_DPctsnXtEfC_3fo_KXq00A" name="Autowired"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_DPvooHXtEfC_3fo_KXq00A" name="Value"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DKswlHXtEfC_3fo_KXq00A" name="context">
+          <packagedElement xmi:type="uml:Package" xmi:id="_DKswlXXtEfC_3fo_KXq00A" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_DPdUwXXtEfC_3fo_KXq00A" name="Configuration"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_DPd70XXtEfC_3fo_KXq00A" name="Bean"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DKtXoHXtEfC_3fo_KXq00A" name="scheduling">
+          <packagedElement xmi:type="uml:Package" xmi:id="_DKtXoXXtEfC_3fo_KXq00A" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_DPdUw3XtEfC_3fo_KXq00A" name="EnableScheduling"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_DPdUxXXtEfC_3fo_KXq00A" name="Scheduled"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DKt-sHXtEfC_3fo_KXq00A" name="security">
+          <packagedElement xmi:type="uml:Package" xmi:id="_DKt-sXXtEfC_3fo_KXq00A" name="config">
+            <packagedElement xmi:type="uml:Package" xmi:id="_DKt-snXtEfC_3fo_KXq00A" name="annotation">
+              <packagedElement xmi:type="uml:Package" xmi:id="_DKt-s3XtEfC_3fo_KXq00A" name="web">
+                <packagedElement xmi:type="uml:Package" xmi:id="_DKt-tHXtEfC_3fo_KXq00A" name="builders">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_DPd703XtEfC_3fo_KXq00A" name="HttpSecurity"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Package" xmi:id="_DKt-tXXtEfC_3fo_KXq00A" name="configuration">
+                  <packagedElement xmi:type="uml:Interface" xmi:id="_DPei4XXtEfC_3fo_KXq00A" name="EnableWebSecurity"/>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_DKt-tnXtEfC_3fo_KXq00A" name="crypto">
+            <packagedElement xmi:type="uml:Package" xmi:id="_DKt-t3XtEfC_3fo_KXq00A" name="bcrypt">
+              <packagedElement xmi:type="uml:Class" xmi:id="_DPei43XtEfC_3fo_KXq00A" name="BCryptPasswordEncoder"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_DKt-uHXtEfC_3fo_KXq00A" name="password">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_DPei5XXtEfC_3fo_KXq00A" name="PasswordEncoder"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_DKt-uXXtEfC_3fo_KXq00A" name="web">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_DPfJ8XXtEfC_3fo_KXq00A" name="SecurityFilterChain"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DKvM0nXtEfC_3fo_KXq00A" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_DKvM03XtEfC_3fo_KXq00A" name="mongodb">
+            <packagedElement xmi:type="uml:Package" xmi:id="_DKvM1HXtEfC_3fo_KXq00A" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_DPgYEXXtEfC_3fo_KXq00A" name="MongoRepository"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_DKzeQnXtEfC_3fo_KXq00A" name="core">
+              <packagedElement xmi:type="uml:Package" xmi:id="_DKzeQ3XtEfC_3fo_KXq00A" name="index">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_DPkCcXXtEfC_3fo_KXq00A" name="Indexed"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_DKzeRHXtEfC_3fo_KXq00A" name="mapping">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_DPkCc3XtEfC_3fo_KXq00A" name="DBRef"/>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_DPkCdXXtEfC_3fo_KXq00A" name="Document"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_DKzeQXXtEfC_3fo_KXq00A" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_DPjbYnXtEfC_3fo_KXq00A" name="Id"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DKvM1XXtEfC_3fo_KXq00A" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_DPgYE3XtEfC_3fo_KXq00A" name="Repository"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_DPxd0XXtEfC_3fo_KXq00A" name="Service"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DK6L8HXtEfC_3fo_KXq00A" name="http">
+          <packagedElement xmi:type="uml:Class" xmi:id="_DPo68HXtEfC_3fo_KXq00A" name="ResponseEntity"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_DP29YXXtEfC_3fo_KXq00A" name="MediaType"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DK6L8XXtEfC_3fo_KXq00A" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_DK6L8nXtEfC_3fo_KXq00A" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_DK6L83XtEfC_3fo_KXq00A" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_DPpiAXXtEfC_3fo_KXq00A" name="CrossOrigin"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_DPpiA3XtEfC_3fo_KXq00A" name="GetMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_DPqJEXXtEfC_3fo_KXq00A" name="PostMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_DPqJE3XtEfC_3fo_KXq00A" name="RequestBody"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_DPqwIXXtEfC_3fo_KXq00A" name="RequestMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_DPqwI3XtEfC_3fo_KXq00A" name="RequestParam"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_DPrXMXXtEfC_3fo_KXq00A" name="RestController"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DK8BIHXtEfC_3fo_KXq00A" name="mail">
+          <packagedElement xmi:type="uml:Package" xmi:id="_DK8oMHXtEfC_3fo_KXq00A" name="javamail">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_DPwPsXXtEfC_3fo_KXq00A" name="JavaMailSender"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_DPw2wXXtEfC_3fo_KXq00A" name="MimeMessageHelper"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DK_EcHXtEfC_3fo_KXq00A" name="transaction">
+          <packagedElement xmi:type="uml:Package" xmi:id="_DK_EcXXtEfC_3fo_KXq00A" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_DPyr8HXtEfC_3fo_KXq00A" name="Transactional"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DLCHwnXtEfC_3fo_KXq00A" name="test">
+          <packagedElement xmi:type="uml:Package" xmi:id="_DLCHw3XtEfC_3fo_KXq00A" name="web">
+            <packagedElement xmi:type="uml:Package" xmi:id="_DLCHxHXtEfC_3fo_KXq00A" name="servlet">
+              <packagedElement xmi:type="uml:Package" xmi:id="_DLCHxXXtEfC_3fo_KXq00A" name="request">
+                <packagedElement xmi:type="uml:Class" xmi:id="_DP3kcHXtEfC_3fo_KXq00A" name="MockMvcRequestBuilders"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_DLCHxnXtEfC_3fo_KXq00A" name="result">
+                <packagedElement xmi:type="uml:Class" xmi:id="_DP3kcnXtEfC_3fo_KXq00A" name="MockMvcResultMatchers"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_DP29Y3XtEfC_3fo_KXq00A" name="MockMvc"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_DK6L9HXtEfC_3fo_KXq00A" name="slf4j">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_DPr-QXXtEfC_3fo_KXq00A" name="Logger"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_DPr-Q3XtEfC_3fo_KXq00A" name="LoggerFactory"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_DLA5oHXtEfC_3fo_KXq00A" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_DLA5oXXtEfC_3fo_KXq00A" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_DLA5onXtEfC_3fo_KXq00A" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_DPz6EHXtEfC_3fo_KXq00A" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_DLBgtHXtEfC_3fo_KXq00A" name="mockito">
+        <packagedElement xmi:type="uml:Class" xmi:id="_DP1vQnXtEfC_3fo_KXq00A" name="Mockito"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_DP29ZXXtEfC_3fo_KXq00A" name="ArgumentMatchers"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DKvM0HXtEfC_3fo_KXq00A" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_DKvM0XXtEfC_3fo_KXq00A" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_DPfxAHXtEfC_3fo_KXq00A" name="Optional"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_DPzTAXXtEfC_3fo_KXq00A" name="UUID"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_DKzeQHXtEfC_3fo_KXq00A" name="time">
+        <packagedElement xmi:type="uml:Class" xmi:id="_DPjbYHXtEfC_3fo_KXq00A" name="LocalDateTime"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_DP6nwXXtEfC_3fo_KXq00A" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_DP714nXtEfC_3fo_KXq00A" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DKxCAHXtEfC_3fo_KXq00A" name="jakarta">
+      <packagedElement xmi:type="uml:Package" xmi:id="_DKxCAXXtEfC_3fo_KXq00A" name="validation">
+        <packagedElement xmi:type="uml:Package" xmi:id="_DKxCAnXtEfC_3fo_KXq00A" name="constraints">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_DPhmMHXtEfC_3fo_KXq00A" name="Email"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_DPiNQXXtEfC_3fo_KXq00A" name="NotBlank"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_DPi0UXXtEfC_3fo_KXq00A" name="Size"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_DPrXM3XtEfC_3fo_KXq00A" name="Valid"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_DK8oMXXtEfC_3fo_KXq00A" name="mail">
+        <packagedElement xmi:type="uml:Package" xmi:id="_DK8oMnXtEfC_3fo_KXq00A" name="internet">
+          <packagedElement xmi:type="uml:Class" xmi:id="_DPyE4nXtEfC_3fo_KXq00A" name="MimeMessage"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_DPyE4HXtEfC_3fo_KXq00A" name="MessagingException"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DLBgsHXtEfC_3fo_KXq00A" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_DLBgsXXtEfC_3fo_KXq00A" name="fasterxml">
+        <packagedElement xmi:type="uml:Package" xmi:id="_DLBgsnXtEfC_3fo_KXq00A" name="jackson">
+          <packagedElement xmi:type="uml:Package" xmi:id="_DLBgs3XtEfC_3fo_KXq00A" name="databind">
+            <packagedElement xmi:type="uml:Class" xmi:id="_DP1vQHXtEfC_3fo_KXq00A" name="ObjectMapper"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_DEQKUnXtEfC_3fo_KXq00A">
+      <eAnnotations xmi:id="_DEQxYHXtEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_DQG1AXXtEfC_3fo_KXq00A">
+      <eAnnotations xmi:id="_DQG1AnXtEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_DEQxYXXtEfC_3fo_KXq00A" base_Package="_C-F38HXtEfC_3fo_KXq00A">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DLVpwHXtEfC_3fo_KXq00A" base_Element="_DLVCsnXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DLVpwnXtEfC_3fo_KXq00A" base_Element="_DLVpwXXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLVpw3XtEfC_3fo_KXq00A" name="Scheduled">
+      <annotationParameters xmi:id="_DLVpxHXtEfC_3fo_KXq00A" name="fixedRate" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQWspHXtEfC_3fo_KXq00A" value="3600000"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DLWQ0HXtEfC_3fo_KXq00A" base_Element="_DLVCsnXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLWQ0XXtEfC_3fo_KXq00A" name="Configuration"/>
+    <annotations xmi:id="_DLWQ0nXtEfC_3fo_KXq00A" name="EnableScheduling"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DLW34XXtEfC_3fo_KXq00A" base_Element="_DLW34HXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DLW343XtEfC_3fo_KXq00A" base_Element="_DLW34nXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLXe8HXtEfC_3fo_KXq00A" name="Bean"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DLXe8XXtEfC_3fo_KXq00A" base_Element="_DLW34HXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLXe8nXtEfC_3fo_KXq00A" name="Configuration"/>
+    <annotations xmi:id="_DLXe83XtEfC_3fo_KXq00A" name="EnableWebSecurity"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DLYtEHXtEfC_3fo_KXq00A" base_Element="_DLYGAHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_DLZUIHXtEfC_3fo_KXq00A" genericsValue="User" base_Element="_DLYtEXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DLZUIXXtEfC_3fo_KXq00A" base_Element="_DLYtEXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_DLZ7MHXtEfC_3fo_KXq00A" genericsValue="User" base_Element="_DLZUInXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DLZ7MXXtEfC_3fo_KXq00A" base_Element="_DLZUInXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DLZ7NXXtEfC_3fo_KXq00A" base_Element="_DLZ7MnXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DLaiQHXtEfC_3fo_KXq00A" base_Element="_DLYGAHXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLaiQXXtEfC_3fo_KXq00A" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DLc-gHXtEfC_3fo_KXq00A" base_Element="_DLcXcHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DLdlk3XtEfC_3fo_KXq00A" base_Element="_DLdlkHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DLfawXXtEfC_3fo_KXq00A" base_Element="_DLfawHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DLgo4nXtEfC_3fo_KXq00A" base_Element="_DLgo4HXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DLgo43XtEfC_3fo_KXq00A" base_Element="_DLfawHXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLgo5HXtEfC_3fo_KXq00A" name="Document">
+      <annotationParameters xmi:id="_DLgo5XXtEfC_3fo_KXq00A" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQXTuHXtEfC_3fo_KXq00A" value="&quot;password_reset_tokens&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DLjFIXXtEfC_3fo_KXq00A" base_Element="_DLjFIHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DLjsM3XtEfC_3fo_KXq00A" base_Element="_DLjsMnXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DLk6UHXtEfC_3fo_KXq00A" base_Element="_DLjsMnXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLk6UXXtEfC_3fo_KXq00A" name="Document">
+      <annotationParameters xmi:id="_DLk6UnXtEfC_3fo_KXq00A" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQX6w3XtEfC_3fo_KXq00A" value="&quot;users&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DLmvgHXtEfC_3fo_KXq00A" base_Element="_DLmIcHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_DLmvg3XtEfC_3fo_KXq00A" genericsValue="PasswordResetToken" base_Element="_DLmvgXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DLmvhHXtEfC_3fo_KXq00A" base_Element="_DLmvgXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_DLnWkXXtEfC_3fo_KXq00A" genericsValue="PasswordResetToken" base_Element="_DLmvhXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DLnWknXtEfC_3fo_KXq00A" base_Element="_DLmvhXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DLn9oHXtEfC_3fo_KXq00A" base_Element="_DLnWk3XtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DLn9o3XtEfC_3fo_KXq00A" base_Element="_DLn9oXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DLn9pHXtEfC_3fo_KXq00A" base_Element="_DLmIcHXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLn9pXXtEfC_3fo_KXq00A" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DLpLwHXtEfC_3fo_KXq00A" base_Element="_DLoksHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_DLpy0HXtEfC_3fo_KXq00A" genericsValue="ApiResponse" base_Element="_DLpLwXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DLpy0XXtEfC_3fo_KXq00A" base_Element="_DLpLwnXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLpy0nXtEfC_3fo_KXq00A" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DLpy03XtEfC_3fo_KXq00A" base_Element="_DLpLwXXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLpy1HXtEfC_3fo_KXq00A" name="GetMapping">
+      <annotationParameters xmi:id="_DLpy1XXtEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQX6ynXtEfC_3fo_KXq00A" value="&quot;/validate-reset-token&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DLqZ4HXtEfC_3fo_KXq00A" base_Element="_DLoksHXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLqZ4XXtEfC_3fo_KXq00A" name="RestController"/>
+    <annotations xmi:id="_DLqZ4nXtEfC_3fo_KXq00A" name="RequestMapping">
+      <annotationParameters xmi:id="_DLqZ43XtEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQX6x3XtEfC_3fo_KXq00A" value="&quot;/api/forgotpassword&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DLroAXXtEfC_3fo_KXq00A" base_Element="_DLroAHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DLsPFHXtEfC_3fo_KXq00A" base_Element="_DLsPEHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DLsPGHXtEfC_3fo_KXq00A" base_Element="_DLsPFXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DLs2JHXtEfC_3fo_KXq00A" base_Element="_DLs2IHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DLs2KHXtEfC_3fo_KXq00A" base_Element="_DLs2JXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DLs2KXXtEfC_3fo_KXq00A" base_Element="_DLroAHXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLs2KnXtEfC_3fo_KXq00A" name="Service"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DLuEQHXtEfC_3fo_KXq00A" base_Element="_DLtdMHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DLurUHXtEfC_3fo_KXq00A" base_Element="_DLuEQXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DLurVXXtEfC_3fo_KXq00A" base_Element="_DLurUXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DLvSYnXtEfC_3fo_KXq00A" base_Element="_DLurVnXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DLvSZHXtEfC_3fo_KXq00A" base_Element="_DLvSY3XtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DLvSZXXtEfC_3fo_KXq00A" base_Element="_DLtdMHXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLvSZnXtEfC_3fo_KXq00A" name="Service"/>
+    <annotations xmi:id="_DLvSZ3XtEfC_3fo_KXq00A" name="Transactional"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DLwginXtEfC_3fo_KXq00A" base_Element="_DLwghnXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DLxHkXXtEfC_3fo_KXq00A" base_Element="_DLxHkHXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLxHknXtEfC_3fo_KXq00A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DLxHlHXtEfC_3fo_KXq00A" base_Element="_DLxHk3XtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLxHlXXtEfC_3fo_KXq00A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DLxHl3XtEfC_3fo_KXq00A" base_Element="_DLxHlnXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLxHmHXtEfC_3fo_KXq00A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DLxuoXXtEfC_3fo_KXq00A" base_Element="_DLxuoHXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLxuonXtEfC_3fo_KXq00A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DLxupHXtEfC_3fo_KXq00A" base_Element="_DLxuo3XtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLxupXXtEfC_3fo_KXq00A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DLxup3XtEfC_3fo_KXq00A" base_Element="_DLxupnXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLxuqHXtEfC_3fo_KXq00A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DLyVsXXtEfC_3fo_KXq00A" base_Element="_DLyVsHXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLyVsnXtEfC_3fo_KXq00A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DLyVtHXtEfC_3fo_KXq00A" base_Element="_DLyVs3XtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLyVtXXtEfC_3fo_KXq00A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DLyVtnXtEfC_3fo_KXq00A" base_Element="_DLwghnXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DLyVt3XtEfC_3fo_KXq00A" name="WebMvcTest">
+      <annotationParameters xmi:id="_DLyVuHXtEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQYh0XXtEfC_3fo_KXq00A" value="PasswordResetController.class"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_DPcGoHXtEfC_3fo_KXq00A" base_Element="_DPbfkHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPctsXXtEfC_3fo_KXq00A" base_Element="_DPctsHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPdUwHXtEfC_3fo_KXq00A" base_Element="_DPctsnXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPdUwnXtEfC_3fo_KXq00A" base_Element="_DPdUwXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPdUxHXtEfC_3fo_KXq00A" base_Element="_DPdUw3XtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPd70HXtEfC_3fo_KXq00A" base_Element="_DPdUxXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPd70nXtEfC_3fo_KXq00A" base_Element="_DPd70XXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPei4HXtEfC_3fo_KXq00A" base_Element="_DPd703XtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPei4nXtEfC_3fo_KXq00A" base_Element="_DPei4XXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPei5HXtEfC_3fo_KXq00A" base_Element="_DPei43XtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPfJ8HXtEfC_3fo_KXq00A" base_Element="_DPei5XXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPfJ8nXtEfC_3fo_KXq00A" base_Element="_DPfJ8XXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPgYEHXtEfC_3fo_KXq00A" base_Element="_DPfxAHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPgYEnXtEfC_3fo_KXq00A" base_Element="_DPgYEXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPg_IHXtEfC_3fo_KXq00A" base_Element="_DPgYE3XtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPiNQHXtEfC_3fo_KXq00A" base_Element="_DPhmMHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPi0UHXtEfC_3fo_KXq00A" base_Element="_DPiNQXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPi0UnXtEfC_3fo_KXq00A" base_Element="_DPi0UXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPjbYXXtEfC_3fo_KXq00A" base_Element="_DPjbYHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPkCcHXtEfC_3fo_KXq00A" base_Element="_DPjbYnXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPkCcnXtEfC_3fo_KXq00A" base_Element="_DPkCcXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPkCdHXtEfC_3fo_KXq00A" base_Element="_DPkCc3XtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPkpgHXtEfC_3fo_KXq00A" base_Element="_DPkCdXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPpiAHXtEfC_3fo_KXq00A" base_Element="_DPo68HXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPpiAnXtEfC_3fo_KXq00A" base_Element="_DPpiAXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPqJEHXtEfC_3fo_KXq00A" base_Element="_DPpiA3XtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPqJEnXtEfC_3fo_KXq00A" base_Element="_DPqJEXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPqwIHXtEfC_3fo_KXq00A" base_Element="_DPqJE3XtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPqwInXtEfC_3fo_KXq00A" base_Element="_DPqwIXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPrXMHXtEfC_3fo_KXq00A" base_Element="_DPqwI3XtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPrXMnXtEfC_3fo_KXq00A" base_Element="_DPrXMXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPr-QHXtEfC_3fo_KXq00A" base_Element="_DPrXM3XtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPr-QnXtEfC_3fo_KXq00A" base_Element="_DPr-QXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPslUHXtEfC_3fo_KXq00A" base_Element="_DPr-Q3XtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_DPtMYHXtEfC_3fo_KXq00A" genericsValue="ApiResponse" base_Element="_DPslUXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DPtMYXXtEfC_3fo_KXq00A" base_Element="_DPslUnXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DPtMYnXtEfC_3fo_KXq00A" name="Valid"/>
+    <annotations xmi:id="_DPtzcHXtEfC_3fo_KXq00A" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DPtzcXXtEfC_3fo_KXq00A" base_Element="_DPslUXXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DPtzcnXtEfC_3fo_KXq00A" name="PostMapping">
+      <annotationParameters xmi:id="_DPtzc3XtEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQX6yHXtEfC_3fo_KXq00A" value="&quot;/forgot-password&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_DPuagHXtEfC_3fo_KXq00A" genericsValue="ApiResponse" base_Element="_DPtzdHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DPuagXXtEfC_3fo_KXq00A" base_Element="_DPtzdXXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DPuagnXtEfC_3fo_KXq00A" name="Valid"/>
+    <annotations xmi:id="_DPuag3XtEfC_3fo_KXq00A" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DPvBkHXtEfC_3fo_KXq00A" base_Element="_DPtzdHXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DPvBkXXtEfC_3fo_KXq00A" name="PostMapping">
+      <annotationParameters xmi:id="_DPvBknXtEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQX6yXXtEfC_3fo_KXq00A" value="&quot;/reset-password&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_DPwPsHXtEfC_3fo_KXq00A" base_Element="_DPvooHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPw2wHXtEfC_3fo_KXq00A" base_Element="_DPwPsXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPxd0HXtEfC_3fo_KXq00A" base_Element="_DPw2wXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPxd0nXtEfC_3fo_KXq00A" base_Element="_DPxd0XXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPyE4XXtEfC_3fo_KXq00A" base_Element="_DPyE4HXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPyE43XtEfC_3fo_KXq00A" base_Element="_DPyE4nXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPzTAHXtEfC_3fo_KXq00A" base_Element="_DPyr8HXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DPzTAnXtEfC_3fo_KXq00A" base_Element="_DPzTAXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DP1IMHXtEfC_3fo_KXq00A" base_Element="_DPz6EHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DP1IMnXtEfC_3fo_KXq00A" base_Element="_DP1IMXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DP1vQXXtEfC_3fo_KXq00A" base_Element="_DP1vQHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DP2WUHXtEfC_3fo_KXq00A" base_Element="_DP1vQnXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DP2WUnXtEfC_3fo_KXq00A" base_Element="_DP2WUXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DP29YHXtEfC_3fo_KXq00A" base_Element="_DP2WU3XtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DP29YnXtEfC_3fo_KXq00A" base_Element="_DP29YXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DP29ZHXtEfC_3fo_KXq00A" base_Element="_DP29Y3XtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DP29ZnXtEfC_3fo_KXq00A" base_Element="_DP29ZXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DP3kcXXtEfC_3fo_KXq00A" base_Element="_DP3kcHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DP3kc3XtEfC_3fo_KXq00A" base_Element="_DP3kcnXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DP7O03XtEfC_3fo_KXq00A" base_Element="_DP7O0HXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DP7O1HXtEfC_3fo_KXq00A" name="Bean"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_DP7O1nXtEfC_3fo_KXq00A" genericsValue="User, String" base_Element="_DP7O1XXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DP7143XtEfC_3fo_KXq00A" base_Element="_DP714nXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DP9ECHXtEfC_3fo_KXq00A" base_Element="_DP9EAHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DP-5O3XtEfC_3fo_KXq00A" base_Element="_DP-5MHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_DQAHUXXtEfC_3fo_KXq00A" genericsValue="PasswordResetToken, String" base_Element="_DQAHUHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DQAuZHXtEfC_3fo_KXq00A" base_Element="_DQAuYnXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DQEYwXXtEfC_3fo_KXq00A" base_Element="_DQEYwHXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQEYwnXtEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DQE_1HXtEfC_3fo_KXq00A" base_Element="_DQE_03XtEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_DQFm4HXtEfC_3fo_KXq00A" name="getEmail" method="_DQU3cHXtEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_DQFm43XtEfC_3fo_KXq00A" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_DQFm4XXtEfC_3fo_KXq00A" name="setEmail" method="_DQU3cnXtEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_DQFm4nXtEfC_3fo_KXq00A" name="email">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_DQFm5HXtEfC_3fo_KXq00A" base_Element="_DQE_03XtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQFm5XXtEfC_3fo_KXq00A" name="NotBlank">
+      <annotationParameters xmi:id="_DQFm5nXtEfC_3fo_KXq00A" name="message" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQXTsnXtEfC_3fo_KXq00A" value="&quot;Email is required&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_DQFm53XtEfC_3fo_KXq00A" name="Email">
+      <annotationParameters xmi:id="_DQFm6HXtEfC_3fo_KXq00A" name="message" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQXTs3XtEfC_3fo_KXq00A" value="&quot;Invalid email format&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DQFm6nXtEfC_3fo_KXq00A" base_Element="_DQFm6XXtEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_DQFm63XtEfC_3fo_KXq00A" name="getToken" method="_DQU3dHXtEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_DQGN8XXtEfC_3fo_KXq00A" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_DQFm7HXtEfC_3fo_KXq00A" name="setToken" method="_DQU3dnXtEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_DQGN8HXtEfC_3fo_KXq00A" name="token">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_DQGN8nXtEfC_3fo_KXq00A" base_Element="_DQFm6XXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQGN83XtEfC_3fo_KXq00A" name="NotBlank">
+      <annotationParameters xmi:id="_DQGN9HXtEfC_3fo_KXq00A" name="message" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQXTtHXtEfC_3fo_KXq00A" value="&quot;Token is required&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DQGN9nXtEfC_3fo_KXq00A" base_Element="_DQGN9XXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DQGN93XtEfC_3fo_KXq00A" base_Element="_DQGN9XXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQGN-HXtEfC_3fo_KXq00A" name="NotBlank">
+      <annotationParameters xmi:id="_DQGN-XXtEfC_3fo_KXq00A" name="message" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQXTtXXtEfC_3fo_KXq00A" value="&quot;New password is required&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_DQGN-nXtEfC_3fo_KXq00A" name="Size">
+      <annotationParameters xmi:id="_DQGN-3XtEfC_3fo_KXq00A" name="min" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQXTtnXtEfC_3fo_KXq00A" value="6"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_DQGN_HXtEfC_3fo_KXq00A" name="message" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQXTt3XtEfC_3fo_KXq00A" value="&quot;Password must be at least 6 characters long&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <Persistency:PrimaryKey xmi:id="_DQHcEHXtEfC_3fo_KXq00A" base_Property="_DQG1AHXtEfC_3fo_KXq00A"/>
+  <Persistency:JPA1StyledElement xmi:id="_DQHcEXXtEfC_3fo_KXq00A" base_Element="_DQG1AHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DQIDIHXtEfC_3fo_KXq00A" base_Element="_DQHcEnXtEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_DQIDIXXtEfC_3fo_KXq00A" name="getToken" method="_DQU3fHXtEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_DQIDJHXtEfC_3fo_KXq00A" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_DQIDInXtEfC_3fo_KXq00A" name="setToken" method="_DQU3fnXtEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_DQIDI3XtEfC_3fo_KXq00A" name="token">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_DQIDJXXtEfC_3fo_KXq00A" base_Element="_DQHcEnXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQIDJnXtEfC_3fo_KXq00A" name="Indexed">
+      <annotationParameters xmi:id="_DQIDJ3XtEfC_3fo_KXq00A" name="unique" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQXTuXXtEfC_3fo_KXq00A" value="true"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DQIqMHXtEfC_3fo_KXq00A" base_Element="_DQIDKHXtEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_DQIqMXXtEfC_3fo_KXq00A" name="getUserId" method="_DQU3gHXtEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_DQIqNHXtEfC_3fo_KXq00A" type="_DLjsMnXtEfC_3fo_KXq00A" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_DQIqMnXtEfC_3fo_KXq00A" name="setUserId" method="_DQU3gnXtEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_DQIqM3XtEfC_3fo_KXq00A" name="userId" type="_DLjsMnXtEfC_3fo_KXq00A"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_DQJRQHXtEfC_3fo_KXq00A" base_Element="_DQIDKHXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQJRQXXtEfC_3fo_KXq00A" name="DBRef"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_DQJRQ3XtEfC_3fo_KXq00A" base_Element="_DQJRQnXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DQJ4UHXtEfC_3fo_KXq00A" base_Element="_DQJRRHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DQJ4UnXtEfC_3fo_KXq00A" base_Element="_DQJ4UXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DQJ4VHXtEfC_3fo_KXq00A" base_Element="_DQJ4U3XtEfC_3fo_KXq00A"/>
+  <Persistency:PrimaryKey xmi:id="_DQLGcHXtEfC_3fo_KXq00A" base_Property="_DQKfYHXtEfC_3fo_KXq00A"/>
+  <Persistency:JPA1StyledElement xmi:id="_DQLtgHXtEfC_3fo_KXq00A" base_Element="_DQKfYHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DQLtgnXtEfC_3fo_KXq00A" base_Element="_DQLtgXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DQMUkHXtEfC_3fo_KXq00A" base_Element="_DQLtg3XtEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_DQMUkXXtEfC_3fo_KXq00A" name="getEmail" method="_DQVegHXtEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_DQM7oHXtEfC_3fo_KXq00A" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_DQMUknXtEfC_3fo_KXq00A" name="setEmail" method="_DQVegnXtEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_DQMUk3XtEfC_3fo_KXq00A" name="email">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_DQM7oXXtEfC_3fo_KXq00A" base_Element="_DQLtg3XtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQM7onXtEfC_3fo_KXq00A" name="Indexed">
+      <annotationParameters xmi:id="_DQM7o3XtEfC_3fo_KXq00A" name="unique" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQX6xHXtEfC_3fo_KXq00A" value="true"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_DQNisHXtEfC_3fo_KXq00A" base_Element="_DQM7pHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DQNisnXtEfC_3fo_KXq00A" base_Element="_DQNisXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DQOJwHXtEfC_3fo_KXq00A" base_Element="_DQNis3XtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DQOJw3XtEfC_3fo_KXq00A" base_Element="_DQOJwXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DQOw0nXtEfC_3fo_KXq00A" base_Element="_DQOw0HXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DQOw1HXtEfC_3fo_KXq00A" base_Element="_DQOw03XtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQOw1XXtEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_DQPX4nXtEfC_3fo_KXq00A" base_Element="_DQPX4HXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DQPX5HXtEfC_3fo_KXq00A" base_Element="_DQPX43XtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQPX5XXtEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DQQmAHXtEfC_3fo_KXq00A" base_Element="_DQPX5nXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQQmAXXtEfC_3fo_KXq00A" name="Value">
+      <annotationParameters xmi:id="_DQQmAnXtEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQX6y3XtEfC_3fo_KXq00A" value="&quot;${app.mail.from}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DQQmBHXtEfC_3fo_KXq00A" base_Element="_DQQmA3XtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQQmBXXtEfC_3fo_KXq00A" name="Value">
+      <annotationParameters xmi:id="_DQQmBnXtEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_DQYh0HXtEfC_3fo_KXq00A" value="&quot;${app.frontend.url}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_DQRNEXXtEfC_3fo_KXq00A" base_Element="_DQQmB3XtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_DQRNFHXtEfC_3fo_KXq00A" base_Element="_DQRNEnXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_DQSbMHXtEfC_3fo_KXq00A" base_Element="_DQRNFXXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQSbMXXtEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DQSbM3XtEfC_3fo_KXq00A" base_Element="_DQSbMnXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQSbNHXtEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DQSbNnXtEfC_3fo_KXq00A" base_Element="_DQSbNXXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQSbN3XtEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DQSbOXXtEfC_3fo_KXq00A" base_Element="_DQSbOHXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQSbOnXtEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DQSbPHXtEfC_3fo_KXq00A" base_Element="_DQSbO3XtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQSbPXXtEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DQSbP3XtEfC_3fo_KXq00A" base_Element="_DQSbPnXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQTpUHXtEfC_3fo_KXq00A" name="MockBean"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_DQTpUnXtEfC_3fo_KXq00A" base_Element="_DQTpUXXtEfC_3fo_KXq00A">
+    <annotations xmi:id="_DQTpU3XtEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <uml:OpaqueBehavior xmi:id="_DQU3cHXtEfC_3fo_KXq00A" name="getEmail" specification="_DQFm4HXtEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_DQU3cXXtEfC_3fo_KXq00A" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return email; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_DQU3cnXtEfC_3fo_KXq00A" name="setEmail" specification="_DQFm4XXtEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_DQU3c3XtEfC_3fo_KXq00A" name="email">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.email = email; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_DQU3dHXtEfC_3fo_KXq00A" name="getToken" specification="_DQFm63XtEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_DQU3dXXtEfC_3fo_KXq00A" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return token; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_DQU3dnXtEfC_3fo_KXq00A" name="setToken" specification="_DQFm7HXtEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_DQU3d3XtEfC_3fo_KXq00A" name="token">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.token = token; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_DQU3fHXtEfC_3fo_KXq00A" name="getToken" specification="_DQIDIXXtEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_DQU3fXXtEfC_3fo_KXq00A" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return token; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_DQU3fnXtEfC_3fo_KXq00A" name="setToken" specification="_DQIDInXtEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_DQU3f3XtEfC_3fo_KXq00A" name="token">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.token = token; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_DQU3gHXtEfC_3fo_KXq00A" name="getUserId" specification="_DQIqMXXtEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_DQU3gXXtEfC_3fo_KXq00A" type="_DLjsMnXtEfC_3fo_KXq00A" direction="return"/>
+    <language>java</language>
+    <body>return userId; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_DQU3gnXtEfC_3fo_KXq00A" name="setUserId" specification="_DQIqMnXtEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_DQU3g3XtEfC_3fo_KXq00A" name="userId" type="_DLjsMnXtEfC_3fo_KXq00A"/>
+    <language>java</language>
+    <body>this.userId = userId; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_DQVegHXtEfC_3fo_KXq00A" name="getEmail" specification="_DQMUkXXtEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_DQVegXXtEfC_3fo_KXq00A" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return email;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_DQVegnXtEfC_3fo_KXq00A" name="setEmail" specification="_DQMUknXtEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_DQVeg3XtEfC_3fo_KXq00A" name="email">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.email = email;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_DQczQHXtEfC_3fo_KXq00A" base_Element="_DQZv8HXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DQfPgHXtEfC_3fo_KXq00A" base_Element="_DQczQXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DQiS0HXtEfC_3fo_KXq00A" base_Element="_DQf2kHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DQkvEHXtEfC_3fo_KXq00A" base_Element="_DQiS0XXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DQnyYHXtEfC_3fo_KXq00A" base_Element="_DQkvEXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DQq1sHXtEfC_3fo_KXq00A" base_Element="_DQnyYXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DQugEHXtEfC_3fo_KXq00A" base_Element="_DQq1sXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DQz_oHXtEfC_3fo_KXq00A" base_Element="_DQvHIHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DQ44IHXtEfC_3fo_KXq00A" base_Element="_DQz_oXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DQ9JkHXtEfC_3fo_KXq00A" base_Element="_DQ44IXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DRCCEHXtEfC_3fo_KXq00A" base_Element="_DQ9woHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DRFscHXtEfC_3fo_KXq00A" base_Element="_DRCCEXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DRJ94HXtEfC_3fo_KXq00A" base_Element="_DRFscXXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DRNoQHXtEfC_3fo_KXq00A" base_Element="_DRJ94XXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DRR5sHXtEfC_3fo_KXq00A" base_Element="_DROPUHXtEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_DRVkEHXtEfC_3fo_KXq00A" base_Element="_DRR5sXXtEfC_3fo_KXq00A"/>
+</xmi:XMI>

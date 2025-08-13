@@ -1,0 +1,1700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_DAhg4HXtEfC_3fo_KXq00A">
+  <modelElement href="email-service.uml#_DKswkHXtEfC_3fo_KXq00A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DyqIcHXtEfC_3fo_KXq00A" sourceAnchor="0.0,35.0" targetAnchor="395.0,22.0" target="_Dy9DYHXtEfC_3fo_KXq00A" source="_DyqIeXXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DQZv8HXtEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_DyqIcXXtEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="email-service.uml#_DQczQHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_DyqIcnXtEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_D8ahZnXtEfC_3fo_KXq00A" position="2.0,27.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_DyqIc3XtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DQZv8XXtEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_D8ahZXXtEfC_3fo_KXq00A" position="-12.0,41.0"/>
+      <visibility xmi:id="_DyqIdHXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyqIdXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_DyqIdnXtEfC_3fo_KXq00A" aggregationKind="NONE" name="passwordResetService" navigable="true">
+      <modelElement href="email-service.uml#_DQEYwHXtEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_D8ahZ3XtEfC_3fo_KXq00A" position="-61.0,-51.0"/>
+      <visibility xmi:id="_DyqId3XtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_DyqIeHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DyqvgHXtEfC_3fo_KXq00A" sourceAnchor="0.0,22.0" targetAnchor="395.0,178.0" target="_Dy9DYHXtEfC_3fo_KXq00A" source="_DyrWonXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DQnyYXXtEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_DyrWk3XtEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="email-service.uml#_DQq1sHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_DyrWkHXtEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_D8ahaXXtEfC_3fo_KXq00A" position="-33.0,17.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_DyrWkXXtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DQnyYnXtEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_D8ahaHXtEfC_3fo_KXq00A" position="-16.0,41.0"/>
+      <visibility xmi:id="_DyrWlXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyrWlHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_DyrWknXtEfC_3fo_KXq00A" aggregationKind="NONE" name="passwordResetService" navigable="true">
+      <modelElement href="email-service.uml#_DQOw03XtEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_D8ahanXtEfC_3fo_KXq00A" position="-32.0,-61.0"/>
+      <visibility xmi:id="_DyrWl3XtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_DyrWlnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DyrWmXXtEfC_3fo_KXq00A" source="_DyrWonXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DQkvEXXtEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_DyrWmnXtEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="email-service.uml#_DQnyYHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_DyrWm3XtEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_DyrWnHXtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DQkvEnXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_DyrWnXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyrWnnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_DyrWn3XtEfC_3fo_KXq00A" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="email-service.uml#_DQOw0HXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_DyrWoHXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_DyrWoXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Dyty0HXtEfC_3fo_KXq00A" target="_Dyty2HXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DQXTsHXtEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_Dyty0XXtEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_Dyty0nXtEfC_3fo_KXq00A" aggregationKind="NONE" name="data" navigable="true">
+      <modelElement href="email-service.uml#_DQE_0nXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dyty03XtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyty1HXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Dyty1XXtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DQXTsXXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dyty1nXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyty13XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DyvoAHXtEfC_3fo_KXq00A" sourceAnchor="51.0,0.0" targetAnchor="43.0,223.0" target="_DyvoGnXtEfC_3fo_KXq00A" source="_Dyw2IHXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DQX6xXXtEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_DyvoAXXtEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_D8bIcXXtEfC_3fo_KXq00A" position="2.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_DyvoAnXtEfC_3fo_KXq00A" aggregationKind="NONE" name="role" navigable="true">
+      <modelElement href="email-service.uml#_DQNisXXtEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_D8bIcHXtEfC_3fo_KXq00A" position="46.0,-14.0"/>
+      <visibility xmi:id="_DyvoA3XtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyvoBHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_DyvoBXXtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DQX6xnXtEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_D8bIcnXtEfC_3fo_KXq00A" position="-56.0,-15.0"/>
+      <visibility xmi:id="_DyvoBnXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyvoB3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DyvoCHXtEfC_3fo_KXq00A" source="_DyvoGnXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DQf2kHXtEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_DyvoCXXtEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="email-service.uml#_DQiS0HXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_DyvoCnXtEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_DyvoC3XtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DQf2kXXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_DyvoDHXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyvoDXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_DyvoDnXtEfC_3fo_KXq00A" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="email-service.uml#_DQNis3XtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_DyvoD3XtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyvoEHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DyvoEXXtEfC_3fo_KXq00A" source="_DyvoGnXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DQiS0XXtEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_DyvoEnXtEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="email-service.uml#_DQkvEHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_DyvoE3XtEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_DyvoFHXtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DQiS0nXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_DyvoFXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyvoFnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_DyvoF3XtEfC_3fo_KXq00A" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="email-service.uml#_DQOJwXXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_DyvoGHXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyvoGXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DyyEQHXtEfC_3fo_KXq00A" sourceAnchor="156.0,0.0" targetAnchor="147.0,223.0" target="_DyvoGnXtEfC_3fo_KXq00A" source="_Dyz5f3XtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DQczQXXtEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_DyzSZXXtEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="email-service.uml#_DQfPgHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_DyzSYnXtEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_D8bIdHXtEfC_3fo_KXq00A" position="-43.0,-18.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_DyzSY3XtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DQczQnXtEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_D8bIc3XtEfC_3fo_KXq00A" position="2.0,-79.0"/>
+      <visibility xmi:id="_Dyz5cHXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyzSbHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_DyzSZHXtEfC_3fo_KXq00A" aggregationKind="NONE" name="userId" navigable="true">
+      <modelElement href="email-service.uml#_DQIDKHXtEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_D8bIdXXtEfC_3fo_KXq00A" position="2.0,30.0"/>
+      <visibility xmi:id="_Dyz5cnXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyz5cXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DyzSYHXtEfC_3fo_KXq00A" target="_Dyz5f3XtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DQXTunXtEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_DyzSZnXtEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_DyzSZ3XtEfC_3fo_KXq00A" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="email-service.uml#_DQJRRHXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dyz5dnXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyz5dXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_DyzSaHXtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DQX6wHXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dyz5eXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyz5eHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DyzSYXXtEfC_3fo_KXq00A" target="_Dyz5f3XtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DQX6wXXtEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_DyzSaXXtEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_DyzSanXtEfC_3fo_KXq00A" aggregationKind="NONE" name="expiresAt" navigable="true">
+      <modelElement href="email-service.uml#_DQJ4UXXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dyz5e3XtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyz5enXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_DyzSa3XtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DQX6wnXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dyz5fnXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyz5fXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Dy1HkHXtEfC_3fo_KXq00A" sourceAnchor="0.0,98.0" targetAnchor="171.0,0.0" target="_Dy1uqXXtEfC_3fo_KXq00A" source="_Dy9DYHXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DQ9woHXtEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_zdolUXXtEfC_3fo_KXq00A" sourceX="-32" targetX="-724" targetY="348"/>
+    <bendpoints xmi:id="_zdolUnXtEfC_3fo_KXq00A" sourceX="-37" sourceY="-368" targetX="-729" targetY="-20"/>
+    <bendpoints xmi:id="_zdolU3XtEfC_3fo_KXq00A" sourceX="692" sourceY="-365" targetY="-17"/>
+    <stereotypes xmi:id="_Dy1uo3XtEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="email-service.uml#_DRCCEHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Dy1uoHXtEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_D8bvgXXtEfC_3fo_KXq00A" position="345.0,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Dy1uoXXtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DQ9woXXtEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_D8bvgHXtEfC_3fo_KXq00A" position="-31.0,-90.0"/>
+      <visibility xmi:id="_Dy1upXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy1upHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Dy1uonXtEfC_3fo_KXq00A" aggregationKind="NONE" name="tokenRepository" navigable="true">
+      <modelElement href="email-service.uml#_DQSbMnXtEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_D8bvgnXtEfC_3fo_KXq00A" position="-182.0,-68.0"/>
+      <stereotypes xmi:id="_Dy1uqHXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQSbM3XtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy1up3XtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy1upnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Dy28wHXtEfC_3fo_KXq00A" sourceAnchor="368.0,203.0" targetAnchor="87.0,136.0" target="_Dy3j1HXtEfC_3fo_KXq00A" source="_Dy9DYHXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DQ44IXXtEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_zdn-QHXtEfC_3fo_KXq00A" sourceX="1" sourceY="159" targetX="-850" targetY="272"/>
+    <bendpoints xmi:id="_zdolUHXtEfC_3fo_KXq00A" sourceX="851" sourceY="159" targetY="272"/>
+    <stereotypes xmi:id="_Dy28xHXtEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="email-service.uml#_DQ9JkHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Dy28wXXtEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_D8bId3XtEfC_3fo_KXq00A" position="19.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Dy28wnXtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DQ44InXtEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_D8bIdnXtEfC_3fo_KXq00A" position="1.0,70.0"/>
+      <visibility xmi:id="_Dy3j0HXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy28xXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Dy28w3XtEfC_3fo_KXq00A" aggregationKind="NONE" name="userRepository" navigable="true">
+      <modelElement href="email-service.uml#_DQRNFXXtEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_D8bIeHXtEfC_3fo_KXq00A" position="2.0,38.0"/>
+      <stereotypes xmi:id="_Dy3j03XtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQSbMHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy3j0nXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy3j0XXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Dy4K4HXtEfC_3fo_KXq00A" sourceAnchor="243.0,0.0" targetAnchor="242.0,223.0" target="_Dy5ZCXXtEfC_3fo_KXq00A" source="_Dy9DYHXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DRCCEXXtEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Dy4x83XtEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="email-service.uml#_DRFscHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Dy4x8HXtEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_D8bvhHXtEfC_3fo_KXq00A" position="-83.0,-13.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Dy4x8XXtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DRCCEnXtEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_D8bvg3XtEfC_3fo_KXq00A" position="40.0,-39.0"/>
+      <visibility xmi:id="_Dy4x-XXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy4x-HXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Dy4x8nXtEfC_3fo_KXq00A" aggregationKind="NONE" name="emailService" navigable="true">
+      <modelElement href="email-service.uml#_DQSbNXXtEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_D8bvhXXtEfC_3fo_KXq00A" position="-41.0,-10.0"/>
+      <stereotypes xmi:id="_Dy4x_HXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQSbNnXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy4x-3XtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy4x-nXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Dy4K4XXtEfC_3fo_KXq00A" source="_Dy5ZCXXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DQq1sXXtEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Dy4x93XtEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="email-service.uml#_DQugEHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Dy4x9HXtEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_Dy4x9XXtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DQq1snXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dy4x_nXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy4x_XXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Dy4x9nXtEfC_3fo_KXq00A" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="email-service.uml#_DQPX4HXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dy4yAHXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy4x_3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Dy5ZAHXtEfC_3fo_KXq00A" source="_Dy5ZCXXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DQvHIHXtEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Dy5ZAXXtEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="email-service.uml#_DQz_oHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Dy5ZAnXtEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_Dy5ZA3XtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DQvHIXXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dy5ZBHXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy5ZBXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Dy5ZBnXtEfC_3fo_KXq00A" aggregationKind="NONE" name="mailSender" navigable="true">
+      <modelElement href="email-service.uml#_DQPX43XtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dy5ZB3XtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy5ZCHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Dy71QHXtEfC_3fo_KXq00A" source="_Dy9DYHXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DQz_oXXtEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Dy8cU3XtEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="email-service.uml#_DQ44IHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Dy8cUHXtEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_Dy8cUXXtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DQz_onXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dy8cWXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy8cWHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Dy8cUnXtEfC_3fo_KXq00A" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="email-service.uml#_DQQmB3XtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dy8cW3XtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy8cWnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Dy71QXXtEfC_3fo_KXq00A" source="_Dy9DYHXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DRFscXXtEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Dy8cV3XtEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="email-service.uml#_DRJ94HXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Dy8cVHXtEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_Dy8cVXXtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DRFscnXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dy8cXnXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy8cXXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Dy8cVnXtEfC_3fo_KXq00A" aggregationKind="NONE" name="passwordEncoder" navigable="true">
+      <modelElement href="email-service.uml#_DQSbOHXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dy8cYHXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy8cX3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Dy_foHXtEfC_3fo_KXq00A" sourceAnchor="172.0,263.0" targetAnchor="197.0,203.0" target="_Dy9DYHXtEfC_3fo_KXq00A" source="_DzAtyXXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DROPUHXtEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_zdolVHXtEfC_3fo_KXq00A" sourceY="28" targetX="1111" targetY="189"/>
+    <bendpoints xmi:id="_zdolVXXtEfC_3fo_KXq00A" sourceX="-1111" sourceY="28" targetY="189"/>
+    <stereotypes xmi:id="_Dy_fpHXtEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="email-service.uml#_DRR5sHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Dy_foXXtEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_D8cWkXXtEfC_3fo_KXq00A" position="-68.77272727272725,-21.000000000000114"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Dy_fonXtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DROPUXXtEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_D8cWkHXtEfC_3fo_KXq00A" position="-215.31818181818176,30.0"/>
+      <visibility xmi:id="_DzAGsXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DzAGsHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Dy_fo3XtEfC_3fo_KXq00A" aggregationKind="NONE" name="passwordResetService" navigable="true">
+      <modelElement href="email-service.uml#_DQSbPnXtEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_D8cWknXtEfC_3fo_KXq00A" position="1.0,99.00000000000057"/>
+      <visibility xmi:id="_DzAGs3XtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_DzAGsnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DzAGtXXtEfC_3fo_KXq00A" source="_DzAtyXXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DRJ94XXtEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_DzAGtnXtEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="email-service.uml#_DRNoQHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_DzAGt3XtEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_DzAGuHXtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DRJ94nXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_DzAGuXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DzAGunXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_DzAGu3XtEfC_3fo_KXq00A" aggregationKind="NONE" name="mockMvc" navigable="true">
+      <modelElement href="email-service.uml#_DQSbO3XtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_DzAGvHXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_DzAGvXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DzAtwHXtEfC_3fo_KXq00A" source="_DzAtyXXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DRR5sXXtEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_DzAtwXXtEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="email-service.uml#_DRVkEHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_DzAtwnXtEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_DzAtw3XtEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="email-service.uml#_DRR5snXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_DzAtxHXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DzAtxXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_DzAtxnXtEfC_3fo_KXq00A" aggregationKind="NONE" name="objectMapper" navigable="true">
+      <modelElement href="email-service.uml#_DQTpUXXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_DzAtx3XtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_DzAtyHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Dy1uqXXtEfC_3fo_KXq00A" name="PasswordResetTokenRepository" associationsIn="_Dy1HkHXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DLmIcHXtEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Dy1uqnXtEfC_3fo_KXq00A" position="-1843.0,40.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Dy1uq3XtEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="email-service.uml#_DLmvgHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Dy1urHXtEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="email-service.uml#_DLn9pHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Dy1urXXtEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_Dy1urnXtEfC_3fo_KXq00A" name="findByToken">
+      <modelElement href="email-service.uml#_DLmvgXXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy1ur3XtEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="email-service.uml#_DLmvg3XtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Dy1usHXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DLmvhHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy1usXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy1usnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Dy1us3XtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DQAuYHXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_Dy1utHXtEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="email-service.uml#_DPfxAHXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Dy1utXXtEfC_3fo_KXq00A" name="token">
+        <modelElement href="email-service.uml#_DLmvgnXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy1utnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy1ut3XtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Dy1uuHXtEfC_3fo_KXq00A" name="findByTokenAndUsedFalse">
+      <modelElement href="email-service.uml#_DLmvhXXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy1uuXXtEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="email-service.uml#_DLnWkXXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Dy1uunXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DLnWknXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy1uu3XtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy1uvHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Dy1uvXXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DQAuYXXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_Dy1uvnXtEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="email-service.uml#_DPfxAHXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Dy1uv3XtEfC_3fo_KXq00A" name="token">
+        <modelElement href="email-service.uml#_DLnWkHXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy1uwHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy1uwXXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Dy1uwnXtEfC_3fo_KXq00A" name="deleteByUserId">
+      <modelElement href="email-service.uml#_DLnWk3XtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy1uw3XtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DLn9oHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy1uxHXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy1uxXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Dy1uxnXtEfC_3fo_KXq00A" name="userId">
+        <modelElement href="email-service.uml#_DLnWlHXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy1ux3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy1uyHXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Dy1uyXXtEfC_3fo_KXq00A" name="deleteByEmail">
+      <modelElement href="email-service.uml#_DLn9oXXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy1uynXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DLn9o3XtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy1uy3XtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy1uzHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Dy1uzXXtEfC_3fo_KXq00A" name="email">
+        <modelElement href="email-service.uml#_DLn9onXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy1uznXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy1uz3XtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Dy1u0HXtEfC_3fo_KXq00A" name="deleteByExpiresAtBefore">
+      <modelElement href="email-service.uml#_DQAuYnXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy1u0XXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DQAuZHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy1u0nXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy1u03XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Dy1u1HXtEfC_3fo_KXq00A" name="dateTime">
+        <modelElement href="email-service.uml#_DQAuY3XtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy1u1XXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy1u1nXtEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="email-service.uml#_DPjbYHXtEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Dy9DYHXtEfC_3fo_KXq00A" name="PasswordResetService" associationsIn="_DyqIcHXtEfC_3fo_KXq00A _DyqvgHXtEfC_3fo_KXq00A _Dy_foHXtEfC_3fo_KXq00A" associationsOut="_Dy28wHXtEfC_3fo_KXq00A _Dy1HkHXtEfC_3fo_KXq00A _Dy4K4HXtEfC_3fo_KXq00A _Dy71QHXtEfC_3fo_KXq00A _Dy71QXXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DLtdMHXtEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Dy9DYXXtEfC_3fo_KXq00A" position="-2363.0,290.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Dy9DYnXtEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="email-service.uml#_DLuEQHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Dy9DY3XtEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="email-service.uml#_DLvSZXXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Dy9DZHXtEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_Dy9DZXXtEfC_3fo_KXq00A" defaultValue="LoggerFactory.getLogger(PasswordResetService.class)" name="logger" staticAttribute="true">
+      <modelElement href="email-service.uml#_DQQmB3XtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy9DZnXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DQRNEXXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy9DZ3XtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy9DaHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dy9DaXXtEfC_3fo_KXq00A" name="Logger">
+        <modelElement href="email-service.uml#_DPr-QXXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Dy9DanXtEfC_3fo_KXq00A" defaultValue="1" name="TOKEN_EXPIRY_HOURS" staticAttribute="true">
+      <modelElement href="email-service.uml#_DQRNEnXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy9Da3XtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DQRNFHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy9DbHXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy9DbXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dy9DbnXtEfC_3fo_KXq00A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Dy9Db3XtEfC_3fo_KXq00A" name="userRepository">
+      <modelElement href="email-service.uml#_DQRNFXXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dy9DcHXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy9DcXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dy9DcnXtEfC_3fo_KXq00A" name="UserRepository">
+        <modelElement href="email-service.uml#_DLYGAHXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Dy9Dc3XtEfC_3fo_KXq00A" name="tokenRepository">
+      <modelElement href="email-service.uml#_DQSbMnXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dy9DdHXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy9DdXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dy9DdnXtEfC_3fo_KXq00A" name="PasswordResetTokenRepository">
+        <modelElement href="email-service.uml#_DLmIcHXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Dy9Dd3XtEfC_3fo_KXq00A" name="emailService">
+      <modelElement href="email-service.uml#_DQSbNXXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dy9DeHXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy9DeXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dy9DenXtEfC_3fo_KXq00A" name="EmailService">
+        <modelElement href="email-service.uml#_DLroAHXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Dy9De3XtEfC_3fo_KXq00A" name="passwordEncoder">
+      <modelElement href="email-service.uml#_DQSbOHXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy9DfHXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQSbOXXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy9DfXXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy9DfnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dy9Df3XtEfC_3fo_KXq00A" name="PasswordEncoder">
+        <modelElement href="email-service.uml#_DPei5XXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Dy9DgHXtEfC_3fo_KXq00A" name="initiatePasswordReset">
+      <modelElement href="email-service.uml#_DLuEQXXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy9DgXXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DLurUHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy9DgnXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy9Dg3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Dy9DhHXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DLuEQ3XtEfC_3fo_KXq00A"/>
+        <type xmi:id="_Dy9DhXXtEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Dy9DhnXtEfC_3fo_KXq00A" name="email">
+        <modelElement href="email-service.uml#_DLuEQnXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy9Dh3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy9DiHXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Dy9DiXXtEfC_3fo_KXq00A" name="resetPassword">
+      <modelElement href="email-service.uml#_DLurUXXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy9DinXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DLurVXXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy9Di3XtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy9DjHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Dy9DjXXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DLurVHXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_Dy9DjnXtEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Dy9Dj3XtEfC_3fo_KXq00A" name="token">
+        <modelElement href="email-service.uml#_DLurUnXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy9DkHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy9DkXXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Dy9DknXtEfC_3fo_KXq00A" name="newPassword">
+        <modelElement href="email-service.uml#_DLurU3XtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy9Dk3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy9DlHXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Dy9DlXXtEfC_3fo_KXq00A" name="validateResetToken">
+      <modelElement href="email-service.uml#_DLurVnXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy9DlnXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DLvSYnXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy9Dl3XtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy9DmHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Dy9DmXXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DLvSYXXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_Dy9DmnXtEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Dy9Dm3XtEfC_3fo_KXq00A" name="token">
+        <modelElement href="email-service.uml#_DLvSYHXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy9DnHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy9DnXXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Dy9DnnXtEfC_3fo_KXq00A" name="cleanupExpiredTokens">
+      <modelElement href="email-service.uml#_DLvSY3XtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy9Dn3XtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DLvSZHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy9DoHXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy9DoXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_DyrWonXtEfC_3fo_KXq00A" name="PasswordResetController" associationsOut="_DyqvgHXtEfC_3fo_KXq00A _DyrWmXXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DLoksHXtEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_DyrWo3XtEfC_3fo_KXq00A" position="-1952.0,446.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_DyrWpHXtEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="email-service.uml#_DLpLwHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_DyrWpXXtEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="email-service.uml#_DLqZ4HXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_DyrWpnXtEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_DyrWp3XtEfC_3fo_KXq00A" defaultValue="LoggerFactory.getLogger(PasswordResetController.class)" name="logger" staticAttribute="true">
+      <modelElement href="email-service.uml#_DQOw0HXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyrWqHXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DQOw0nXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyrWqXXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_DyrWqnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_DyrWq3XtEfC_3fo_KXq00A" name="Logger">
+        <modelElement href="email-service.uml#_DPr-QXXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DyrWrHXtEfC_3fo_KXq00A" name="passwordResetService">
+      <modelElement href="email-service.uml#_DQOw03XtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyrWrXXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQOw1HXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyrWrnXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_DyrWr3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_DyrWsHXtEfC_3fo_KXq00A" name="PasswordResetService">
+        <modelElement href="email-service.uml#_DLtdMHXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_DyrWsXXtEfC_3fo_KXq00A" name="validateResetToken">
+      <modelElement href="email-service.uml#_DLpLwXXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyrWsnXtEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="email-service.uml#_DLpy0HXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_DyrWs3XtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DLpy03XtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyrWtHXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyrWtXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_DyrWtnXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DQBVcnXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_DyrWt3XtEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="email-service.uml#_DPo68HXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_DyrWuHXtEfC_3fo_KXq00A" name="token">
+        <modelElement href="email-service.uml#_DLpLwnXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_DyrWuXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_DyrWunXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_DyrWu3XtEfC_3fo_KXq00A" name="forgotPassword">
+      <modelElement href="email-service.uml#_DPslUXXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyrWvHXtEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="email-service.uml#_DPtMYHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_DyrWvXXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DPtzcXXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyrWvnXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyrWv3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_DyrWwHXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DQBVcHXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_DyrWwXXtEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="email-service.uml#_DPo68HXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_DyrWwnXtEfC_3fo_KXq00A" name="request">
+        <modelElement href="email-service.uml#_DPslUnXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_DyrWw3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_DyrWxHXtEfC_3fo_KXq00A" name="ForgotPasswordRequest">
+          <modelElement href="email-service.uml#_DLbwYHXtEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_DyrWxXXtEfC_3fo_KXq00A" name="resetPassword">
+      <modelElement href="email-service.uml#_DPtzdHXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyrWxnXtEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="email-service.uml#_DPuagHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_DyrWx3XtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DPvBkHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyrWyHXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyrWyXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_DyrWynXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DQBVcXXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_DyrWy3XtEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="email-service.uml#_DPo68HXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_DyrWzHXtEfC_3fo_KXq00A" name="request">
+        <modelElement href="email-service.uml#_DPtzdXXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_DyrWzXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_DyrWznXtEfC_3fo_KXq00A" name="ResetPasswordRequest">
+          <modelElement href="email-service.uml#_DLc-gnXtEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_DyqIeXXtEfC_3fo_KXq00A" name="ScheduledTasks" associationsOut="_DyqIcHXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DLVCsnXtEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_DyqIenXtEfC_3fo_KXq00A" position="-1960.0,277.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_DyqIe3XtEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="email-service.uml#_DLVpwHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_DyqIfHXtEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="email-service.uml#_DLWQ0HXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_DyqIfXXtEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_DyqIfnXtEfC_3fo_KXq00A" name="passwordResetService">
+      <modelElement href="email-service.uml#_DQEYwHXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyqIf3XtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQEYwXXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyqIgHXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_DyqIgXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_DyqIgnXtEfC_3fo_KXq00A" name="PasswordResetService">
+        <modelElement href="email-service.uml#_DLtdMHXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_DyqIg3XtEfC_3fo_KXq00A" name="cleanupExpiredTokens">
+      <modelElement href="email-service.uml#_DLVpwXXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyqIhHXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DLVpwnXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyqIhXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyqIhnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Dyty2HXtEfC_3fo_KXq00A" name="ApiResponse" associationsIn="_Dyty0HXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DLaiQnXtEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Dyty2XXtEfC_3fo_KXq00A" position="-1738.0,240.0" size="258.0,144.0"/>
+    <visibility xmi:id="_Dyty2nXtEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_Dyty23XtEfC_3fo_KXq00A" name="success">
+      <modelElement href="email-service.uml#_DQE_0HXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dyty3HXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyty3XXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dyty3nXtEfC_3fo_KXq00A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Dyty33XtEfC_3fo_KXq00A" name="message">
+      <modelElement href="email-service.uml#_DQE_0XXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dyty4HXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyty4XXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dyty4nXtEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Dyty43XtEfC_3fo_KXq00A" name="data">
+      <modelElement href="email-service.uml#_DQE_0nXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dyty5HXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyty5XXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dyty5nXtEfC_3fo_KXq00A" name="Object">
+        <modelElement href="email-service.uml#_DP714nXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Dyty53XtEfC_3fo_KXq00A" name="ApiResponse">
+      <modelElement href="email-service.uml#_DLbJUHXtEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_Dyty6HXtEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_Dyty6XXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyty6nXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Dyty63XtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DLbJVXXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_Dyty7HXtEfC_3fo_KXq00A" name="ApiResponse">
+          <modelElement href="email-service.uml#_DLaiQnXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Dyty7XXtEfC_3fo_KXq00A" name="success">
+        <modelElement href="email-service.uml#_DLbJUXXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dyty7nXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dyty73XtEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Dyty8HXtEfC_3fo_KXq00A" name="message">
+        <modelElement href="email-service.uml#_DLbJUnXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dyty8XXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dyty8nXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Dyty83XtEfC_3fo_KXq00A" name="ApiResponse">
+      <modelElement href="email-service.uml#_DP715HXtEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_Dyty9HXtEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_Dyty9XXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyty9nXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Dyty93XtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DP8c8nXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_Dyty-HXtEfC_3fo_KXq00A" name="ApiResponse">
+          <modelElement href="email-service.uml#_DLaiQnXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Dyty-XXtEfC_3fo_KXq00A" name="success">
+        <modelElement href="email-service.uml#_DP715XXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dyty-nXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dyty-3XtEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Dyty_HXtEfC_3fo_KXq00A" name="message">
+        <modelElement href="email-service.uml#_DP715nXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dyty_XXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dyty_nXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Dyty_3XtEfC_3fo_KXq00A" name="data">
+        <modelElement href="email-service.uml#_DP7153XtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_DytzAHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_DytzAXXtEfC_3fo_KXq00A" name="Object">
+          <modelElement href="email-service.uml#_DP714nXtEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_DyvoGnXtEfC_3fo_KXq00A" name="User" associationsIn="_DyvoAHXtEfC_3fo_KXq00A _DyyEQHXtEfC_3fo_KXq00A" associationsOut="_DyvoCHXtEfC_3fo_KXq00A _DyvoEXXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DLjsMnXtEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_DyvoG3XtEfC_3fo_KXq00A" position="-1463.0,-11.0" size="298.0,223.0"/>
+    <stereotypes xmi:id="_DyvoHHXtEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="email-service.uml#_DLjsM3XtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_DyvoHXXtEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="email-service.uml#_DLk6UHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_DyvoHnXtEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_DyvoH3XtEfC_3fo_KXq00A" name="id">
+      <modelElement href="email-service.uml#_DQKfYHXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyvoIHXtEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="email-service.uml#_DQLGcHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_DyvoIXXtEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="email-service.uml#_DQLtgHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyvoInXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyvoI3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_DyvoJHXtEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DyvoJXXtEfC_3fo_KXq00A" name="username">
+      <modelElement href="email-service.uml#_DQLtgXXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyvoJnXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DQLtgnXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyvoJ3XtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyvoKHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_DyvoKXXtEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DyvoKnXtEfC_3fo_KXq00A" name="email">
+      <modelElement href="email-service.uml#_DQLtg3XtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyvoK3XtEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="email-service.uml#_DQMUkHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_DyvoLHXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQM7oXXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyvoLXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyvoLnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_DyvoL3XtEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DyvoMHXtEfC_3fo_KXq00A" name="password">
+      <modelElement href="email-service.uml#_DQM7pHXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyvoMXXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DQNisHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyvoMnXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyvoM3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_DyvoNHXtEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DyvoNXXtEfC_3fo_KXq00A" name="role">
+      <modelElement href="email-service.uml#_DQNisXXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyvoNnXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DQNisnXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyvoN3XtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyvoOHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_DyvoOXXtEfC_3fo_KXq00A" name="Role">
+        <modelElement href="email-service.uml#_DLjFIHXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DyvoOnXtEfC_3fo_KXq00A" defaultValue="LocalDateTime.now()" name="createdAt">
+      <modelElement href="email-service.uml#_DQNis3XtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyvoO3XtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DQOJwHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyvoPHXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyvoPXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_DyvoPnXtEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="email-service.uml#_DPjbYHXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DyvoP3XtEfC_3fo_KXq00A" defaultValue="LocalDateTime.now()" name="updatedAt">
+      <modelElement href="email-service.uml#_DQOJwXXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyvoQHXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DQOJw3XtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyvoQXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyvoQnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_DyvoQ3XtEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="email-service.uml#_DPjbYHXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_DyvoRHXtEfC_3fo_KXq00A" name="User">
+      <modelElement href="email-service.uml#_DLkTQHXtEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_DyvoRXXtEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_DyvoRnXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyvoR3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_DyvoSHXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DLkTQ3XtEfC_3fo_KXq00A"/>
+        <type xmi:id="_DyvoSXXtEfC_3fo_KXq00A" name="User">
+          <modelElement href="email-service.uml#_DLjsMnXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_DyvoSnXtEfC_3fo_KXq00A" name="User">
+      <modelElement href="email-service.uml#_DP-5MHXtEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_DyvoS3XtEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_DyvoTHXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DP-5O3XtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyvoTXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyvoTnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_DyvoT3XtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DP-5OnXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_DyvoUHXtEfC_3fo_KXq00A" name="User">
+          <modelElement href="email-service.uml#_DLjsMnXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_DyvoUXXtEfC_3fo_KXq00A" name="id">
+        <modelElement href="email-service.uml#_DP-5MXXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_DyvoUnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_DyvoU3XtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_DyvoVHXtEfC_3fo_KXq00A" name="username">
+        <modelElement href="email-service.uml#_DP-5MnXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_DyvoVXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_DyvoVnXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_DyvoV3XtEfC_3fo_KXq00A" name="email">
+        <modelElement href="email-service.uml#_DP-5M3XtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_DyvoWHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_DyvoWXXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_DyvoWnXtEfC_3fo_KXq00A" name="password">
+        <modelElement href="email-service.uml#_DP-5NHXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_DyvoW3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_DyvoXHXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_DyvoXXXtEfC_3fo_KXq00A" name="role">
+        <modelElement href="email-service.uml#_DP-5NXXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_DyvoXnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_DyvoX3XtEfC_3fo_KXq00A" name="Role">
+          <modelElement href="email-service.uml#_DLjFIHXtEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_DyvoYHXtEfC_3fo_KXq00A" name="createdAt">
+        <modelElement href="email-service.uml#_DP-5NnXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_DyvoYXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_DyvoYnXtEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="email-service.uml#_DPjbYHXtEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_DyvoY3XtEfC_3fo_KXq00A" name="updatedAt">
+        <modelElement href="email-service.uml#_DP-5N3XtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_DyvoZHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_DyvoZXXtEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="email-service.uml#_DPjbYHXtEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_Dyw2IHXtEfC_3fo_KXq00A" name="Role" associationsOut="_DyvoAHXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DLjFIHXtEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Dyw2IXXtEfC_3fo_KXq00A" position="-1471.0,231.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Dyw2InXtEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="email-service.uml#_DLjFIXXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_DyxdMHXtEfC_3fo_KXq00A" label="+"/>
+    <literals xmi:id="_DyxdMXXtEfC_3fo_KXq00A" name="ADMIN">
+      <modelElement href="email-service.uml#_DLjFInXtEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_DyxdMnXtEfC_3fo_KXq00A" name="PATIENT">
+      <modelElement href="email-service.uml#_DLjsMHXtEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_DyxdM3XtEfC_3fo_KXq00A" name="DOCTOR">
+      <modelElement href="email-service.uml#_DLjsMXXtEfC_3fo_KXq00A"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Dyz5f3XtEfC_3fo_KXq00A" name="PasswordResetToken" associationsIn="_DyzSYHXtEfC_3fo_KXq00A _DyzSYXXtEfC_3fo_KXq00A" associationsOut="_DyyEQHXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DLfawHXtEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Dyz5gHXtEfC_3fo_KXq00A" position="-1472.0,379.0" size="206.0,243.0"/>
+    <stereotypes xmi:id="_Dyz5gXXtEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="email-service.uml#_DLfawXXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Dyz5gnXtEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="email-service.uml#_DLgo43XtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Dyz5g3XtEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_Dyz5hHXtEfC_3fo_KXq00A" name="id">
+      <modelElement href="email-service.uml#_DQG1AHXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dyz5hXXtEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="email-service.uml#_DQHcEHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Dyz5hnXtEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="email-service.uml#_DQHcEXXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dyz5h3XtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyz5iHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dyz5iXXtEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Dyz5inXtEfC_3fo_KXq00A" name="token">
+      <modelElement href="email-service.uml#_DQHcEnXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dyz5i3XtEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="email-service.uml#_DQIDIHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Dyz5jHXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQIDJXXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dyz5jXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyz5jnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dyz5j3XtEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Dyz5kHXtEfC_3fo_KXq00A" name="userId">
+      <modelElement href="email-service.uml#_DQIDKHXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dyz5kXXtEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="email-service.uml#_DQIqMHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Dyz5knXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQJRQHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dyz5k3XtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyz5lHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dyz5lXXtEfC_3fo_KXq00A" name="User">
+        <modelElement href="email-service.uml#_DLjsMnXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Dyz5lnXtEfC_3fo_KXq00A" name="email">
+      <modelElement href="email-service.uml#_DQJRQnXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dyz5l3XtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DQJRQ3XtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dyz5mHXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyz5mXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dyz5mnXtEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Dyz5m3XtEfC_3fo_KXq00A" name="createdAt">
+      <modelElement href="email-service.uml#_DQJRRHXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dyz5nHXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DQJ4UHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dyz5nXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyz5nnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dyz5n3XtEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="email-service.uml#_DPjbYHXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Dyz5oHXtEfC_3fo_KXq00A" name="expiresAt">
+      <modelElement href="email-service.uml#_DQJ4UXXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dyz5oXXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DQJ4UnXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dyz5onXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyz5o3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dyz5pHXtEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="email-service.uml#_DPjbYHXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Dyz5pXXtEfC_3fo_KXq00A" name="used">
+      <modelElement href="email-service.uml#_DQJ4U3XtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dyz5pnXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DQJ4VHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dyz5p3XtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyz5qHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dyz5qXXtEfC_3fo_KXq00A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Dyz5qnXtEfC_3fo_KXq00A" name="PasswordResetToken">
+      <modelElement href="email-service.uml#_DLgB0HXtEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_Dyz5q3XtEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_Dyz5rHXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyz5rXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Dyz5rnXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DLgB03XtEfC_3fo_KXq00A"/>
+        <type xmi:id="_Dyz5r3XtEfC_3fo_KXq00A" name="PasswordResetToken">
+          <modelElement href="email-service.uml#_DLfawHXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Dyz5sHXtEfC_3fo_KXq00A" name="isExpired">
+      <modelElement href="email-service.uml#_DLgo4HXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dyz5sXXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DLgo4nXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dyz5snXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyz5s3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Dyz5tHXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DLgo4XXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_Dyz5tXXtEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Dyz5tnXtEfC_3fo_KXq00A" name="PasswordResetToken">
+      <modelElement href="email-service.uml#_DP9EAHXtEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_Dyz5t3XtEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_Dyz5uHXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DP9ECHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dyz5uXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyz5unXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Dyz5u3XtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DP9EB3XtEfC_3fo_KXq00A"/>
+        <type xmi:id="_Dyz5vHXtEfC_3fo_KXq00A" name="PasswordResetToken">
+          <modelElement href="email-service.uml#_DLfawHXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Dyz5vXXtEfC_3fo_KXq00A" name="token">
+        <modelElement href="email-service.uml#_DP9EAXXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dyz5vnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dyz5v3XtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Dyz5wHXtEfC_3fo_KXq00A" name="userId">
+        <modelElement href="email-service.uml#_DP9EAnXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dyz5wXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dyz5wnXtEfC_3fo_KXq00A" name="User">
+          <modelElement href="email-service.uml#_DLjsMnXtEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Dyz5w3XtEfC_3fo_KXq00A" name="email">
+        <modelElement href="email-service.uml#_DP9EA3XtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dyz5xHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dyz5xXXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Dyz5xnXtEfC_3fo_KXq00A" name="expiresAt">
+        <modelElement href="email-service.uml#_DP9EBHXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dyz5x3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dyz5yHXtEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="email-service.uml#_DPjbYHXtEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Dy3j1HXtEfC_3fo_KXq00A" name="UserRepository" associationsIn="_Dy28wHXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DLYGAHXtEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Dy3j1XXtEfC_3fo_KXq00A" position="-1231.0,244.0" size="174.0,135.0"/>
+    <stereotypes xmi:id="_Dy3j1nXtEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="email-service.uml#_DLYtEHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Dy3j13XtEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="email-service.uml#_DLaiQHXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Dy3j2HXtEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_Dy3j2XXtEfC_3fo_KXq00A" name="findByEmail">
+      <modelElement href="email-service.uml#_DLYtEXXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy3j2nXtEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="email-service.uml#_DLZUIHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Dy3j23XtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DLZUIXXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy3j3HXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy3j3XXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Dy3j3nXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DP714HXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_Dy3j33XtEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="email-service.uml#_DPfxAHXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Dy3j4HXtEfC_3fo_KXq00A" name="email">
+        <modelElement href="email-service.uml#_DLYtEnXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy3j4XXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy3j4nXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Dy3j43XtEfC_3fo_KXq00A" name="findByUsername">
+      <modelElement href="email-service.uml#_DLZUInXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy3j5HXtEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="email-service.uml#_DLZ7MHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Dy3j5XXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DLZ7MXXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy3j5nXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy3j53XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Dy3j6HXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DP714XXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_Dy3j6XXtEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="email-service.uml#_DPfxAHXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Dy3j6nXtEfC_3fo_KXq00A" name="username">
+        <modelElement href="email-service.uml#_DLZUI3XtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy3j63XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy3j7HXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Dy3j7XXtEfC_3fo_KXq00A" name="existsByEmail">
+      <modelElement href="email-service.uml#_DLZ7MnXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy3j7nXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DLZ7NXXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy3j73XtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy3j8HXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Dy3j8XXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DLZ7NHXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_Dy3j8nXtEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Dy3j83XtEfC_3fo_KXq00A" name="email">
+        <modelElement href="email-service.uml#_DLZ7M3XtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy3j9HXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy3j9XXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_DysksHXtEfC_3fo_KXq00A" name="ResetPasswordRequest">
+    <modelElement href="email-service.uml#_DLc-gnXtEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_DysksXXtEfC_3fo_KXq00A" position="-1154.0,-11.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_DysksnXtEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_Dysks3XtEfC_3fo_KXq00A" name="token">
+      <modelElement href="email-service.uml#_DQFm6XXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DysktHXtEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="email-service.uml#_DQFm6nXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_DysktXXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQGN8nXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DysktnXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyskt3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_DyskuHXtEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DyskuXXtEfC_3fo_KXq00A" name="newPassword">
+      <modelElement href="email-service.uml#_DQGN9XXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyskunXtEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="email-service.uml#_DQGN9nXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Dysku3XtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQGN93XtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyskvHXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_DyskvXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_DyskvnXtEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Dyskv3XtEfC_3fo_KXq00A" name="ResetPasswordRequest">
+      <modelElement href="email-service.uml#_DLdlkHXtEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_DyskwHXtEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_DyskwXXtEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="email-service.uml#_DLdlk3XtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyskwnXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dyskw3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_DyskxHXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DLdllHXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_DyskxXXtEfC_3fo_KXq00A" name="ResetPasswordRequest">
+          <modelElement href="email-service.uml#_DLc-gnXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_DyskxnXtEfC_3fo_KXq00A" name="getNewPassword">
+      <modelElement href="email-service.uml#_DLeMoHXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Dyskx3XtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyskyHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_DyskyXXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DLeMoXXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_DyskynXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Dysky3XtEfC_3fo_KXq00A" name="setNewPassword">
+      <modelElement href="email-service.uml#_DLeMonXtEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_DyskzHXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyskzXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_DyskznXtEfC_3fo_KXq00A" name="newPassword">
+        <modelElement href="email-service.uml#_DLeMo3XtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dyskz3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dysk0HXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_DyoTQHXtEfC_3fo_KXq00A" name="SecurityConfig">
+    <modelElement href="email-service.uml#_DLW34HXtEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_DyoTQXXtEfC_3fo_KXq00A" position="-415.0,202.0" size="183.0,96.0"/>
+    <stereotypes xmi:id="_DyoTQnXtEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="email-service.uml#_DLW34XXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_DyoTQ3XtEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="email-service.uml#_DLXe8XXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_DyoTRHXtEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_DyoTRXXtEfC_3fo_KXq00A" name="passwordEncoder">
+      <modelElement href="email-service.uml#_DLW34nXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyoTRnXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DLW343XtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyoTR3XtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyoTSHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_DyoTSXXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DP6nwHXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_DyoTSnXtEfC_3fo_KXq00A" name="PasswordEncoder">
+          <modelElement href="email-service.uml#_DPei5XXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_DyoTS3XtEfC_3fo_KXq00A" name="filterChain">
+      <modelElement href="email-service.uml#_DP7O0HXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyoTTHXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DP7O03XtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyoTTXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyoTTnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_DyoTT3XtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DP7O0nXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_DyoTUHXtEfC_3fo_KXq00A" name="SecurityFilterChain">
+          <modelElement href="email-service.uml#_DPfJ8XXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_DyoTUXXtEfC_3fo_KXq00A" name="http">
+        <modelElement href="email-service.uml#_DP7O0XXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_DyoTUnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_DyoTU3XtEfC_3fo_KXq00A" name="HttpSecurity">
+          <modelElement href="email-service.uml#_DPd703XtEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_DyuZ4HXtEfC_3fo_KXq00A" name="ForgotPasswordRequest">
+    <modelElement href="email-service.uml#_DLbwYHXtEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_DyuZ4XXtEfC_3fo_KXq00A" position="-1150.0,154.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_DyuZ4nXtEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_DyuZ43XtEfC_3fo_KXq00A" name="email">
+      <modelElement href="email-service.uml#_DQE_03XtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DyuZ5HXtEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="email-service.uml#_DQE_1HXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_DyuZ5XXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQFm5HXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyuZ5nXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyuZ53XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_DyuZ6HXtEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_DyuZ6XXtEfC_3fo_KXq00A" name="ForgotPasswordRequest">
+      <modelElement href="email-service.uml#_DLcXcHXtEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_DyuZ6nXtEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_DyuZ63XtEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="email-service.uml#_DLc-gHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DyuZ7HXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_DyuZ7XXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_DyuZ7nXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DLc-gXXtEfC_3fo_KXq00A"/>
+        <type xmi:id="_DyuZ73XtEfC_3fo_KXq00A" name="ForgotPasswordRequest">
+          <modelElement href="email-service.uml#_DLbwYHXtEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Dy5ZCXXtEfC_3fo_KXq00A" name="EmailService" associationsIn="_Dy4K4HXtEfC_3fo_KXq00A" associationsOut="_Dy4K4XXtEfC_3fo_KXq00A _Dy5ZAHXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DLroAHXtEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Dy5ZCnXtEfC_3fo_KXq00A" position="-2362.0,38.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Dy5ZC3XtEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="email-service.uml#_DLroAXXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Dy5ZDHXtEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="email-service.uml#_DLs2KXXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Dy5ZDXXtEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_Dy5ZDnXtEfC_3fo_KXq00A" defaultValue="LoggerFactory.getLogger(EmailService.class)" name="logger" staticAttribute="true">
+      <modelElement href="email-service.uml#_DQPX4HXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy5ZD3XtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DQPX4nXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy5ZEHXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy5ZEXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dy5ZEnXtEfC_3fo_KXq00A" name="Logger">
+        <modelElement href="email-service.uml#_DPr-QXXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Dy5ZE3XtEfC_3fo_KXq00A" name="mailSender">
+      <modelElement href="email-service.uml#_DQPX43XtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy5ZFHXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQPX5HXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy5ZFXXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy5ZFnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dy5ZF3XtEfC_3fo_KXq00A" name="JavaMailSender">
+        <modelElement href="email-service.uml#_DPwPsXXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Dy5ZGHXtEfC_3fo_KXq00A" name="fromEmail">
+      <modelElement href="email-service.uml#_DQPX5nXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy5ZGXXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQQmAHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy5ZGnXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy5ZG3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dy5ZHHXtEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Dy5ZHXXtEfC_3fo_KXq00A" name="frontendUrl">
+      <modelElement href="email-service.uml#_DQQmA3XtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy5ZHnXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQQmBHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy5ZH3XtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy5ZIHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Dy5ZIXXtEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Dy5ZInXtEfC_3fo_KXq00A" name="sendPasswordResetEmail">
+      <modelElement href="email-service.uml#_DLsPEHXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy5ZI3XtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DLsPFHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy5ZJHXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy5ZJXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Dy5ZJnXtEfC_3fo_KXq00A" name="toEmail">
+        <modelElement href="email-service.uml#_DLsPEXXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy5ZJ3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy5ZKHXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Dy5ZKXXtEfC_3fo_KXq00A" name="resetToken">
+        <modelElement href="email-service.uml#_DLsPEnXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy5ZKnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy5ZK3XtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Dy5ZLHXtEfC_3fo_KXq00A" name="username">
+        <modelElement href="email-service.uml#_DLsPE3XtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy5ZLXXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy5ZLnXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Dy5ZL3XtEfC_3fo_KXq00A" name="sendPasswordResetConfirmationEmail">
+      <modelElement href="email-service.uml#_DLsPFXXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy5ZMHXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DLsPGHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy5ZMXXtEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Dy5ZMnXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Dy5ZM3XtEfC_3fo_KXq00A" name="toEmail">
+        <modelElement href="email-service.uml#_DLsPFnXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy5ZNHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy5ZNXXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Dy5ZNnXtEfC_3fo_KXq00A" name="username">
+        <modelElement href="email-service.uml#_DLsPF3XtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy5ZN3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy5ZOHXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Dy5ZOXXtEfC_3fo_KXq00A" name="buildPasswordResetEmailTemplate">
+      <modelElement href="email-service.uml#_DLs2IHXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy5ZOnXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DLs2JHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy5ZO3XtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy5ZPHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Dy5ZPXXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DLs2I3XtEfC_3fo_KXq00A"/>
+        <type xmi:id="_Dy5ZPnXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Dy5ZP3XtEfC_3fo_KXq00A" name="username">
+        <modelElement href="email-service.uml#_DLs2IXXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy5ZQHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy5ZQXXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Dy5ZQnXtEfC_3fo_KXq00A" name="resetUrl">
+        <modelElement href="email-service.uml#_DLs2InXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy5ZQ3XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy5ZRHXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Dy5ZRXXtEfC_3fo_KXq00A" name="buildPasswordResetConfirmationTemplate">
+      <modelElement href="email-service.uml#_DLs2JXXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Dy5ZRnXtEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="email-service.uml#_DLs2KHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Dy5ZR3XtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Dy5ZSHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Dy5ZSXXtEfC_3fo_KXq00A">
+        <modelElement href="email-service.uml#_DLs2J3XtEfC_3fo_KXq00A"/>
+        <type xmi:id="_Dy5ZSnXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Dy5ZS3XtEfC_3fo_KXq00A" name="username">
+        <modelElement href="email-service.uml#_DLs2JnXtEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Dy5ZTHXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Dy5ZTXXtEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_DzAtyXXtEfC_3fo_KXq00A" name="PasswordResetControllerTest" associationsOut="_Dy_foHXtEfC_3fo_KXq00A _DzAGtXXtEfC_3fo_KXq00A _DzAtwHXtEfC_3fo_KXq00A">
+    <modelElement href="email-service.uml#_DLwghnXtEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_DzAtynXtEfC_3fo_KXq00A" position="-1227.0,391.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_DzAty3XtEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="email-service.uml#_DLwginXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_DzAtzHXtEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="email-service.uml#_DLyVtnXtEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_DzAtzXXtEfC_3fo_KXq00A" label="~"/>
+    <attributes xmi:id="_DzAtznXtEfC_3fo_KXq00A" name="mockMvc">
+      <modelElement href="email-service.uml#_DQSbO3XtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DzAtz3XtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQSbPHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DzAt0HXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_DzAt0XXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_DzAt0nXtEfC_3fo_KXq00A" name="MockMvc">
+        <modelElement href="email-service.uml#_DP29Y3XtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DzAt03XtEfC_3fo_KXq00A" name="passwordResetService">
+      <modelElement href="email-service.uml#_DQSbPnXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DzAt1HXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQSbP3XtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DzAt1XXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_DzAt1nXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_DzAt13XtEfC_3fo_KXq00A" name="PasswordResetService">
+        <modelElement href="email-service.uml#_DLtdMHXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DzAt2HXtEfC_3fo_KXq00A" name="objectMapper">
+      <modelElement href="email-service.uml#_DQTpUXXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DzAt2XXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DQTpUnXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DzAt2nXtEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_DzAt23XtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_DzAt3HXtEfC_3fo_KXq00A" name="ObjectMapper">
+        <modelElement href="email-service.uml#_DP1vQHXtEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_DzAt3XXtEfC_3fo_KXq00A" name="forgotPassword_alwaysReturnsSuccessMessage">
+      <modelElement href="email-service.uml#_DLxHkHXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DzAt3nXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DLxHkXXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DzAt33XtEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_DzAt4HXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_DzAt4XXtEfC_3fo_KXq00A" name="forgotPassword_returns500OnException">
+      <modelElement href="email-service.uml#_DLxHk3XtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DzAt4nXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DLxHlHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DzAt43XtEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_DzAt5HXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_DzAt5XXtEfC_3fo_KXq00A" name="resetPassword_success">
+      <modelElement href="email-service.uml#_DLxHlnXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DzAt5nXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DLxHl3XtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DzAt53XtEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_DzAt6HXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_DzAt6XXtEfC_3fo_KXq00A" name="resetPassword_invalidToken">
+      <modelElement href="email-service.uml#_DLxuoHXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DzAt6nXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DLxuoXXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DzAt63XtEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_DzAt7HXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_DzAt7XXtEfC_3fo_KXq00A" name="resetPassword_returns500OnException">
+      <modelElement href="email-service.uml#_DLxuo3XtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DzAt7nXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DLxupHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DzAt73XtEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_DzAt8HXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_DzAt8XXtEfC_3fo_KXq00A" name="validateResetToken_validToken">
+      <modelElement href="email-service.uml#_DLxupnXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DzAt8nXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DLxup3XtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DzAt83XtEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_DzAt9HXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_DzAt9XXtEfC_3fo_KXq00A" name="validateResetToken_invalidToken">
+      <modelElement href="email-service.uml#_DLyVsHXtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DzAt9nXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DLyVsXXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DzAt93XtEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_DzAt-HXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_DzAt-XXtEfC_3fo_KXq00A" name="validateResetToken_returns500OnException">
+      <modelElement href="email-service.uml#_DLyVs3XtEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_DzAt-nXtEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="email-service.uml#_DLyVtHXtEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_DzAt-3XtEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_DzAt_HXtEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

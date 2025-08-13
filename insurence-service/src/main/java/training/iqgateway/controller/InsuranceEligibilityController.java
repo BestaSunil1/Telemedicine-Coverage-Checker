@@ -9,7 +9,7 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -26,12 +26,12 @@ import training.iqgateway.dtos.EligibilityCheckResponse;
 import training.iqgateway.dtos.PatientInsuranceDTO;
 import training.iqgateway.entities.EligibilityStatus;
 import training.iqgateway.entities.InsuranceEligibility;
+import training.iqgateway.entities.InsurancePlan;
 import training.iqgateway.service.InsuranceEligibilityService;
 
 @RestController
 @RequestMapping("/api/eligibility")
 @Slf4j
-
 public class InsuranceEligibilityController {
     
     @Autowired
@@ -123,5 +123,14 @@ public class InsuranceEligibilityController {
 			return ResponseEntity.noContent().build();
 		}
 		return ResponseEntity.ok(records);
+    }
+    
+    @GetMapping("/getAllInsurancePlans")
+    public ResponseEntity<?> getAllInsuranceplans() {
+    	List<InsurancePlan> plans = eligibilityService.getAllInsurancePlans();
+    	if (plans.isEmpty()) {
+			return ResponseEntity.noContent().build();
+		}	
+		return ResponseEntity.ok(plans);
     }
 }

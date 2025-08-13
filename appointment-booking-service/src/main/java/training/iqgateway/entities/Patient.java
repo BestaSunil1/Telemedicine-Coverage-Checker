@@ -14,6 +14,18 @@ public class Patient {
 	private String gender;
 	private String contactNumber;
 	
+	private String profilePhoto;
+	
+	public Patient(String id, User user, String dateOfBirth, String gender, String contactNumber, String profilePhoto) {
+		super();
+		this.id = id;
+		this.user = user;
+		this.dateOfBirth = dateOfBirth;
+		this.gender = gender;
+		this.contactNumber = contactNumber;
+		this.profilePhoto = profilePhoto;
+	}
+
 	public Patient() {
 		
 	}
@@ -65,6 +77,15 @@ public class Patient {
 
 	public void setContactNumber(String contactNumber) {
 		this.contactNumber = contactNumber;
+	}
+
+	public String getProfilePhoto() {
+		return profilePhoto;
+	}
+
+	public void setProfilePhoto(String profilePhoto) {
+		this.profilePhoto = profilePhoto;
 	}	
+	
 	
 }

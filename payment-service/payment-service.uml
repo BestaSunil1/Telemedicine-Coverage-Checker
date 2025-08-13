@@ -1,0 +1,1973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persistency="http:///schemas/Persistency/NS/0" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Persistency/NS/0 pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_zkBPQHXvEfC_3fo_KXq00A" name="payment_service">
+    <eAnnotations xmi:id="_zpch0HXvEfC_3fo_KXq00A" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_zpch0XXvEfC_3fo_KXq00A" source="codegen">
+        <details xmi:id="_zpch0nXvEfC_3fo_KXq00A" key="codegenDirectory" value="/payment-service/src/main/java"/>
+        <details xmi:id="_0X4VIHXvEfC_3fo_KXq00A" key="AssociatedSourceCode" value="/payment-service/src/main/java/training/iqgateway/PaymentServiceApplication.java;466409411/1;/payment-service/src/main/java/training/iqgateway/config/RazorpayConfig.java;2517475110/1;/payment-service/src/main/java/training/iqgateway/controller/PaymentController.java;2884779715/1;/payment-service/src/main/java/training/iqgateway/dtos/ErrorResponse.java;2157583266/1;/payment-service/src/main/java/training/iqgateway/dtos/PaymentRequest.java;4227476457/1;/payment-service/src/main/java/training/iqgateway/dtos/PaymentResponse.java;2054000807/1;/payment-service/src/main/java/training/iqgateway/dtos/PaymentVerificationRequest.java;1598874153/1;/payment-service/src/test/java/training/iqgateway/PaymentServiceApplicationTests.java;1633992920/1;/payment-service/src/main/java/training/iqgateway/entities/AppointmentStatus.java;4006580351/1;/payment-service/src/main/java/training/iqgateway/repositories/PaymentRepository.java;3825372272/1;/payment-service/src/main/java/training/iqgateway/entities/Doctor.java;2305313542/1;/payment-service/src/main/java/training/iqgateway/entities/InsuranceCoverageStatus.java;214442997/1;/payment-service/src/main/java/training/iqgateway/entities/Patient.java;1112629109/1;/payment-service/src/main/java/training/iqgateway/entities/PaymentMethod.java;3288440156/1;/payment-service/src/main/java/training/iqgateway/entities/PaymentStatus.java;1273354588/1;/payment-service/src/main/java/training/iqgateway/entities/Role.java;2043567540/1;/payment-service/src/main/java/training/iqgateway/entities/User.java;734953788/1;/payment-service/src/main/java/training/iqgateway/repositories/AppointmentRepository.java;2204063169/1;/payment-service/src/main/java/training/iqgateway/repositories/PatientRepository.java;1637511099/1;/payment-service/src/main/java/training/iqgateway/entities/BookingPayment.java;1193922659/1;/payment-service/src/main/java/training/iqgateway/services/PaymentService.java;2558294664/1;/payment-service/src/main/java/training/iqgateway/entities/Appointment.java;1097391269/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_z49kgXXvEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_z49kgnXvEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_z49kg3XvEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_z49khHXvEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_z49khXXvEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_z49khnXvEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_z49kh3XvEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_z49kiHXvEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_z49kiXXvEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_z4Py0HXvEfC_3fo_KXq00A" name="training">
+      <packagedElement xmi:type="uml:Package" xmi:id="_z4RA8nXvEfC_3fo_KXq00A" name="iqgateway">
+        <packagedElement xmi:type="uml:Package" xmi:id="_z4TdMHXvEfC_3fo_KXq00A" name="config">
+          <packagedElement xmi:type="uml:Class" xmi:id="_z49kkHXvEfC_3fo_KXq00A" name="RazorpayConfig">
+            <ownedAttribute xmi:id="_z7i-cHXvEfC_3fo_KXq00A" name="razorpayKeyId" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7jlhnXvEfC_3fo_KXq00A" name="razorpayKeySecret" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7jlinXvEfC_3fo_KXq00A" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_z7CBEHXvEfC_3fo_KXq00A" isReadOnly="true" association="_z70EMHXvEfC_3fo_KXq00A">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_z7jli3XvEfC_3fo_KXq00A" value="LoggerFactory.getLogger(RazorpayConfig.class)"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7t9lXXvEfC_3fo_KXq00A" name="razorpayClient" specification="_z4-LkHXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7t9lnXvEfC_3fo_KXq00A" type="_z7CoJXXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>if (razorpayKeyId == null || razorpayKeyId.trim().isEmpty()) {&#xD;
+         logger.error(&quot;Razorpay Key ID is not configured. Please set 'razorpay.key.id' in application.properties&quot;);&#xD;
+         throw new IllegalStateException(&quot;Razorpay Key ID is missing. Please configure razorpay.key.id in application.properties&quot;);&#xD;
+     }&#xD;
+     &#xD;
+     if (razorpayKeySecret == null || razorpayKeySecret.trim().isEmpty()) {&#xD;
+         logger.error(&quot;Razorpay Key Secret is not configured. Please set 'razorpay.key.secret' in application.properties&quot;);&#xD;
+         throw new IllegalStateException(&quot;Razorpay Key Secret is missing. Please configure razorpay.key.secret in application.properties&quot;);&#xD;
+     }&#xD;
+     &#xD;
+     logger.info(&quot;Initializing Razorpay client with Key ID: {}&quot;, razorpayKeyId);&#xD;
+     return new RazorpayClient(razorpayKeyId, razorpayKeySecret);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7t9l3XvEfC_3fo_KXq00A" name="getRazorpayKeySecret" specification="_z4-Lk3XvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7t9mHXvEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return razorpayKeySecret;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_z4-LkHXvEfC_3fo_KXq00A" name="razorpayClient" method="_z7t9lXXvEfC_3fo_KXq00A" raisedException="_z7DPMXXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7YmYHXvEfC_3fo_KXq00A" type="_z7CoJXXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z4-Lk3XvEfC_3fo_KXq00A" name="getRazorpayKeySecret" method="_z7t9l3XvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z4-LlHXvEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z70EMHXvEfC_3fo_KXq00A" name="" memberEnd="_z70EMXXvEfC_3fo_KXq00A _z7jlinXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z70EMXXvEfC_3fo_KXq00A" name="" type="_z49kkHXvEfC_3fo_KXq00A" association="_z70EMHXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_z4UrU3XvEfC_3fo_KXq00A" name="dtos">
+          <packagedElement xmi:type="uml:Class" xmi:id="_z5An0HXvEfC_3fo_KXq00A" name="ErrorResponse">
+            <ownedAttribute xmi:id="_z7kMlnXvEfC_3fo_KXq00A" name="error">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7kMl3XvEfC_3fo_KXq00A" name="message">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7kMmHXvEfC_3fo_KXq00A" name="timestamp" type="_z7JV0HXvEfC_3fo_KXq00A" association="_z7wZ2HXvEfC_3fo_KXq00A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7t9qHXvEfC_3fo_KXq00A" name="ErrorResponse" specification="_z5BO4HXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7t9qXXvEfC_3fo_KXq00A" name="error">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7t9qnXvEfC_3fo_KXq00A" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7t9q3XvEfC_3fo_KXq00A" type="_z5An0HXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>this.error = error;&#xD;
+     this.message = message;&#xD;
+     this.timestamp = LocalDateTime.now();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_z5BO4HXvEfC_3fo_KXq00A" name="ErrorResponse" method="_z7t9qHXvEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_z5BO43XvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_z5BO5HXvEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_z5BO4XXvEfC_3fo_KXq00A" name="error">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5BO4nXvEfC_3fo_KXq00A" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5BO5XXvEfC_3fo_KXq00A" type="_z5An0HXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_z5B18HXvEfC_3fo_KXq00A" name="PaymentRequest">
+            <ownedAttribute xmi:id="_z7kMmXXvEfC_3fo_KXq00A" name="appointmentId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7kMmnXvEfC_3fo_KXq00A" name="patientId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7kMm3XvEfC_3fo_KXq00A" name="amount" type="_z7Kj8HXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7kMnHXvEfC_3fo_KXq00A" name="currency">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_z7kMnXXvEfC_3fo_KXq00A" value="&quot;INR&quot;"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7ukoHXvEfC_3fo_KXq00A" name="PaymentRequest" specification="_z7Z0g3XvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7ukoXXvEfC_3fo_KXq00A" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7ukonXvEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7uko3XvEfC_3fo_KXq00A" name="amount" type="_z7Kj8HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7ukpHXvEfC_3fo_KXq00A" type="_z5B18HXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>this.appointmentId = appointmentId;&#xD;
+     this.patientId = patientId;&#xD;
+     this.amount = amount;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_z5B18XXvEfC_3fo_KXq00A" name="PaymentRequest">
+              <eAnnotations xmi:id="_z5B18nXvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_z5B183XvEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_z5B19XXvEfC_3fo_KXq00A" type="_z5B18HXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7Z0g3XvEfC_3fo_KXq00A" name="PaymentRequest" method="_z7ukoHXvEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_z7abk3XvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_z7ablHXvEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_z7abkHXvEfC_3fo_KXq00A" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7abkXXvEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7abknXvEfC_3fo_KXq00A" name="amount" type="_z7Kj8HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7ablXXvEfC_3fo_KXq00A" type="_z5B18HXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_z5CdAHXvEfC_3fo_KXq00A" name="PaymentResponse">
+            <ownedAttribute xmi:id="_z7kzoHXvEfC_3fo_KXq00A" name="paymentId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7kzoXXvEfC_3fo_KXq00A" name="razorpayOrderId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7kzonXvEfC_3fo_KXq00A" name="appointmentId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7kzo3XvEfC_3fo_KXq00A" name="amount" type="_z7Kj8HXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7kzpHXvEfC_3fo_KXq00A" name="currency">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7kzpXXvEfC_3fo_KXq00A" name="status" type="_z5M1FXXvEfC_3fo_KXq00A" association="_z7xA4XXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7kzpnXvEfC_3fo_KXq00A" name="message">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7ukpXXvEfC_3fo_KXq00A" name="PaymentResponse" specification="_z7ablnXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7ukpnXvEfC_3fo_KXq00A" name="paymentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7ukp3XvEfC_3fo_KXq00A" name="razorpayOrderId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7ukqHXvEfC_3fo_KXq00A" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7ukqXXvEfC_3fo_KXq00A" name="amount" type="_z7Kj8HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7ukqnXvEfC_3fo_KXq00A" name="currency">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7ukq3XvEfC_3fo_KXq00A" name="status" type="_z5M1FXXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7ukrHXvEfC_3fo_KXq00A" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7ukrXXvEfC_3fo_KXq00A" type="_z5CdAHXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>this.paymentId = paymentId;&#xD;
+     this.razorpayOrderId = razorpayOrderId;&#xD;
+     this.appointmentId = appointmentId;&#xD;
+     this.amount = amount;&#xD;
+     this.currency = currency;&#xD;
+     this.status = status;&#xD;
+     this.message = message;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_z5DEEHXvEfC_3fo_KXq00A" name="PaymentResponse">
+              <eAnnotations xmi:id="_z5DEEXXvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_z5DEEnXvEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_z5DEFHXvEfC_3fo_KXq00A" type="_z5CdAHXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7ablnXvEfC_3fo_KXq00A" name="PaymentResponse" method="_z7ukpXXvEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_z7abnnXvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_z7abn3XvEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_z7abl3XvEfC_3fo_KXq00A" name="paymentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7abmHXvEfC_3fo_KXq00A" name="razorpayOrderId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7abmXXvEfC_3fo_KXq00A" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7abmnXvEfC_3fo_KXq00A" name="amount" type="_z7Kj8HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7abm3XvEfC_3fo_KXq00A" name="currency">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7abnHXvEfC_3fo_KXq00A" name="status" type="_z5M1FXXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7abnXXvEfC_3fo_KXq00A" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7aboHXvEfC_3fo_KXq00A" type="_z5CdAHXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_z5ESMHXvEfC_3fo_KXq00A" name="PaymentVerificationRequest">
+            <ownedAttribute xmi:id="_z7kzp3XvEfC_3fo_KXq00A" name="razorpayOrderId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7kzqHXvEfC_3fo_KXq00A" name="razorpayPaymentId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7kzqXXvEfC_3fo_KXq00A" name="razorpaySignature">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7ukrnXvEfC_3fo_KXq00A" name="PaymentVerificationRequest" specification="_z5E5QHXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7ukr3XvEfC_3fo_KXq00A" name="razorpayOrderId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7uksHXvEfC_3fo_KXq00A" name="razorpayPaymentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7uksXXvEfC_3fo_KXq00A" name="razorpaySignature">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7uksnXvEfC_3fo_KXq00A" type="_z5ESMHXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>this.razorpayOrderId = razorpayOrderId;&#xD;
+     this.razorpayPaymentId = razorpayPaymentId;&#xD;
+     this.razorpaySignature = razorpaySignature;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_z5ESMXXvEfC_3fo_KXq00A" name="PaymentVerificationRequest">
+              <eAnnotations xmi:id="_z5ESMnXvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_z5ESM3XvEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_z5ESNXXvEfC_3fo_KXq00A" type="_z5ESMHXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z5E5QHXvEfC_3fo_KXq00A" name="PaymentVerificationRequest" method="_z7ukrnXvEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_z5E5RHXvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_z5E5RXXvEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_z5E5QXXvEfC_3fo_KXq00A" name="razorpayOrderId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5E5QnXvEfC_3fo_KXq00A" name="razorpayPaymentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5E5Q3XvEfC_3fo_KXq00A" name="razorpaySignature">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5E5RnXvEfC_3fo_KXq00A" type="_z5ESMHXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z7wZ2HXvEfC_3fo_KXq00A" name="" memberEnd="_z7kMmHXvEfC_3fo_KXq00A _z7xA4HXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z7xA4HXvEfC_3fo_KXq00A" name="" type="_z5An0HXvEfC_3fo_KXq00A" association="_z7wZ2HXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z7xA4XXvEfC_3fo_KXq00A" name="" memberEnd="_z7kzpXXvEfC_3fo_KXq00A _z7xA4nXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z7xA4nXvEfC_3fo_KXq00A" name="" type="_z5CdAHXvEfC_3fo_KXq00A" association="_z7xA4XXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_z4UrVHXvEfC_3fo_KXq00A" name="entities">
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_z5FgVnXvEfC_3fo_KXq00A" name="AppointmentStatus">
+            <ownedLiteral xmi:id="_z5GHYXXvEfC_3fo_KXq00A" name="BOOKED"/>
+            <ownedLiteral xmi:id="_z5GucHXvEfC_3fo_KXq00A" name="CONFIRMED"/>
+            <ownedLiteral xmi:id="_z5GucXXvEfC_3fo_KXq00A" name="PENDINIG"/>
+            <ownedLiteral xmi:id="_z5GucnXvEfC_3fo_KXq00A" name="COMPLETED"/>
+            <ownedLiteral xmi:id="_z5Guc3XvEfC_3fo_KXq00A" name="REJECTED"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_z5IjoHXvEfC_3fo_KXq00A" name="Doctor">
+            <ownedAttribute xmi:id="_z7kzqnXvEfC_3fo_KXq00A" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7mBwnXvEfC_3fo_KXq00A" name="user" type="_z5M1IXXvEfC_3fo_KXq00A" association="_z76x4XXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7mo1HXvEfC_3fo_KXq00A" name="profilePicture">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z7mo1XXvEfC_3fo_KXq00A" value="*"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7mo2HXvEfC_3fo_KXq00A" name="active">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7mo2nXvEfC_3fo_KXq00A" name="specializations" isOrdered="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z7mo23XvEfC_3fo_KXq00A" value="*"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7ukt3XvEfC_3fo_KXq00A" name="Doctor" specification="_z7bpsnXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7ukuHXvEfC_3fo_KXq00A" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7ukuXXvEfC_3fo_KXq00A" name="user" type="_z5M1IXXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7ukunXvEfC_3fo_KXq00A" name="profilePicture">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z7uku3XvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7ukvHXvEfC_3fo_KXq00A" name="active">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7ukvXXvEfC_3fo_KXq00A" name="specializations" type="_z7D2QHXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7ukvnXvEfC_3fo_KXq00A" type="_z5IjoHXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>this.id = id;
+		this.user = user;
+		this.profilePicture = profilePicture;
+		this.active = active;
+		this.specializations = specializations;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_z5JKsXXvEfC_3fo_KXq00A" name="Doctor">
+              <eAnnotations xmi:id="_z5JKsnXvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_z5JxwHXvEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_z5JxwXXvEfC_3fo_KXq00A" type="_z5IjoHXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7bpsnXvEfC_3fo_KXq00A" name="Doctor" method="_z7ukt3XvEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_z7bpuHXvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_z7bpuXXvEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_z7bps3XvEfC_3fo_KXq00A" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7bptHXvEfC_3fo_KXq00A" name="user" type="_z5M1IXXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7bptXXvEfC_3fo_KXq00A" name="profilePicture">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z7bpvHXvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7bptnXvEfC_3fo_KXq00A" name="active">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7bpt3XvEfC_3fo_KXq00A" name="specializations" type="_z7D2QHXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7bpunXvEfC_3fo_KXq00A" type="_z5IjoHXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_z5KY0HXvEfC_3fo_KXq00A" name="InsuranceCoverageStatus">
+            <ownedLiteral xmi:id="_z5KY0XXvEfC_3fo_KXq00A" name="COVERED"/>
+            <ownedLiteral xmi:id="_z5KY0nXvEfC_3fo_KXq00A" name="NOT_COVERED"/>
+            <ownedLiteral xmi:id="_z5KY03XvEfC_3fo_KXq00A" name="UNKNOWN"/>
+            <ownedLiteral xmi:id="_z5KY1HXvEfC_3fo_KXq00A" name="PENDING"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_z5KY1XXvEfC_3fo_KXq00A" name="Patient">
+            <ownedAttribute xmi:id="_z7mo3XXvEfC_3fo_KXq00A" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7nP4nXvEfC_3fo_KXq00A" name="user" type="_z5M1IXXvEfC_3fo_KXq00A" association="_z79OIXXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7nP6nXvEfC_3fo_KXq00A" name="dateOfBirth">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7n28XXvEfC_3fo_KXq00A" name="gender">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7n283XvEfC_3fo_KXq00A" name="contactNumber">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7ukw3XvEfC_3fo_KXq00A" name="Patient" specification="_z7OOUHXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7ukxHXvEfC_3fo_KXq00A" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7ukxXXvEfC_3fo_KXq00A" name="user" type="_z5M1IXXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7ukxnXvEfC_3fo_KXq00A" name="dateOfBirth">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7ukx3XvEfC_3fo_KXq00A" name="gender">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7ukyHXvEfC_3fo_KXq00A" name="contactNumber">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7ukyXXvEfC_3fo_KXq00A" type="_z5KY1XXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.id = id;&#xD;
+		this.user = user;&#xD;
+		this.dateOfBirth = dateOfBirth;&#xD;
+		this.gender = gender;&#xD;
+		this.contactNumber = contactNumber;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_z5K_4XXvEfC_3fo_KXq00A" name="Patient">
+              <eAnnotations xmi:id="_z5Lm8HXvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_z5Lm8XXvEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_z5Lm8nXvEfC_3fo_KXq00A" type="_z5KY1XXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7OOUHXvEfC_3fo_KXq00A" name="Patient" method="_z7ukw3XvEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_z7OOVnXvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_z7OOV3XvEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_z7OOUXXvEfC_3fo_KXq00A" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7OOUnXvEfC_3fo_KXq00A" name="user" type="_z5M1IXXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7OOU3XvEfC_3fo_KXq00A" name="dateOfBirth">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7OOVHXvEfC_3fo_KXq00A" name="gender">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7OOVXXvEfC_3fo_KXq00A" name="contactNumber">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7OOWHXvEfC_3fo_KXq00A" type="_z5KY1XXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_z5MOAHXvEfC_3fo_KXq00A" name="PaymentMethod">
+            <ownedLiteral xmi:id="_z5M1EHXvEfC_3fo_KXq00A" name="RAZORPAY"/>
+            <ownedLiteral xmi:id="_z5M1EXXvEfC_3fo_KXq00A" name="CARD"/>
+            <ownedLiteral xmi:id="_z5M1EnXvEfC_3fo_KXq00A" name="UPI"/>
+            <ownedLiteral xmi:id="_z5M1E3XvEfC_3fo_KXq00A" name="NETBANKING"/>
+            <ownedLiteral xmi:id="_z5M1FHXvEfC_3fo_KXq00A" name="WALLET"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_z5M1FXXvEfC_3fo_KXq00A" name="PaymentStatus">
+            <ownedLiteral xmi:id="_z5M1F3XvEfC_3fo_KXq00A" name="PENDING"/>
+            <ownedLiteral xmi:id="_z5M1GHXvEfC_3fo_KXq00A" name="SUCCESS"/>
+            <ownedLiteral xmi:id="_z5M1GXXvEfC_3fo_KXq00A" name="FAILED"/>
+            <ownedLiteral xmi:id="_z5M1GnXvEfC_3fo_KXq00A" name="REFUNDED"/>
+            <ownedLiteral xmi:id="_z5M1G3XvEfC_3fo_KXq00A" name="CANCELLED"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_z5M1HHXvEfC_3fo_KXq00A" name="Role">
+            <ownedLiteral xmi:id="_z5M1HnXvEfC_3fo_KXq00A" name="ADMIN"/>
+            <ownedLiteral xmi:id="_z5M1H3XvEfC_3fo_KXq00A" name="PATIENT"/>
+            <ownedLiteral xmi:id="_z5M1IHXvEfC_3fo_KXq00A" name="DOCTOR"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_z5M1IXXvEfC_3fo_KXq00A" name="User">
+            <ownedAttribute xmi:id="_z7n29XXvEfC_3fo_KXq00A" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7n2-HXvEfC_3fo_KXq00A" name="username">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7n2-nXvEfC_3fo_KXq00A" name="email">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7oeCHXvEfC_3fo_KXq00A" name="password">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7oeCnXvEfC_3fo_KXq00A" name="role" type="_z5M1HHXvEfC_3fo_KXq00A" association="_z7xA6HXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7oeDHXvEfC_3fo_KXq00A" name="createdAt" type="_z7JV0HXvEfC_3fo_KXq00A" association="_z8ARcXXvEfC_3fo_KXq00A">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_z7oeDXXvEfC_3fo_KXq00A" value="LocalDateTime.now()"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7oeD3XvEfC_3fo_KXq00A" name="updatedAt" type="_z7JV0HXvEfC_3fo_KXq00A" association="_z8D70HXvEfC_3fo_KXq00A">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_z7oeEHXvEfC_3fo_KXq00A" value="LocalDateTime.now()"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7vLtHXvEfC_3fo_KXq00A" name="User" specification="_z7c30HXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7vLtXXvEfC_3fo_KXq00A" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7vLtnXvEfC_3fo_KXq00A" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7vLt3XvEfC_3fo_KXq00A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7vLuHXvEfC_3fo_KXq00A" name="password">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7vLuXXvEfC_3fo_KXq00A" name="role" type="_z5M1HHXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7vLunXvEfC_3fo_KXq00A" name="createdAt" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7vLu3XvEfC_3fo_KXq00A" name="updatedAt" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7vLvHXvEfC_3fo_KXq00A" type="_z5M1IXXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.id = id;&#xD;
+		this.username = username;&#xD;
+		this.email = email;&#xD;
+		this.password = password;&#xD;
+		this.role = role;&#xD;
+		this.createdAt = createdAt;&#xD;
+		this.updatedAt = updatedAt;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_z5NcIXXvEfC_3fo_KXq00A" name="User">
+              <eAnnotations xmi:id="_z5NcInXvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_z5NcI3XvEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_z5NcJHXvEfC_3fo_KXq00A" type="_z5M1IXXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7c30HXvEfC_3fo_KXq00A" name="User" method="_z7vLtHXvEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_z7c32HXvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_z7c32XXvEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_z7c30XXvEfC_3fo_KXq00A" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7c30nXvEfC_3fo_KXq00A" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7c303XvEfC_3fo_KXq00A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7c31HXvEfC_3fo_KXq00A" name="password">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7c31XXvEfC_3fo_KXq00A" name="role" type="_z5M1HHXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7c31nXvEfC_3fo_KXq00A" name="createdAt" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7c313XvEfC_3fo_KXq00A" name="updatedAt" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7c32nXvEfC_3fo_KXq00A" type="_z5M1IXXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_z5V_BXXvEfC_3fo_KXq00A" name="BookingPayment">
+            <ownedAttribute xmi:id="_z7pFEHXvEfC_3fo_KXq00A" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7pFE3XvEfC_3fo_KXq00A" name="appointment" type="_z5aQcHXvEfC_3fo_KXq00A" association="_z8HmMXXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7psJ3XvEfC_3fo_KXq00A" name="patient" type="_z5KY1XXvEfC_3fo_KXq00A" association="_z8L3oHXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7psL3XvEfC_3fo_KXq00A" name="amount" type="_z7Kj8HXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7qTMXXvEfC_3fo_KXq00A" name="currency">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_z7qTMnXvEfC_3fo_KXq00A" value="&quot;INR&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7qTNHXvEfC_3fo_KXq00A" name="status" type="_z5M1FXXvEfC_3fo_KXq00A" isReadOnly="true"/>
+            <ownedAttribute xmi:id="_z7qTNnXvEfC_3fo_KXq00A" name="paymentMethod" type="_z5MOAHXvEfC_3fo_KXq00A" association="_z7xn-XXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7qTOHXvEfC_3fo_KXq00A" name="razorpayOrderId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7qTOnXvEfC_3fo_KXq00A" name="razorpayPaymentId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7qTPHXvEfC_3fo_KXq00A" name="razorpaySignature">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7qTPnXvEfC_3fo_KXq00A" name="createdAt" type="_z7JV0HXvEfC_3fo_KXq00A" association="_z7xn-3XvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7qTQHXvEfC_3fo_KXq00A" name="updatedAt" type="_z7JV0HXvEfC_3fo_KXq00A" association="_z7xn_XXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7qTQnXvEfC_3fo_KXq00A" name="processedAt" type="_z7JV0HXvEfC_3fo_KXq00A" association="_z7xn_3XvEfC_3fo_KXq00A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7vLxXXvEfC_3fo_KXq00A" name="BookingPayment" specification="_z5WmEXXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7vLxnXvEfC_3fo_KXq00A" type="_z5V_BXXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>this.createdAt = LocalDateTime.now();&#xD;
+     this.status = PaymentStatus.PENDING;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7vLx3XvEfC_3fo_KXq00A" name="setStatus" specification="_z7R4sHXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7vLyHXvEfC_3fo_KXq00A" name="status" type="_z5M1FXXvEfC_3fo_KXq00A"/>
+              <language>java</language>
+              <body>this.status = status; &#xD;
+     this.updatedAt = LocalDateTime.now();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_z5WmEXXvEfC_3fo_KXq00A" name="BookingPayment" method="_z7vLxXXvEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_z5WmEnXvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_z5WmE3XvEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_z5WmFHXvEfC_3fo_KXq00A" type="_z5V_BXXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7R4sHXvEfC_3fo_KXq00A" name="setStatus" method="_z7vLx3XvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7R4sXXvEfC_3fo_KXq00A" name="status" type="_z5M1FXXvEfC_3fo_KXq00A"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_z5aQcHXvEfC_3fo_KXq00A" name="Appointment">
+            <ownedAttribute xmi:id="_z7rhVHXvEfC_3fo_KXq00A" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7sIYXXvEfC_3fo_KXq00A" name="patient" type="_z5KY1XXvEfC_3fo_KXq00A" association="_z8kSIHXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7sIaXXvEfC_3fo_KXq00A" name="doctor" type="_z5IjoHXvEfC_3fo_KXq00A" association="_z8muYXXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7svc3XvEfC_3fo_KXq00A" name="appointmentDate" type="_z7JV0HXvEfC_3fo_KXq00A" association="_z7yPAXXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7svdXXvEfC_3fo_KXq00A" name="status" type="_z5FgVnXvEfC_3fo_KXq00A" association="_z7yPA3XvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7svd3XvEfC_3fo_KXq00A" name="insuranceCoverageStatus" type="_z5KY0HXvEfC_3fo_KXq00A" association="_z7yPBXXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7sveXXvEfC_3fo_KXq00A" name="coverageCheckDate" type="_z7JV0HXvEfC_3fo_KXq00A" association="_z7yPB3XvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7sve3XvEfC_3fo_KXq00A" name="createdAt" type="_z7JV0HXvEfC_3fo_KXq00A" association="_z7yPCXXvEfC_3fo_KXq00A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7vy3nXvEfC_3fo_KXq00A" name="Appointment" specification="_z7giMXXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7vy33XvEfC_3fo_KXq00A" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7vy4HXvEfC_3fo_KXq00A" name="patient" type="_z5KY1XXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7vy4XXvEfC_3fo_KXq00A" name="doctor" type="_z5IjoHXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7vy4nXvEfC_3fo_KXq00A" name="appointmentDate" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7vy43XvEfC_3fo_KXq00A" name="status" type="_z5FgVnXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7vy5HXvEfC_3fo_KXq00A" name="insuranceCoverageStatus" type="_z5KY0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7vy5XXvEfC_3fo_KXq00A" name="coverageCheckDate" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7vy5nXvEfC_3fo_KXq00A" name="createdAt" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7vy53XvEfC_3fo_KXq00A" type="_z5aQcHXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>super();
+		this.id = id;
+		this.patient = patient;
+		this.doctor = doctor;
+		this.appointmentDate = appointmentDate;
+		this.status = status;
+		this.insuranceCoverageStatus = insuranceCoverageStatus;
+		this.coverageCheckDate = coverageCheckDate;
+		this.createdAt = createdAt;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_z5a3gXXvEfC_3fo_KXq00A" name="Appointment">
+              <eAnnotations xmi:id="_z5a3gnXvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_z5a3g3XvEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_z5a3hHXvEfC_3fo_KXq00A" type="_z5aQcHXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7giMXXvEfC_3fo_KXq00A" name="Appointment" method="_z7vy3nXvEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_z7hJR3XvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_z7hJSHXvEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_z7giMnXvEfC_3fo_KXq00A" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7hJQHXvEfC_3fo_KXq00A" name="patient" type="_z5KY1XXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7hJQXXvEfC_3fo_KXq00A" name="doctor" type="_z5IjoHXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7hJQnXvEfC_3fo_KXq00A" name="appointmentDate" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7hJQ3XvEfC_3fo_KXq00A" name="status" type="_z5FgVnXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7hJRHXvEfC_3fo_KXq00A" name="insuranceCoverageStatus" type="_z5KY0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7hJRXXvEfC_3fo_KXq00A" name="coverageCheckDate" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7hJRnXvEfC_3fo_KXq00A" name="createdAt" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7hJSXXvEfC_3fo_KXq00A" type="_z5aQcHXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z7xA6HXvEfC_3fo_KXq00A" name="" memberEnd="_z7oeCnXvEfC_3fo_KXq00A _z7xA6XXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z7xA6XXvEfC_3fo_KXq00A" name="" type="_z5M1IXXvEfC_3fo_KXq00A" association="_z7xA6HXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z7xn-XXvEfC_3fo_KXq00A" name="" memberEnd="_z7qTNnXvEfC_3fo_KXq00A _z7xn-nXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z7xn-nXvEfC_3fo_KXq00A" name="" type="_z5V_BXXvEfC_3fo_KXq00A" association="_z7xn-XXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z7xn-3XvEfC_3fo_KXq00A" name="" memberEnd="_z7qTPnXvEfC_3fo_KXq00A _z7xn_HXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z7xn_HXvEfC_3fo_KXq00A" name="" type="_z5V_BXXvEfC_3fo_KXq00A" association="_z7xn-3XvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z7xn_XXvEfC_3fo_KXq00A" name="" memberEnd="_z7qTQHXvEfC_3fo_KXq00A _z7xn_nXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z7xn_nXvEfC_3fo_KXq00A" name="" type="_z5V_BXXvEfC_3fo_KXq00A" association="_z7xn_XXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z7xn_3XvEfC_3fo_KXq00A" name="" memberEnd="_z7qTQnXvEfC_3fo_KXq00A _z7xoAHXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z7xoAHXvEfC_3fo_KXq00A" name="" type="_z5V_BXXvEfC_3fo_KXq00A" association="_z7xn_3XvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z7yPAXXvEfC_3fo_KXq00A" name="" memberEnd="_z7svc3XvEfC_3fo_KXq00A _z7yPAnXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z7yPAnXvEfC_3fo_KXq00A" name="" type="_z5aQcHXvEfC_3fo_KXq00A" association="_z7yPAXXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z7yPA3XvEfC_3fo_KXq00A" name="" memberEnd="_z7svdXXvEfC_3fo_KXq00A _z7yPBHXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z7yPBHXvEfC_3fo_KXq00A" name="" type="_z5aQcHXvEfC_3fo_KXq00A" association="_z7yPA3XvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z7yPBXXvEfC_3fo_KXq00A" name="" memberEnd="_z7svd3XvEfC_3fo_KXq00A _z7yPBnXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z7yPBnXvEfC_3fo_KXq00A" name="" type="_z5aQcHXvEfC_3fo_KXq00A" association="_z7yPBXXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z7yPB3XvEfC_3fo_KXq00A" name="" memberEnd="_z7sveXXvEfC_3fo_KXq00A _z7yPCHXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z7yPCHXvEfC_3fo_KXq00A" name="" type="_z5aQcHXvEfC_3fo_KXq00A" association="_z7yPB3XvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z7yPCXXvEfC_3fo_KXq00A" name="" memberEnd="_z7sve3XvEfC_3fo_KXq00A _z7yPCnXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z7yPCnXvEfC_3fo_KXq00A" name="" type="_z5aQcHXvEfC_3fo_KXq00A" association="_z7yPCXXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z76x4XXvEfC_3fo_KXq00A" name="" memberEnd="_z76x4nXvEfC_3fo_KXq00A _z7mBwnXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z76x4nXvEfC_3fo_KXq00A" name="" type="_z5IjoHXvEfC_3fo_KXq00A" association="_z76x4XXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z79OIXXvEfC_3fo_KXq00A" name="" memberEnd="_z79OInXvEfC_3fo_KXq00A _z7nP4nXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z79OInXvEfC_3fo_KXq00A" name="" type="_z5KY1XXvEfC_3fo_KXq00A" association="_z79OIXXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z8ARcXXvEfC_3fo_KXq00A" name="" memberEnd="_z8ARcnXvEfC_3fo_KXq00A _z7oeDHXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z8ARcnXvEfC_3fo_KXq00A" name="" type="_z5M1IXXvEfC_3fo_KXq00A" association="_z8ARcXXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z8D70HXvEfC_3fo_KXq00A" name="" memberEnd="_z8D70XXvEfC_3fo_KXq00A _z7oeD3XvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z8D70XXvEfC_3fo_KXq00A" name="" type="_z5M1IXXvEfC_3fo_KXq00A" association="_z8D70HXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z8HmMXXvEfC_3fo_KXq00A" name="" memberEnd="_z8HmMnXvEfC_3fo_KXq00A _z7pFE3XvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z8HmMnXvEfC_3fo_KXq00A" name="" type="_z5V_BXXvEfC_3fo_KXq00A" association="_z8HmMXXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z8L3oHXvEfC_3fo_KXq00A" name="" memberEnd="_z8L3oXXvEfC_3fo_KXq00A _z7psJ3XvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z8L3oXXvEfC_3fo_KXq00A" name="" type="_z5V_BXXvEfC_3fo_KXq00A" association="_z8L3oHXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z8kSIHXvEfC_3fo_KXq00A" name="" memberEnd="_z8kSIXXvEfC_3fo_KXq00A _z7sIYXXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z8kSIXXvEfC_3fo_KXq00A" name="" type="_z5aQcHXvEfC_3fo_KXq00A" association="_z8kSIHXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z8muYXXvEfC_3fo_KXq00A" name="" memberEnd="_z8muYnXvEfC_3fo_KXq00A _z7sIaXXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z8muYnXvEfC_3fo_KXq00A" name="" type="_z5aQcHXvEfC_3fo_KXq00A" association="_z8muYXXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_z4UrVXXvEfC_3fo_KXq00A" name="services">
+          <packagedElement xmi:type="uml:Class" xmi:id="_z5YbQHXvEfC_3fo_KXq00A" name="PaymentService">
+            <ownedAttribute xmi:id="_z7q6QHXvEfC_3fo_KXq00A" name="paymentRepository" visibility="private" type="_z5GudHXvEfC_3fo_KXq00A" association="_z8PiAXXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7q6Q3XvEfC_3fo_KXq00A" name="appointmentRepository" visibility="private" type="_z5OqQ3XvEfC_3fo_KXq00A" association="_z8TzcXXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7q6RnXvEfC_3fo_KXq00A" name="patientRepository" visibility="private" type="_z5SUoHXvEfC_3fo_KXq00A" association="_z8YE4XXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7q6SXXvEfC_3fo_KXq00A" name="razorpayClient" visibility="private" type="_z7CoJXXvEfC_3fo_KXq00A" association="_z8cWUXXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7q6THXvEfC_3fo_KXq00A" name="razorpayKeySecret" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_z7rhUXXvEfC_3fo_KXq00A" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_z7CBEHXvEfC_3fo_KXq00A" isReadOnly="true" association="_z8gAsXXvEfC_3fo_KXq00A">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_z7rhUnXvEfC_3fo_KXq00A" value="LoggerFactory.getLogger(PaymentService.class)"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7vLyXXvEfC_3fo_KXq00A" name="initiatePayment" specification="_z7U8AXXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7vLynXvEfC_3fo_KXq00A" name="request" type="_z5B18HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7vLy3XvEfC_3fo_KXq00A" type="_z5CdAHXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         // Validate appointment and patient&#xD;
+         Appointment appointment = appointmentRepository.findById(request.getAppointmentId())&#xD;
+             .orElseThrow(() -> new RuntimeException(&quot;Appointment not found&quot;));&#xD;
+         &#xD;
+         Patient patient = patientRepository.findById(request.getPatientId())&#xD;
+             .orElseThrow(() -> new RuntimeException(&quot;Patient not found&quot;));&#xD;
+         &#xD;
+         // Check if payment already exists for this appointment&#xD;
+         Optional&lt;BookingPayment> existingPayment = paymentRepository.findByAppointmentId(request.getAppointmentId());&#xD;
+         if (existingPayment.isPresent() &amp;&amp; existingPayment.get().getStatus() == PaymentStatus.SUCCESS) {&#xD;
+             throw new RuntimeException(&quot;Payment already completed for this appointment&quot;);&#xD;
+         }&#xD;
+         &#xD;
+         // Create Razorpay order&#xD;
+         JSONObject orderRequest = new JSONObject();&#xD;
+         orderRequest.put(&quot;amount&quot;, request.getAmount().multiply(BigDecimal.valueOf(100)).intValue()); // Convert to paise&#xD;
+         orderRequest.put(&quot;currency&quot;, request.getCurrency());&#xD;
+         orderRequest.put(&quot;receipt&quot;, &quot;appointment_&quot; + request.getAppointmentId());&#xD;
+         &#xD;
+         Order razorpayOrder = razorpayClient.orders.create(orderRequest);&#xD;
+         &#xD;
+         // Create payment record&#xD;
+         BookingPayment payment = new BookingPayment();&#xD;
+         payment.setAppointment(appointment);&#xD;
+         payment.setPatient(patient);&#xD;
+         payment.setAmount(request.getAmount());&#xD;
+         payment.setCurrency(request.getCurrency());&#xD;
+         payment.setRazorpayOrderId(razorpayOrder.get(&quot;id&quot;));&#xD;
+         payment.setPaymentMethod(PaymentMethod.RAZORPAY);&#xD;
+         payment.setStatus(PaymentStatus.PENDING);&#xD;
+         &#xD;
+         BookingPayment savedPayment = paymentRepository.save(payment);&#xD;
+         &#xD;
+         return new PaymentResponse(&#xD;
+             savedPayment.getId(),&#xD;
+             razorpayOrder.get(&quot;id&quot;),&#xD;
+             request.getAppointmentId(),&#xD;
+             request.getAmount(),&#xD;
+             request.getCurrency(),&#xD;
+             PaymentStatus.PENDING,&#xD;
+             &quot;Payment initiated successfully&quot;&#xD;
+         );&#xD;
+         &#xD;
+     } catch (Exception e) {&#xD;
+         logger.error(&quot;Error initiating payment: &quot;, e);&#xD;
+         throw new RuntimeException(&quot;Failed to initiate payment: &quot; + e.getMessage());&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7vywHXvEfC_3fo_KXq00A" name="verifyPayment" specification="_z7VjEXXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7vywXXvEfC_3fo_KXq00A" name="request" type="_z5ESMHXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7vywnXvEfC_3fo_KXq00A" type="_z5CdAHXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         // Find payment by Razorpay order ID&#xD;
+         BookingPayment payment = paymentRepository.findByRazorpayOrderId(request.getRazorpayOrderId())&#xD;
+             .orElseThrow(() -> new RuntimeException(&quot;Payment not found&quot;));&#xD;
+         &#xD;
+         // Verify signature&#xD;
+         boolean isSignatureValid = verifyRazorpaySignature(&#xD;
+             request.getRazorpayOrderId(),&#xD;
+             request.getRazorpayPaymentId(),&#xD;
+             request.getRazorpaySignature()&#xD;
+         );&#xD;
+         &#xD;
+         if (isSignatureValid) {&#xD;
+             // Update payment status&#xD;
+             payment.setRazorpayPaymentId(request.getRazorpayPaymentId());&#xD;
+             payment.setRazorpaySignature(request.getRazorpaySignature());&#xD;
+             payment.setStatus(PaymentStatus.SUCCESS);&#xD;
+             payment.setProcessedAt(LocalDateTime.now());&#xD;
+             &#xD;
+             BookingPayment updatedPayment = paymentRepository.save(payment);&#xD;
+             &#xD;
+             // Update appointment status to confirmed&#xD;
+             Appointment appointment = payment.getAppointment();&#xD;
+             appointment.setStatus(AppointmentStatus.BOOKED);&#xD;
+             appointmentRepository.save(appointment);&#xD;
+             &#xD;
+             return new PaymentResponse(&#xD;
+                 updatedPayment.getId(),&#xD;
+                 request.getRazorpayOrderId(),&#xD;
+                 appointment.getId(),&#xD;
+                 payment.getAmount(),&#xD;
+                 payment.getCurrency(),&#xD;
+                 PaymentStatus.SUCCESS,&#xD;
+                 &quot;Payment verified successfully&quot;&#xD;
+             );&#xD;
+         } else {&#xD;
+             payment.setStatus(PaymentStatus.FAILED);&#xD;
+             paymentRepository.save(payment);&#xD;
+             &#xD;
+             throw new RuntimeException(&quot;Payment verification failed&quot;);&#xD;
+         }&#xD;
+         &#xD;
+     } catch (Exception e) {&#xD;
+         logger.error(&quot;Error verifying payment: &quot;, e);&#xD;
+         throw new RuntimeException(&quot;Failed to verify payment: &quot; + e.getMessage());&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7vyw3XvEfC_3fo_KXq00A" name="verifyRazorpaySignature" specification="_z5ZCUHXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7vyxHXvEfC_3fo_KXq00A" name="orderId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7vyxXXvEfC_3fo_KXq00A" name="paymentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7vyxnXvEfC_3fo_KXq00A" name="signature">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7vyx3XvEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>try {&#xD;
+         String payload = orderId + &quot;|&quot; + paymentId;&#xD;
+         String expectedSignature = hmacSha256(payload, razorpayKeySecret);&#xD;
+         return expectedSignature.equals(signature);&#xD;
+     } catch (Exception e) {&#xD;
+         logger.error(&quot;Error verifying signature: &quot;, e);&#xD;
+         return false;&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7vyyHXvEfC_3fo_KXq00A" name="hmacSha256" specification="_z5ZCVnXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7vyyXXvEfC_3fo_KXq00A" name="data">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7vyynXvEfC_3fo_KXq00A" name="key">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7vyy3XvEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Mac mac = Mac.getInstance(&quot;HmacSHA256&quot;);&#xD;
+     SecretKeySpec secretKeySpec = new SecretKeySpec(key.getBytes(), &quot;HmacSHA256&quot;);&#xD;
+     mac.init(secretKeySpec);&#xD;
+     byte[] hash = mac.doFinal(data.getBytes());&#xD;
+     &#xD;
+     // Convert bytes to hex string (Java 11+ compatible)&#xD;
+     StringBuilder hexString = new StringBuilder();&#xD;
+     for (byte b : hash) {&#xD;
+         String hex = Integer.toHexString(0xff &amp; b);&#xD;
+         if (hex.length() == 1) {&#xD;
+             hexString.append('0');&#xD;
+         }&#xD;
+         hexString.append(hex);&#xD;
+     }&#xD;
+     return hexString.toString();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7vyzHXvEfC_3fo_KXq00A" name="getPaymentsByPatient" specification="_z5ZCW3XvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7vyzXXvEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7vyznXvEfC_3fo_KXq00A" type="_z5V_BXXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z7vyz3XvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return paymentRepository.findByPatientId(patientId);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7vy0HXvEfC_3fo_KXq00A" name="getPaymentByAppointment" specification="_z5ZCYHXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7vy0XXvEfC_3fo_KXq00A" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7vy0nXvEfC_3fo_KXq00A" type="_z5V_BXXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>return paymentRepository.findByAppointmentId(appointmentId)&#xD;
+         .orElseThrow(() -> new RuntimeException(&quot;Payment not found for appointment&quot;));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7vy03XvEfC_3fo_KXq00A" name="refundPayment" specification="_z5ZCY3XvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7vy1HXvEfC_3fo_KXq00A" name="paymentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7vy1XXvEfC_3fo_KXq00A" type="_z5CdAHXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         BookingPayment payment = paymentRepository.findById(paymentId)&#xD;
+             .orElseThrow(() -> new RuntimeException(&quot;Payment not found&quot;));&#xD;
+         &#xD;
+         if (payment.getStatus() != PaymentStatus.SUCCESS) {&#xD;
+             throw new RuntimeException(&quot;Cannot refund non-successful payment&quot;);&#xD;
+         }&#xD;
+         &#xD;
+         // Create refund request&#xD;
+         JSONObject refundRequest = new JSONObject();&#xD;
+         refundRequest.put(&quot;amount&quot;, payment.getAmount().multiply(BigDecimal.valueOf(100)).intValue());&#xD;
+         refundRequest.put(&quot;speed&quot;, &quot;normal&quot;);&#xD;
+         &#xD;
+         Refund refund = razorpayClient.payments.refund(payment.getRazorpayPaymentId(), refundRequest);&#xD;
+         &#xD;
+         // Update payment status&#xD;
+         payment.setStatus(PaymentStatus.REFUNDED);&#xD;
+         paymentRepository.save(payment);&#xD;
+         &#xD;
+         return new PaymentResponse(&#xD;
+             payment.getId(),&#xD;
+             payment.getRazorpayOrderId(),&#xD;
+             payment.getAppointment().getId(),&#xD;
+             payment.getAmount(),&#xD;
+             payment.getCurrency(),&#xD;
+             PaymentStatus.REFUNDED,&#xD;
+             &quot;Payment refunded successfully&quot;&#xD;
+         );&#xD;
+         &#xD;
+     } catch (Exception e) {&#xD;
+         logger.error(&quot;Error processing refund: &quot;, e);&#xD;
+         throw new RuntimeException(&quot;Failed to process refund: &quot; + e.getMessage());&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_z5ZCUHXvEfC_3fo_KXq00A" name="verifyRazorpaySignature" visibility="private" method="_z7vyw3XvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z5ZCUXXvEfC_3fo_KXq00A" name="orderId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5ZCUnXvEfC_3fo_KXq00A" name="paymentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5ZCU3XvEfC_3fo_KXq00A" name="signature">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5ZCVHXvEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z5ZCVnXvEfC_3fo_KXq00A" name="hmacSha256" visibility="private" method="_z7vyyHXvEfC_3fo_KXq00A" raisedException="_z7f7IXXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z5ZCV3XvEfC_3fo_KXq00A" name="data">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5ZCWHXvEfC_3fo_KXq00A" name="key">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5ZCWXXvEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z5ZCW3XvEfC_3fo_KXq00A" name="getPaymentsByPatient" method="_z7vyzHXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z5ZCXHXvEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5ZCXXXvEfC_3fo_KXq00A" type="_z5V_BXXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z5ZCXnXvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z5ZCYHXvEfC_3fo_KXq00A" name="getPaymentByAppointment" method="_z7vy0HXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z5ZCYXXvEfC_3fo_KXq00A" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7VjFXXvEfC_3fo_KXq00A" type="_z5V_BXXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z5ZCY3XvEfC_3fo_KXq00A" name="refundPayment" method="_z7vy03XvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z5ZCZHXvEfC_3fo_KXq00A" name="paymentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7VjFnXvEfC_3fo_KXq00A" type="_z5CdAHXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7U8AXXvEfC_3fo_KXq00A" name="initiatePayment" method="_z7vLyXXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7U8AnXvEfC_3fo_KXq00A" name="request" type="_z5B18HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7U8A3XvEfC_3fo_KXq00A" type="_z5CdAHXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7VjEXXvEfC_3fo_KXq00A" name="verifyPayment" method="_z7vywHXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7VjEnXvEfC_3fo_KXq00A" name="request" type="_z5ESMHXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7VjE3XvEfC_3fo_KXq00A" type="_z5CdAHXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z8PiAXXvEfC_3fo_KXq00A" name="" memberEnd="_z8PiAnXvEfC_3fo_KXq00A _z7q6QHXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z8PiAnXvEfC_3fo_KXq00A" name="" type="_z5YbQHXvEfC_3fo_KXq00A" association="_z8PiAXXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z8TzcXXvEfC_3fo_KXq00A" name="" memberEnd="_z8TzcnXvEfC_3fo_KXq00A _z7q6Q3XvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z8TzcnXvEfC_3fo_KXq00A" name="" type="_z5YbQHXvEfC_3fo_KXq00A" association="_z8TzcXXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z8YE4XXvEfC_3fo_KXq00A" name="" memberEnd="_z8YE4nXvEfC_3fo_KXq00A _z7q6RnXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z8YE4nXvEfC_3fo_KXq00A" name="" type="_z5YbQHXvEfC_3fo_KXq00A" association="_z8YE4XXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z8cWUXXvEfC_3fo_KXq00A" name="" memberEnd="_z8cWUnXvEfC_3fo_KXq00A _z7q6SXXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z8cWUnXvEfC_3fo_KXq00A" name="" type="_z5YbQHXvEfC_3fo_KXq00A" association="_z8cWUXXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z8gAsXXvEfC_3fo_KXq00A" name="" memberEnd="_z8gAsnXvEfC_3fo_KXq00A _z7rhUXXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z8gAsnXvEfC_3fo_KXq00A" name="" type="_z5YbQHXvEfC_3fo_KXq00A" association="_z8gAsXXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_z4V5cHXvEfC_3fo_KXq00A" name="controller">
+          <packagedElement xmi:type="uml:Class" xmi:id="_z4-yoHXvEfC_3fo_KXq00A" name="PaymentController">
+            <ownedAttribute xmi:id="_z7kMkHXvEfC_3fo_KXq00A" name="paymentService" visibility="private" type="_z5YbQHXvEfC_3fo_KXq00A" association="_z72gcXXvEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_z7kMk3XvEfC_3fo_KXq00A" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_z7CBEHXvEfC_3fo_KXq00A" isReadOnly="true" association="_z748sXXvEfC_3fo_KXq00A">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_z7kMlHXvEfC_3fo_KXq00A" value="LoggerFactory.getLogger(PaymentController.class)"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7t9mXXvEfC_3fo_KXq00A" name="initiatePayment" specification="_z7G5kHXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7t9mnXvEfC_3fo_KXq00A" name="request" type="_z5B18HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7t9m3XvEfC_3fo_KXq00A" type="_z7EdUXXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         PaymentResponse response = paymentService.initiatePayment(request);&#xD;
+         return ResponseEntity.ok(response);&#xD;
+     } catch (Exception e) {&#xD;
+         logger.error(&quot;Error initiating payment: &quot;, e);&#xD;
+         return ResponseEntity.badRequest().body(new ErrorResponse(&quot;Failed to initiate payment&quot;, e.getMessage()));&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7t9nHXvEfC_3fo_KXq00A" name="verifyPayment" specification="_z7Hgo3XvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7t9nXXvEfC_3fo_KXq00A" name="request" type="_z5ESMHXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7t9nnXvEfC_3fo_KXq00A" type="_z7EdUXXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         PaymentResponse response = paymentService.verifyPayment(request);&#xD;
+         return ResponseEntity.ok(response);&#xD;
+     } catch (Exception e) {&#xD;
+         logger.error(&quot;Error verifying payment: &quot;, e);&#xD;
+         return ResponseEntity.badRequest().body(new ErrorResponse(&quot;Payment verification failed&quot;, e.getMessage()));&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7t9n3XvEfC_3fo_KXq00A" name="getPatientPayments" specification="_z4-yonXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7t9oHXvEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7t9oXXvEfC_3fo_KXq00A" type="_z7EdUXXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         List&lt;BookingPayment> payments = paymentService.getPaymentsByPatient(patientId);&#xD;
+         return ResponseEntity.ok(payments);&#xD;
+     } catch (Exception e) {&#xD;
+         logger.error(&quot;Error fetching patient payments: &quot;, e);&#xD;
+         return ResponseEntity.badRequest().body(new ErrorResponse(&quot;Failed to fetch payments&quot;, e.getMessage()));&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7t9onXvEfC_3fo_KXq00A" name="getAppointmentPayment" specification="_z4_Zs3XvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7t9o3XvEfC_3fo_KXq00A" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7t9pHXvEfC_3fo_KXq00A" type="_z7EdUXXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         BookingPayment payment = paymentService.getPaymentByAppointment(appointmentId);&#xD;
+         return ResponseEntity.ok(payment);&#xD;
+     } catch (Exception e) {&#xD;
+         logger.error(&quot;Error fetching appointment payment: &quot;, e);&#xD;
+         return ResponseEntity.badRequest().body(new ErrorResponse(&quot;Payment not found&quot;, e.getMessage()));&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z7t9pXXvEfC_3fo_KXq00A" name="refundPayment" specification="_z4_Zu3XvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7t9pnXvEfC_3fo_KXq00A" name="paymentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7t9p3XvEfC_3fo_KXq00A" type="_z7EdUXXvEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         PaymentResponse response = paymentService.refundPayment(paymentId);&#xD;
+         return ResponseEntity.ok(response);&#xD;
+     } catch (Exception e) {&#xD;
+         logger.error(&quot;Error processing refund: &quot;, e);&#xD;
+         return ResponseEntity.badRequest().body(new ErrorResponse(&quot;Refund failed&quot;, e.getMessage()));&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_z4-yonXvEfC_3fo_KXq00A" name="getPatientPayments" method="_z7t9n3XvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z4-yo3XvEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7Z0gHXvEfC_3fo_KXq00A" type="_z7EdUXXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z4_Zs3XvEfC_3fo_KXq00A" name="getAppointmentPayment" method="_z7t9onXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z4_ZtHXvEfC_3fo_KXq00A" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7Z0gXXvEfC_3fo_KXq00A" type="_z7EdUXXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z4_Zu3XvEfC_3fo_KXq00A" name="refundPayment" method="_z7t9pXXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z4_ZvHXvEfC_3fo_KXq00A" name="paymentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7Z0gnXvEfC_3fo_KXq00A" type="_z7EdUXXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7G5kHXvEfC_3fo_KXq00A" name="initiatePayment" method="_z7t9mXXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7G5kXXvEfC_3fo_KXq00A" name="request" type="_z5B18HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7ZNcHXvEfC_3fo_KXq00A" type="_z7EdUXXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7Hgo3XvEfC_3fo_KXq00A" name="verifyPayment" method="_z7t9nHXvEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_z7HgpHXvEfC_3fo_KXq00A" name="request" type="_z5ESMHXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7ZNcXXvEfC_3fo_KXq00A" type="_z7EdUXXvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z72gcXXvEfC_3fo_KXq00A" name="" memberEnd="_z72gcnXvEfC_3fo_KXq00A _z7kMkHXvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z72gcnXvEfC_3fo_KXq00A" name="" type="_z4-yoHXvEfC_3fo_KXq00A" association="_z72gcXXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_z748sXXvEfC_3fo_KXq00A" name="" memberEnd="_z748snXvEfC_3fo_KXq00A _z7kMk3XvEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_z748snXvEfC_3fo_KXq00A" name="" type="_z4-yoHXvEfC_3fo_KXq00A" association="_z748sXXvEfC_3fo_KXq00A"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_z4cnIHXvEfC_3fo_KXq00A" name="repositories">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_z5GudHXvEfC_3fo_KXq00A" name="PaymentRepository">
+            <generalization xmi:id="_z7bCoHXvEfC_3fo_KXq00A" general="_z7LyFXXvEfC_3fo_KXq00A"/>
+            <ownedOperation xmi:id="_z5GudnXvEfC_3fo_KXq00A" name="findByAppointmentId">
+              <ownedParameter xmi:id="_z5Gud3XvEfC_3fo_KXq00A" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7bConXvEfC_3fo_KXq00A" type="_z7LyE3XvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z5HVgnXvEfC_3fo_KXq00A" name="findByRazorpayOrderId">
+              <ownedParameter xmi:id="_z5HVg3XvEfC_3fo_KXq00A" name="razorpayOrderId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7bpsHXvEfC_3fo_KXq00A" type="_z7LyE3XvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z5HVhnXvEfC_3fo_KXq00A" name="findByRazorpayPaymentId">
+              <ownedParameter xmi:id="_z5HVh3XvEfC_3fo_KXq00A" name="razorpayPaymentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7bpsXXvEfC_3fo_KXq00A" type="_z7LyE3XvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z5H8knXvEfC_3fo_KXq00A" name="findByPatientId" visibility="package">
+              <ownedParameter xmi:id="_z5H8k3XvEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5H8lHXvEfC_3fo_KXq00A" type="_z5V_BXXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z5H8lXXvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7MZI3XvEfC_3fo_KXq00A" name="findByPatientIdAndStatus" visibility="package">
+              <ownedParameter xmi:id="_z7MZJHXvEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7MZJXXvEfC_3fo_KXq00A" name="status" type="_z5M1FXXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7MZJnXvEfC_3fo_KXq00A" type="_z5V_BXXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z7MZJ3XvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7MZKXXvEfC_3fo_KXq00A" name="findByStatus">
+              <ownedParameter xmi:id="_z7MZKnXvEfC_3fo_KXq00A" name="status" type="_z5M1FXXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7MZK3XvEfC_3fo_KXq00A" type="_z5V_BXXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z7MZLHXvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_z5OqQ3XvEfC_3fo_KXq00A" name="AppointmentRepository">
+            <generalization xmi:id="_z7de4HXvEfC_3fo_KXq00A" general="_z7LyFXXvEfC_3fo_KXq00A"/>
+            <ownedOperation xmi:id="_z5PRUXXvEfC_3fo_KXq00A" name="findByPatient_Id" visibility="package">
+              <ownedParameter xmi:id="_z5PRUnXvEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5P4YHXvEfC_3fo_KXq00A" type="_z5aQcHXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z5P4YXXvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z5P4Y3XvEfC_3fo_KXq00A" name="findByDoctor_Id" visibility="package">
+              <ownedParameter xmi:id="_z5P4ZHXvEfC_3fo_KXq00A" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5P4ZXXvEfC_3fo_KXq00A" type="_z5aQcHXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z5P4ZnXvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z5P4aHXvEfC_3fo_KXq00A" name="findByDoctor_IdAndStatus">
+              <ownedParameter xmi:id="_z5P4aXXvEfC_3fo_KXq00A" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5P4anXvEfC_3fo_KXq00A" name="status">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5QfcHXvEfC_3fo_KXq00A" type="_z5aQcHXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z5QfcXXvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7QDgXXvEfC_3fo_KXq00A" name="findByStatus" visibility="package">
+              <ownedParameter xmi:id="_z7QDgnXvEfC_3fo_KXq00A" name="status" type="_z5FgVnXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7QDg3XvEfC_3fo_KXq00A" type="_z5aQcHXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z7QDhHXvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7QDhnXvEfC_3fo_KXq00A" name="findByInsuranceCoverageStatus">
+              <ownedParameter xmi:id="_z7QDh3XvEfC_3fo_KXq00A" name="insuranceCoverageStatus" type="_z5KY0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7QDiHXvEfC_3fo_KXq00A" type="_z5aQcHXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z7QDiXXvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7de4nXvEfC_3fo_KXq00A" name="findConflictingAppointments">
+              <ownedParameter xmi:id="_z7de43XvEfC_3fo_KXq00A" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7de5HXvEfC_3fo_KXq00A" name="appointmentDate" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7de5XXvEfC_3fo_KXq00A" type="_z5aQcHXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z7de5nXvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7eF8HXvEfC_3fo_KXq00A" name="findAppointmentsByDoctorAndDateRange">
+              <ownedParameter xmi:id="_z7eF8XXvEfC_3fo_KXq00A" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7eF8nXvEfC_3fo_KXq00A" name="startTime" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7eF83XvEfC_3fo_KXq00A" name="endTime" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7eF9HXvEfC_3fo_KXq00A" type="_z5aQcHXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z7eF9XXvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7eF-XXvEfC_3fo_KXq00A" name="findByAppointmentDateBetween">
+              <ownedParameter xmi:id="_z7eF-nXvEfC_3fo_KXq00A" name="startDate" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7eF-3XvEfC_3fo_KXq00A" name="endDate" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7eF_HXvEfC_3fo_KXq00A" type="_z5aQcHXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z7eF_XXvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z7etAHXvEfC_3fo_KXq00A" name="findByCreatedAtBetween">
+              <ownedParameter xmi:id="_z7etAXXvEfC_3fo_KXq00A" name="startDate" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7etAnXvEfC_3fo_KXq00A" name="endDate" type="_z7JV0HXvEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_z7etA3XvEfC_3fo_KXq00A" type="_z5aQcHXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z7etBHXvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_z5SUoHXvEfC_3fo_KXq00A" name="PatientRepository">
+            <generalization xmi:id="_z7etCHXvEfC_3fo_KXq00A" general="_z7LyFXXvEfC_3fo_KXq00A"/>
+            <ownedOperation xmi:id="_z5TiwHXvEfC_3fo_KXq00A" name="findByEmail">
+              <ownedParameter xmi:id="_z5TiwXXvEfC_3fo_KXq00A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7etCnXvEfC_3fo_KXq00A" type="_z7LyE3XvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z5UJ0nXvEfC_3fo_KXq00A" name="findByContactNumber">
+              <ownedParameter xmi:id="_z5UJ03XvEfC_3fo_KXq00A" name="contactNumber">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7etC3XvEfC_3fo_KXq00A" type="_z7LyE3XvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z5UJ1nXvEfC_3fo_KXq00A" name="findByNameContainingIgnoreCase" visibility="package">
+              <ownedParameter xmi:id="_z5UJ13XvEfC_3fo_KXq00A" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5UJ2HXvEfC_3fo_KXq00A" type="_z5KY1XXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z5Uw4HXvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z5Uw5HXvEfC_3fo_KXq00A" name="findByGender" visibility="package">
+              <ownedParameter xmi:id="_z5Uw5XXvEfC_3fo_KXq00A" name="gender">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5Uw5nXvEfC_3fo_KXq00A" type="_z5KY1XXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z5Uw53XvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z5Uw6XXvEfC_3fo_KXq00A" name="findByDateOfBirth" visibility="package">
+              <ownedParameter xmi:id="_z5Uw6nXvEfC_3fo_KXq00A" name="dateOfBirth">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z5Uw63XvEfC_3fo_KXq00A" type="_z5KY1XXvEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z5Uw7HXvEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z5VX8HXvEfC_3fo_KXq00A" name="findByUsername">
+              <ownedParameter xmi:id="_z5VX8XXvEfC_3fo_KXq00A" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7fUEHXvEfC_3fo_KXq00A" type="_z7LyE3XvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_z5VX9nXvEfC_3fo_KXq00A" name="findByUserId">
+              <ownedParameter xmi:id="_z5VX93XvEfC_3fo_KXq00A" name="userId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_z7fUEXXvEfC_3fo_KXq00A" type="_z7LyE3XvEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_z4QZ4HXvEfC_3fo_KXq00A" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_z4QZ4XXvEfC_3fo_KXq00A" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_z4RA8HXvEfC_3fo_KXq00A" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="_z4RA8XXvEfC_3fo_KXq00A" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_z7BaAXXvEfC_3fo_KXq00A" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_z4bZA3XvEfC_3fo_KXq00A" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="_z4bZBHXvEfC_3fo_KXq00A" name="context">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_z7LyEXXvEfC_3fo_KXq00A" name="SpringBootTest"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_z7Ay8HXvEfC_3fo_KXq00A" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_z4RoAXXvEfC_3fo_KXq00A" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_z4RoAnXvEfC_3fo_KXq00A" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_z4RoA3XvEfC_3fo_KXq00A" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_z7CBFHXvEfC_3fo_KXq00A" name="Value"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_z7D2QnXvEfC_3fo_KXq00A" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_z4SPEHXvEfC_3fo_KXq00A" name="context">
+          <packagedElement xmi:type="uml:Package" xmi:id="_z4SPEXXvEfC_3fo_KXq00A" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_z7CoIXXvEfC_3fo_KXq00A" name="Bean"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_z7CoI3XvEfC_3fo_KXq00A" name="Configuration"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_z4UEQnXvEfC_3fo_KXq00A" name="http">
+          <packagedElement xmi:type="uml:Class" xmi:id="_z7EdUXXvEfC_3fo_KXq00A" name="ResponseEntity"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_z4UrUHXvEfC_3fo_KXq00A" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_z4UrUXXvEfC_3fo_KXq00A" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_z4UrUnXvEfC_3fo_KXq00A" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_z7EdU3XvEfC_3fo_KXq00A" name="CrossOrigin"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_z7FEYXXvEfC_3fo_KXq00A" name="GetMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_z7FEY3XvEfC_3fo_KXq00A" name="PathVariable"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_z7FEZXXvEfC_3fo_KXq00A" name="PostMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_z7FrcXXvEfC_3fo_KXq00A" name="RequestBody"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_z7Frc3XvEfC_3fo_KXq00A" name="RequestMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_z7GSgXXvEfC_3fo_KXq00A" name="RestController"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_z4cAEHXvEfC_3fo_KXq00A" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_z4cAEXXvEfC_3fo_KXq00A" name="mongodb">
+            <packagedElement xmi:type="uml:Package" xmi:id="_z4cAEnXvEfC_3fo_KXq00A" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_z7LyFXXvEfC_3fo_KXq00A" name="MongoRepository"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_z7PccHXvEfC_3fo_KXq00A" name="Query"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_z4cnInXvEfC_3fo_KXq00A" name="core">
+              <packagedElement xmi:type="uml:Package" xmi:id="_z4cnI3XvEfC_3fo_KXq00A" name="mapping">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_z7NAMnXvEfC_3fo_KXq00A" name="DBRef"/>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_z7NANHXvEfC_3fo_KXq00A" name="Document"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_z4hfoHXvEfC_3fo_KXq00A" name="index">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_z7O1YHXvEfC_3fo_KXq00A" name="Indexed"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_z4cnIXXvEfC_3fo_KXq00A" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_z7NAMHXvEfC_3fo_KXq00A" name="Id"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_z4cAE3XvEfC_3fo_KXq00A" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_z7MZIXXvEfC_3fo_KXq00A" name="Repository"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_z7UU8XXvEfC_3fo_KXq00A" name="Service"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_z4qplHXvEfC_3fo_KXq00A" name="transaction">
+          <packagedElement xmi:type="uml:Package" xmi:id="_z4qplXXvEfC_3fo_KXq00A" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_z7UU83XvEfC_3fo_KXq00A" name="Transactional"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_z4RoAHXvEfC_3fo_KXq00A" name="slf4j">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_z7CBEHXvEfC_3fo_KXq00A" name="Logger"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_z7CBEnXvEfC_3fo_KXq00A" name="LoggerFactory"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_z4bZAHXvEfC_3fo_KXq00A" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_z4bZAXXvEfC_3fo_KXq00A" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_z4bZAnXvEfC_3fo_KXq00A" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_z7LLAHXvEfC_3fo_KXq00A" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_z4qpk3XvEfC_3fo_KXq00A" name="json">
+        <packagedElement xmi:type="uml:Class" xmi:id="_z7Tt5HXvEfC_3fo_KXq00A" name="JSONObject"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_z4SPEnXvEfC_3fo_KXq00A" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_z4SPE3XvEfC_3fo_KXq00A" name="razorpay">
+        <packagedElement xmi:type="uml:Class" xmi:id="_z7CoJXXvEfC_3fo_KXq00A" name="RazorpayClient"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_z7DPMXXvEfC_3fo_KXq00A" name="RazorpayException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_z7UU9XXvEfC_3fo_KXq00A" name="Order"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_z7UU93XvEfC_3fo_KXq00A" name="Refund"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_z4UEQHXvEfC_3fo_KXq00A" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_z4UEQXXvEfC_3fo_KXq00A" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_z7D2QHXvEfC_3fo_KXq00A" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_z7LyE3XvEfC_3fo_KXq00A" name="Optional"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_z4XHkHXvEfC_3fo_KXq00A" name="time">
+        <packagedElement xmi:type="uml:Class" xmi:id="_z7JV0HXvEfC_3fo_KXq00A" name="LocalDateTime"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_z4XuoHXvEfC_3fo_KXq00A" name="math">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_z7Kj8HXvEfC_3fo_KXq00A" name="BigDecimal"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_z7f7IHXvEfC_3fo_KXq00A" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_z7f7IXXvEfC_3fo_KXq00A" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_z4qpkHXvEfC_3fo_KXq00A" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_z4qpkXXvEfC_3fo_KXq00A" name="crypto">
+        <packagedElement xmi:type="uml:Package" xmi:id="_z4qpknXvEfC_3fo_KXq00A" name="spec">
+          <packagedElement xmi:type="uml:Class" xmi:id="_z7Tt4nXvEfC_3fo_KXq00A" name="SecretKeySpec"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_z7Tt4HXvEfC_3fo_KXq00A" name="Mac"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_zpdI4HXvEfC_3fo_KXq00A">
+      <eAnnotations xmi:id="_zpdI4XXvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_z7kzq3XvEfC_3fo_KXq00A">
+      <eAnnotations xmi:id="_z7lasHXvEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_zpdv8HXvEfC_3fo_KXq00A" base_Package="_zkBPQHXvEfC_3fo_KXq00A">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z49kkXXvEfC_3fo_KXq00A" base_Element="_z49kkHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z4-LkXXvEfC_3fo_KXq00A" base_Element="_z4-LkHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z4-LknXvEfC_3fo_KXq00A" name="Bean"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_z4-LlXXvEfC_3fo_KXq00A" base_Element="_z4-Lk3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z4-LlnXvEfC_3fo_KXq00A" base_Element="_z49kkHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z4-Ll3XvEfC_3fo_KXq00A" name="Configuration"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z4-yoXXvEfC_3fo_KXq00A" base_Element="_z4-yoHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_z4-ypHXvEfC_3fo_KXq00A" genericsValue="?" base_Element="_z4-yonXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z4-ypXXvEfC_3fo_KXq00A" base_Element="_z4-yo3XvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z4-ypnXvEfC_3fo_KXq00A" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_z4_ZsHXvEfC_3fo_KXq00A" base_Element="_z4-yonXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z4_ZsXXvEfC_3fo_KXq00A" name="GetMapping">
+      <annotationParameters xmi:id="_z4_ZsnXvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7wZ1XXvEfC_3fo_KXq00A" value="&quot;/patient/{patientId}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_z4_ZtXXvEfC_3fo_KXq00A" genericsValue="?" base_Element="_z4_Zs3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z4_ZtnXvEfC_3fo_KXq00A" base_Element="_z4_ZtHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z4_Zt3XvEfC_3fo_KXq00A" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_z4_ZuHXvEfC_3fo_KXq00A" base_Element="_z4_Zs3XvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z4_ZuXXvEfC_3fo_KXq00A" name="GetMapping">
+      <annotationParameters xmi:id="_z4_ZunXvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7wZ1nXvEfC_3fo_KXq00A" value="&quot;/appointment/{appointmentId}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_z5AAwHXvEfC_3fo_KXq00A" genericsValue="?" base_Element="_z4_Zu3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z5AAwXXvEfC_3fo_KXq00A" base_Element="_z4_ZvHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z5AAwnXvEfC_3fo_KXq00A" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_z5AAw3XvEfC_3fo_KXq00A" base_Element="_z4_Zu3XvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z5AAxHXvEfC_3fo_KXq00A" name="PostMapping">
+      <annotationParameters xmi:id="_z5AAxXXvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7wZ13XvEfC_3fo_KXq00A" value="&quot;/refund/{paymentId}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_z5AAxnXvEfC_3fo_KXq00A" base_Element="_z4-yoHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z5AAx3XvEfC_3fo_KXq00A" name="RestController"/>
+    <annotations xmi:id="_z5AAyHXvEfC_3fo_KXq00A" name="RequestMapping">
+      <annotationParameters xmi:id="_z5AAyXXvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7wZ0nXvEfC_3fo_KXq00A" value="&quot;/api/payments&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5B19HXvEfC_3fo_KXq00A" base_Element="_z5B18XXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5DEE3XvEfC_3fo_KXq00A" base_Element="_z5DEEHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5ESNHXvEfC_3fo_KXq00A" base_Element="_z5ESMXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5GHYHXvEfC_3fo_KXq00A" base_Element="_z5FgVnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5GudXXvEfC_3fo_KXq00A" base_Element="_z5GudHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_z5HVgHXvEfC_3fo_KXq00A" genericsValue="BookingPayment" base_Element="_z5GudnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z5HVgXXvEfC_3fo_KXq00A" base_Element="_z5GudnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_z5HVhHXvEfC_3fo_KXq00A" genericsValue="BookingPayment" base_Element="_z5HVgnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z5HVhXXvEfC_3fo_KXq00A" base_Element="_z5HVgnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_z5H8kHXvEfC_3fo_KXq00A" genericsValue="BookingPayment" base_Element="_z5HVhnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z5H8kXXvEfC_3fo_KXq00A" base_Element="_z5HVhnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z5H8lnXvEfC_3fo_KXq00A" base_Element="_z5H8knXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z5H8l3XvEfC_3fo_KXq00A" base_Element="_z5GudHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z5H8mHXvEfC_3fo_KXq00A" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5JKsHXvEfC_3fo_KXq00A" base_Element="_z5IjoHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z5JxwnXvEfC_3fo_KXq00A" base_Element="_z5IjoHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z5Jxw3XvEfC_3fo_KXq00A" name="Document">
+      <annotationParameters xmi:id="_z5JxxHXvEfC_3fo_KXq00A" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7xA43XvEfC_3fo_KXq00A" value="&quot;doctors&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5K_4HXvEfC_3fo_KXq00A" base_Element="_z5KY1XXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z5Lm83XvEfC_3fo_KXq00A" base_Element="_z5KY1XXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z5Lm9HXvEfC_3fo_KXq00A" name="Document">
+      <annotationParameters xmi:id="_z5Lm9XXvEfC_3fo_KXq00A" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7xA5XXvEfC_3fo_KXq00A" value="&quot;patients&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5MOAXXvEfC_3fo_KXq00A" base_Element="_z5MOAHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5M1FnXvEfC_3fo_KXq00A" base_Element="_z5M1FXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5M1HXXvEfC_3fo_KXq00A" base_Element="_z5M1HHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5NcIHXvEfC_3fo_KXq00A" base_Element="_z5M1IXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z5OqQHXvEfC_3fo_KXq00A" base_Element="_z5M1IXXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z5OqQXXvEfC_3fo_KXq00A" name="Document">
+      <annotationParameters xmi:id="_z5OqQnXvEfC_3fo_KXq00A" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7xA5nXvEfC_3fo_KXq00A" value="&quot;users&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5PRUHXvEfC_3fo_KXq00A" base_Element="_z5OqQ3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z5P4YnXvEfC_3fo_KXq00A" base_Element="_z5PRUXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z5P4Z3XvEfC_3fo_KXq00A" base_Element="_z5P4Y3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z5QfcnXvEfC_3fo_KXq00A" base_Element="_z5P4aHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z5Qfc3XvEfC_3fo_KXq00A" base_Element="_z5OqQ3XvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z5QfdHXvEfC_3fo_KXq00A" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5S7sHXvEfC_3fo_KXq00A" base_Element="_z5SUoHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_z5TiwnXvEfC_3fo_KXq00A" genericsValue="Patient" base_Element="_z5TiwHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z5Tiw3XvEfC_3fo_KXq00A" base_Element="_z5TiwHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z5UJ0HXvEfC_3fo_KXq00A" name="Query">
+      <annotationParameters xmi:id="_z5UJ0XXvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7xn9HXvEfC_3fo_KXq00A" value="&quot;{ 'user.email': ?0 }&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_z5UJ1HXvEfC_3fo_KXq00A" genericsValue="Patient" base_Element="_z5UJ0nXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z5UJ1XXvEfC_3fo_KXq00A" base_Element="_z5UJ0nXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z5Uw4XXvEfC_3fo_KXq00A" base_Element="_z5UJ1nXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z5Uw4nXvEfC_3fo_KXq00A" name="Query">
+      <annotationParameters xmi:id="_z5Uw43XvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7xn9XXvEfC_3fo_KXq00A" value="&quot;{ 'user.name': { $regex: ?0, $options: 'i' } }&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_z5Uw6HXvEfC_3fo_KXq00A" base_Element="_z5Uw5HXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z5Uw7XXvEfC_3fo_KXq00A" base_Element="_z5Uw6XXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_z5VX8nXvEfC_3fo_KXq00A" genericsValue="Patient" base_Element="_z5VX8HXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z5VX83XvEfC_3fo_KXq00A" base_Element="_z5VX8HXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z5VX9HXvEfC_3fo_KXq00A" name="Query">
+      <annotationParameters xmi:id="_z5VX9XXvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7xn9nXvEfC_3fo_KXq00A" value="&quot;{ 'user.username': ?0 }&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_z5VX-HXvEfC_3fo_KXq00A" genericsValue="Patient" base_Element="_z5VX9nXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z5V_AHXvEfC_3fo_KXq00A" base_Element="_z5VX9nXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z5V_AXXvEfC_3fo_KXq00A" name="Query">
+      <annotationParameters xmi:id="_z5V_AnXvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7xn93XvEfC_3fo_KXq00A" value="&quot;{ 'user.id': ?0 }&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_z5V_A3XvEfC_3fo_KXq00A" base_Element="_z5SUoHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z5V_BHXvEfC_3fo_KXq00A" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5WmEHXvEfC_3fo_KXq00A" base_Element="_z5V_BXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z5XNIHXvEfC_3fo_KXq00A" base_Element="_z5WmEXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z5XNIXXvEfC_3fo_KXq00A" base_Element="_z5V_BXXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z5XNInXvEfC_3fo_KXq00A" name="Document">
+      <annotationParameters xmi:id="_z5XNI3XvEfC_3fo_KXq00A" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7xn-HXvEfC_3fo_KXq00A" value="&quot;payment_transactions&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5YbQXXvEfC_3fo_KXq00A" base_Element="_z5YbQHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z5ZCVXXvEfC_3fo_KXq00A" base_Element="_z5ZCUHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z5ZCWnXvEfC_3fo_KXq00A" base_Element="_z5ZCVnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z5ZCX3XvEfC_3fo_KXq00A" base_Element="_z5ZCW3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z5ZCYnXvEfC_3fo_KXq00A" base_Element="_z5ZCYHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z5ZpYHXvEfC_3fo_KXq00A" base_Element="_z5ZCY3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z5ZpYXXvEfC_3fo_KXq00A" base_Element="_z5YbQHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z5ZpYnXvEfC_3fo_KXq00A" name="Service"/>
+    <annotations xmi:id="_z5ZpY3XvEfC_3fo_KXq00A" name="Transactional"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5a3gHXvEfC_3fo_KXq00A" base_Element="_z5aQcHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z5a3hXXvEfC_3fo_KXq00A" base_Element="_z5aQcHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z5a3hnXvEfC_3fo_KXq00A" name="Document">
+      <annotationParameters xmi:id="_z5a3h3XvEfC_3fo_KXq00A" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7yPAHXvEfC_3fo_KXq00A" value="&quot;appointments&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_z7BaAHXvEfC_3fo_KXq00A" base_Element="_z7Ay8HXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7BaAnXvEfC_3fo_KXq00A" base_Element="_z7BaAXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7CBEXXvEfC_3fo_KXq00A" base_Element="_z7CBEHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7CBE3XvEfC_3fo_KXq00A" base_Element="_z7CBEnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7CoIHXvEfC_3fo_KXq00A" base_Element="_z7CBFHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7CoInXvEfC_3fo_KXq00A" base_Element="_z7CoIXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7CoJHXvEfC_3fo_KXq00A" base_Element="_z7CoI3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7DPMHXvEfC_3fo_KXq00A" base_Element="_z7CoJXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7DPMnXvEfC_3fo_KXq00A" base_Element="_z7DPMXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7D2QXXvEfC_3fo_KXq00A" base_Element="_z7D2QHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7EdUHXvEfC_3fo_KXq00A" base_Element="_z7D2QnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7EdUnXvEfC_3fo_KXq00A" base_Element="_z7EdUXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7FEYHXvEfC_3fo_KXq00A" base_Element="_z7EdU3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7FEYnXvEfC_3fo_KXq00A" base_Element="_z7FEYXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7FEZHXvEfC_3fo_KXq00A" base_Element="_z7FEY3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7FrcHXvEfC_3fo_KXq00A" base_Element="_z7FEZXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7FrcnXvEfC_3fo_KXq00A" base_Element="_z7FrcXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7GSgHXvEfC_3fo_KXq00A" base_Element="_z7Frc3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7GSgnXvEfC_3fo_KXq00A" base_Element="_z7GSgXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_z7G5knXvEfC_3fo_KXq00A" genericsValue="?" base_Element="_z7G5kHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z7G5k3XvEfC_3fo_KXq00A" base_Element="_z7G5kXXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7G5lHXvEfC_3fo_KXq00A" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_z7HgoHXvEfC_3fo_KXq00A" base_Element="_z7G5kHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7HgoXXvEfC_3fo_KXq00A" name="PostMapping">
+      <annotationParameters xmi:id="_z7HgonXvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7wZ03XvEfC_3fo_KXq00A" value="&quot;/initiate&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_z7IHsHXvEfC_3fo_KXq00A" genericsValue="?" base_Element="_z7Hgo3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z7IHsXXvEfC_3fo_KXq00A" base_Element="_z7HgpHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7IHsnXvEfC_3fo_KXq00A" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_z7IuwHXvEfC_3fo_KXq00A" base_Element="_z7Hgo3XvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7IuwXXvEfC_3fo_KXq00A" name="PostMapping">
+      <annotationParameters xmi:id="_z7IuwnXvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7wZ1HXvEfC_3fo_KXq00A" value="&quot;/verify&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_z7JV0XXvEfC_3fo_KXq00A" base_Element="_z7JV0HXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7Kj8XXvEfC_3fo_KXq00A" base_Element="_z7Kj8HXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7LyEHXvEfC_3fo_KXq00A" base_Element="_z7LLAHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7LyEnXvEfC_3fo_KXq00A" base_Element="_z7LyEXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7LyFHXvEfC_3fo_KXq00A" base_Element="_z7LyE3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7MZIHXvEfC_3fo_KXq00A" base_Element="_z7LyFXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7MZInXvEfC_3fo_KXq00A" base_Element="_z7MZIXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7MZKHXvEfC_3fo_KXq00A" base_Element="_z7MZI3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7MZLXXvEfC_3fo_KXq00A" base_Element="_z7MZKXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7NAMXXvEfC_3fo_KXq00A" base_Element="_z7NAMHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7NAM3XvEfC_3fo_KXq00A" base_Element="_z7NAMnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7NANXXvEfC_3fo_KXq00A" base_Element="_z7NANHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7OOWXXvEfC_3fo_KXq00A" base_Element="_z7OOUHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7O1YXXvEfC_3fo_KXq00A" base_Element="_z7O1YHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7QDgHXvEfC_3fo_KXq00A" base_Element="_z7PccHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7QDhXXvEfC_3fo_KXq00A" base_Element="_z7QDgXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7QDinXvEfC_3fo_KXq00A" base_Element="_z7QDhnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7SfwHXvEfC_3fo_KXq00A" base_Element="_z7R4sHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7Tt4XXvEfC_3fo_KXq00A" base_Element="_z7Tt4HXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7Tt43XvEfC_3fo_KXq00A" base_Element="_z7Tt4nXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7UU8HXvEfC_3fo_KXq00A" base_Element="_z7Tt5HXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7UU8nXvEfC_3fo_KXq00A" base_Element="_z7UU8XXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7UU9HXvEfC_3fo_KXq00A" base_Element="_z7UU83XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7UU9nXvEfC_3fo_KXq00A" base_Element="_z7UU9XXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7U8AHXvEfC_3fo_KXq00A" base_Element="_z7UU93XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7VjEHXvEfC_3fo_KXq00A" base_Element="_z7U8AXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7VjFHXvEfC_3fo_KXq00A" base_Element="_z7VjEXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_z7bCoXXvEfC_3fo_KXq00A" genericsValue="BookingPayment, String" base_Element="_z7bCoHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7bpu3XvEfC_3fo_KXq00A" base_Element="_z7bpsnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_z7cQwHXvEfC_3fo_KXq00A" genericsValue="String" base_Element="_z7bpt3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7c323XvEfC_3fo_KXq00A" base_Element="_z7c30HXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_z7de4XXvEfC_3fo_KXq00A" genericsValue="Appointment, String" base_Element="_z7de4HXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z7de53XvEfC_3fo_KXq00A" base_Element="_z7de4nXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7de6HXvEfC_3fo_KXq00A" name="Query">
+      <annotationParameters xmi:id="_z7de6XXvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7xn8HXvEfC_3fo_KXq00A" value="&quot;{ 'doctor.$id': ?0, 'appointmentDate': ?1 }&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_z7eF9nXvEfC_3fo_KXq00A" base_Element="_z7eF8HXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7eF93XvEfC_3fo_KXq00A" name="Query">
+      <annotationParameters xmi:id="_z7eF-HXvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7xn8XXvEfC_3fo_KXq00A" value="&quot;{ 'doctor.$id': ?0, 'appointmentDate': { $gte: ?1, $lte: ?2 } }&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_z7eF_nXvEfC_3fo_KXq00A" base_Element="_z7eF-XXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7eF_3XvEfC_3fo_KXq00A" name="Query">
+      <annotationParameters xmi:id="_z7eGAHXvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7xn8nXvEfC_3fo_KXq00A" value="&quot;{ 'appointmentDate': { $gte: ?0, $lte: ?1 } }&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_z7etBXXvEfC_3fo_KXq00A" base_Element="_z7etAHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7etBnXvEfC_3fo_KXq00A" name="Query">
+      <annotationParameters xmi:id="_z7etB3XvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7xn83XvEfC_3fo_KXq00A" value="&quot;{ 'createdAt': { $gte: ?0, $lte: ?1 } }&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_z7etCXXvEfC_3fo_KXq00A" genericsValue="Patient, String" base_Element="_z7etCHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z7giMHXvEfC_3fo_KXq00A" base_Element="_z7f7IXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7hJSnXvEfC_3fo_KXq00A" base_Element="_z7giMXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z7jlgHXvEfC_3fo_KXq00A" base_Element="_z7i-cHXvEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_z7jlgXXvEfC_3fo_KXq00A" name="getRazorpayKeyId" method="_z7t9k3XvEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_z7jlgnXvEfC_3fo_KXq00A" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_z7jlg3XvEfC_3fo_KXq00A" base_Element="_z7i-cHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7jlhHXvEfC_3fo_KXq00A" name="Value">
+      <annotationParameters xmi:id="_z7jlhXXvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7wZ0HXvEfC_3fo_KXq00A" value="&quot;${razorpay.key.id:}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_z7jlh3XvEfC_3fo_KXq00A" base_Element="_z7jlhnXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7jliHXvEfC_3fo_KXq00A" name="Value">
+      <annotationParameters xmi:id="_z7jliXXvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7wZ0XXvEfC_3fo_KXq00A" value="&quot;${razorpay.key.secret:}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_z7jljHXvEfC_3fo_KXq00A" base_Element="_z7jlinXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z7kMkXXvEfC_3fo_KXq00A" base_Element="_z7kMkHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7kMknXvEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_z7kMlXXvEfC_3fo_KXq00A" base_Element="_z7kMk3XvEfC_3fo_KXq00A"/>
+  <Persistency:PrimaryKey xmi:id="_z7mBwHXvEfC_3fo_KXq00A" base_Property="_z7kzqnXvEfC_3fo_KXq00A"/>
+  <Persistency:JPA1StyledElement xmi:id="_z7mBwXXvEfC_3fo_KXq00A" base_Element="_z7kzqnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z7mBw3XvEfC_3fo_KXq00A" base_Element="_z7mBwnXvEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_z7mBxHXvEfC_3fo_KXq00A" name="getUser" method="_z7uks3XvEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_z7mo0HXvEfC_3fo_KXq00A" type="_z5M1IXXvEfC_3fo_KXq00A" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_z7mBxXXvEfC_3fo_KXq00A" name="setUser" method="_z7uktXXvEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_z7mBxnXvEfC_3fo_KXq00A" name="user" type="_z5M1IXXvEfC_3fo_KXq00A"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_z7mo0XXvEfC_3fo_KXq00A" base_Element="_z7mBwnXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7mo0nXvEfC_3fo_KXq00A" name="DBRef">
+      <annotationParameters xmi:id="_z7mo03XvEfC_3fo_KXq00A" name="lazy" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7xA5HXvEfC_3fo_KXq00A" value="false"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_z7mo1nXvEfC_3fo_KXq00A" base_Element="_z7mo1HXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7mo13XvEfC_3fo_KXq00A" base_Element="_z7mo1HXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7mo2XXvEfC_3fo_KXq00A" base_Element="_z7mo2HXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7mo3HXvEfC_3fo_KXq00A" base_Element="_z7mo2nXvEfC_3fo_KXq00A"/>
+  <Persistency:PrimaryKey xmi:id="_z7nP4HXvEfC_3fo_KXq00A" base_Property="_z7mo3XXvEfC_3fo_KXq00A"/>
+  <Persistency:JPA1StyledElement xmi:id="_z7nP4XXvEfC_3fo_KXq00A" base_Element="_z7mo3XXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z7nP43XvEfC_3fo_KXq00A" base_Element="_z7nP4nXvEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_z7nP5HXvEfC_3fo_KXq00A" name="getUser" method="_z7ukv3XvEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_z7nP53XvEfC_3fo_KXq00A" type="_z5M1IXXvEfC_3fo_KXq00A" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_z7nP5XXvEfC_3fo_KXq00A" name="setUser" method="_z7ukwXXvEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_z7nP5nXvEfC_3fo_KXq00A" name="user" type="_z5M1IXXvEfC_3fo_KXq00A"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_z7nP6HXvEfC_3fo_KXq00A" base_Element="_z7nP4nXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7nP6XXvEfC_3fo_KXq00A" name="DBRef"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_z7n28HXvEfC_3fo_KXq00A" base_Element="_z7nP6nXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7n28nXvEfC_3fo_KXq00A" base_Element="_z7n28XXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7n29HXvEfC_3fo_KXq00A" base_Element="_z7n283XvEfC_3fo_KXq00A"/>
+  <Persistency:PrimaryKey xmi:id="_z7n29nXvEfC_3fo_KXq00A" base_Property="_z7n29XXvEfC_3fo_KXq00A"/>
+  <Persistency:JPA1StyledElement xmi:id="_z7n293XvEfC_3fo_KXq00A" base_Element="_z7n29XXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7n2-XXvEfC_3fo_KXq00A" base_Element="_z7n2-HXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z7oeAHXvEfC_3fo_KXq00A" base_Element="_z7n2-nXvEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_z7oeAXXvEfC_3fo_KXq00A" name="getEmail" method="_z7vLsHXvEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_z7oeBHXvEfC_3fo_KXq00A" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_z7oeAnXvEfC_3fo_KXq00A" name="setEmail" method="_z7vLsnXvEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_z7oeA3XvEfC_3fo_KXq00A" name="email">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_z7oeBXXvEfC_3fo_KXq00A" base_Element="_z7n2-nXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7oeBnXvEfC_3fo_KXq00A" name="Indexed">
+      <annotationParameters xmi:id="_z7oeB3XvEfC_3fo_KXq00A" name="unique" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7xA53XvEfC_3fo_KXq00A" value="true"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_z7oeCXXvEfC_3fo_KXq00A" base_Element="_z7oeCHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7oeC3XvEfC_3fo_KXq00A" base_Element="_z7oeCnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7oeDnXvEfC_3fo_KXq00A" base_Element="_z7oeDHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7oeEXXvEfC_3fo_KXq00A" base_Element="_z7oeD3XvEfC_3fo_KXq00A"/>
+  <Persistency:PrimaryKey xmi:id="_z7pFEXXvEfC_3fo_KXq00A" base_Property="_z7pFEHXvEfC_3fo_KXq00A"/>
+  <Persistency:JPA1StyledElement xmi:id="_z7pFEnXvEfC_3fo_KXq00A" base_Element="_z7pFEHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z7psIHXvEfC_3fo_KXq00A" base_Element="_z7pFE3XvEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_z7psIXXvEfC_3fo_KXq00A" name="getAppointment" method="_z7vLvXXvEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_z7psJHXvEfC_3fo_KXq00A" type="_z5aQcHXvEfC_3fo_KXq00A" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_z7psInXvEfC_3fo_KXq00A" name="setAppointment" method="_z7vLv3XvEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_z7psI3XvEfC_3fo_KXq00A" name="appointment" type="_z5aQcHXvEfC_3fo_KXq00A"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_z7psJXXvEfC_3fo_KXq00A" base_Element="_z7pFE3XvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7psJnXvEfC_3fo_KXq00A" name="DBRef"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z7psKHXvEfC_3fo_KXq00A" base_Element="_z7psJ3XvEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_z7psKXXvEfC_3fo_KXq00A" name="getPatient" method="_z7vLwXXvEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_z7psLHXvEfC_3fo_KXq00A" type="_z5KY1XXvEfC_3fo_KXq00A" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_z7psKnXvEfC_3fo_KXq00A" name="setPatient" method="_z7vLw3XvEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_z7psK3XvEfC_3fo_KXq00A" name="patient" type="_z5KY1XXvEfC_3fo_KXq00A"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_z7psLXXvEfC_3fo_KXq00A" base_Element="_z7psJ3XvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7psLnXvEfC_3fo_KXq00A" name="DBRef"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_z7qTMHXvEfC_3fo_KXq00A" base_Element="_z7psL3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7qTM3XvEfC_3fo_KXq00A" base_Element="_z7qTMXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7qTNXXvEfC_3fo_KXq00A" base_Element="_z7qTNHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7qTN3XvEfC_3fo_KXq00A" base_Element="_z7qTNnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7qTOXXvEfC_3fo_KXq00A" base_Element="_z7qTOHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7qTO3XvEfC_3fo_KXq00A" base_Element="_z7qTOnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7qTPXXvEfC_3fo_KXq00A" base_Element="_z7qTPHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7qTP3XvEfC_3fo_KXq00A" base_Element="_z7qTPnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7qTQXXvEfC_3fo_KXq00A" base_Element="_z7qTQHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7qTQ3XvEfC_3fo_KXq00A" base_Element="_z7qTQnXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_z7q6QXXvEfC_3fo_KXq00A" base_Element="_z7q6QHXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7q6QnXvEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_z7q6RHXvEfC_3fo_KXq00A" base_Element="_z7q6Q3XvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7q6RXXvEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_z7q6R3XvEfC_3fo_KXq00A" base_Element="_z7q6RnXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7q6SHXvEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_z7q6SnXvEfC_3fo_KXq00A" base_Element="_z7q6SXXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7q6S3XvEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_z7q6TXXvEfC_3fo_KXq00A" base_Element="_z7q6THXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7q6TnXvEfC_3fo_KXq00A" name="Value">
+      <annotationParameters xmi:id="_z7rhUHXvEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_z7xoAXXvEfC_3fo_KXq00A" value="&quot;${razorpay.key.secret}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_z7rhU3XvEfC_3fo_KXq00A" base_Element="_z7rhUXXvEfC_3fo_KXq00A"/>
+  <Persistency:PrimaryKey xmi:id="_z7rhVXXvEfC_3fo_KXq00A" base_Property="_z7rhVHXvEfC_3fo_KXq00A"/>
+  <Persistency:JPA1StyledElement xmi:id="_z7sIYHXvEfC_3fo_KXq00A" base_Element="_z7rhVHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z7sIYnXvEfC_3fo_KXq00A" base_Element="_z7sIYXXvEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_z7sIY3XvEfC_3fo_KXq00A" name="getPatient" method="_z7vy1nXvEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_z7sIZnXvEfC_3fo_KXq00A" type="_z5KY1XXvEfC_3fo_KXq00A" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_z7sIZHXvEfC_3fo_KXq00A" name="setPatient" method="_z7vy2HXvEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_z7sIZXXvEfC_3fo_KXq00A" name="patient" type="_z5KY1XXvEfC_3fo_KXq00A"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_z7sIZ3XvEfC_3fo_KXq00A" base_Element="_z7sIYXXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7sIaHXvEfC_3fo_KXq00A" name="DBRef"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z7sIanXvEfC_3fo_KXq00A" base_Element="_z7sIaXXvEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_z7sIa3XvEfC_3fo_KXq00A" name="getDoctor" method="_z7vy2nXvEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_z7svcHXvEfC_3fo_KXq00A" type="_z5IjoHXvEfC_3fo_KXq00A" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_z7sIbHXvEfC_3fo_KXq00A" name="setDoctor" method="_z7vy3HXvEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_z7sIbXXvEfC_3fo_KXq00A" name="doctor" type="_z5IjoHXvEfC_3fo_KXq00A"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_z7svcXXvEfC_3fo_KXq00A" base_Element="_z7sIaXXvEfC_3fo_KXq00A">
+    <annotations xmi:id="_z7svcnXvEfC_3fo_KXq00A" name="DBRef"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_z7svdHXvEfC_3fo_KXq00A" base_Element="_z7svc3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7svdnXvEfC_3fo_KXq00A" base_Element="_z7svdXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7sveHXvEfC_3fo_KXq00A" base_Element="_z7svd3XvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7svenXvEfC_3fo_KXq00A" base_Element="_z7sveXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_z7svfHXvEfC_3fo_KXq00A" base_Element="_z7sve3XvEfC_3fo_KXq00A"/>
+  <uml:OpaqueBehavior xmi:id="_z7t9k3XvEfC_3fo_KXq00A" name="getRazorpayKeyId" specification="_z7jlgXXvEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_z7t9lHXvEfC_3fo_KXq00A" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return razorpayKeyId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_z7uks3XvEfC_3fo_KXq00A" name="getUser" specification="_z7mBxHXvEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_z7uktHXvEfC_3fo_KXq00A" type="_z5M1IXXvEfC_3fo_KXq00A" direction="return"/>
+    <language>java</language>
+    <body>return user;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_z7uktXXvEfC_3fo_KXq00A" name="setUser" specification="_z7mBxXXvEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_z7uktnXvEfC_3fo_KXq00A" name="user" type="_z5M1IXXvEfC_3fo_KXq00A"/>
+    <language>java</language>
+    <body>this.user = user;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_z7ukv3XvEfC_3fo_KXq00A" name="getUser" specification="_z7nP5HXvEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_z7ukwHXvEfC_3fo_KXq00A" type="_z5M1IXXvEfC_3fo_KXq00A" direction="return"/>
+    <language>java</language>
+    <body>return user;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_z7ukwXXvEfC_3fo_KXq00A" name="setUser" specification="_z7nP5XXvEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_z7ukwnXvEfC_3fo_KXq00A" name="user" type="_z5M1IXXvEfC_3fo_KXq00A"/>
+    <language>java</language>
+    <body>this.user = user;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_z7vLsHXvEfC_3fo_KXq00A" name="getEmail" specification="_z7oeAXXvEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_z7vLsXXvEfC_3fo_KXq00A" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return email;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_z7vLsnXvEfC_3fo_KXq00A" name="setEmail" specification="_z7oeAnXvEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_z7vLs3XvEfC_3fo_KXq00A" name="email">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.email = email;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_z7vLvXXvEfC_3fo_KXq00A" name="getAppointment" specification="_z7psIXXvEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_z7vLvnXvEfC_3fo_KXq00A" type="_z5aQcHXvEfC_3fo_KXq00A" direction="return"/>
+    <language>java</language>
+    <body>return appointment; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_z7vLv3XvEfC_3fo_KXq00A" name="setAppointment" specification="_z7psInXvEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_z7vLwHXvEfC_3fo_KXq00A" name="appointment" type="_z5aQcHXvEfC_3fo_KXq00A"/>
+    <language>java</language>
+    <body>this.appointment = appointment; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_z7vLwXXvEfC_3fo_KXq00A" name="getPatient" specification="_z7psKXXvEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_z7vLwnXvEfC_3fo_KXq00A" type="_z5KY1XXvEfC_3fo_KXq00A" direction="return"/>
+    <language>java</language>
+    <body>return patient; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_z7vLw3XvEfC_3fo_KXq00A" name="setPatient" specification="_z7psKnXvEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_z7vLxHXvEfC_3fo_KXq00A" name="patient" type="_z5KY1XXvEfC_3fo_KXq00A"/>
+    <language>java</language>
+    <body>this.patient = patient; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_z7vy1nXvEfC_3fo_KXq00A" name="getPatient" specification="_z7sIY3XvEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_z7vy13XvEfC_3fo_KXq00A" type="_z5KY1XXvEfC_3fo_KXq00A" direction="return"/>
+    <language>java</language>
+    <body>return patient;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_z7vy2HXvEfC_3fo_KXq00A" name="setPatient" specification="_z7sIZHXvEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_z7vy2XXvEfC_3fo_KXq00A" name="patient" type="_z5KY1XXvEfC_3fo_KXq00A"/>
+    <language>java</language>
+    <body>this.patient = patient;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_z7vy2nXvEfC_3fo_KXq00A" name="getDoctor" specification="_z7sIa3XvEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_z7vy23XvEfC_3fo_KXq00A" type="_z5IjoHXvEfC_3fo_KXq00A" direction="return"/>
+    <language>java</language>
+    <body>return doctor;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_z7vy3HXvEfC_3fo_KXq00A" name="setDoctor" specification="_z7sIbHXvEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_z7vy3XXvEfC_3fo_KXq00A" name="doctor" type="_z5IjoHXvEfC_3fo_KXq00A"/>
+    <language>java</language>
+    <body>this.doctor = doctor;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_z72gcHXvEfC_3fo_KXq00A" base_Element="_z70EMHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z748sHXvEfC_3fo_KXq00A" base_Element="_z72gcXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z76x4HXvEfC_3fo_KXq00A" base_Element="_z748sXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z79OIHXvEfC_3fo_KXq00A" base_Element="_z76x4XXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z8ARcHXvEfC_3fo_KXq00A" base_Element="_z79OIXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z8DUwHXvEfC_3fo_KXq00A" base_Element="_z8ARcXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z8HmMHXvEfC_3fo_KXq00A" base_Element="_z8D70HXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z8LQkHXvEfC_3fo_KXq00A" base_Element="_z8HmMXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z8PiAHXvEfC_3fo_KXq00A" base_Element="_z8L3oHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z8TzcHXvEfC_3fo_KXq00A" base_Element="_z8PiAXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z8YE4HXvEfC_3fo_KXq00A" base_Element="_z8TzcXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z8cWUHXvEfC_3fo_KXq00A" base_Element="_z8YE4XXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z8gAsHXvEfC_3fo_KXq00A" base_Element="_z8cWUXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z8jrEHXvEfC_3fo_KXq00A" base_Element="_z8gAsXXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z8muYHXvEfC_3fo_KXq00A" base_Element="_z8kSIHXvEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_z8pKoHXvEfC_3fo_KXq00A" base_Element="_z8muYXXvEfC_3fo_KXq00A"/>
+</xmi:XMI>

@@ -23,19 +23,36 @@ public class PatientService {
 	public Optional<Patient> getPatientById(String id) {
 		return patientRepository.findById(id);
 	}
-	public Patient updatePatient(String id, Patient patient) {
-		if (patientRepository.existsById(id)) {
-			patient.setId(id);
-			return patientRepository.save(patient);
-		}
-		return null; // or throw an exception
+	public Patient updatePatient(String id, Patient updatedPatient) {
+	    Optional<Patient> optionalPatient = patientRepository.findById(id);
+	    if (optionalPatient.isPresent()) {
+	        Patient existingPatient = optionalPatient.get();
+	        
+	        // Update fields as needed, for example:
+	        existingPatient.setDateOfBirth(updatedPatient.getDateOfBirth());
+	        existingPatient.setGender(updatedPatient.getGender());
+	        existingPatient.setContactNumber(updatedPatient.getContactNumber());
+
+	        // Update profile photo:
+	        existingPatient.setProfilePhoto(updatedPatient.getProfilePhoto());
+
+	        // Optionally update user fields...
+	        
+	        return patientRepository.save(existingPatient);
+	    }
+	    return null;
 	}
+
 	public void deletePatient(String id) {
 		patientRepository.deleteById(id);
 	}
 	
 	public List<Patient> getAllPatients() {
 		return patientRepository.findAll();
+	}
+	
+	public Optional<Patient> getPatientByUserId(String userId) {
+		return patientRepository.findByUser_Id(userId);
 	}
 	
 }

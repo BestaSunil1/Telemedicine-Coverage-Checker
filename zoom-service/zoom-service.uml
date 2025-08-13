@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_rlAU0HXwEfC_3fo_KXq00A" name="zoom_service">
+    <eAnnotations xmi:id="_ro9nwHXwEfC_3fo_KXq00A" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_ro9nwXXwEfC_3fo_KXq00A" source="codegen">
+        <details xmi:id="_ro9nwnXwEfC_3fo_KXq00A" key="codegenDirectory" value="/zoom-service/src/main/java"/>
+        <details xmi:id="_rwnH4HXwEfC_3fo_KXq00A" key="AssociatedSourceCode" value="/zoom-service/src/main/java/com/example/demo/ZoomServiceApplication.java;4083039246/1;/zoom-service/src/main/java/com/example/demo/service/CreateMeetingRequest.java;541941054/1;/zoom-service/src/main/java/com/example/demo/service/ZoomController.java;1828175913/1;/zoom-service/src/test/java/com/example/demo/ZoomServiceApplicationTests.java;2292512719/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_ruYTQXXwEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_ruY6UHXwEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_ruY6UXXwEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_ruY6UnXwEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_ruY6U3XwEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_ruY6VHXwEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_ruY6VXXwEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_ruY6VnXwEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_ruY6V3XwEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ruAf0HXwEfC_3fo_KXq00A" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ruBG4HXwEfC_3fo_KXq00A" name="example">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ruC8EHXwEfC_3fo_KXq00A" name="demo">
+          <packagedElement xmi:type="uml:Package" xmi:id="_ruF_YHXwEfC_3fo_KXq00A" name="service">
+            <packagedElement xmi:type="uml:Class" xmi:id="_rucksHXwEfC_3fo_KXq00A" name="ZoomController">
+              <ownedAttribute xmi:id="_rvVVgHXwEfC_3fo_KXq00A" name="accountId" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rvVVhHXwEfC_3fo_KXq00A" name="clientId" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rvVViHXwEfC_3fo_KXq00A" name="clientSecret" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rvV8knXwEfC_3fo_KXq00A" name="hostEmail" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rvV8lnXwEfC_3fo_KXq00A" name="objectMapper" visibility="private" isLeaf="true" type="_rvPO43XwEfC_3fo_KXq00A" isReadOnly="true" association="_rvXxwXXwEfC_3fo_KXq00A">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_rvV8l3XwEfC_3fo_KXq00A" value="new ObjectMapper()"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rvWjq3XwEfC_3fo_KXq00A" name="createMeeting" specification="_rvS5QHXwEfC_3fo_KXq00A">
+                <ownedParameter xmi:id="_rvWjrHXwEfC_3fo_KXq00A" name="req" type="_rvLkgXXwEfC_3fo_KXq00A"/>
+                <ownedParameter xmi:id="_rvWjrXXwEfC_3fo_KXq00A" type="_rvOAx3XwEfC_3fo_KXq00A" direction="return"/>
+                <language>java</language>
+                <body>String topic = req.getOrDefault(&quot;topic&quot;, &quot;Virtual Care Meeting&quot;);&#xD;
+     String accessToken = fetchAccessToken();&#xD;
+&#xD;
+     HttpPost post = new HttpPost(&quot;https://api.zoom.us/v2/users/&quot; + hostEmail + &quot;/meetings&quot;);&#xD;
+     post.setHeader(&quot;Authorization&quot;, &quot;Bearer &quot; + accessToken);&#xD;
+     post.setHeader(&quot;Content-Type&quot;, &quot;application/json&quot;);&#xD;
+&#xD;
+     Map&lt;String, Object> body = Map.of(&#xD;
+         &quot;topic&quot;, topic,&#xD;
+         &quot;type&quot;, 1 // Instant Meeting&#xD;
+     );&#xD;
+     post.setEntity(new StringEntity(objectMapper.writeValueAsString(body)));&#xD;
+&#xD;
+     try (var httpClient = HttpClients.createDefault();&#xD;
+          var response = httpClient.execute(post)) {&#xD;
+         String json = null;&#xD;
+			try {&#xD;
+				json = EntityUtils.toString(response.getEntity());&#xD;
+			} catch (ParseException e) {&#xD;
+				// TODO Auto-generated catch block&#xD;
+				e.printStackTrace();&#xD;
+			} catch (IOException e) {&#xD;
+				// TODO Auto-generated catch block&#xD;
+				e.printStackTrace();&#xD;
+			}&#xD;
+         return ResponseEntity.ok(json);&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rvWjrnXwEfC_3fo_KXq00A" name="fetchAccessToken" specification="_rudLwHXwEfC_3fo_KXq00A">
+                <ownedParameter xmi:id="_rvWjr3XwEfC_3fo_KXq00A" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>HttpPost post = new HttpPost(&quot;https://zoom.us/oauth/token&quot;);&#xD;
+     String authValue = Base64.getEncoder().encodeToString((clientId + &quot;:&quot; + clientSecret).getBytes());&#xD;
+     post.setHeader(&quot;Authorization&quot;, &quot;Basic &quot; + authValue);&#xD;
+     post.setHeader(&quot;Content-Type&quot;, &quot;application/x-www-form-urlencoded&quot;);&#xD;
+&#xD;
+     String body = &quot;grant_type=account_credentials&amp;account_id=&quot; + accountId;&#xD;
+     post.setEntity(new StringEntity(body));&#xD;
+&#xD;
+     try (var httpClient = HttpClients.createDefault();&#xD;
+          var response = httpClient.execute(post)) {&#xD;
+         String json = null;&#xD;
+			try {&#xD;
+				json = EntityUtils.toString(response.getEntity());&#xD;
+			} catch (ParseException e) {&#xD;
+				// TODO Auto-generated catch block&#xD;
+				e.printStackTrace();&#xD;
+			} catch (IOException e) {&#xD;
+				// TODO Auto-generated catch block&#xD;
+				e.printStackTrace();&#xD;
+			}&#xD;
+         return objectMapper.readTree(json).path(&quot;access_token&quot;).asText();&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_rudLwHXwEfC_3fo_KXq00A" name="fetchAccessToken" visibility="private" method="_rvWjrnXwEfC_3fo_KXq00A">
+                <ownedParameter xmi:id="_rudLwXXwEfC_3fo_KXq00A" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_rvS5QHXwEfC_3fo_KXq00A" name="createMeeting" method="_rvWjq3XwEfC_3fo_KXq00A">
+                <ownedParameter xmi:id="_rvS5QXXwEfC_3fo_KXq00A" name="req" type="_rvLkgXXwEfC_3fo_KXq00A"/>
+                <ownedParameter xmi:id="_rvS5Q3XwEfC_3fo_KXq00A" type="_rvOAx3XwEfC_3fo_KXq00A" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_rvXxwXXwEfC_3fo_KXq00A" name="" memberEnd="_rvXxwnXwEfC_3fo_KXq00A _rvV8lnXwEfC_3fo_KXq00A">
+              <ownedEnd xmi:id="_rvXxwnXwEfC_3fo_KXq00A" name="" type="_rucksHXwEfC_3fo_KXq00A" association="_rvXxwXXwEfC_3fo_KXq00A"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_rugPEHXwEfC_3fo_KXq00A" name="ZoomServiceApplicationTests" visibility="package">
+            <eAnnotations xmi:id="_rug2IHXwEfC_3fo_KXq00A" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_rug2IXXwEfC_3fo_KXq00A" source="codegen">
+                <details xmi:id="_rug2InXwEfC_3fo_KXq00A" key="codegenDirectory" value="/zoom-service/src/test/java"/>
+              </contents>
+            </eAnnotations>
+            <ownedOperation xmi:id="_ruhdMHXwEfC_3fo_KXq00A" name="contextLoads" visibility="package"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ruIbp3XwEfC_3fo_KXq00A" name="fasterxml">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ruIbqHXwEfC_3fo_KXq00A" name="jackson">
+          <packagedElement xmi:type="uml:Package" xmi:id="_ruIbqXXwEfC_3fo_KXq00A" name="databind">
+            <packagedElement xmi:type="uml:Class" xmi:id="_rvPO43XwEfC_3fo_KXq00A" name="ObjectMapper"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ruBt8HXwEfC_3fo_KXq00A" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ruBt8XXwEfC_3fo_KXq00A" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ruBt8nXwEfC_3fo_KXq00A" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="_ruBt83XwEfC_3fo_KXq00A" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_rvK9cnXwEfC_3fo_KXq00A" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_ruPJUHXwEfC_3fo_KXq00A" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="_ruPJUXXwEfC_3fo_KXq00A" name="context">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_rvREEnXwEfC_3fo_KXq00A" name="SpringBootTest"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_rvK9cHXwEfC_3fo_KXq00A" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_ruIboHXwEfC_3fo_KXq00A" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_ruIboXXwEfC_3fo_KXq00A" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_ruIbonXwEfC_3fo_KXq00A" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_rvOAxXXwEfC_3fo_KXq00A" name="Value"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_ruIbo3XwEfC_3fo_KXq00A" name="http">
+          <packagedElement xmi:type="uml:Class" xmi:id="_rvOAx3XwEfC_3fo_KXq00A" name="ResponseEntity"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_ruIbpHXwEfC_3fo_KXq00A" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_ruIbpXXwEfC_3fo_KXq00A" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_ruIbpnXwEfC_3fo_KXq00A" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_rvOn0XXwEfC_3fo_KXq00A" name="PostMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_rvOn03XwEfC_3fo_KXq00A" name="RequestBody"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_rvOn1XXwEfC_3fo_KXq00A" name="RequestMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_rvPO4XXwEfC_3fo_KXq00A" name="RestController"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ruH0kHXwEfC_3fo_KXq00A" name="apache">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ruH0kXXwEfC_3fo_KXq00A" name="hc">
+          <packagedElement xmi:type="uml:Package" xmi:id="_ruH0knXwEfC_3fo_KXq00A" name="client5">
+            <packagedElement xmi:type="uml:Package" xmi:id="_ruH0k3XwEfC_3fo_KXq00A" name="http">
+              <packagedElement xmi:type="uml:Package" xmi:id="_ruH0lHXwEfC_3fo_KXq00A" name="classic">
+                <packagedElement xmi:type="uml:Package" xmi:id="_ruH0lXXwEfC_3fo_KXq00A" name="methods">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_rvNZsHXwEfC_3fo_KXq00A" name="HttpPost"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_ruH0lnXwEfC_3fo_KXq00A" name="impl">
+                <packagedElement xmi:type="uml:Package" xmi:id="_ruH0l3XwEfC_3fo_KXq00A" name="classic">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_rvNZsnXwEfC_3fo_KXq00A" name="HttpClients"/>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_ruH0mHXwEfC_3fo_KXq00A" name="core5">
+            <packagedElement xmi:type="uml:Package" xmi:id="_ruH0mXXwEfC_3fo_KXq00A" name="http">
+              <packagedElement xmi:type="uml:Package" xmi:id="_ruH0mnXwEfC_3fo_KXq00A" name="io">
+                <packagedElement xmi:type="uml:Package" xmi:id="_ruH0m3XwEfC_3fo_KXq00A" name="entity">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_rvOAwXXwEfC_3fo_KXq00A" name="EntityUtils"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_rvOAw3XwEfC_3fo_KXq00A" name="StringEntity"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_rvNZtHXwEfC_3fo_KXq00A" name="ParseException"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ruOiQHXwEfC_3fo_KXq00A" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ruOiQXXwEfC_3fo_KXq00A" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_ruOiQnXwEfC_3fo_KXq00A" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_rvREEHXwEfC_3fo_KXq00A" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ruDjIHXwEfC_3fo_KXq00A" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ruEKMHXwEfC_3fo_KXq00A" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_rvLkgXXwEfC_3fo_KXq00A" name="Map"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rvMyoXXwEfC_3fo_KXq00A" name="Base64"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ruHNgHXwEfC_3fo_KXq00A" name="io"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_rvSSMHXwEfC_3fo_KXq00A" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_rvSSMXXwEfC_3fo_KXq00A" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_ro-O0HXwEfC_3fo_KXq00A">
+      <eAnnotations xmi:id="_ro-O0XXwEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_ro-O0nXwEfC_3fo_KXq00A" base_Package="_rlAU0HXwEfC_3fo_KXq00A">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rucksXXwEfC_3fo_KXq00A" base_Element="_rucksHXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_rudy0HXwEfC_3fo_KXq00A" base_Element="_rudLwHXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_rudy0XXwEfC_3fo_KXq00A" base_Element="_rucksHXwEfC_3fo_KXq00A">
+    <annotations xmi:id="_rudy0nXwEfC_3fo_KXq00A" name="RestController"/>
+    <annotations xmi:id="_rueZ4HXwEfC_3fo_KXq00A" name="RequestMapping">
+      <annotationParameters xmi:id="_rueZ4XXwEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_rvXKsHXwEfC_3fo_KXq00A" value="&quot;/api/zoom&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rug2I3XwEfC_3fo_KXq00A" base_Element="_rugPEHXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_ruhdMXXwEfC_3fo_KXq00A" base_Element="_ruhdMHXwEfC_3fo_KXq00A">
+    <annotations xmi:id="_ruhdMnXwEfC_3fo_KXq00A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_ruhdM3XwEfC_3fo_KXq00A" base_Element="_rugPEHXwEfC_3fo_KXq00A">
+    <annotations xmi:id="_ruhdNHXwEfC_3fo_KXq00A" name="SpringBootTest"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_rvK9cXXwEfC_3fo_KXq00A" base_Element="_rvK9cHXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvLkgHXwEfC_3fo_KXq00A" base_Element="_rvK9cnXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvLkgnXwEfC_3fo_KXq00A" base_Element="_rvLkgXXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvMyonXwEfC_3fo_KXq00A" base_Element="_rvMyoXXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvNZsXXwEfC_3fo_KXq00A" base_Element="_rvNZsHXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvNZs3XwEfC_3fo_KXq00A" base_Element="_rvNZsnXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvOAwHXwEfC_3fo_KXq00A" base_Element="_rvNZtHXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvOAwnXwEfC_3fo_KXq00A" base_Element="_rvOAwXXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvOAxHXwEfC_3fo_KXq00A" base_Element="_rvOAw3XwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvOAxnXwEfC_3fo_KXq00A" base_Element="_rvOAxXXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvOn0HXwEfC_3fo_KXq00A" base_Element="_rvOAx3XwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvOn0nXwEfC_3fo_KXq00A" base_Element="_rvOn0XXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvOn1HXwEfC_3fo_KXq00A" base_Element="_rvOn03XwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvPO4HXwEfC_3fo_KXq00A" base_Element="_rvOn1XXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvPO4nXwEfC_3fo_KXq00A" base_Element="_rvPO4XXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvP18HXwEfC_3fo_KXq00A" base_Element="_rvPO43XwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvREEXXwEfC_3fo_KXq00A" base_Element="_rvREEHXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvREE3XwEfC_3fo_KXq00A" base_Element="_rvREEnXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_rvSSMnXwEfC_3fo_KXq00A" base_Element="_rvSSMXXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_rvS5QnXwEfC_3fo_KXq00A" genericsValue="?" base_Element="_rvS5QHXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_rvTgUHXwEfC_3fo_KXq00A" genericsValue="String, String" base_Element="_rvS5QXXwEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_rvTgUXXwEfC_3fo_KXq00A" base_Element="_rvS5QXXwEfC_3fo_KXq00A">
+    <annotations xmi:id="_rvTgUnXwEfC_3fo_KXq00A" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_rvTgU3XwEfC_3fo_KXq00A" base_Element="_rvS5QHXwEfC_3fo_KXq00A">
+    <annotations xmi:id="_rvTgVHXwEfC_3fo_KXq00A" name="PostMapping">
+      <annotationParameters xmi:id="_rvTgVXXwEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_rvXKtXXwEfC_3fo_KXq00A" value="&quot;/meeting&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_rvVVgXXwEfC_3fo_KXq00A" base_Element="_rvVVgHXwEfC_3fo_KXq00A">
+    <annotations xmi:id="_rvVVgnXwEfC_3fo_KXq00A" name="Value">
+      <annotationParameters xmi:id="_rvVVg3XwEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_rvXKsXXwEfC_3fo_KXq00A" value="&quot;${zoom.accountId}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_rvVVhXXwEfC_3fo_KXq00A" base_Element="_rvVVhHXwEfC_3fo_KXq00A">
+    <annotations xmi:id="_rvVVhnXwEfC_3fo_KXq00A" name="Value">
+      <annotationParameters xmi:id="_rvVVh3XwEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_rvXKsnXwEfC_3fo_KXq00A" value="&quot;${zoom.clientId}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_rvVViXXwEfC_3fo_KXq00A" base_Element="_rvVViHXwEfC_3fo_KXq00A">
+    <annotations xmi:id="_rvV8kHXwEfC_3fo_KXq00A" name="Value">
+      <annotationParameters xmi:id="_rvV8kXXwEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_rvXKs3XwEfC_3fo_KXq00A" value="&quot;${zoom.clientSecret}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_rvV8k3XwEfC_3fo_KXq00A" base_Element="_rvV8knXwEfC_3fo_KXq00A">
+    <annotations xmi:id="_rvV8lHXwEfC_3fo_KXq00A" name="Value">
+      <annotationParameters xmi:id="_rvV8lXXwEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_rvXKtHXwEfC_3fo_KXq00A" value="&quot;${zoom.hostEmail}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_rvXxw3XwEfC_3fo_KXq00A" base_Element="_rvXxwXXwEfC_3fo_KXq00A"/>
+</xmi:XMI>

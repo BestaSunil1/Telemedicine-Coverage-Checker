@@ -22,7 +22,7 @@ public class SecurityConfig {
         http
             .csrf().disable()
             .authorizeHttpRequests(authz -> authz
-                .requestMatchers("/api/forgotpassword/**").permitAll()
+                .requestMatchers("/api/forgotpassword/**","/swagger-ui.html", "/swagger-ui/**", "/v3/api-docs/**", "/v3/api-docs.yaml").permitAll()        
                 .anyRequest().authenticated()
             );
         

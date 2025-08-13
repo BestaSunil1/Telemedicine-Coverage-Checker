@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_rmKycHXwEfC_3fo_KXq00A">
+  <modelElement href="zoom-service.uml#_ruF_YHXwEfC_3fo_KXq00A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rw0jQHXwEfC_3fo_KXq00A" source="_rw0jSXXwEfC_3fo_KXq00A">
+    <modelElement href="zoom-service.uml#_rvXxwXXwEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_rw0jQXXwEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="zoom-service.uml#_rvXxw3XwEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rw0jQnXwEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_rw0jQ3XwEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="zoom-service.uml#_rvXxwnXwEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_rw0jRHXwEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_rw0jRXXwEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rw0jRnXwEfC_3fo_KXq00A" aggregationKind="NONE" name="objectMapper" navigable="true">
+      <modelElement href="zoom-service.uml#_rvV8lnXwEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_rw0jR3XwEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_rw0jSHXwEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rw5bwHXwEfC_3fo_KXq00A" name="ZoomServiceApplicationTests">
+    <modelElement href="zoom-service.uml#_rugPEHXwEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_rw5bwXXwEfC_3fo_KXq00A" position="-675.0,-65.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_rw5bwnXwEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="zoom-service.uml#_rug2I3XwEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_rw5bw3XwEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="zoom-service.uml#_ruhdM3XwEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_rw5bxHXwEfC_3fo_KXq00A" label="~"/>
+    <operations xmi:id="_rw5bxXXwEfC_3fo_KXq00A" name="contextLoads">
+      <modelElement href="zoom-service.uml#_ruhdMHXwEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_rw5bxnXwEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="zoom-service.uml#_ruhdMXXwEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_rw5bx3XwEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_rw5byHXwEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rw0jSXXwEfC_3fo_KXq00A" name="ZoomController" associationsOut="_rw0jQHXwEfC_3fo_KXq00A">
+    <modelElement href="zoom-service.uml#_rucksHXwEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_rw0jSnXwEfC_3fo_KXq00A" position="-434.0,-65.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_rw0jS3XwEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="zoom-service.uml#_rucksXXwEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_rw0jTHXwEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="zoom-service.uml#_rudy0XXwEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_rw0jTXXwEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_rw0jTnXwEfC_3fo_KXq00A" name="accountId">
+      <modelElement href="zoom-service.uml#_rvVVgHXwEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_rw0jT3XwEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="zoom-service.uml#_rvVVgXXwEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_rw0jUHXwEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_rw0jUXXwEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_rw0jUnXwEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rw0jU3XwEfC_3fo_KXq00A" name="clientId">
+      <modelElement href="zoom-service.uml#_rvVVhHXwEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_rw0jVHXwEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="zoom-service.uml#_rvVVhXXwEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_rw0jVXXwEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_rw0jVnXwEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_rw0jV3XwEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rw0jWHXwEfC_3fo_KXq00A" name="clientSecret">
+      <modelElement href="zoom-service.uml#_rvVViHXwEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_rw0jWXXwEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="zoom-service.uml#_rvVViXXwEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_rw0jWnXwEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_rw0jW3XwEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_rw0jXHXwEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rw0jXXXwEfC_3fo_KXq00A" name="hostEmail">
+      <modelElement href="zoom-service.uml#_rvV8knXwEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_rw0jXnXwEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="zoom-service.uml#_rvV8k3XwEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_rw0jX3XwEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_rw0jYHXwEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_rw0jYXXwEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rw0jYnXwEfC_3fo_KXq00A" defaultValue="new ObjectMapper()" name="objectMapper">
+      <modelElement href="zoom-service.uml#_rvV8lnXwEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_rw0jY3XwEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_rw0jZHXwEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_rw0jZXXwEfC_3fo_KXq00A" name="ObjectMapper">
+        <modelElement href="zoom-service.uml#_rvPO43XwEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rw0jZnXwEfC_3fo_KXq00A" name="fetchAccessToken">
+      <modelElement href="zoom-service.uml#_rudLwHXwEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_rw0jZ3XwEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="zoom-service.uml#_rudy0HXwEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_rw0jaHXwEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_rw0jaXXwEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rw0janXwEfC_3fo_KXq00A">
+        <modelElement href="zoom-service.uml#_rudLwXXwEfC_3fo_KXq00A"/>
+        <type xmi:id="_rw0ja3XwEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rw0jbHXwEfC_3fo_KXq00A" name="createMeeting">
+      <modelElement href="zoom-service.uml#_rvS5QHXwEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_rw0jbXXwEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="zoom-service.uml#_rvS5QnXwEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rw0jbnXwEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="zoom-service.uml#_rvTgU3XwEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_rw0jb3XwEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_rw0jcHXwEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rw0jcXXwEfC_3fo_KXq00A">
+        <modelElement href="zoom-service.uml#_rvS5Q3XwEfC_3fo_KXq00A"/>
+        <type xmi:id="_rw0jcnXwEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="zoom-service.uml#_rvOAx3XwEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rw0jc3XwEfC_3fo_KXq00A" name="req">
+        <modelElement href="zoom-service.uml#_rvS5QXXwEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_rw0jdHXwEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_rw0jdXXwEfC_3fo_KXq00A" name="Map">
+          <modelElement href="zoom-service.uml#_rvLkgXXwEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

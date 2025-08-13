@@ -1,0 +1,2068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persistency="http:///schemas/Persistency/NS/0" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Persistency/NS/0 pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_LuBAAHXuEfC_3fo_KXq00A" name="insurence_service">
+    <eAnnotations xmi:id="_LyIrAHXuEfC_3fo_KXq00A" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_LyIrAXXuEfC_3fo_KXq00A" source="codegen">
+        <details xmi:id="_LyIrAnXuEfC_3fo_KXq00A" key="codegenDirectory" value="/insurence-service/src/main/java"/>
+        <details xmi:id="_MkUV4HXuEfC_3fo_KXq00A" key="AssociatedSourceCode" value="/insurence-service/src/main/java/training/iqgateway/InsurenceServiceApplication.java;1249947120/1;/insurence-service/src/main/java/training/iqgateway/config/GlobalExceptionHandler.java;766105636/1;/insurence-service/src/main/java/training/iqgateway/controller/InsuranceEligibilityController.java;3103786776/1;/insurence-service/src/test/java/training/iqgateway/InsurenceServiceApplicationTests.java;643474051/1;/insurence-service/src/main/java/training/iqgateway/repositories/UserRepository.java;847233436/1;/insurence-service/src/main/java/training/iqgateway/entities/EligibilityStatus.java;821267067/1;/insurence-service/src/main/java/training/iqgateway/entities/InsuranceCoverageStatus.java;214442997/1;/insurence-service/src/main/java/training/iqgateway/entities/InsuranceEligibility.java;3820136831/1;/insurence-service/src/main/java/training/iqgateway/entities/InsurancePlan.java;801733875/1;/insurence-service/src/main/java/training/iqgateway/entities/Patient.java;702987627/1;/insurence-service/src/main/java/training/iqgateway/entities/Role.java;2043567540/1;/insurence-service/src/main/java/training/iqgateway/entities/User.java;734953788/1;/insurence-service/src/main/java/training/iqgateway/repositories/InsuranceEligibilityRepository.java;1944239686/1;/insurence-service/src/main/java/training/iqgateway/repositories/InsurancePlanRepository.java;3058213048/1;/insurence-service/src/main/java/training/iqgateway/repositories/PatientRepository.java;764811504/1;/insurence-service/src/main/java/training/iqgateway/dtos/PatientInsuranceDTO.java;4251940011/1;/insurence-service/src/main/java/training/iqgateway/service/InsuranceEligibilityService.java;2482694085/1;/insurence-service/src/main/java/training/iqgateway/dtos/EligibilityCheckResponse.java;190766857/1;/insurence-service/src/main/java/training/iqgateway/dtos/EligibilityCheckRequest.java;3503159833/1;/insurence-service/src/test/java/training/iqgateway/controller/InsuranceEligibilityControllerTest.java;1936734681/0;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_L85wkXXuEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_L85wknXuEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_L85wk3XuEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_L85wlHXuEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_L85wlXXuEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_L85wlnXuEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_L85wl3XuEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_L85wmHXuEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_L86XoHXuEfC_3fo_KXq00A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_L8ObIHXuEfC_3fo_KXq00A" name="training">
+      <packagedElement xmi:type="uml:Package" xmi:id="_L8PpQ3XuEfC_3fo_KXq00A" name="iqgateway">
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8RecHXuEfC_3fo_KXq00A" name="config">
+          <packagedElement xmi:type="uml:Class" xmi:id="_L86-sHXuEfC_3fo_KXq00A" name="GlobalExceptionHandler">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCs2k3XuEfC_3fo_KXq00A" name="handleRuntimeException" specification="_MCRYwHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCs2lHXuEfC_3fo_KXq00A" name="e" type="_MCQxsHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCs2lXXuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>Map&lt;String, String> error = new HashMap&lt;>();&#xD;
+     error.put(&quot;error&quot;, e.getMessage());&#xD;
+     error.put(&quot;timestamp&quot;, LocalDateTime.now().toString());&#xD;
+     return ResponseEntity.badRequest().body(error);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCs2lnXuEfC_3fo_KXq00A" name="handleValidationException" specification="_MCR_0XXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCs2l3XuEfC_3fo_KXq00A" name="e" type="_MBvNQ3XuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCs2mHXuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>Map&lt;String, String> errors = new HashMap&lt;>();&#xD;
+     e.getBindingResult().getFieldErrors().forEach(error ->&#xD;
+         errors.put(error.getField(), error.getDefaultMessage())&#xD;
+     );&#xD;
+     return ResponseEntity.badRequest().body(errors);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_MCRYwHXuEfC_3fo_KXq00A" name="handleRuntimeException" method="_MCs2k3XuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCRYwXXuEfC_3fo_KXq00A" name="e" type="_MCQxsHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCRYw3XuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MCR_0XXuEfC_3fo_KXq00A" name="handleValidationException" method="_MCs2lnXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCR_0nXuEfC_3fo_KXq00A" name="e" type="_MBvNQ3XuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCSm4HXuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8SFhHXuEfC_3fo_KXq00A" name="dtos">
+          <packagedElement xmi:type="uml:Class" xmi:id="_L9owYHXuEfC_3fo_KXq00A" name="PatientInsuranceDTO">
+            <ownedAttribute xmi:id="_MColJ3XuEfC_3fo_KXq00A" name="eligibilityId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MColKXXuEfC_3fo_KXq00A" name="planName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCpMMXXuEfC_3fo_KXq00A" name="planProvider">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCpMM3XuEfC_3fo_KXq00A" name="planType">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCpMNXXuEfC_3fo_KXq00A" name="planCost">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCpMN3XuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A" association="_MC1Zc3XuEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_MCpMOXXuEfC_3fo_KXq00A" name="benefitDetails">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCpMO3XuEfC_3fo_KXq00A" name="verifiedAt" type="_MBumMHXuEfC_3fo_KXq00A" association="_MC2AgHXuEfC_3fo_KXq00A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCwg8HXuEfC_3fo_KXq00A" name="PatientInsuranceDTO" specification="_MCZ7oHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCwg8XXuEfC_3fo_KXq00A" name="eligibilityId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCwg8nXuEfC_3fo_KXq00A" name="planName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCwg83XuEfC_3fo_KXq00A" name="planProvider">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCwg9HXuEfC_3fo_KXq00A" name="planType">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCwg9XXuEfC_3fo_KXq00A" name="planCost">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCwg9nXuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCwg93XuEfC_3fo_KXq00A" name="benefitDetails">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCwg-HXuEfC_3fo_KXq00A" name="verifiedAt" type="_MBumMHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCwg-XXuEfC_3fo_KXq00A" type="_L9owYHXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.eligibilityId = eligibilityId;&#xD;
+		this.planName = planName;&#xD;
+		this.planProvider = planProvider;&#xD;
+		this.planType = planType;&#xD;
+		this.planCost = planCost;&#xD;
+		this.status = status;&#xD;
+		this.benefitDetails = benefitDetails;&#xD;
+		this.verifiedAt = verifiedAt;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_L9qlkHXuEfC_3fo_KXq00A" name="PatientInsuranceDTO">
+              <eAnnotations xmi:id="_L9rMoHXuEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_L9rMoXXuEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_L9rMonXuEfC_3fo_KXq00A" type="_L9owYHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MCZ7oHXuEfC_3fo_KXq00A" name="PatientInsuranceDTO" method="_MCwg8HXuEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_MCaitHXuEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_MCaitXXuEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_MCZ7oXXuEfC_3fo_KXq00A" name="eligibilityId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCZ7onXuEfC_3fo_KXq00A" name="planName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCZ7o3XuEfC_3fo_KXq00A" name="planProvider">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCZ7pHXuEfC_3fo_KXq00A" name="planType">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCaisHXuEfC_3fo_KXq00A" name="planCost">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCaisXXuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCaisnXuEfC_3fo_KXq00A" name="benefitDetails">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCais3XuEfC_3fo_KXq00A" name="verifiedAt" type="_MBumMHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCaitnXuEfC_3fo_KXq00A" type="_L9owYHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_L90WkHXuEfC_3fo_KXq00A" name="EligibilityCheckResponse">
+            <ownedAttribute xmi:id="_MCqaUHXuEfC_3fo_KXq00A" name="patientId" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCqaUXXuEfC_3fo_KXq00A" name="patientName" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCqaUnXuEfC_3fo_KXq00A" name="insurancePlanId" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCqaU3XuEfC_3fo_KXq00A" name="planName" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCqaVHXuEfC_3fo_KXq00A" name="planProvider" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCrBYHXuEfC_3fo_KXq00A" name="eligibilityStatus" visibility="private" type="_L9EIpXXuEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_MCrBYXXuEfC_3fo_KXq00A" name="coverageStatus" visibility="private" type="_L9EvtXXuEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_MCrBYnXuEfC_3fo_KXq00A" name="benefitDetails" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCrBY3XuEfC_3fo_KXq00A" name="verifiedAt" visibility="private" type="_MBumMHXuEfC_3fo_KXq00A" association="_MDdrkXXuEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_MCrBZHXuEfC_3fo_KXq00A" name="isEligibleForBooking" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCrBZXXuEfC_3fo_KXq00A" name="message" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCrBZnXuEfC_3fo_KXq00A" name="coverages" visibility="private" isOrdered="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MCrBZ3XuEfC_3fo_KXq00A" value="*"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_L92y0HXuEfC_3fo_KXq00A" name="EligibilityCheckRequest">
+            <ownedAttribute xmi:id="_MCrocHXuEfC_3fo_KXq00A" name="patientId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCrocnXuEfC_3fo_KXq00A" name="insurancePlanId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCrodHXuEfC_3fo_KXq00A" name="userEmail">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCyWIHXuEfC_3fo_KXq00A" name="EligibilityCheckRequest" specification="_L94oBHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCyWIXXuEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCyWInXuEfC_3fo_KXq00A" name="insurancePlanId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCyWI3XuEfC_3fo_KXq00A" name="userEmail">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCyWJHXuEfC_3fo_KXq00A" type="_L92y0HXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>this.patientId = patientId;
+		this.insurancePlanId = insurancePlanId;
+		this.userEmail = userEmail;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCyWJXXuEfC_3fo_KXq00A" name="toString" specification="_L95PEXXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCyWJnXuEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return &quot;EligibilityCheckRequest{&quot; +
+				&quot;patientId='&quot; + patientId + '\'' +
+				&quot;, insurancePlanId='&quot; + insurancePlanId + '\'' +
+				&quot;, userEmail='&quot; + userEmail + '\'' +
+				'}';
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_L94oAHXuEfC_3fo_KXq00A" name="EligibilityCheckRequest">
+              <eAnnotations xmi:id="_L94oAXXuEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_L94oAnXuEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_L94oA3XuEfC_3fo_KXq00A" type="_L92y0HXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L94oBHXuEfC_3fo_KXq00A" name="EligibilityCheckRequest" method="_MCyWIHXuEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_L94oCHXuEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_L94oCXXuEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_L94oBXXuEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_L94oBnXuEfC_3fo_KXq00A" name="insurancePlanId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_L94oB3XuEfC_3fo_KXq00A" name="userEmail">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_L94oCnXuEfC_3fo_KXq00A" type="_L92y0HXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L95PEXXuEfC_3fo_KXq00A" name="toString" method="_MCyWJXXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_L95PEnXuEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_MC1Zc3XuEfC_3fo_KXq00A" name="" memberEnd="_MCpMN3XuEfC_3fo_KXq00A _MC1ZdHXuEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_MC1ZdHXuEfC_3fo_KXq00A" name="" type="_L9owYHXuEfC_3fo_KXq00A" association="_MC1Zc3XuEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_MC2AgHXuEfC_3fo_KXq00A" name="" memberEnd="_MCpMO3XuEfC_3fo_KXq00A _MC2AgXXuEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_MC2AgXXuEfC_3fo_KXq00A" name="" type="_L9owYHXuEfC_3fo_KXq00A" association="_MC2AgHXuEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_MDdrkXXuEfC_3fo_KXq00A" name="" memberEnd="_MDdrknXuEfC_3fo_KXq00A _MCrBY3XuEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_MDdrknXuEfC_3fo_KXq00A" name="" type="_L90WkHXuEfC_3fo_KXq00A" association="_MDdrkXXuEfC_3fo_KXq00A"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8SFhXXuEfC_3fo_KXq00A" name="entities">
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_L9EIpXXuEfC_3fo_KXq00A" name="EligibilityStatus">
+            <ownedLiteral xmi:id="_L9EvsXXuEfC_3fo_KXq00A" name="VERIFIED"/>
+            <ownedLiteral xmi:id="_L9EvsnXuEfC_3fo_KXq00A" name="PENDING"/>
+            <ownedLiteral xmi:id="_L9Evs3XuEfC_3fo_KXq00A" name="NOTELIGIBLE"/>
+            <ownedLiteral xmi:id="_L9EvtHXuEfC_3fo_KXq00A" name="EXPIRED"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_L9EvtXXuEfC_3fo_KXq00A" name="InsuranceCoverageStatus">
+            <ownedLiteral xmi:id="_L9FWwHXuEfC_3fo_KXq00A" name="COVERED"/>
+            <ownedLiteral xmi:id="_L9FWwXXuEfC_3fo_KXq00A" name="NOT_COVERED"/>
+            <ownedLiteral xmi:id="_L9FWwnXuEfC_3fo_KXq00A" name="UNKNOWN"/>
+            <ownedLiteral xmi:id="_L9FWw3XuEfC_3fo_KXq00A" name="PENDING"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_L9FWxHXuEfC_3fo_KXq00A" name="InsuranceEligibility">
+            <ownedAttribute xmi:id="_MCeNEHXuEfC_3fo_KXq00A" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCgCQnXuEfC_3fo_KXq00A" name="patient" type="_L9UAQHXuEfC_3fo_KXq00A" association="_MC9VQXXuEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_MCgpVnXuEfC_3fo_KXq00A" name="plan" type="_L9LdYHXuEfC_3fo_KXq00A" association="_MDAYkXXuEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_MChQYnXuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A" association="_MC0LUHXuEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_MChQZHXuEfC_3fo_KXq00A" name="verifiedAt" type="_MBumMHXuEfC_3fo_KXq00A" association="_MC0LUnXuEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_MChQZnXuEfC_3fo_KXq00A" name="benefitDetails">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCurwHXuEfC_3fo_KXq00A" name="InsuranceEligibility" specification="_MCT1AHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCurwXXuEfC_3fo_KXq00A" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCurwnXuEfC_3fo_KXq00A" name="patient" type="_L9UAQHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCurw3XuEfC_3fo_KXq00A" name="plan" type="_L9LdYHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCurxHXuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCurxXXuEfC_3fo_KXq00A" name="verifiedAt" type="_MBumMHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCurxnXuEfC_3fo_KXq00A" name="benefitDetails">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCurx3XuEfC_3fo_KXq00A" type="_L9FWxHXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>super();
+		this.id = id;
+		this.patient = patient;
+		this.plan = plan;
+		this.status = status;
+		this.verifiedAt = verifiedAt;
+		this.benefitDetails = benefitDetails;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_L9HL8HXuEfC_3fo_KXq00A" name="InsuranceEligibility">
+              <eAnnotations xmi:id="_L9HL8XXuEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_L9HL8nXuEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_L9HL83XuEfC_3fo_KXq00A" type="_L9FWxHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MCT1AHXuEfC_3fo_KXq00A" name="InsuranceEligibility" method="_MCurwHXuEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_MCUcEnXuEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_MCUcE3XuEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_MCT1AXXuEfC_3fo_KXq00A" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCT1AnXuEfC_3fo_KXq00A" name="patient" type="_L9UAQHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCT1A3XuEfC_3fo_KXq00A" name="plan" type="_L9LdYHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCT1BHXuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCUcEHXuEfC_3fo_KXq00A" name="verifiedAt" type="_MBumMHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCUcEXXuEfC_3fo_KXq00A" name="benefitDetails">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCUcFHXuEfC_3fo_KXq00A" type="_L9FWxHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_L9LdYHXuEfC_3fo_KXq00A" name="InsurancePlan">
+            <ownedAttribute xmi:id="_MChQaHXuEfC_3fo_KXq00A" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCh3cnXuEfC_3fo_KXq00A" name="planProvider">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCieiHXuEfC_3fo_KXq00A" name="planName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCjFmHXuEfC_3fo_KXq00A" name="planType">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCjspnXuEfC_3fo_KXq00A" name="planDescription">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCkTs3XuEfC_3fo_KXq00A" name="planCost">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCk6w3XuEfC_3fo_KXq00A" name="isActive" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCk6x3XuEfC_3fo_KXq00A" name="coverages" visibility="private" isOrdered="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MCk6yHXuEfC_3fo_KXq00A" value="*"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_MClh0HXuEfC_3fo_KXq00A" value="new java.util.ArrayList&lt;>()"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCvS1HXuEfC_3fo_KXq00A" name="InsurancePlan" specification="_MCVDIHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCvS1XXuEfC_3fo_KXq00A" name="planProvider">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCvS1nXuEfC_3fo_KXq00A" name="planName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCvS13XuEfC_3fo_KXq00A" name="planType">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCvS2HXuEfC_3fo_KXq00A" name="planDescription">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCvS2XXuEfC_3fo_KXq00A" name="planCost">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCvS2nXuEfC_3fo_KXq00A" name="isActive">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCvS23XuEfC_3fo_KXq00A" name="coverages" type="_MBv0U3XuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCvS3HXuEfC_3fo_KXq00A" type="_L9LdYHXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>this.planProvider = planProvider;&#xD;
+     this.planName = planName;&#xD;
+     this.planType = planType;&#xD;
+     this.planDescription = planDescription;&#xD;
+     this.planCost = planCost;&#xD;
+     this.isActive = isActive;&#xD;
+     this.coverages = coverages;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCvS3XXuEfC_3fo_KXq00A" name="isActive" specification="_L9OgsHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCvS3nXuEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return isActive;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCvS33XuEfC_3fo_KXq00A" name="setActive" specification="_L9Ogs3XuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCvS4HXuEfC_3fo_KXq00A" name="active">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>isActive = active;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCvS4XXuEfC_3fo_KXq00A" name="getCoverages" specification="_L9PHwXXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCvS4nXuEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MCvS43XuEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return coverages;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCvS5HXuEfC_3fo_KXq00A" name="setCoverages" specification="_MCVqM3XuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCvS5XXuEfC_3fo_KXq00A" name="coverages" type="_MBv0U3XuEfC_3fo_KXq00A"/>
+              <language>java</language>
+              <body>this.coverages = coverages;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCvS5nXuEfC_3fo_KXq00A" name="toString" specification="_L9Pu0HXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCvS53XuEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return &quot;HealthInsurancePlan{&quot; +&#xD;
+             &quot;planProvider='&quot; + planProvider + '\'' +&#xD;
+             &quot;, planName='&quot; + planName + '\'' +&#xD;
+             &quot;, planType='&quot; + planType + '\'' +&#xD;
+             &quot;, planDescription='&quot; + planDescription + '\'' +&#xD;
+             &quot;, planCost=&quot; + planCost +&#xD;
+             &quot;, isActive=&quot; + isActive +&#xD;
+             &quot;, coverages=&quot; + coverages +&#xD;
+             '}';&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_L9N5oHXuEfC_3fo_KXq00A" name="InsurancePlan">
+              <eAnnotations xmi:id="_L9N5oXXuEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_L9N5onXuEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_L9N5o3XuEfC_3fo_KXq00A" type="_L9LdYHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L9OgsHXuEfC_3fo_KXq00A" name="isActive" method="_MCvS3XXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_L9OgsXXuEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L9Ogs3XuEfC_3fo_KXq00A" name="setActive" method="_MCvS33XuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_L9OgtHXuEfC_3fo_KXq00A" name="active">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L9PHwXXuEfC_3fo_KXq00A" name="getCoverages" method="_MCvS4XXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_L9PHwnXuEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L9PHw3XuEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L9Pu0HXuEfC_3fo_KXq00A" name="toString" method="_MCvS5nXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_L9Pu0XXuEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MCVDIHXuEfC_3fo_KXq00A" name="InsurancePlan" method="_MCvS1HXuEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_MCVDKHXuEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_MCVDKXXuEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_MCVDIXXuEfC_3fo_KXq00A" name="planProvider">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCVDInXuEfC_3fo_KXq00A" name="planName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCVDI3XuEfC_3fo_KXq00A" name="planType">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCVDJHXuEfC_3fo_KXq00A" name="planDescription">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCVDJXXuEfC_3fo_KXq00A" name="planCost">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCVDJnXuEfC_3fo_KXq00A" name="isActive">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCVDJ3XuEfC_3fo_KXq00A" name="coverages" type="_MBv0U3XuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCVqMHXuEfC_3fo_KXq00A" type="_L9LdYHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MCVqM3XuEfC_3fo_KXq00A" name="setCoverages" method="_MCvS5HXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCVqNHXuEfC_3fo_KXq00A" name="coverages" type="_MBv0U3XuEfC_3fo_KXq00A"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_L9UAQHXuEfC_3fo_KXq00A" name="Patient">
+            <ownedAttribute xmi:id="_MCmI4HXuEfC_3fo_KXq00A" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCmI43XuEfC_3fo_KXq00A" name="user" type="_L9at8nXuEfC_3fo_KXq00A" association="_MDEC8XXuEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_MCmv93XuEfC_3fo_KXq00A" name="dateOfBirth">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCnXAHXuEfC_3fo_KXq00A" name="gender">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCnXAnXuEfC_3fo_KXq00A" name="contactNumber">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCv55HXuEfC_3fo_KXq00A" name="Patient" specification="_MB6zcHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCv55XXuEfC_3fo_KXq00A" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCv55nXuEfC_3fo_KXq00A" name="user" type="_L9at8nXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCv553XuEfC_3fo_KXq00A" name="dateOfBirth">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCv56HXuEfC_3fo_KXq00A" name="gender">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCv56XXuEfC_3fo_KXq00A" name="contactNumber">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCv56nXuEfC_3fo_KXq00A" type="_L9UAQHXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.id = id;&#xD;
+		this.user = user;&#xD;
+		this.dateOfBirth = dateOfBirth;&#xD;
+		this.gender = gender;&#xD;
+		this.contactNumber = contactNumber;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCv563XuEfC_3fo_KXq00A" name="toString" specification="_L9XDkHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCv57HXuEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return &quot;Patient [id=&quot; + id + &quot;, user=&quot; + user + &quot;, dateOfBirth=&quot; + dateOfBirth + &quot;, gender=&quot; + gender&#xD;
+				+ &quot;, contactNumber=&quot; + contactNumber + &quot;]&quot;;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_L9V1cHXuEfC_3fo_KXq00A" name="Patient">
+              <eAnnotations xmi:id="_L9WcgHXuEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_L9WcgXXuEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_L9WcgnXuEfC_3fo_KXq00A" type="_L9UAQHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L9XDkHXuEfC_3fo_KXq00A" name="toString" method="_MCv563XuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_L9XDkXXuEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MB6zcHXuEfC_3fo_KXq00A" name="Patient" method="_MCv55HXuEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_MB6zdnXuEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_MB6zd3XuEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_MB6zcXXuEfC_3fo_KXq00A" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MB6zcnXuEfC_3fo_KXq00A" name="user" type="_L9at8nXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MB6zc3XuEfC_3fo_KXq00A" name="dateOfBirth">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MB6zdHXuEfC_3fo_KXq00A" name="gender">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MB6zdXXuEfC_3fo_KXq00A" name="contactNumber">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MB6zeHXuEfC_3fo_KXq00A" type="_L9UAQHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_L9Zf0HXuEfC_3fo_KXq00A" name="Role">
+            <ownedLiteral xmi:id="_L9aG4XXuEfC_3fo_KXq00A" name="ADMIN"/>
+            <ownedLiteral xmi:id="_L9at8HXuEfC_3fo_KXq00A" name="PATIENT"/>
+            <ownedLiteral xmi:id="_L9at8XXuEfC_3fo_KXq00A" name="DOCTOR"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_L9at8nXuEfC_3fo_KXq00A" name="User">
+            <ownedAttribute xmi:id="_MCnXBHXuEfC_3fo_KXq00A" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCn-EXXuEfC_3fo_KXq00A" name="username">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCn-E3XuEfC_3fo_KXq00A" name="email">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCn-HHXuEfC_3fo_KXq00A" name="password">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MCn-HnXuEfC_3fo_KXq00A" name="role" type="_L9Zf0HXuEfC_3fo_KXq00A" association="_MC1ZcXXuEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_MColIXXuEfC_3fo_KXq00A" name="createdAt" type="_MBumMHXuEfC_3fo_KXq00A" association="_MDIUYXXuEfC_3fo_KXq00A">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_MColInXuEfC_3fo_KXq00A" value="LocalDateTime.now()"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MColJHXuEfC_3fo_KXq00A" name="updatedAt" type="_MBumMHXuEfC_3fo_KXq00A" association="_MDNM4HXuEfC_3fo_KXq00A">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_MColJXXuEfC_3fo_KXq00A" value="LocalDateTime.now()"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCv58XXuEfC_3fo_KXq00A" name="User" specification="_MCXfYHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCv58nXuEfC_3fo_KXq00A" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCv583XuEfC_3fo_KXq00A" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCv59HXuEfC_3fo_KXq00A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCv59XXuEfC_3fo_KXq00A" name="password">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCv59nXuEfC_3fo_KXq00A" name="role" type="_L9Zf0HXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCv593XuEfC_3fo_KXq00A" name="createdAt" type="_MBumMHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCv5-HXuEfC_3fo_KXq00A" name="updatedAt" type="_MBumMHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCv5-XXuEfC_3fo_KXq00A" type="_L9at8nXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.id = id;&#xD;
+		this.username = username;&#xD;
+		this.email = email;&#xD;
+		this.password = password;&#xD;
+		this.role = role;&#xD;
+		this.createdAt = createdAt;&#xD;
+		this.updatedAt = updatedAt;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_L9b8EHXuEfC_3fo_KXq00A" name="User">
+              <eAnnotations xmi:id="_L9b8EXXuEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_L9b8EnXuEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_L9b8E3XuEfC_3fo_KXq00A" type="_L9at8nXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MCXfYHXuEfC_3fo_KXq00A" name="User" method="_MCv58XXuEfC_3fo_KXq00A">
+              <eAnnotations xmi:id="_MCXfaHXuEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_MCXfaXXuEfC_3fo_KXq00A" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_MCXfYXXuEfC_3fo_KXq00A" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCXfYnXuEfC_3fo_KXq00A" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCXfY3XuEfC_3fo_KXq00A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCXfZHXuEfC_3fo_KXq00A" name="password">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCXfZXXuEfC_3fo_KXq00A" name="role" type="_L9Zf0HXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCXfZnXuEfC_3fo_KXq00A" name="createdAt" type="_MBumMHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCXfZ3XuEfC_3fo_KXq00A" name="updatedAt" type="_MBumMHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCXfanXuEfC_3fo_KXq00A" type="_L9at8nXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_MC0LUHXuEfC_3fo_KXq00A" name="" memberEnd="_MChQYnXuEfC_3fo_KXq00A _MC0LUXXuEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_MC0LUXXuEfC_3fo_KXq00A" name="" type="_L9FWxHXuEfC_3fo_KXq00A" association="_MC0LUHXuEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_MC0LUnXuEfC_3fo_KXq00A" name="" memberEnd="_MChQZHXuEfC_3fo_KXq00A _MC0LU3XuEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_MC0LU3XuEfC_3fo_KXq00A" name="" type="_L9FWxHXuEfC_3fo_KXq00A" association="_MC0LUnXuEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_MC1ZcXXuEfC_3fo_KXq00A" name="" memberEnd="_MCn-HnXuEfC_3fo_KXq00A _MC1ZcnXuEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_MC1ZcnXuEfC_3fo_KXq00A" name="" type="_L9at8nXuEfC_3fo_KXq00A" association="_MC1ZcXXuEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_MC9VQXXuEfC_3fo_KXq00A" name="" memberEnd="_MC9VQnXuEfC_3fo_KXq00A _MCgCQnXuEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_MC9VQnXuEfC_3fo_KXq00A" name="" type="_L9FWxHXuEfC_3fo_KXq00A" association="_MC9VQXXuEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_MDAYkXXuEfC_3fo_KXq00A" name="" memberEnd="_MDAYknXuEfC_3fo_KXq00A _MCgpVnXuEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_MDAYknXuEfC_3fo_KXq00A" name="" type="_L9FWxHXuEfC_3fo_KXq00A" association="_MDAYkXXuEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_MDEC8XXuEfC_3fo_KXq00A" name="" memberEnd="_MDEC8nXuEfC_3fo_KXq00A _MCmI43XuEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_MDEC8nXuEfC_3fo_KXq00A" name="" type="_L9UAQHXuEfC_3fo_KXq00A" association="_MDEC8XXuEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_MDIUYXXuEfC_3fo_KXq00A" name="" memberEnd="_MDI7cHXuEfC_3fo_KXq00A _MColIXXuEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_MDI7cHXuEfC_3fo_KXq00A" name="" type="_L9at8nXuEfC_3fo_KXq00A" association="_MDIUYXXuEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_MDNM4HXuEfC_3fo_KXq00A" name="" memberEnd="_MDNM4XXuEfC_3fo_KXq00A _MColJHXuEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_MDNM4XXuEfC_3fo_KXq00A" name="" type="_L9at8nXuEfC_3fo_KXq00A" association="_MDNM4HXuEfC_3fo_KXq00A"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8SFhnXuEfC_3fo_KXq00A" name="service">
+          <packagedElement xmi:type="uml:Class" xmi:id="_L9to4HXuEfC_3fo_KXq00A" name="InsuranceEligibilityService">
+            <ownedAttribute xmi:id="_MCpMPXXuEfC_3fo_KXq00A" name="patientRepository" visibility="private" type="_L9mUIHXuEfC_3fo_KXq00A" association="_MDReUXXuEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_MCpzQnXuEfC_3fo_KXq00A" name="insurancePlanRepository" visibility="private" type="_L9jQ0HXuEfC_3fo_KXq00A" association="_MDVvwHXuEfC_3fo_KXq00A"/>
+            <ownedAttribute xmi:id="_MCpzRXXuEfC_3fo_KXq00A" name="eligibilityRepository" visibility="private" type="_L9fmcHXuEfC_3fo_KXq00A" association="_MDZaIXXuEfC_3fo_KXq00A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCwg-nXuEfC_3fo_KXq00A" name="checkEligibility" specification="_MCFLgHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCwg-3XuEfC_3fo_KXq00A" name="request" type="_L92y0HXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCwg_HXuEfC_3fo_KXq00A" type="_L90WkHXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         // Find patient&#xD;
+         Patient patient = findPatient(request);&#xD;
+         System.out.println(&quot;Patient found: &quot; + (patient != null ? patient.getId() : &quot;null&quot;));&#xD;
+         if (patient == null) {&#xD;
+             return createErrorResponse(&quot;Patient not found&quot;, request.getInsurancePlanId());&#xD;
+         }&#xD;
+         &#xD;
+         // Find insurance plan&#xD;
+         Optional&lt;InsurancePlan> planOpt = insurancePlanRepository.findById(request.getInsurancePlanId());&#xD;
+         if (planOpt.isEmpty() || !planOpt.get().isActive()) {&#xD;
+             return createErrorResponse(&quot;Insurance plan not found or inactive&quot;, request.getInsurancePlanId());&#xD;
+         }&#xD;
+         System.out.println(&quot;Insurance plan found: &quot; + planOpt.get().getId());&#xD;
+         InsurancePlan plan = planOpt.get();&#xD;
+         System.out.println(&quot;Insurance plan details: &quot; + plan.getPlanName() + &quot;, &quot; + plan.getPlanProvider());&#xD;
+         // Check existing eligibility - ONLY CHECK, DON'T CREATE&#xD;
+         Optional&lt;InsuranceEligibility> eligibilityOpt = &#xD;
+             eligibilityRepository.findByPatient_IdAndPlan_Id(patient.getId(), plan.getId());&#xD;
+         System.out.println(&quot;Eligibility found: &quot; + (eligibilityOpt.isPresent() ? eligibilityOpt.get().getId() : &quot;null&quot;));&#xD;
+         if (eligibilityOpt.isPresent()) {&#xD;
+             return buildResponseFromExistingEligibility(patient, plan, eligibilityOpt.get());&#xD;
+         } else {&#xD;
+             // NO ELIGIBILITY RECORD FOUND - CANNOT BOOK&#xD;
+             return createNotFoundResponse(patient, plan);&#xD;
+         }&#xD;
+         &#xD;
+     } catch (Exception e) {&#xD;
+         log.error(&quot;Error checking eligibility: &quot;, e);&#xD;
+         return createErrorResponse(&quot;Error checking eligibility: &quot; + e.getMessage(), &#xD;
+                                  request.getInsurancePlanId());&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCxIAHXuEfC_3fo_KXq00A" name="getPatientInsurancePlans" specification="_L9veEHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCxIAXXuEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCxIAnXuEfC_3fo_KXq00A" type="_L9owYHXuEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MCxIA3XuEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>List&lt;InsuranceEligibility> eligibilities = eligibilityRepository.findByPatientId(patientId);&#xD;
+     &#xD;
+     return eligibilities.stream()&#xD;
+             .map(this::convertToDTO)&#xD;
+             .collect(Collectors.toList());&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCxIBHXuEfC_3fo_KXq00A" name="verifyEligibility" specification="_MCFykXXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCxIBXXuEfC_3fo_KXq00A" name="eligibilityId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCxIBnXuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCxIB3XuEfC_3fo_KXq00A" name="benefitDetails">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCxICHXuEfC_3fo_KXq00A" type="_L90WkHXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>Optional&lt;InsuranceEligibility> eligibilityOpt = eligibilityRepository.findById(eligibilityId);&#xD;
+     &#xD;
+     if (eligibilityOpt.isEmpty()) {&#xD;
+         return createErrorResponse(&quot;Eligibility record not found&quot;, null);&#xD;
+     }&#xD;
+     &#xD;
+     InsuranceEligibility eligibility = eligibilityOpt.get();&#xD;
+     eligibility.setStatus(status);&#xD;
+     eligibility.setBenefitDetails(benefitDetails);&#xD;
+     eligibility.setVerifiedAt(LocalDateTime.now());&#xD;
+     &#xD;
+     eligibilityRepository.save(eligibility);&#xD;
+     &#xD;
+     return buildResponseFromExistingEligibility(&#xD;
+         eligibility.getPatient(), &#xD;
+         eligibility.getPlan(), &#xD;
+         eligibility&#xD;
+     );&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCxICXXuEfC_3fo_KXq00A" name="createEligibilityRecord" specification="_L9wsMHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCxICnXuEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCxIC3XuEfC_3fo_KXq00A" name="planId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCxIDHXuEfC_3fo_KXq00A" type="_L9FWxHXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>Patient patient = patientRepository.findById(patientId)&#xD;
+         .orElseThrow(() -> new RuntimeException(&quot;Patient not found&quot;));&#xD;
+     &#xD;
+     InsurancePlan plan = insurancePlanRepository.findById(planId)&#xD;
+         .orElseThrow(() -> new RuntimeException(&quot;Insurance plan not found&quot;));&#xD;
+     &#xD;
+     InsuranceEligibility eligibility = InsuranceEligibility.builder()&#xD;
+         .patient(patient)&#xD;
+         .plan(plan)&#xD;
+         .status(EligibilityStatus.PENDING)&#xD;
+         .build();&#xD;
+     &#xD;
+     return eligibilityRepository.save(eligibility);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCxIDXXuEfC_3fo_KXq00A" name="findPatient" specification="_MCFymHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCxIDnXuEfC_3fo_KXq00A" name="request" type="_L92y0HXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCxID3XuEfC_3fo_KXq00A" type="_L9UAQHXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>if (request.getPatientId() != null) {&#xD;
+         return patientRepository.findById(request.getPatientId()).orElse(null);&#xD;
+     } else if (request.getUserEmail() != null) {&#xD;
+         return patientRepository.findByUser_Email(request.getUserEmail()).orElse(null);&#xD;
+     }&#xD;
+     return null;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCxvEHXuEfC_3fo_KXq00A" name="buildResponseFromExistingEligibility" specification="_MCGZoHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCxvEXXuEfC_3fo_KXq00A" name="patient" type="_L9UAQHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCxvEnXuEfC_3fo_KXq00A" name="plan" type="_L9LdYHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCxvE3XuEfC_3fo_KXq00A" name="eligibility" type="_L9FWxHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCxvFHXuEfC_3fo_KXq00A" type="_L90WkHXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>boolean isEligible = eligibility.getStatus() == EligibilityStatus.VERIFIED;&#xD;
+     InsuranceCoverageStatus coverageStatus = determineCoverageStatus(eligibility.getStatus());&#xD;
+     &#xD;
+     System.out.println(&quot;Plan coverages: &quot; + plan.getCoverages());&#xD;
+     System.out.println(&quot;Plan coverages type: &quot; + (plan.getCoverages() != null ? plan.getCoverages().getClass() : &quot;null&quot;));&#xD;
+     &#xD;
+     EligibilityCheckResponse response = EligibilityCheckResponse.builder()&#xD;
+         .patientId(patient.getId())&#xD;
+         .patientName(patient.getUser().getUsername())&#xD;
+         .insurancePlanId(plan.getId())&#xD;
+         .planName(plan.getPlanName())&#xD;
+         .planProvider(plan.getPlanProvider())&#xD;
+         .eligibilityStatus(eligibility.getStatus())&#xD;
+         .coverageStatus(coverageStatus)&#xD;
+         .benefitDetails(eligibility.getBenefitDetails())&#xD;
+         .verifiedAt(eligibility.getVerifiedAt())&#xD;
+         .isEligibleForBooking(isEligible)&#xD;
+         .message(getStatusMessage(eligibility.getStatus()))&#xD;
+         .coverages(plan.getCoverages())&#xD;
+         .build();&#xD;
+     &#xD;
+     System.out.println(&quot;Response coverages: &quot; + response.getCoverages());&#xD;
+     return response;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCxvFXXuEfC_3fo_KXq00A" name="createNotFoundResponse" specification="_MCHAsHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCxvFnXuEfC_3fo_KXq00A" name="patient" type="_L9UAQHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCxvF3XuEfC_3fo_KXq00A" name="plan" type="_L9LdYHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCxvGHXuEfC_3fo_KXq00A" type="_L90WkHXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>return EligibilityCheckResponse.builder()&#xD;
+         .patientId(patient.getId())&#xD;
+         .patientName(patient.getUser().getUsername())&#xD;
+         .insurancePlanId(plan.getId())&#xD;
+         .planName(plan.getPlanName())&#xD;
+         .planProvider(plan.getPlanProvider())&#xD;
+         .eligibilityStatus(EligibilityStatus.NOTELIGIBLE)&#xD;
+         .coverageStatus(InsuranceCoverageStatus.NOT_COVERED)&#xD;
+         .isEligibleForBooking(false)&#xD;
+         .message(&quot;No eligibility record found. Please contact admin to verify your insurance eligibility.&quot;)&#xD;
+         .build();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCxvGXXuEfC_3fo_KXq00A" name="createErrorResponse" specification="_L9xTQHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCxvGnXuEfC_3fo_KXq00A" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCxvG3XuEfC_3fo_KXq00A" name="planId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCxvHHXuEfC_3fo_KXq00A" type="_L90WkHXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>return EligibilityCheckResponse.builder()&#xD;
+         .insurancePlanId(planId)&#xD;
+         .eligibilityStatus(EligibilityStatus.NOTELIGIBLE)&#xD;
+         .coverageStatus(InsuranceCoverageStatus.NOT_COVERED)&#xD;
+         .isEligibleForBooking(false)&#xD;
+         .message(message)&#xD;
+         .build();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCxvHXXuEfC_3fo_KXq00A" name="determineCoverageStatus" specification="_MCHAtnXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCxvHnXuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCxvH3XuEfC_3fo_KXq00A" type="_L9EvtXXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>switch (status) {&#xD;
+         case VERIFIED:&#xD;
+             return InsuranceCoverageStatus.COVERED;&#xD;
+         case NOTELIGIBLE:&#xD;
+         case EXPIRED:&#xD;
+             return InsuranceCoverageStatus.NOT_COVERED;&#xD;
+         case PENDING:&#xD;
+             return InsuranceCoverageStatus.PENDING;&#xD;
+         default:&#xD;
+             return InsuranceCoverageStatus.UNKNOWN;&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCxvIHXuEfC_3fo_KXq00A" name="getStatusMessage" specification="_MCHnwnXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCxvIXXuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCxvInXuEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>switch (status) {&#xD;
+         case VERIFIED:&#xD;
+             return &quot;Patient is eligible for insurance coverage&quot;;&#xD;
+         case PENDING:&#xD;
+             return &quot;Eligibility verification is in progress&quot;;&#xD;
+         case NOTELIGIBLE:&#xD;
+             return &quot;Patient is not eligible for this insurance plan&quot;;&#xD;
+         case EXPIRED:&#xD;
+             return &quot;Insurance eligibility has expired&quot;;&#xD;
+         default:&#xD;
+             return &quot;Unknown eligibility status&quot;;&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCxvI3XuEfC_3fo_KXq00A" name="convertToDTO" specification="_MCIO0XXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCxvJHXuEfC_3fo_KXq00A" name="eligibility" type="_L9FWxHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCxvJXXuEfC_3fo_KXq00A" type="_L9owYHXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>return PatientInsuranceDTO.builder()&#xD;
+         .eligibilityId(eligibility.getId())&#xD;
+         .planName(eligibility.getPlan().getPlanName())&#xD;
+         .planProvider(eligibility.getPlan().getPlanProvider())&#xD;
+         .planType(eligibility.getPlan().getPlanType())&#xD;
+         .planCost(eligibility.getPlan().getPlanCost())&#xD;
+         .status(eligibility.getStatus())&#xD;
+         .benefitDetails(eligibility.getBenefitDetails())&#xD;
+         .verifiedAt(eligibility.getVerifiedAt())&#xD;
+         .build();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCxvJnXuEfC_3fo_KXq00A" name="getAllEligibilities" specification="_L9xTRHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCxvJ3XuEfC_3fo_KXq00A" type="_L9FWxHXuEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MCxvKHXuEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return eligibilityRepository.findAll();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCxvKXXuEfC_3fo_KXq00A" name="getAllInsurancePlans" specification="_L9x6U3XuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCxvKnXuEfC_3fo_KXq00A" type="_L9LdYHXuEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MCxvK3XuEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return insurancePlanRepository.findAll();
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_L9veEHXuEfC_3fo_KXq00A" name="getPatientInsurancePlans" method="_MCxIAHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_L9veEXXuEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_L9wFIHXuEfC_3fo_KXq00A" type="_L9owYHXuEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L9wFIXXuEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L9wsMHXuEfC_3fo_KXq00A" name="createEligibilityRecord" method="_MCxICXXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_L9wsMXXuEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_L9wsMnXuEfC_3fo_KXq00A" name="planId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCFyl3XuEfC_3fo_KXq00A" type="_L9FWxHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L9xTQHXuEfC_3fo_KXq00A" name="createErrorResponse" visibility="private" method="_MCxvGXXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_L9xTQXXuEfC_3fo_KXq00A" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_L9xTQnXuEfC_3fo_KXq00A" name="planId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCHAtXXuEfC_3fo_KXq00A" type="_L90WkHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L9xTRHXuEfC_3fo_KXq00A" name="getAllEligibilities" method="_MCxvJnXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_L9x6UHXuEfC_3fo_KXq00A" type="_L9FWxHXuEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L9x6UXXuEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L9x6U3XuEfC_3fo_KXq00A" name="getAllInsurancePlans" method="_MCxvKXXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_L9x6VHXuEfC_3fo_KXq00A" type="_L9LdYHXuEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L9x6VXXuEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MCFLgHXuEfC_3fo_KXq00A" name="checkEligibility" method="_MCwg-nXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCFLgXXuEfC_3fo_KXq00A" name="request" type="_L92y0HXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCFLgnXuEfC_3fo_KXq00A" type="_L90WkHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MCFykXXuEfC_3fo_KXq00A" name="verifyEligibility" method="_MCxIBHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCFyknXuEfC_3fo_KXq00A" name="eligibilityId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCFyk3XuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCFylHXuEfC_3fo_KXq00A" name="benefitDetails">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCFylXXuEfC_3fo_KXq00A" type="_L90WkHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MCFymHXuEfC_3fo_KXq00A" name="findPatient" visibility="private" method="_MCxIDXXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCFymXXuEfC_3fo_KXq00A" name="request" type="_L92y0HXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCFymnXuEfC_3fo_KXq00A" type="_L9UAQHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MCGZoHXuEfC_3fo_KXq00A" name="buildResponseFromExistingEligibility" visibility="private" method="_MCxvEHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCGZoXXuEfC_3fo_KXq00A" name="patient" type="_L9UAQHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCGZonXuEfC_3fo_KXq00A" name="plan" type="_L9LdYHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCGZo3XuEfC_3fo_KXq00A" name="eligibility" type="_L9FWxHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCGZpHXuEfC_3fo_KXq00A" type="_L90WkHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MCHAsHXuEfC_3fo_KXq00A" name="createNotFoundResponse" visibility="private" method="_MCxvFXXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCHAsXXuEfC_3fo_KXq00A" name="patient" type="_L9UAQHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCHAsnXuEfC_3fo_KXq00A" name="plan" type="_L9LdYHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCHAs3XuEfC_3fo_KXq00A" type="_L90WkHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MCHAtnXuEfC_3fo_KXq00A" name="determineCoverageStatus" visibility="private" method="_MCxvHXXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCHAt3XuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCHnwHXuEfC_3fo_KXq00A" type="_L9EvtXXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MCHnwnXuEfC_3fo_KXq00A" name="getStatusMessage" visibility="private" method="_MCxvIHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCHnw3XuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCHnxHXuEfC_3fo_KXq00A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MCIO0XXuEfC_3fo_KXq00A" name="convertToDTO" visibility="private" method="_MCxvI3XuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCIO0nXuEfC_3fo_KXq00A" name="eligibility" type="_L9FWxHXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCIO03XuEfC_3fo_KXq00A" type="_L9owYHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_MDReUXXuEfC_3fo_KXq00A" name="" memberEnd="_MDReUnXuEfC_3fo_KXq00A _MCpMPXXuEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_MDReUnXuEfC_3fo_KXq00A" name="" type="_L9to4HXuEfC_3fo_KXq00A" association="_MDReUXXuEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_MDVvwHXuEfC_3fo_KXq00A" name="" memberEnd="_MDVvwXXuEfC_3fo_KXq00A _MCpzQnXuEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_MDVvwXXuEfC_3fo_KXq00A" name="" type="_L9to4HXuEfC_3fo_KXq00A" association="_MDVvwHXuEfC_3fo_KXq00A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_MDZaIXXuEfC_3fo_KXq00A" name="" memberEnd="_MDZaInXuEfC_3fo_KXq00A _MCpzRXXuEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_MDZaInXuEfC_3fo_KXq00A" name="" type="_L9to4HXuEfC_3fo_KXq00A" association="_MDZaIXXuEfC_3fo_KXq00A"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8TToHXuEfC_3fo_KXq00A" name="controller">
+          <packagedElement xmi:type="uml:Class" xmi:id="_L87lwHXuEfC_3fo_KXq00A" name="InsuranceEligibilityController">
+            <ownedAttribute xmi:id="_MCdmAHXuEfC_3fo_KXq00A" name="eligibilityService" visibility="private" type="_L9to4HXuEfC_3fo_KXq00A" association="_MC5D0HXuEfC_3fo_KXq00A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCtdoHXuEfC_3fo_KXq00A" name="checkEligibility" specification="_MBzesXXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCtdoXXuEfC_3fo_KXq00A" name="request" type="_L92y0HXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCtdonXuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>log.info(&quot;Checking eligibility for patient: {} and plan: {}&quot;, &#xD;
+             request.getPatientId(), request.getInsurancePlanId());&#xD;
+     &#xD;
+     EligibilityCheckResponse response = eligibilityService.checkEligibility(request);&#xD;
+     &#xD;
+     if (response.isEligibleForBooking()) {&#xD;
+         return ResponseEntity.ok(response);&#xD;
+     } else {&#xD;
+         return ResponseEntity.status(HttpStatus.ACCEPTED).body(response);&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCtdo3XuEfC_3fo_KXq00A" name="getPatientInsurancePlans" specification="_L88z4XXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCtdpHXuEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCtdpXXuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>log.info(&quot;Fetching insurance plans for patient: {}&quot;, patientId);&#xD;
+     &#xD;
+     List&lt;PatientInsuranceDTO> plans = eligibilityService.getPatientInsurancePlans(patientId);&#xD;
+     return ResponseEntity.ok(plans);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCtdpnXuEfC_3fo_KXq00A" name="verifyEligibility" specification="_MB0s0HXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCtdp3XuEfC_3fo_KXq00A" name="eligibilityId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCtdqHXuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCtdqXXuEfC_3fo_KXq00A" name="benefitDetails">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCtdqnXuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>log.info(&quot;Verifying eligibility: {} with status: {}&quot;, eligibilityId, status);&#xD;
+     &#xD;
+     EligibilityCheckResponse response = eligibilityService.verifyEligibility(&#xD;
+             eligibilityId, status, benefitDetails);&#xD;
+     &#xD;
+     return ResponseEntity.ok(response);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCtdq3XuEfC_3fo_KXq00A" name="createEligibilityRecord" specification="_L8-CAXXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCtdrHXuEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCtdrXXuEfC_3fo_KXq00A" name="planId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCtdrnXuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>log.info(&quot;Creating eligibility record for patient: {} and plan: {}&quot;, patientId, planId);&#xD;
+     &#xD;
+     try {&#xD;
+         InsuranceEligibility eligibility = eligibilityService.createEligibilityRecord(patientId, planId);&#xD;
+         return ResponseEntity.status(HttpStatus.CREATED).body(eligibility);&#xD;
+     } catch (RuntimeException e) {&#xD;
+         log.error(&quot;Error creating eligibility record: &quot;, e);&#xD;
+         return ResponseEntity.badRequest().build();&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCtdr3XuEfC_3fo_KXq00A" name="checkEligibilityBeforeBooking" specification="_L8-pGHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCtdsHXuEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCtdsXXuEfC_3fo_KXq00A" name="insurancePlanId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCtdsnXuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>EligibilityCheckRequest request = new EligibilityCheckRequest(patientId, insurancePlanId, null);&#xD;
+     EligibilityCheckResponse response = eligibilityService.checkEligibility(request);&#xD;
+     &#xD;
+     Map&lt;String, Object> result = new HashMap&lt;>();&#xD;
+     result.put(&quot;canBookAppointment&quot;, response.isEligibleForBooking());&#xD;
+     result.put(&quot;eligibilityDetails&quot;, response);&#xD;
+     &#xD;
+     if (response.isEligibleForBooking()) {&#xD;
+         result.put(&quot;statusCode&quot;, 200);&#xD;
+         result.put(&quot;message&quot;, &quot;Patient is eligible to book appointment&quot;);&#xD;
+     } else {&#xD;
+         result.put(&quot;statusCode&quot;, 403);&#xD;
+         result.put(&quot;message&quot;, &quot;Patient is not eligible to book appointment: &quot; + response.getMessage());&#xD;
+     }&#xD;
+     &#xD;
+     return ResponseEntity.ok(result);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCuEsHXuEfC_3fo_KXq00A" name="getAllEligibilityRecords" specification="_L8_3M3XuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCuEsXXuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>List&lt;InsuranceEligibility> records = eligibilityService.getAllEligibilities();
+		if (records.isEmpty()) {
+			return ResponseEntity.noContent().build();
+		}
+		return ResponseEntity.ok(records);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MCuEsnXuEfC_3fo_KXq00A" name="getAllInsuranceplans" specification="_L9AeQ3XuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCuEs3XuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+              <language>java</language>
+              <body>List&lt;InsurancePlan> plans = eligibilityService.getAllInsurancePlans();&#xD;
+ 	if (plans.isEmpty()) {
+			return ResponseEntity.noContent().build();
+		}	
+		return ResponseEntity.ok(plans);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_L88z4XXuEfC_3fo_KXq00A" name="getPatientInsurancePlans" method="_MCtdo3XuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_L89a8HXuEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCTN8HXuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L8-CAXXuEfC_3fo_KXq00A" name="createEligibilityRecord" method="_MCtdq3XuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_L8-CAnXuEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_L8-CA3XuEfC_3fo_KXq00A" name="planId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCTN8nXuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L8-pGHXuEfC_3fo_KXq00A" name="checkEligibilityBeforeBooking" method="_MCtdr3XuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_L8-pGXXuEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_L8-pGnXuEfC_3fo_KXq00A" name="insurancePlanId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCTN83XuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L8_3M3XuEfC_3fo_KXq00A" name="getAllEligibilityRecords" method="_MCuEsHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCTN9HXuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L9AeQ3XuEfC_3fo_KXq00A" name="getAllInsuranceplans" method="_MCuEsnXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MCTN9XXuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MBzesXXuEfC_3fo_KXq00A" name="checkEligibility" method="_MCtdoHXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MBzesnXuEfC_3fo_KXq00A" name="request" type="_L92y0HXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCSm5HXuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MB0s0HXuEfC_3fo_KXq00A" name="verifyEligibility" method="_MCtdpnXuEfC_3fo_KXq00A">
+              <ownedParameter xmi:id="_MB0s0XXuEfC_3fo_KXq00A" name="eligibilityId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MB0s0nXuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MB0s03XuEfC_3fo_KXq00A" name="benefitDetails">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCTN8XXuEfC_3fo_KXq00A" type="_MBvNQXXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_MC5D0HXuEfC_3fo_KXq00A" name="" memberEnd="_MC5D0XXuEfC_3fo_KXq00A _MCdmAHXuEfC_3fo_KXq00A">
+            <ownedEnd xmi:id="_MC5D0XXuEfC_3fo_KXq00A" name="" type="_L87lwHXuEfC_3fo_KXq00A" association="_MC5D0HXuEfC_3fo_KXq00A"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8UhwHXuEfC_3fo_KXq00A" name="repositories">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_L9fmcHXuEfC_3fo_KXq00A" name="InsuranceEligibilityRepository">
+            <generalization xmi:id="_MCYGcHXuEfC_3fo_KXq00A" general="_MB92wXXuEfC_3fo_KXq00A"/>
+            <ownedOperation xmi:id="_L9gNgXXuEfC_3fo_KXq00A" name="findByPatient_IdAndPlan_Id">
+              <ownedParameter xmi:id="_L9g0kHXuEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_L9g0kXXuEfC_3fo_KXq00A" name="planId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCYtgHXuEfC_3fo_KXq00A" type="_MB9PsHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L9hboHXuEfC_3fo_KXq00A" name="findByPatientId">
+              <ownedParameter xmi:id="_L9hboXXuEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_L9hbonXuEfC_3fo_KXq00A" type="_L9FWxHXuEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L9hbo3XuEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MB_E4HXuEfC_3fo_KXq00A" name="findByPatientIdAndStatus" visibility="package">
+              <ownedParameter xmi:id="_MB_E4XXuEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MB_E4nXuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MB_E43XuEfC_3fo_KXq00A" type="_L9FWxHXuEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MB_E5HXuEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MB_E5nXuEfC_3fo_KXq00A" name="findByStatus">
+              <ownedParameter xmi:id="_MB_E53XuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MB_r8HXuEfC_3fo_KXq00A" type="_L9FWxHXuEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MB_r8XXuEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_MB_r83XuEfC_3fo_KXq00A" name="findByPatient_IdAndPlan_IdAndStatus">
+              <ownedParameter xmi:id="_MB_r9HXuEfC_3fo_KXq00A" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MB_r9XXuEfC_3fo_KXq00A" name="planId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MB_r9nXuEfC_3fo_KXq00A" name="status" type="_L9EIpXXuEfC_3fo_KXq00A"/>
+              <ownedParameter xmi:id="_MCYtgXXuEfC_3fo_KXq00A" type="_MB9PsHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_L9jQ0HXuEfC_3fo_KXq00A" name="InsurancePlanRepository">
+            <generalization xmi:id="_MCYtgnXuEfC_3fo_KXq00A" general="_MB92wXXuEfC_3fo_KXq00A"/>
+            <ownedOperation xmi:id="_L9j34XXuEfC_3fo_KXq00A" name="findByIsActiveTrue">
+              <ownedParameter xmi:id="_L9ke8HXuEfC_3fo_KXq00A" type="_L9LdYHXuEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L9ke8XXuEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L9ke83XuEfC_3fo_KXq00A" name="findByPlanNameAndIsActiveTrue">
+              <ownedParameter xmi:id="_L9ke9HXuEfC_3fo_KXq00A" name="planName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCZUkHXuEfC_3fo_KXq00A" type="_MB9PsHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L9ltEHXuEfC_3fo_KXq00A" name="findByPlanProviderAndIsActiveTrue" visibility="package">
+              <ownedParameter xmi:id="_L9ltEXXuEfC_3fo_KXq00A" name="planProvider">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_L9ltEnXuEfC_3fo_KXq00A" type="_L9LdYHXuEfC_3fo_KXq00A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L9ltE3XuEfC_3fo_KXq00A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_L9mUIHXuEfC_3fo_KXq00A" name="PatientRepository">
+            <generalization xmi:id="_MCZUkXXuEfC_3fo_KXq00A" general="_MB92wXXuEfC_3fo_KXq00A"/>
+            <ownedOperation xmi:id="_L9m7MXXuEfC_3fo_KXq00A" name="findByUser_Id">
+              <ownedParameter xmi:id="_L9m7MnXuEfC_3fo_KXq00A" name="userId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCZUk3XuEfC_3fo_KXq00A" type="_MB9PsHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_L9niQnXuEfC_3fo_KXq00A" name="findByUser_Email">
+              <ownedParameter xmi:id="_L9niQ3XuEfC_3fo_KXq00A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MCZUlHXuEfC_3fo_KXq00A" type="_MB9PsHXuEfC_3fo_KXq00A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_L9C6gHXuEfC_3fo_KXq00A" name="InsurenceServiceApplicationTests" visibility="package">
+          <eAnnotations xmi:id="_L9C6gXXuEfC_3fo_KXq00A" source="http://ns.yatta.de/umllab">
+            <contents xmi:type="ecore:EAnnotation" xmi:id="_L9C6gnXuEfC_3fo_KXq00A" source="codegen">
+              <details xmi:id="_L9C6g3XuEfC_3fo_KXq00A" key="codegenDirectory" value="/insurence-service/src/test/java"/>
+            </contents>
+          </eAnnotations>
+          <ownedOperation xmi:id="_L9DhkXXuEfC_3fo_KXq00A" name="contextLoads" visibility="package"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_L8PCMHXuEfC_3fo_KXq00A" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_L8PpQHXuEfC_3fo_KXq00A" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8PpQXXuEfC_3fo_KXq00A" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="_L8PpQnXuEfC_3fo_KXq00A" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_MBt_IXXuEfC_3fo_KXq00A" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_L8T6s3XuEfC_3fo_KXq00A" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="_L8T6tHXuEfC_3fo_KXq00A" name="context">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_MB2iAXXuEfC_3fo_KXq00A" name="SpringBootTest"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_MBtYEHXuEfC_3fo_KXq00A" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8QQU3XuEfC_3fo_KXq00A" name="http">
+          <packagedElement xmi:type="uml:Class" xmi:id="_MBvNQXXuEfC_3fo_KXq00A" name="ResponseEntity"/>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_MBwbY3XuEfC_3fo_KXq00A" name="HttpStatus"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8QQVHXuEfC_3fo_KXq00A" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_L8QQVXXuEfC_3fo_KXq00A" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_L8QQVnXuEfC_3fo_KXq00A" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_MBvNRXXuEfC_3fo_KXq00A" name="ControllerAdvice"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_MBv0UXXuEfC_3fo_KXq00A" name="ExceptionHandler"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_MBxCcXXuEfC_3fo_KXq00A" name="GetMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_MBxCc3XuEfC_3fo_KXq00A" name="PathVariable"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_MBxCdXXuEfC_3fo_KXq00A" name="PostMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_MBxpgXXuEfC_3fo_KXq00A" name="PutMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_MBxpg3XuEfC_3fo_KXq00A" name="RequestBody"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_MBxphXXuEfC_3fo_KXq00A" name="RequestMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_MByQkXXuEfC_3fo_KXq00A" name="RequestParam"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_MByQk3XuEfC_3fo_KXq00A" name="RestController"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_MBvNQ3XuEfC_3fo_KXq00A" name="MethodArgumentNotValidException"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8RecXXuEfC_3fo_KXq00A" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_L8RecnXuEfC_3fo_KXq00A" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_L8Rec3XuEfC_3fo_KXq00A" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_MBwbYXXuEfC_3fo_KXq00A" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8VI0HXuEfC_3fo_KXq00A" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_L8VI0XXuEfC_3fo_KXq00A" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_MB2iA3XuEfC_3fo_KXq00A" name="Id"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_L8VI0nXuEfC_3fo_KXq00A" name="mongodb">
+            <packagedElement xmi:type="uml:Package" xmi:id="_L8VI03XuEfC_3fo_KXq00A" name="core">
+              <packagedElement xmi:type="uml:Package" xmi:id="_L8VI1HXuEfC_3fo_KXq00A" name="mapping">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_MB3JEXXuEfC_3fo_KXq00A" name="DBRef"/>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_MB3JE3XuEfC_3fo_KXq00A" name="Document"/>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_MB4-QHXuEfC_3fo_KXq00A" name="Field"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_L8eSwHXuEfC_3fo_KXq00A" name="index">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_MB7agHXuEfC_3fo_KXq00A" name="Indexed"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_L8gH8HXuEfC_3fo_KXq00A" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_MB92wXXuEfC_3fo_KXq00A" name="MongoRepository"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8gH8XXuEfC_3fo_KXq00A" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_MB92w3XuEfC_3fo_KXq00A" name="Repository"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_MCD9YXXuEfC_3fo_KXq00A" name="Service"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8lAcXXuEfC_3fo_KXq00A" name="transaction">
+          <packagedElement xmi:type="uml:Package" xmi:id="_L8lAcnXuEfC_3fo_KXq00A" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_MCEkcHXuEfC_3fo_KXq00A" name="Transactional"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_L8T6sHXuEfC_3fo_KXq00A" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8T6sXXuEfC_3fo_KXq00A" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_L8T6snXuEfC_3fo_KXq00A" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_MB168HXuEfC_3fo_KXq00A" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_L8QQUHXuEfC_3fo_KXq00A" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_L8QQUXXuEfC_3fo_KXq00A" name="time">
+        <packagedElement xmi:type="uml:Class" xmi:id="_MBumMHXuEfC_3fo_KXq00A" name="LocalDateTime"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_L8QQUnXuEfC_3fo_KXq00A" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8lAcHXuEfC_3fo_KXq00A" name="stream">
+          <packagedElement xmi:type="uml:Class" xmi:id="_MCDWUHXuEfC_3fo_KXq00A" name="Collectors"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MBumMnXuEfC_3fo_KXq00A" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_MBumNHXuEfC_3fo_KXq00A" name="Map"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_MBv0U3XuEfC_3fo_KXq00A" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MB9PsHXuEfC_3fo_KXq00A" name="Optional"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_MCQKoHXuEfC_3fo_KXq00A" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_MCQxsHXuEfC_3fo_KXq00A" name="RuntimeException"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_L8RedHXuEfC_3fo_KXq00A" name="jakarta">
+      <packagedElement xmi:type="uml:Package" xmi:id="_L8SFgHXuEfC_3fo_KXq00A" name="validation">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_MBy3oXXuEfC_3fo_KXq00A" name="Valid"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_L8SFgXXuEfC_3fo_KXq00A" name="lombok">
+      <packagedElement xmi:type="uml:Package" xmi:id="_L8SFgnXuEfC_3fo_KXq00A" name="extern">
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8SFg3XuEfC_3fo_KXq00A" name="slf4j">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_MBy3o3XuEfC_3fo_KXq00A" name="Slf4j"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_MB3wIXXuEfC_3fo_KXq00A" name="Builder"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_MCJc8XXuEfC_3fo_KXq00A" name="AllArgsConstructor"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_MCKEAXXuEfC_3fo_KXq00A" name="Data"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_MCKrEHXuEfC_3fo_KXq00A" name="NoArgsConstructor"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_L8ncsHXuEfC_3fo_KXq00A" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_L8ncsXXuEfC_3fo_KXq00A" name="fasterxml">
+        <packagedElement xmi:type="uml:Package" xmi:id="_L8ncsnXuEfC_3fo_KXq00A" name="jackson">
+          <packagedElement xmi:type="uml:Package" xmi:id="_L8ncs3XuEfC_3fo_KXq00A" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_MCI14HXuEfC_3fo_KXq00A" name="JsonProperty"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_LyIrA3XuEfC_3fo_KXq00A">
+      <eAnnotations xmi:id="_LyIrBHXuEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_MCe0IHXuEfC_3fo_KXq00A">
+      <eAnnotations xmi:id="_MCe0IXXuEfC_3fo_KXq00A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_LyIrBXXuEfC_3fo_KXq00A" base_Package="_LuBAAHXuEfC_3fo_KXq00A">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L86-sXXuEfC_3fo_KXq00A" base_Element="_L86-sHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L86-snXuEfC_3fo_KXq00A" base_Element="_L86-sHXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L86-s3XuEfC_3fo_KXq00A" name="ControllerAdvice"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L88z4HXuEfC_3fo_KXq00A" base_Element="_L87lwHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_L89a8XXuEfC_3fo_KXq00A" genericsValue="List&lt;PatientInsuranceDTO>" base_Element="_L88z4XXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L89a8nXuEfC_3fo_KXq00A" base_Element="_L89a8HXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L89a83XuEfC_3fo_KXq00A" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_L89a9HXuEfC_3fo_KXq00A" base_Element="_L88z4XXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L89a9XXuEfC_3fo_KXq00A" name="GetMapping">
+      <annotationParameters xmi:id="_L8-CAHXuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MCzkQ3XuEfC_3fo_KXq00A" value="&quot;/patient/{patientId}/plans&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_L8-pEHXuEfC_3fo_KXq00A" genericsValue="InsuranceEligibility" base_Element="_L8-CAXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L8-pEXXuEfC_3fo_KXq00A" base_Element="_L8-CAnXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L8-pEnXuEfC_3fo_KXq00A" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_L8-pE3XuEfC_3fo_KXq00A" base_Element="_L8-CA3XuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L8-pFHXuEfC_3fo_KXq00A" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_L8-pFXXuEfC_3fo_KXq00A" base_Element="_L8-CAXXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L8-pFnXuEfC_3fo_KXq00A" name="PostMapping">
+      <annotationParameters xmi:id="_L8-pF3XuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MCzkRnXuEfC_3fo_KXq00A" value="&quot;/create&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_L8_QIHXuEfC_3fo_KXq00A" genericsValue="Map&lt;String, Object>" base_Element="_L8-pGHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L8_QIXXuEfC_3fo_KXq00A" base_Element="_L8-pGXXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L8_QInXuEfC_3fo_KXq00A" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_L8_QI3XuEfC_3fo_KXq00A" base_Element="_L8-pGnXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L8_QJHXuEfC_3fo_KXq00A" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_L8_3MHXuEfC_3fo_KXq00A" base_Element="_L8-pGHXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L8_3MXXuEfC_3fo_KXq00A" name="GetMapping">
+      <annotationParameters xmi:id="_L8_3MnXuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MCzkR3XuEfC_3fo_KXq00A" value="&quot;/check-before-booking&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_L8_3NHXuEfC_3fo_KXq00A" genericsValue="?" base_Element="_L8_3M3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L9AeQHXuEfC_3fo_KXq00A" base_Element="_L8_3M3XuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L9AeQXXuEfC_3fo_KXq00A" name="GetMapping">
+      <annotationParameters xmi:id="_L9AeQnXuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MCzkSHXuEfC_3fo_KXq00A" value="&quot;/all&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_L9AeRHXuEfC_3fo_KXq00A" genericsValue="?" base_Element="_L9AeQ3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L9AeRXXuEfC_3fo_KXq00A" base_Element="_L9AeQ3XuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L9AeRnXuEfC_3fo_KXq00A" name="GetMapping">
+      <annotationParameters xmi:id="_L9BFUHXuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MCzkSXXuEfC_3fo_KXq00A" value="&quot;/getAllInsurancePlans&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_L9BFUXXuEfC_3fo_KXq00A" base_Element="_L87lwHXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L9BFUnXuEfC_3fo_KXq00A" name="RestController"/>
+    <annotations xmi:id="_L9BFU3XuEfC_3fo_KXq00A" name="RequestMapping">
+      <annotationParameters xmi:id="_L9BFVHXuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MCzkQXXuEfC_3fo_KXq00A" value="&quot;/api/eligibility&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_L9BFVXXuEfC_3fo_KXq00A" name="Slf4j"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L9DhkHXuEfC_3fo_KXq00A" base_Element="_L9C6gHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L9EIoHXuEfC_3fo_KXq00A" base_Element="_L9DhkXXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L9EIoXXuEfC_3fo_KXq00A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_L9EIonXuEfC_3fo_KXq00A" base_Element="_L9C6gHXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L9EIo3XuEfC_3fo_KXq00A" name="SpringBootTest"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L9EvsHXuEfC_3fo_KXq00A" base_Element="_L9EIpXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L9F90HXuEfC_3fo_KXq00A" base_Element="_L9FWxHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L9IaEHXuEfC_3fo_KXq00A" base_Element="_L9FWxHXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L9IaEXXuEfC_3fo_KXq00A" name="Builder"/>
+    <annotations xmi:id="_L9IaEnXuEfC_3fo_KXq00A" name="Document">
+      <annotationParameters xmi:id="_L9IaE3XuEfC_3fo_KXq00A" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MCzkSnXuEfC_3fo_KXq00A" value="&quot;insurance_eligibilities&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L9MEcHXuEfC_3fo_KXq00A" base_Element="_L9LdYHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_L9OgsnXuEfC_3fo_KXq00A" base_Element="_L9OgsHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_L9PHwHXuEfC_3fo_KXq00A" base_Element="_L9Ogs3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_L9PHxHXuEfC_3fo_KXq00A" base_Element="_L9PHwXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L9Pu0nXuEfC_3fo_KXq00A" base_Element="_L9Pu0HXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L9Pu03XuEfC_3fo_KXq00A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_L9QV4HXuEfC_3fo_KXq00A" base_Element="_L9LdYHXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L9QV4XXuEfC_3fo_KXq00A" name="Document">
+      <annotationParameters xmi:id="_L9QV4nXuEfC_3fo_KXq00A" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MC0LVHXuEfC_3fo_KXq00A" value="&quot;insurance_plans&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L9VOYHXuEfC_3fo_KXq00A" base_Element="_L9UAQHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L9XDknXuEfC_3fo_KXq00A" base_Element="_L9XDkHXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L9XDk3XuEfC_3fo_KXq00A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_L9XqoHXuEfC_3fo_KXq00A" base_Element="_L9UAQHXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L9XqoXXuEfC_3fo_KXq00A" name="Document">
+      <annotationParameters xmi:id="_L9XqonXuEfC_3fo_KXq00A" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MC0yZnXuEfC_3fo_KXq00A" value="&quot;patients&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L9aG4HXuEfC_3fo_KXq00A" base_Element="_L9Zf0HXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L9bVAHXuEfC_3fo_KXq00A" base_Element="_L9at8nXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L9cjIHXuEfC_3fo_KXq00A" base_Element="_L9at8nXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L9dKMHXuEfC_3fo_KXq00A" name="Document">
+      <annotationParameters xmi:id="_L9dKMXXuEfC_3fo_KXq00A" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MC0yZ3XuEfC_3fo_KXq00A" value="&quot;users&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L9gNgHXuEfC_3fo_KXq00A" base_Element="_L9fmcHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_L9g0knXuEfC_3fo_KXq00A" genericsValue="InsuranceEligibility" base_Element="_L9gNgXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_L9g0k3XuEfC_3fo_KXq00A" base_Element="_L9gNgXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_L9hbpHXuEfC_3fo_KXq00A" base_Element="_L9hboHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L9iCsHXuEfC_3fo_KXq00A" base_Element="_L9fmcHXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L9iCsXXuEfC_3fo_KXq00A" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L9j34HXuEfC_3fo_KXq00A" base_Element="_L9jQ0HXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_L9ke8nXuEfC_3fo_KXq00A" base_Element="_L9j34XXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_L9lGAHXuEfC_3fo_KXq00A" genericsValue="InsurancePlan" base_Element="_L9ke83XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_L9lGAXXuEfC_3fo_KXq00A" base_Element="_L9ke83XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_L9ltFHXuEfC_3fo_KXq00A" base_Element="_L9ltEHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L9ltFXXuEfC_3fo_KXq00A" base_Element="_L9jQ0HXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L9ltFnXuEfC_3fo_KXq00A" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L9m7MHXuEfC_3fo_KXq00A" base_Element="_L9mUIHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_L9niQHXuEfC_3fo_KXq00A" genericsValue="Patient" base_Element="_L9m7MXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_L9niQXXuEfC_3fo_KXq00A" base_Element="_L9m7MXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_L9oJUHXuEfC_3fo_KXq00A" genericsValue="Patient" base_Element="_L9niQnXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_L9oJUXXuEfC_3fo_KXq00A" base_Element="_L9niQnXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L9oJUnXuEfC_3fo_KXq00A" base_Element="_L9mUIHXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L9oJU3XuEfC_3fo_KXq00A" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L9p-gHXuEfC_3fo_KXq00A" base_Element="_L9owYHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L9rzsHXuEfC_3fo_KXq00A" base_Element="_L9owYHXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L9rzsXXuEfC_3fo_KXq00A" name="Builder"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L9u3AHXuEfC_3fo_KXq00A" base_Element="_L9to4HXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_L9wFInXuEfC_3fo_KXq00A" base_Element="_L9veEHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_L9wsM3XuEfC_3fo_KXq00A" base_Element="_L9wsMHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_L9xTQ3XuEfC_3fo_KXq00A" base_Element="_L9xTQHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_L9x6UnXuEfC_3fo_KXq00A" base_Element="_L9xTRHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_L9x6VnXuEfC_3fo_KXq00A" base_Element="_L9x6U3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L9yhYHXuEfC_3fo_KXq00A" base_Element="_L9to4HXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L9yhYXXuEfC_3fo_KXq00A" name="Service"/>
+    <annotations xmi:id="_L9yhYnXuEfC_3fo_KXq00A" name="Transactional"/>
+    <annotations xmi:id="_L9yhY3XuEfC_3fo_KXq00A" name="Slf4j"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L909oHXuEfC_3fo_KXq00A" base_Element="_L90WkHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L91ksHXuEfC_3fo_KXq00A" base_Element="_L90WkHXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L91ksXXuEfC_3fo_KXq00A" name="Data"/>
+    <annotations xmi:id="_L91ksnXuEfC_3fo_KXq00A" name="Builder"/>
+    <annotations xmi:id="_L91ks3XuEfC_3fo_KXq00A" name="NoArgsConstructor"/>
+    <annotations xmi:id="_L91ktHXuEfC_3fo_KXq00A" name="AllArgsConstructor"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L94A8HXuEfC_3fo_KXq00A" base_Element="_L92y0HXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_L95PEHXuEfC_3fo_KXq00A" base_Element="_L94oBHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_L95PE3XuEfC_3fo_KXq00A" base_Element="_L95PEXXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L95PFHXuEfC_3fo_KXq00A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_L95PFXXuEfC_3fo_KXq00A" base_Element="_L92y0HXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_L95PFnXuEfC_3fo_KXq00A" name="Builder"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_MBt_IHXuEfC_3fo_KXq00A" base_Element="_MBtYEHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBt_InXuEfC_3fo_KXq00A" base_Element="_MBt_IXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBumMXXuEfC_3fo_KXq00A" base_Element="_MBumMHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBumM3XuEfC_3fo_KXq00A" base_Element="_MBumMnXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBvNQHXuEfC_3fo_KXq00A" base_Element="_MBumNHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBvNQnXuEfC_3fo_KXq00A" base_Element="_MBvNQXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBvNRHXuEfC_3fo_KXq00A" base_Element="_MBvNQ3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBv0UHXuEfC_3fo_KXq00A" base_Element="_MBvNRXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBv0UnXuEfC_3fo_KXq00A" base_Element="_MBv0UXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBwbYHXuEfC_3fo_KXq00A" base_Element="_MBv0U3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBwbYnXuEfC_3fo_KXq00A" base_Element="_MBwbYXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBxCcHXuEfC_3fo_KXq00A" base_Element="_MBwbY3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBxCcnXuEfC_3fo_KXq00A" base_Element="_MBxCcXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBxCdHXuEfC_3fo_KXq00A" base_Element="_MBxCc3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBxpgHXuEfC_3fo_KXq00A" base_Element="_MBxCdXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBxpgnXuEfC_3fo_KXq00A" base_Element="_MBxpgXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBxphHXuEfC_3fo_KXq00A" base_Element="_MBxpg3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MByQkHXuEfC_3fo_KXq00A" base_Element="_MBxphXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MByQknXuEfC_3fo_KXq00A" base_Element="_MByQkXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBy3oHXuEfC_3fo_KXq00A" base_Element="_MByQk3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBy3onXuEfC_3fo_KXq00A" base_Element="_MBy3oXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MBzesHXuEfC_3fo_KXq00A" base_Element="_MBy3o3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_MBzes3XuEfC_3fo_KXq00A" genericsValue="EligibilityCheckResponse" base_Element="_MBzesXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_MB0FwHXuEfC_3fo_KXq00A" base_Element="_MBzesnXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MB0FwXXuEfC_3fo_KXq00A" name="RequestBody"/>
+    <annotations xmi:id="_MB0FwnXuEfC_3fo_KXq00A" name="Valid"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_MB0Fw3XuEfC_3fo_KXq00A" base_Element="_MBzesXXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MB0FxHXuEfC_3fo_KXq00A" name="PostMapping">
+      <annotationParameters xmi:id="_MB0FxXXuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MCzkQnXuEfC_3fo_KXq00A" value="&quot;/check&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_MB1T4HXuEfC_3fo_KXq00A" genericsValue="EligibilityCheckResponse" base_Element="_MB0s0HXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_MB1T4XXuEfC_3fo_KXq00A" base_Element="_MB0s0XXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MB1T4nXuEfC_3fo_KXq00A" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_MB1T43XuEfC_3fo_KXq00A" base_Element="_MB0s0nXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MB1T5HXuEfC_3fo_KXq00A" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_MB1T5XXuEfC_3fo_KXq00A" base_Element="_MB0s03XuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MB1T5nXuEfC_3fo_KXq00A" name="RequestParam">
+      <annotationParameters xmi:id="_MB1T53XuEfC_3fo_KXq00A" name="required" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MCzkRXXuEfC_3fo_KXq00A" value="false"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_MB1T6HXuEfC_3fo_KXq00A" base_Element="_MB0s0HXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MB1T6XXuEfC_3fo_KXq00A" name="PutMapping">
+      <annotationParameters xmi:id="_MB1T6nXuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MCzkRHXuEfC_3fo_KXq00A" value="&quot;/verify/{eligibilityId}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_MB2iAHXuEfC_3fo_KXq00A" base_Element="_MB168HXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MB2iAnXuEfC_3fo_KXq00A" base_Element="_MB2iAXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MB3JEHXuEfC_3fo_KXq00A" base_Element="_MB2iA3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MB3JEnXuEfC_3fo_KXq00A" base_Element="_MB3JEXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MB3wIHXuEfC_3fo_KXq00A" base_Element="_MB3JE3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MB3wInXuEfC_3fo_KXq00A" base_Element="_MB3wIXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MB4-QXXuEfC_3fo_KXq00A" base_Element="_MB4-QHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MB6zeXXuEfC_3fo_KXq00A" base_Element="_MB6zcHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MB8BkHXuEfC_3fo_KXq00A" base_Element="_MB7agHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MB92wHXuEfC_3fo_KXq00A" base_Element="_MB9PsHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MB92wnXuEfC_3fo_KXq00A" base_Element="_MB92wXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MB-d0HXuEfC_3fo_KXq00A" base_Element="_MB92w3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MB_E5XXuEfC_3fo_KXq00A" base_Element="_MB_E4HXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MB_r8nXuEfC_3fo_KXq00A" base_Element="_MB_E5nXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_MCATAHXuEfC_3fo_KXq00A" genericsValue="InsuranceEligibility" base_Element="_MB_r83XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCATAXXuEfC_3fo_KXq00A" base_Element="_MB_r83XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MCD9YHXuEfC_3fo_KXq00A" base_Element="_MCDWUHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MCD9YnXuEfC_3fo_KXq00A" base_Element="_MCD9YXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MCEkcXXuEfC_3fo_KXq00A" base_Element="_MCEkcHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCFykHXuEfC_3fo_KXq00A" base_Element="_MCFLgHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCFylnXuEfC_3fo_KXq00A" base_Element="_MCFykXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCFym3XuEfC_3fo_KXq00A" base_Element="_MCFymHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCGZpXXuEfC_3fo_KXq00A" base_Element="_MCGZoHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCHAtHXuEfC_3fo_KXq00A" base_Element="_MCHAsHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCHnwXXuEfC_3fo_KXq00A" base_Element="_MCHAtnXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCIO0HXuEfC_3fo_KXq00A" base_Element="_MCHnwnXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCIO1HXuEfC_3fo_KXq00A" base_Element="_MCIO0XXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MCJc8HXuEfC_3fo_KXq00A" base_Element="_MCI14HXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MCKEAHXuEfC_3fo_KXq00A" base_Element="_MCJc8XXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MCKEAnXuEfC_3fo_KXq00A" base_Element="_MCKEAXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MCKrEXXuEfC_3fo_KXq00A" base_Element="_MCKrEHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MCQxsXXuEfC_3fo_KXq00A" base_Element="_MCQxsHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_MCRYwnXuEfC_3fo_KXq00A" genericsValue="Map&lt;String, String>" base_Element="_MCRYwHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_MCRYxHXuEfC_3fo_KXq00A" base_Element="_MCRYwHXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MCRYxXXuEfC_3fo_KXq00A" name="ExceptionHandler">
+      <annotationParameters xmi:id="_MCR_0HXuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MCy9MHXuEfC_3fo_KXq00A" value="RuntimeException.class"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_MCR_03XuEfC_3fo_KXq00A" genericsValue="Map&lt;String, String>" base_Element="_MCR_0XXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_MCSm4XXuEfC_3fo_KXq00A" base_Element="_MCR_0XXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MCSm4nXuEfC_3fo_KXq00A" name="ExceptionHandler">
+      <annotationParameters xmi:id="_MCSm43XuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MCzkQHXuEfC_3fo_KXq00A" value="MethodArgumentNotValidException.class"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_MCUcFXXuEfC_3fo_KXq00A" base_Element="_MCT1AHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCVqMXXuEfC_3fo_KXq00A" base_Element="_MCVDIHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_MCVqMnXuEfC_3fo_KXq00A" genericsValue="String" base_Element="_MCVDJ3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCVqNXXuEfC_3fo_KXq00A" base_Element="_MCVqM3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_MCWRQHXuEfC_3fo_KXq00A" genericsValue="String" base_Element="_MCVqNHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCXfa3XuEfC_3fo_KXq00A" base_Element="_MCXfYHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_MCYGcXXuEfC_3fo_KXq00A" genericsValue="InsuranceEligibility, String" base_Element="_MCYGcHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_MCYtg3XuEfC_3fo_KXq00A" genericsValue="InsurancePlan, String" base_Element="_MCYtgnXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Generics xmi:id="_MCZUknXuEfC_3fo_KXq00A" genericsValue="Patient, String" base_Element="_MCZUkXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCait3XuEfC_3fo_KXq00A" base_Element="_MCZ7oHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_MCdmAXXuEfC_3fo_KXq00A" base_Element="_MCdmAHXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MCdmAnXuEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <Persistency:PrimaryKey xmi:id="_MCgCQHXuEfC_3fo_KXq00A" base_Property="_MCeNEHXuEfC_3fo_KXq00A"/>
+  <Persistency:JPA1StyledElement xmi:id="_MCgCQXXuEfC_3fo_KXq00A" base_Element="_MCeNEHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MCgCQ3XuEfC_3fo_KXq00A" base_Element="_MCgCQnXuEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCgpUHXuEfC_3fo_KXq00A" name="getPatient" method="_MCuEtHXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCgpU3XuEfC_3fo_KXq00A" type="_L9UAQHXuEfC_3fo_KXq00A" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCgpUXXuEfC_3fo_KXq00A" name="setPatient" method="_MCuEtnXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCgpUnXuEfC_3fo_KXq00A" name="patient" type="_L9UAQHXuEfC_3fo_KXq00A"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_MCgpVHXuEfC_3fo_KXq00A" base_Element="_MCgCQnXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MCgpVXXuEfC_3fo_KXq00A" name="DBRef"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MCgpV3XuEfC_3fo_KXq00A" base_Element="_MCgpVnXuEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCgpWHXuEfC_3fo_KXq00A" name="getPlan" method="_MCuEuHXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCgpW3XuEfC_3fo_KXq00A" type="_L9LdYHXuEfC_3fo_KXq00A" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCgpWXXuEfC_3fo_KXq00A" name="setPlan" method="_MCuEunXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCgpWnXuEfC_3fo_KXq00A" name="plan" type="_L9LdYHXuEfC_3fo_KXq00A"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_MChQYHXuEfC_3fo_KXq00A" base_Element="_MCgpVnXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MChQYXXuEfC_3fo_KXq00A" name="DBRef"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_MChQY3XuEfC_3fo_KXq00A" base_Element="_MChQYnXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MChQZXXuEfC_3fo_KXq00A" base_Element="_MChQZHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MChQZ3XuEfC_3fo_KXq00A" base_Element="_MChQZnXuEfC_3fo_KXq00A"/>
+  <Persistency:PrimaryKey xmi:id="_MCh3cHXuEfC_3fo_KXq00A" base_Property="_MChQaHXuEfC_3fo_KXq00A"/>
+  <Persistency:JPA1StyledElement xmi:id="_MCh3cXXuEfC_3fo_KXq00A" base_Element="_MChQaHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MCiegHXuEfC_3fo_KXq00A" base_Element="_MCh3cnXuEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCiegXXuEfC_3fo_KXq00A" name="getPlanProvider" method="_MCuryHXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCiehHXuEfC_3fo_KXq00A" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCiegnXuEfC_3fo_KXq00A" name="setPlanProvider" method="_MCurynXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCieg3XuEfC_3fo_KXq00A" name="planProvider">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_MCiehXXuEfC_3fo_KXq00A" base_Element="_MCh3cnXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MCiehnXuEfC_3fo_KXq00A" name="Field">
+      <annotationParameters xmi:id="_MCieh3XuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MC0LVXXuEfC_3fo_KXq00A" value="&quot;plan_provider&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MCjFkHXuEfC_3fo_KXq00A" base_Element="_MCieiHXuEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCjFkXXuEfC_3fo_KXq00A" name="getPlanName" method="_MCurzHXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCjFlHXuEfC_3fo_KXq00A" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCjFknXuEfC_3fo_KXq00A" name="setPlanName" method="_MCurznXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCjFk3XuEfC_3fo_KXq00A" name="planName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_MCjFlXXuEfC_3fo_KXq00A" base_Element="_MCieiHXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MCjFlnXuEfC_3fo_KXq00A" name="Field">
+      <annotationParameters xmi:id="_MCjFl3XuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MC0yYHXuEfC_3fo_KXq00A" value="&quot;plan_name&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MCjFmXXuEfC_3fo_KXq00A" base_Element="_MCjFmHXuEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCjFmnXuEfC_3fo_KXq00A" name="getPlanType" method="_MCur0HXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCjsonXuEfC_3fo_KXq00A" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCjsoHXuEfC_3fo_KXq00A" name="setPlanType" method="_MCur0nXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCjsoXXuEfC_3fo_KXq00A" name="planType">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_MCjso3XuEfC_3fo_KXq00A" base_Element="_MCjFmHXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MCjspHXuEfC_3fo_KXq00A" name="Field">
+      <annotationParameters xmi:id="_MCjspXXuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MC0yYXXuEfC_3fo_KXq00A" value="&quot;plan_type&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MCjsp3XuEfC_3fo_KXq00A" base_Element="_MCjspnXuEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCjsqHXuEfC_3fo_KXq00A" name="getPlanDescription" method="_MCur1HXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCjsq3XuEfC_3fo_KXq00A" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCjsqXXuEfC_3fo_KXq00A" name="setPlanDescription" method="_MCur1nXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCjsqnXuEfC_3fo_KXq00A" name="planDescription">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_MCkTsHXuEfC_3fo_KXq00A" base_Element="_MCjspnXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MCkTsXXuEfC_3fo_KXq00A" name="Field">
+      <annotationParameters xmi:id="_MCkTsnXuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MC0yYnXuEfC_3fo_KXq00A" value="&quot;plan_description&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MCkTtHXuEfC_3fo_KXq00A" base_Element="_MCkTs3XuEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCkTtXXuEfC_3fo_KXq00A" name="getPlanCost" method="_MCvS0HXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCkTuHXuEfC_3fo_KXq00A" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCkTtnXuEfC_3fo_KXq00A" name="setPlanCost" method="_MCvS0nXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCkTt3XuEfC_3fo_KXq00A" name="planCost">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_MCk6wHXuEfC_3fo_KXq00A" base_Element="_MCkTs3XuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MCk6wXXuEfC_3fo_KXq00A" name="Field">
+      <annotationParameters xmi:id="_MCk6wnXuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MC0yY3XuEfC_3fo_KXq00A" value="&quot;plan_cost&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_MCk6xHXuEfC_3fo_KXq00A" base_Element="_MCk6w3XuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MCk6xXXuEfC_3fo_KXq00A" name="Field">
+      <annotationParameters xmi:id="_MCk6xnXuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MC0yZHXuEfC_3fo_KXq00A" value="&quot;is_active&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_MClh0XXuEfC_3fo_KXq00A" base_Element="_MCk6x3XuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MClh0nXuEfC_3fo_KXq00A" name="Field">
+      <annotationParameters xmi:id="_MClh03XuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MC0yZXXuEfC_3fo_KXq00A" value="&quot;coverages&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <Persistency:PrimaryKey xmi:id="_MCmI4XXuEfC_3fo_KXq00A" base_Property="_MCmI4HXuEfC_3fo_KXq00A"/>
+  <Persistency:JPA1StyledElement xmi:id="_MCmI4nXuEfC_3fo_KXq00A" base_Element="_MCmI4HXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MCmv8HXuEfC_3fo_KXq00A" base_Element="_MCmI43XuEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCmv8XXuEfC_3fo_KXq00A" name="getUser" method="_MCv54HXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCmv9HXuEfC_3fo_KXq00A" type="_L9at8nXuEfC_3fo_KXq00A" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCmv8nXuEfC_3fo_KXq00A" name="setUser" method="_MCv54nXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCmv83XuEfC_3fo_KXq00A" name="user" type="_L9at8nXuEfC_3fo_KXq00A"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_MCmv9XXuEfC_3fo_KXq00A" base_Element="_MCmI43XuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MCmv9nXuEfC_3fo_KXq00A" name="DBRef"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_MCmv-HXuEfC_3fo_KXq00A" base_Element="_MCmv93XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCnXAXXuEfC_3fo_KXq00A" base_Element="_MCnXAHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCnXA3XuEfC_3fo_KXq00A" base_Element="_MCnXAnXuEfC_3fo_KXq00A"/>
+  <Persistency:PrimaryKey xmi:id="_MCnXBXXuEfC_3fo_KXq00A" base_Property="_MCnXBHXuEfC_3fo_KXq00A"/>
+  <Persistency:JPA1StyledElement xmi:id="_MCn-EHXuEfC_3fo_KXq00A" base_Element="_MCnXBHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCn-EnXuEfC_3fo_KXq00A" base_Element="_MCn-EXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MCn-FHXuEfC_3fo_KXq00A" base_Element="_MCn-E3XuEfC_3fo_KXq00A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCn-FXXuEfC_3fo_KXq00A" name="getEmail" method="_MCv57XXuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCn-GHXuEfC_3fo_KXq00A" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_MCn-FnXuEfC_3fo_KXq00A" name="setEmail" method="_MCv573XuEfC_3fo_KXq00A">
+      <ownedParameter xmi:id="_MCn-F3XuEfC_3fo_KXq00A" name="email">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_MCn-GXXuEfC_3fo_KXq00A" base_Element="_MCn-E3XuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MCn-GnXuEfC_3fo_KXq00A" name="Indexed">
+      <annotationParameters xmi:id="_MCn-G3XuEfC_3fo_KXq00A" name="unique" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MC1ZcHXuEfC_3fo_KXq00A" value="true"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_MCn-HXXuEfC_3fo_KXq00A" base_Element="_MCn-HHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MColIHXuEfC_3fo_KXq00A" base_Element="_MCn-HnXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MColI3XuEfC_3fo_KXq00A" base_Element="_MColIXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MColJnXuEfC_3fo_KXq00A" base_Element="_MColJHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MColKHXuEfC_3fo_KXq00A" base_Element="_MColJ3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCpMMHXuEfC_3fo_KXq00A" base_Element="_MColKXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCpMMnXuEfC_3fo_KXq00A" base_Element="_MCpMMXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCpMNHXuEfC_3fo_KXq00A" base_Element="_MCpMM3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCpMNnXuEfC_3fo_KXq00A" base_Element="_MCpMNXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCpMOHXuEfC_3fo_KXq00A" base_Element="_MCpMN3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCpMOnXuEfC_3fo_KXq00A" base_Element="_MCpMOXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCpMPHXuEfC_3fo_KXq00A" base_Element="_MCpMO3XuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Annotations xmi:id="_MCpzQHXuEfC_3fo_KXq00A" base_Element="_MCpMPXXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MCpzQXXuEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_MCpzQ3XuEfC_3fo_KXq00A" base_Element="_MCpzQnXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MCpzRHXuEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_MCpzRnXuEfC_3fo_KXq00A" base_Element="_MCpzRXXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MCpzR3XuEfC_3fo_KXq00A" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_MCrBaHXuEfC_3fo_KXq00A" base_Element="_MCrBZnXuEfC_3fo_KXq00A">
+    <annotations xmi:id="_MCrBaXXuEfC_3fo_KXq00A" name="JsonProperty">
+      <annotationParameters xmi:id="_MCrBanXuEfC_3fo_KXq00A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MC2AgnXuEfC_3fo_KXq00A" value="&quot;coverages&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_MCrocXXuEfC_3fo_KXq00A" base_Element="_MCrocHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCroc3XuEfC_3fo_KXq00A" base_Element="_MCrocnXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:StyledElement xmi:id="_MCrodXXuEfC_3fo_KXq00A" base_Element="_MCrodHXuEfC_3fo_KXq00A"/>
+  <uml:OpaqueBehavior xmi:id="_MCuEtHXuEfC_3fo_KXq00A" name="getPatient" specification="_MCgpUHXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCuEtXXuEfC_3fo_KXq00A" type="_L9UAQHXuEfC_3fo_KXq00A" direction="return"/>
+    <language>java</language>
+    <body>return patient;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCuEtnXuEfC_3fo_KXq00A" name="setPatient" specification="_MCgpUXXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCuEt3XuEfC_3fo_KXq00A" name="patient" type="_L9UAQHXuEfC_3fo_KXq00A"/>
+    <language>java</language>
+    <body>this.patient = patient;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCuEuHXuEfC_3fo_KXq00A" name="getPlan" specification="_MCgpWHXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCuEuXXuEfC_3fo_KXq00A" type="_L9LdYHXuEfC_3fo_KXq00A" direction="return"/>
+    <language>java</language>
+    <body>return plan;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCuEunXuEfC_3fo_KXq00A" name="setPlan" specification="_MCgpWXXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCuEu3XuEfC_3fo_KXq00A" name="plan" type="_L9LdYHXuEfC_3fo_KXq00A"/>
+    <language>java</language>
+    <body>this.plan = plan;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCuryHXuEfC_3fo_KXq00A" name="getPlanProvider" specification="_MCiegXXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCuryXXuEfC_3fo_KXq00A" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return planProvider;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCurynXuEfC_3fo_KXq00A" name="setPlanProvider" specification="_MCiegnXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCury3XuEfC_3fo_KXq00A" name="planProvider">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.planProvider = planProvider;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCurzHXuEfC_3fo_KXq00A" name="getPlanName" specification="_MCjFkXXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCurzXXuEfC_3fo_KXq00A" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return planName;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCurznXuEfC_3fo_KXq00A" name="setPlanName" specification="_MCjFknXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCurz3XuEfC_3fo_KXq00A" name="planName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.planName = planName;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCur0HXuEfC_3fo_KXq00A" name="getPlanType" specification="_MCjFmnXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCur0XXuEfC_3fo_KXq00A" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return planType;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCur0nXuEfC_3fo_KXq00A" name="setPlanType" specification="_MCjsoHXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCur03XuEfC_3fo_KXq00A" name="planType">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.planType = planType;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCur1HXuEfC_3fo_KXq00A" name="getPlanDescription" specification="_MCjsqHXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCur1XXuEfC_3fo_KXq00A" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return planDescription;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCur1nXuEfC_3fo_KXq00A" name="setPlanDescription" specification="_MCjsqXXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCur13XuEfC_3fo_KXq00A" name="planDescription">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.planDescription = planDescription;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCvS0HXuEfC_3fo_KXq00A" name="getPlanCost" specification="_MCkTtXXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCvS0XXuEfC_3fo_KXq00A" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return planCost;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCvS0nXuEfC_3fo_KXq00A" name="setPlanCost" specification="_MCkTtnXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCvS03XuEfC_3fo_KXq00A" name="planCost">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.planCost = planCost;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCv54HXuEfC_3fo_KXq00A" name="getUser" specification="_MCmv8XXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCv54XXuEfC_3fo_KXq00A" type="_L9at8nXuEfC_3fo_KXq00A" direction="return"/>
+    <language>java</language>
+    <body>return user;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCv54nXuEfC_3fo_KXq00A" name="setUser" specification="_MCmv8nXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCv543XuEfC_3fo_KXq00A" name="user" type="_L9at8nXuEfC_3fo_KXq00A"/>
+    <language>java</language>
+    <body>this.user = user;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCv57XXuEfC_3fo_KXq00A" name="getEmail" specification="_MCn-FXXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCv57nXuEfC_3fo_KXq00A" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return email;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_MCv573XuEfC_3fo_KXq00A" name="setEmail" specification="_MCn-FnXuEfC_3fo_KXq00A">
+    <ownedParameter xmi:id="_MCv58HXuEfC_3fo_KXq00A" name="email">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.email = email;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_MC9VQHXuEfC_3fo_KXq00A" base_Element="_MC5D0HXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MDAYkHXuEfC_3fo_KXq00A" base_Element="_MC9VQXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MDEC8HXuEfC_3fo_KXq00A" base_Element="_MDAYkXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MDIUYHXuEfC_3fo_KXq00A" base_Element="_MDEC8XXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MDMl0HXuEfC_3fo_KXq00A" base_Element="_MDIUYXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MDReUHXuEfC_3fo_KXq00A" base_Element="_MDNM4HXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MDVIsHXuEfC_3fo_KXq00A" base_Element="_MDReUXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MDZaIHXuEfC_3fo_KXq00A" base_Element="_MDVvwHXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MDdrkHXuEfC_3fo_KXq00A" base_Element="_MDZaIXXuEfC_3fo_KXq00A"/>
+  <UMLLabProfile:Reference xmi:id="_MDh9AHXuEfC_3fo_KXq00A" base_Element="_MDdrkXXuEfC_3fo_KXq00A"/>
+</xmi:XMI>

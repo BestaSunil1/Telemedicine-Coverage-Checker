@@ -94,4 +94,13 @@ public class NotificationService {
 		User user = userRepository.findById(userId).orElse(null);
 		return notificationRepository.findByUserAndIsRead(user, false);
 	}
+	
+	public Notifications updateRead(String notificationId, boolean isRead) {
+		Notifications notification = notificationRepository.findById(notificationId).orElse(null);
+		if (notification != null) {
+			notification.setRead(isRead);
+			return notificationRepository.save(notification);
+		}
+		return null;
+	}
 }

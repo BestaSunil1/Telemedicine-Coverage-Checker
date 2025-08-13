@@ -17,10 +17,12 @@ import training.iqgateway.dtos.DoctorDto;
 import training.iqgateway.dtos.DoctorRegistrationDto;
 import training.iqgateway.dtos.PatientRegistrationDTO;
 import training.iqgateway.dtos.UserDto;
+import training.iqgateway.entities.Admin;
 import training.iqgateway.entities.Doctor;
 import training.iqgateway.entities.DoctorAvailability;
 import training.iqgateway.entities.Patient;
 import training.iqgateway.entities.User;
+import training.iqgateway.repositories.AdminRepository;
 import training.iqgateway.repositories.DoctorAvailabilityRepository;
 import training.iqgateway.repositories.DoctorRepository;
 import training.iqgateway.repositories.PatientRepository;
@@ -39,6 +41,8 @@ public class AdminService {
 	private DoctorRepository doctorRepository;
 	@Autowired
     private DoctorAvailabilityRepository availabilityRepository;
+	@Autowired
+	private AdminRepository adminRepository;
     
     @Autowired
     private PasswordEncoder passwordEncoder;
@@ -68,7 +72,7 @@ public class AdminService {
         
         // Convert base64 to byte array if provided
         if (registrationDto.getProfilePictureBase64() != null) {
-            doctor.setProfilePicture(Base64.getDecoder().decode(registrationDto.getProfilePictureBase64()));
+            doctor.setProfilePhoto(registrationDto.getProfilePictureBase64());
         }
         
         doctor = doctorRepository.save(doctor);
@@ -139,7 +143,7 @@ public class AdminService {
         doctor.setSpecializations(doctorDto.getSpecializations());
         
         if (doctorDto.getProfilePictureBase64() != null) {
-            doctor.setProfilePicture(Base64.getDecoder().decode(doctorDto.getProfilePictureBase64()));
+            doctor.setProfilePhoto(doctorDto.getProfilePictureBase64());
         }
 
         doctor = doctorRepository.save(doctor);
@@ -176,8 +180,8 @@ public class AdminService {
         dto.setSpecializations(doctor.getSpecializations());
         
         // Convert profile picture to base64
-        if (doctor.getProfilePicture() != null) {
-            dto.setProfilePictureBase64(Base64.getEncoder().encodeToString(doctor.getProfilePicture()));
+        if (doctor.getProfilePhoto() != null) {
+            dto.setProfilePictureBase64((doctor.getProfilePhoto()));
         }
 
         // Convert user
@@ -216,7 +220,7 @@ public class AdminService {
         User user = new User();
         user.setUsername(registrationDTO.getUsername());
         user.setEmail(registrationDTO.getEmail());
-        user.setPassword(registrationDTO.getPassword()); // Consider encrypting password
+        user.setPassword(passwordEncoder.encode(registrationDTO.getPassword()));// Consider encrypting password
         user.setRole(registrationDTO.getRole());
         user.setCreatedAt(LocalDateTime.now());
         user.setUpdatedAt(LocalDateTime.now());
@@ -301,4 +305,43 @@ public class AdminService {
     public boolean existsByUser(User user) {
         return patientRepository.existsByUser(user);
     }
+    
+    public Optional<User> getUserById(String id) {
+		return userRepository.findById(id);
+    }
+    
+    public Admin updateAdmin(String id, Admin updatedPatient) {
+	    Optional<Admin> optionalPatient = adminRepository.findById(id);
+	    if (optionalPatient.isPresent()) {
+	        Admin existingPatient = optionalPatient.get();
+	        
+	        // Update fields as needed, for example:
+	        existingPatient.setDateOfBirth(updatedPatient.getDateOfBirth());
+	        existingPatient.setGender(updatedPatient.getGender());
+	        existingPatient.setContactNumber(updatedPatient.getContactNumber());
+
+	        // Update profile photo:
+	        existingPatient.setProfilePhoto(updatedPatient.getProfilePhoto());
+
+	        // Optionally update user fields...
+	        
+	        return adminRepository.save(existingPatient);
+	    }
+	    return null;
+	}
+    public Optional<Admin> getByAdminId(String userId) {
+		return adminRepository.findById(userId);
+	}
+
+	public List<Admin> getAllAdmins() {
+		return adminRepository.findAll();
+	}
+
+	public Optional<Admin> getAdminById(String id) {
+		return adminRepository.findById(id);
+	}
+	
+	public Optional<Admin> getAdminByUserId(String userId) {
+		return adminRepository.findByUser_Id(userId);
+	}
 }

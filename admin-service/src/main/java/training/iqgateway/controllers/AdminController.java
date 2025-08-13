@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
+
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,12 +19,13 @@ import org.springframework.web.bind.annotation.RestController;
 import training.iqgateway.dtos.DoctorDto;
 import training.iqgateway.dtos.DoctorRegistrationDto;
 import training.iqgateway.dtos.PatientRegistrationDTO;
+import training.iqgateway.entities.Admin;
 import training.iqgateway.entities.Patient;
+import training.iqgateway.entities.User;
 import training.iqgateway.services.AdminService;
 
 @RestController
 @RequestMapping("/api/admin")
-
 public class AdminController {
 	
 	@Autowired
@@ -166,4 +167,33 @@ public class AdminController {
             return new ResponseEntity<>("Deletion failed: " + e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+    
+    @GetMapping("/user/{userId}")
+    public Optional<User> getAdminByUserId(@PathVariable String userId) {
+    	return adminService.getUserById(userId);
+		
+    }
+    
+	@PostMapping("/update/{id}") 
+	public ResponseEntity<Admin> updateAdmin(@PathVariable String id, @RequestBody Admin admin) {
+	    Admin updatedPatient = adminService.updateAdmin(id, admin);
+	    if (updatedPatient != null) {
+	        return ResponseEntity.ok(updatedPatient);
+	    } else {
+	        return ResponseEntity.notFound().build();
+	    }
+	}
+	
+	@GetMapping("/admins")
+	public ResponseEntity<List<Admin>> getAllAdmins() {
+		List<Admin> admins = adminService.getAllAdmins();
+		return new ResponseEntity<>(admins, HttpStatus.OK);
+	}
+	
+	@GetMapping("/data/{userId}")
+	public ResponseEntity<Admin> getAdminByUserId1(@PathVariable String userId) {
+	    return adminService.getAdminByUserId(userId)
+	        .map(patient -> ResponseEntity.ok(patient))
+	        .orElse(ResponseEntity.notFound().build());
+	}
 }

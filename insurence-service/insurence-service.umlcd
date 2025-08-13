@@ -1,0 +1,2391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_LvKPgHXuEfC_3fo_KXq00A">
+  <modelElement href="insurence-service.uml#_L8PpQ3XuEfC_3fo_KXq00A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MkcRsHXuEfC_3fo_KXq00A" sourceAnchor="212.0,80.0" targetAnchor="186.0,0.0" target="_Mk2hYHXuEfC_3fo_KXq00A" source="_MkcRuXXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_MC5D0HXuEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_Kw4z8HXvEfC_3fo_KXq00A" sourceX="19" sourceY="1" targetX="661" targetY="283"/>
+    <bendpoints xmi:id="_Kw4z8XXvEfC_3fo_KXq00A" sourceX="19" sourceY="-301" targetX="661" targetY="-19"/>
+    <bendpoints xmi:id="_Kw4z8nXvEfC_3fo_KXq00A" sourceX="-642" sourceY="-300" targetY="-18"/>
+    <stereotypes xmi:id="_MkcRsXXuEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="insurence-service.uml#_MC9VQHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MkcRsnXuEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_MuhaxXXuEfC_3fo_KXq00A" position="-354.0,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_MkcRs3XuEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="insurence-service.uml#_MC5D0XXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_MuhaxHXuEfC_3fo_KXq00A" position="11.0,-90.0"/>
+      <visibility xmi:id="_MkcRtHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkcRtXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MkcRtnXuEfC_3fo_KXq00A" aggregationKind="NONE" name="eligibilityService" navigable="true">
+      <modelElement href="insurence-service.uml#_MCdmAHXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_MuhaxnXuEfC_3fo_KXq00A" position="162.0,-69.00000000000006"/>
+      <visibility xmi:id="_MkcRt3XuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_MkcRuHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mkdf0HXuEfC_3fo_KXq00A" sourceAnchor="122.0,126.0" targetAnchor="96.0,243.0" target="_MkeG8HXuEfC_3fo_KXq00A" source="_Mkoe8HXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_MC1Zc3XuEfC_3fo_KXq00A"/>
+    <bendpoints xmi:id="_Kw4z83XvEfC_3fo_KXq00A" sourceX="726" targetY="41"/>
+    <nameVisual xmi:id="_MkeG4HXuEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_MuiB2XXuEfC_3fo_KXq00A" position="-52.0,-20.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_MkeG4XXuEfC_3fo_KXq00A" aggregationKind="NONE" name="status" navigable="true">
+      <modelElement href="insurence-service.uml#_MCpMN3XuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_MuiB2HXuEfC_3fo_KXq00A" position="43.375,2.0"/>
+      <visibility xmi:id="_MkeG5HXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkeG43XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MkeG4nXuEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="insurence-service.uml#_MC1ZdHXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_MuiB2nXuEfC_3fo_KXq00A" position="-60.3125,43.0"/>
+      <visibility xmi:id="_MkeG53XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkeG5nXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MkeG6HXuEfC_3fo_KXq00A" target="_MkeG8HXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_MC2AgHXuEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_MkeG6XXuEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_MkeG6nXuEfC_3fo_KXq00A" aggregationKind="NONE" name="verifiedAt" navigable="true">
+      <modelElement href="insurence-service.uml#_MCpMO3XuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkeG63XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkeG7HXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MkeG7XXuEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="insurence-service.uml#_MC2AgXXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkeG7nXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkeG73XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MkgjIHXuEfC_3fo_KXq00A" source="_MkhxQXXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_MDdrkXXuEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_MkgjJHXuEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="insurence-service.uml#_MDh9AHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MkgjIXXuEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_MkgjInXuEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="insurence-service.uml#_MDdrknXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkgjJnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkgjJXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MkgjI3XuEfC_3fo_KXq00A" aggregationKind="NONE" name="verifiedAt" navigable="true">
+      <modelElement href="insurence-service.uml#_MCrBY3XuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkhxQHXuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_MkgjJ3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mki_YHXuEfC_3fo_KXq00A" sourceAnchor="0.0,65.0" targetAnchor="269.0,148.0" target="_MkjmiXXuEfC_3fo_KXq00A" source="_Mkoe8HXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_MC0LUHXuEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_Mki_YnXuEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_MuiB1nXuEfC_3fo_KXq00A" position="1.5,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Mki_Y3XuEfC_3fo_KXq00A" aggregationKind="NONE" name="status" navigable="true">
+      <modelElement href="insurence-service.uml#_MChQYnXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_MuiB1XXuEfC_3fo_KXq00A" position="-47.5,41.0"/>
+      <visibility xmi:id="_Mki_aXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mki_aHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mki_ZHXuEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="insurence-service.uml#_MC0LUXXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_MuiB13XuEfC_3fo_KXq00A" position="1.0,-9.5"/>
+      <visibility xmi:id="_MkjmcXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkjmcHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mki_YXXuEfC_3fo_KXq00A" target="_MkjmiXXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_MC0LUnXuEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_Mki_ZXXuEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_Mki_ZnXuEfC_3fo_KXq00A" aggregationKind="NONE" name="verifiedAt" navigable="true">
+      <modelElement href="insurence-service.uml#_MChQZHXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Mkjmc3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkjmcnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mki_Z3XuEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="insurence-service.uml#_MC0LU3XuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkjmdnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkjmdXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mkjmd3XuEfC_3fo_KXq00A" sourceAnchor="0.0,51.0" targetAnchor="214.0,186.0" target="_MkmpwHXuEfC_3fo_KXq00A" source="_MkjmiXXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_MC9VQXXuEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_MkjmeHXuEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="insurence-service.uml#_MDAYkHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MkjmeXXuEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_MuhayHXuEfC_3fo_KXq00A" position="-33.0,17.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_MkjmenXuEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="insurence-service.uml#_MC9VQnXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_Muhax3XuEfC_3fo_KXq00A" position="-15.0,-51.0"/>
+      <visibility xmi:id="_Mkjme3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkjmfHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MkjmfXXuEfC_3fo_KXq00A" aggregationKind="NONE" name="patient" navigable="true">
+      <modelElement href="insurence-service.uml#_MCgCQnXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_MuhayXXuEfC_3fo_KXq00A" position="-44.0,41.0"/>
+      <visibility xmi:id="_MkjmfnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkjmf3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MkjmgHXuEfC_3fo_KXq00A" sourceAnchor="269.0,79.0" targetAnchor="0.0,275.0" target="_Mkq7MHXuEfC_3fo_KXq00A" source="_MkjmiXXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_MDAYkXXuEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_MkjmgXXuEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="insurence-service.uml#_MDEC8HXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MkjmgnXuEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_MuiB0HXuEfC_3fo_KXq00A" position="-18.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Mkjmg3XuEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="insurence-service.uml#_MDAYknXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_MuhaynXuEfC_3fo_KXq00A" position="14.0,2.0"/>
+      <visibility xmi:id="_MkjmhHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkjmhXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MkjmhnXuEfC_3fo_KXq00A" aggregationKind="NONE" name="plan" navigable="true">
+      <modelElement href="insurence-service.uml#_MCgpVnXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_MuiB0XXuEfC_3fo_KXq00A" position="-70.0,-51.0"/>
+      <visibility xmi:id="_Mkjmh3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkjmiHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MkmCsHXuEfC_3fo_KXq00A" sourceAnchor="161.0,0.0" targetAnchor="165.0,223.0" target="_MkvMoHXuEfC_3fo_KXq00A" source="_MkmpwHXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_MDEC8XXuEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_MkmCsXXuEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="insurence-service.uml#_MDIUYHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MkmCsnXuEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_MuiB03XuEfC_3fo_KXq00A" position="-44.0,-9.000000000000004"/>
+    </nameVisual>
+    <sourceRole xmi:id="_MkmCs3XuEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="insurence-service.uml#_MDEC8nXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_MuiB0nXuEfC_3fo_KXq00A" position="45.0,-3.999999999999993"/>
+      <visibility xmi:id="_MkmCtHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkmCtXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MkmCtnXuEfC_3fo_KXq00A" aggregationKind="NONE" name="user" navigable="true">
+      <modelElement href="insurence-service.uml#_MCmI43XuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_MuiB1HXuEfC_3fo_KXq00A" position="1.0,-20.0"/>
+      <visibility xmi:id="_MkmCt3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkmCuHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MkptEHXuEfC_3fo_KXq00A" sourceAnchor="0.0,58.0" targetAnchor="333.0,58.0" target="_MkvMoHXuEfC_3fo_KXq00A" source="_MkptGXXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_MC1ZcXXuEfC_3fo_KXq00A"/>
+    <nameVisual xmi:id="_MkptEXXuEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_MuiB3HXuEfC_3fo_KXq00A" position="-5.0,-22.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_MkptEnXuEfC_3fo_KXq00A" aggregationKind="NONE" name="role" navigable="true">
+      <modelElement href="insurence-service.uml#_MCn-HnXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_MuiB23XuEfC_3fo_KXq00A" position="-23.0,-91.0"/>
+      <stereotypes xmi:id="_MkptFnXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MColIHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkptFXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkptFHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MkptE3XuEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="insurence-service.uml#_MC1ZcnXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_MuiB3XXuEfC_3fo_KXq00A" position="3.0,16.0"/>
+      <visibility xmi:id="_MkptGHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkptF3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mkt-gHXuEfC_3fo_KXq00A" source="_MkvMoHXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_MDIUYXXuEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Mkulk3XuEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="insurence-service.uml#_MDMl0HXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MkulkHXuEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_MkulkXXuEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="insurence-service.uml#_MDI7cHXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkulmXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkulmHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MkulknXuEfC_3fo_KXq00A" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="insurence-service.uml#_MColIXXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Mkulm3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkulmnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mkt-gXXuEfC_3fo_KXq00A" source="_MkvMoHXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_MDNM4HXuEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Mkull3XuEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="insurence-service.uml#_MDReUHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MkullHXuEfC_3fo_KXq00A" text=""/>
+    <sourceRole xmi:id="_MkullXXuEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="insurence-service.uml#_MDNM4XXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkulnnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkulnXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MkullnXuEfC_3fo_KXq00A" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="insurence-service.uml#_MColJHXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkuloHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkuln3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MkxB0HXuEfC_3fo_KXq00A" sourceAnchor="378.0,161.0" targetAnchor="0.0,164.0" target="_Mkxo4nXuEfC_3fo_KXq00A" source="_Mk2hYHXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_MDZaIXXuEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_MkxB1HXuEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="insurence-service.uml#_MDdrkHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MkxB0XXuEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_Muio53XuEfC_3fo_KXq00A" position="57.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_MkxB0nXuEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="insurence-service.uml#_MDZaInXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_Muio5nXuEfC_3fo_KXq00A" position="1.0,41.0"/>
+      <visibility xmi:id="_MkxB1nXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkxB1XXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MkxB03XuEfC_3fo_KXq00A" aggregationKind="NONE" name="eligibilityRepository" navigable="true">
+      <modelElement href="insurence-service.uml#_MCpzRXXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_Muio6HXuEfC_3fo_KXq00A" position="-206.0,2.0"/>
+      <stereotypes xmi:id="_Mkxo4XXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MCpzRnXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkxo4HXuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_MkxB13XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mky3AHXuEfC_3fo_KXq00A" sourceAnchor="0.0,301.0" targetAnchor="168.0,40.0" target="_Mky3CnXuEfC_3fo_KXq00A" source="_Mk2hYHXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_MDReUXXuEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Mky3BHXuEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="insurence-service.uml#_MDVIsHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mky3AXXuEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_Muio4XXuEfC_3fo_KXq00A" position="-21.0,-21.000000000000007"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Mky3AnXuEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="insurence-service.uml#_MDReUnXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_Muio4HXuEfC_3fo_KXq00A" position="-26.0,2.0"/>
+      <visibility xmi:id="_Mky3BnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mky3BXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mky3A3XuEfC_3fo_KXq00A" aggregationKind="NONE" name="patientRepository" navigable="true">
+      <modelElement href="insurence-service.uml#_MCpMPXXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_Muio4nXuEfC_3fo_KXq00A" position="-27.0,-90.0"/>
+      <stereotypes xmi:id="_Mky3CXXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MCpzQHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mky3CHXuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Mky3B3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mk0FI3XuEfC_3fo_KXq00A" sourceAnchor="378.0,77.0" targetAnchor="0.0,66.0" target="_Mk0sOXXuEfC_3fo_KXq00A" source="_Mk2hYHXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_MDVvwHXuEfC_3fo_KXq00A"/>
+    <stereotypes xmi:id="_Mk0sM3XuEfC_3fo_KXq00A" name="Reference">
+      <modelElement href="insurence-service.uml#_MDZaIHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mk0sMHXuEfC_3fo_KXq00A" text="">
+      <visualProperties xmi:id="_Muio5HXuEfC_3fo_KXq00A" position="-18.0,-22.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Mk0sMXXuEfC_3fo_KXq00A" aggregationKind="NONE" name="">
+      <modelElement href="insurence-service.uml#_MDVvwXXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_Muio43XuEfC_3fo_KXq00A" position="1.0,1.0"/>
+      <visibility xmi:id="_Mk0sNXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mk0sNHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mk0sMnXuEfC_3fo_KXq00A" aggregationKind="NONE" name="insurancePlanRepository" navigable="true">
+      <modelElement href="insurence-service.uml#_MCpzQnXuEfC_3fo_KXq00A"/>
+      <visualProperties xmi:id="_Muio5XXuEfC_3fo_KXq00A" position="-56.0,-91.0"/>
+      <stereotypes xmi:id="_Mk0sOHXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MCpzQ3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk0sN3XuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Mk0sNnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Mk5ksHXuEfC_3fo_KXq00A" name="InsurenceServiceApplicationTests">
+    <modelElement href="insurence-service.uml#_L9C6gHXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Mk5ksXXuEfC_3fo_KXq00A" position="-2082.0,1181.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Mk5ksnXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="insurence-service.uml#_L9DhkHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Mk5ks3XuEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="insurence-service.uml#_L9EIonXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Mk5ktHXuEfC_3fo_KXq00A" label="~"/>
+    <operations xmi:id="_Mk5ktXXuEfC_3fo_KXq00A" name="contextLoads">
+      <modelElement href="insurence-service.uml#_L9DhkXXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk5ktnXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_L9EIoHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk5kt3XuEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_Mk5kuHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MkvMoHXuEfC_3fo_KXq00A" name="User" associationsIn="_MkptEHXuEfC_3fo_KXq00A _MkmCsHXuEfC_3fo_KXq00A" associationsOut="_Mkt-gHXuEfC_3fo_KXq00A _Mkt-gXXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_L9at8nXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_MkvMoXXuEfC_3fo_KXq00A" position="-6365.0,-226.0" size="333.0,223.0"/>
+    <stereotypes xmi:id="_MkvMonXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="insurence-service.uml#_L9bVAHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_MkvMo3XuEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="insurence-service.uml#_L9cjIHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_MkvMpHXuEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_MkvMpXXuEfC_3fo_KXq00A" name="id">
+      <modelElement href="insurence-service.uml#_MCnXBHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkvMpnXuEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="insurence-service.uml#_MCnXBXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkvMp3XuEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="insurence-service.uml#_MCn-EHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkvMqHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkvMqXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkvMqnXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkvMq3XuEfC_3fo_KXq00A" name="username">
+      <modelElement href="insurence-service.uml#_MCn-EXXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkvMrHXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCn-EnXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkvMrXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkvMrnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkvMr3XuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkvMsHXuEfC_3fo_KXq00A" name="email">
+      <modelElement href="insurence-service.uml#_MCn-E3XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkvMsXXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="insurence-service.uml#_MCn-FHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkvMsnXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MCn-GXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkvMs3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkvMtHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkvMtXXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkvMtnXuEfC_3fo_KXq00A" name="password">
+      <modelElement href="insurence-service.uml#_MCn-HHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkvMt3XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCn-HXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkvMuHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkvMuXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkvMunXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkvMu3XuEfC_3fo_KXq00A" name="role">
+      <modelElement href="insurence-service.uml#_MCn-HnXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkvMvHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkvMvXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkvMvnXuEfC_3fo_KXq00A" name="Role">
+        <modelElement href="insurence-service.uml#_L9Zf0HXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkvMv3XuEfC_3fo_KXq00A" defaultValue="LocalDateTime.now()" name="createdAt">
+      <modelElement href="insurence-service.uml#_MColIXXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkvMwHXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MColI3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkvMwXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkvMwnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkvMw3XuEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="insurence-service.uml#_MBumMHXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkvMxHXuEfC_3fo_KXq00A" defaultValue="LocalDateTime.now()" name="updatedAt">
+      <modelElement href="insurence-service.uml#_MColJHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkvMxXXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MColJnXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkvMxnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkvMx3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkvMyHXuEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="insurence-service.uml#_MBumMHXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_MkvMyXXuEfC_3fo_KXq00A" name="User">
+      <modelElement href="insurence-service.uml#_L9b8EHXuEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_MkvMynXuEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_MkvMy3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkvMzHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MkvMzXXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L9b8E3XuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkvMznXuEfC_3fo_KXq00A" name="User">
+          <modelElement href="insurence-service.uml#_L9at8nXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MkvMz3XuEfC_3fo_KXq00A" name="User">
+      <modelElement href="insurence-service.uml#_MCXfYHXuEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_MkvM0HXuEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_MkvM0XXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCXfa3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkvM0nXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkvM03XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MkvM1HXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCXfanXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkvM1XXuEfC_3fo_KXq00A" name="User">
+          <modelElement href="insurence-service.uml#_L9at8nXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MkvM1nXuEfC_3fo_KXq00A" name="id">
+        <modelElement href="insurence-service.uml#_MCXfYXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkvM13XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkvM2HXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkvM2XXuEfC_3fo_KXq00A" name="username">
+        <modelElement href="insurence-service.uml#_MCXfYnXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkvM2nXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkvM23XuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkvM3HXuEfC_3fo_KXq00A" name="email">
+        <modelElement href="insurence-service.uml#_MCXfY3XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkvM3XXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkvM3nXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkvM33XuEfC_3fo_KXq00A" name="password">
+        <modelElement href="insurence-service.uml#_MCXfZHXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkvM4HXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkvM4XXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkvM4nXuEfC_3fo_KXq00A" name="role">
+        <modelElement href="insurence-service.uml#_MCXfZXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkvM43XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkvM5HXuEfC_3fo_KXq00A" name="Role">
+          <modelElement href="insurence-service.uml#_L9Zf0HXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkvM5XXuEfC_3fo_KXq00A" name="createdAt">
+        <modelElement href="insurence-service.uml#_MCXfZnXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkvM5nXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkvM53XuEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="insurence-service.uml#_MBumMHXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkvM6HXuEfC_3fo_KXq00A" name="updatedAt">
+        <modelElement href="insurence-service.uml#_MCXfZ3XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkvM6XXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkvM6nXuEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="insurence-service.uml#_MBumMHXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_MkptGXXuEfC_3fo_KXq00A" name="Role" associationsOut="_MkptEHXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_L9Zf0HXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_MkptGnXuEfC_3fo_KXq00A" position="-6021.0,-226.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_MkptG3XuEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="insurence-service.uml#_L9aG4HXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_MkptHHXuEfC_3fo_KXq00A" label="+"/>
+    <literals xmi:id="_MkptHXXuEfC_3fo_KXq00A" name="ADMIN">
+      <modelElement href="insurence-service.uml#_L9aG4XXuEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_MkptHnXuEfC_3fo_KXq00A" name="PATIENT">
+      <modelElement href="insurence-service.uml#_L9at8HXuEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_MkptH3XuEfC_3fo_KXq00A" name="DOCTOR">
+      <modelElement href="insurence-service.uml#_L9at8XXuEfC_3fo_KXq00A"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MkmpwHXuEfC_3fo_KXq00A" name="Patient" associationsIn="_Mkjmd3XuEfC_3fo_KXq00A" associationsOut="_MkmCsHXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_L9UAQHXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_MkmpwXXuEfC_3fo_KXq00A" position="-6361.0,6.0" size="214.0,203.0"/>
+    <stereotypes xmi:id="_MkmpwnXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="insurence-service.uml#_L9VOYHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Mkmpw3XuEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="insurence-service.uml#_L9XqoHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_MkmpxHXuEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_MkmpxXXuEfC_3fo_KXq00A" name="id">
+      <modelElement href="insurence-service.uml#_MCmI4HXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkmpxnXuEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="insurence-service.uml#_MCmI4XXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Mkmpx3XuEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="insurence-service.uml#_MCmI4nXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkmpyHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkmpyXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkmpynXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mkmpy3XuEfC_3fo_KXq00A" name="user">
+      <modelElement href="insurence-service.uml#_MCmI43XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkmpzHXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="insurence-service.uml#_MCmv8HXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkmpzXXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MCmv9XXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkmpznXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkmpz3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mkmp0HXuEfC_3fo_KXq00A" name="User">
+        <modelElement href="insurence-service.uml#_L9at8nXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mkmp0XXuEfC_3fo_KXq00A" name="dateOfBirth">
+      <modelElement href="insurence-service.uml#_MCmv93XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkmp0nXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCmv-HXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkmp03XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkmp1HXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mkmp1XXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mkmp1nXuEfC_3fo_KXq00A" name="gender">
+      <modelElement href="insurence-service.uml#_MCnXAHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkmp13XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCnXAXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkmp2HXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkmp2XXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mkmp2nXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mkmp23XuEfC_3fo_KXq00A" name="contactNumber">
+      <modelElement href="insurence-service.uml#_MCnXAnXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkmp3HXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCnXA3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkmp3XXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkmp3nXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mkmp33XuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Mkmp4HXuEfC_3fo_KXq00A" name="Patient">
+      <modelElement href="insurence-service.uml#_L9V1cHXuEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_Mkmp4XXuEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_Mkmp4nXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkmp43XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mkmp5HXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L9WcgnXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mkmp5XXuEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="insurence-service.uml#_L9UAQHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Mkmp5nXuEfC_3fo_KXq00A" name="toString">
+      <modelElement href="insurence-service.uml#_L9XDkHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkmp53XuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_L9XDknXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkmp6HXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkmp6XXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mkmp6nXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L9XDkXXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mkmp63XuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Mkmp7HXuEfC_3fo_KXq00A" name="Patient">
+      <modelElement href="insurence-service.uml#_MB6zcHXuEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_Mkmp7XXuEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_Mkmp7nXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MB6zeXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkmp73XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkmp8HXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mkmp8XXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MB6zeHXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mkmp8nXuEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="insurence-service.uml#_L9UAQHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mkmp83XuEfC_3fo_KXq00A" name="id">
+        <modelElement href="insurence-service.uml#_MB6zcXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkmp9HXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkmp9XXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mkmp9nXuEfC_3fo_KXq00A" name="user">
+        <modelElement href="insurence-service.uml#_MB6zcnXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkmp93XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkmp-HXuEfC_3fo_KXq00A" name="User">
+          <modelElement href="insurence-service.uml#_L9at8nXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mkmp-XXuEfC_3fo_KXq00A" name="dateOfBirth">
+        <modelElement href="insurence-service.uml#_MB6zc3XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkmp-nXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkmp-3XuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mkmp_HXuEfC_3fo_KXq00A" name="gender">
+        <modelElement href="insurence-service.uml#_MB6zdHXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkmp_XXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkmp_nXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mkmp_3XuEfC_3fo_KXq00A" name="contactNumber">
+        <modelElement href="insurence-service.uml#_MB6zdXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkmqAHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkmqAXXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Mky3CnXuEfC_3fo_KXq00A" name="PatientRepository" associationsIn="_Mky3AHXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_L9mUIHXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Mky3C3XuEfC_3fo_KXq00A" position="-6136.0,8.0" size="168.0,115.0"/>
+    <stereotypes xmi:id="_Mky3DHXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="insurence-service.uml#_L9m7MHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Mky3DXXuEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="insurence-service.uml#_L9oJUnXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Mky3DnXuEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_Mky3D3XuEfC_3fo_KXq00A" name="findByUser_Id">
+      <modelElement href="insurence-service.uml#_L9m7MXXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mky3EHXuEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="insurence-service.uml#_L9niQHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Mky3EXXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_L9niQXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mky3EnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mky3E3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mky3FHXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCZUk3XuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mky3FXXuEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="insurence-service.uml#_MB9PsHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mky3FnXuEfC_3fo_KXq00A" name="userId">
+        <modelElement href="insurence-service.uml#_L9m7MnXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mky3F3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mky3GHXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MkzeEHXuEfC_3fo_KXq00A" name="findByUser_Email">
+      <modelElement href="insurence-service.uml#_L9niQnXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkzeEXXuEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="insurence-service.uml#_L9oJUHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkzeEnXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_L9oJUXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkzeE3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkzeFHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MkzeFXXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCZUlHXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkzeFnXuEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="insurence-service.uml#_MB9PsHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MkzeF3XuEfC_3fo_KXq00A" name="email">
+        <modelElement href="insurence-service.uml#_L9niQ3XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkzeGHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkzeGXXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Mk0sOXXuEfC_3fo_KXq00A" name="InsurancePlanRepository" associationsIn="_Mk0FI3XuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_L9jQ0HXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Mk0sOnXuEfC_3fo_KXq00A" position="-5517.0,-242.0" size="207.0,135.0"/>
+    <stereotypes xmi:id="_Mk0sO3XuEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="insurence-service.uml#_L9j34HXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Mk0sPHXuEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="insurence-service.uml#_L9ltFXXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Mk0sPXXuEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_Mk0sPnXuEfC_3fo_KXq00A" name="findByIsActiveTrue">
+      <modelElement href="insurence-service.uml#_L9j34XXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk0sP3XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_L9ke8nXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk0sQHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mk0sQXXuEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Mk0sQnXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L9ke8HXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mk0sQ3XuEfC_3fo_KXq00A" name="InsurancePlan">
+          <modelElement href="insurence-service.uml#_L9LdYHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Mk0sRHXuEfC_3fo_KXq00A" name="findByPlanNameAndIsActiveTrue">
+      <modelElement href="insurence-service.uml#_L9ke83XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk0sRXXuEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="insurence-service.uml#_L9lGAHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Mk0sRnXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_L9lGAXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk0sR3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mk0sSHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mk0sSXXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCZUkHXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mk0sSnXuEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="insurence-service.uml#_MB9PsHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mk0sS3XuEfC_3fo_KXq00A" name="planName">
+        <modelElement href="insurence-service.uml#_L9ke9HXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk0sTHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk0sTXXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mk0sTnXuEfC_3fo_KXq00A" name="findByPlanProviderAndIsActiveTrue">
+      <modelElement href="insurence-service.uml#_L9ltEHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk0sT3XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_L9ltFHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk0sUHXuEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_Mk0sUXXuEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Mk0sUnXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L9ltEnXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mk0sU3XuEfC_3fo_KXq00A" name="InsurancePlan">
+          <modelElement href="insurence-service.uml#_L9LdYHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mk0sVHXuEfC_3fo_KXq00A" name="planProvider">
+        <modelElement href="insurence-service.uml#_L9ltEXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk0sVXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk0sVnXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Mk2hYHXuEfC_3fo_KXq00A" name="InsuranceEligibilityService" associationsIn="_MkcRsHXuEfC_3fo_KXq00A" associationsOut="_Mky3AHXuEfC_3fo_KXq00A _Mk0FI3XuEfC_3fo_KXq00A _MkxB0HXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_L9to4HXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Mk2hYXXuEfC_3fo_KXq00A" position="-5914.0,-253.0" size="378.0,316.0"/>
+    <stereotypes xmi:id="_Mk2hYnXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="insurence-service.uml#_L9u3AHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Mk2hY3XuEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="insurence-service.uml#_L9yhYHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Mk2hZHXuEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_Mk2hZXXuEfC_3fo_KXq00A" name="patientRepository">
+      <modelElement href="insurence-service.uml#_MCpMPXXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Mk2hZnXuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Mk2hZ3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mk2haHXuEfC_3fo_KXq00A" name="PatientRepository">
+        <modelElement href="insurence-service.uml#_L9mUIHXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mk2haXXuEfC_3fo_KXq00A" name="insurancePlanRepository">
+      <modelElement href="insurence-service.uml#_MCpzQnXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Mk2hanXuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Mk2ha3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mk2hbHXuEfC_3fo_KXq00A" name="InsurancePlanRepository">
+        <modelElement href="insurence-service.uml#_L9jQ0HXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mk2hbXXuEfC_3fo_KXq00A" name="eligibilityRepository">
+      <modelElement href="insurence-service.uml#_MCpzRXXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Mk2hbnXuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Mk2hb3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mk2hcHXuEfC_3fo_KXq00A" name="InsuranceEligibilityRepository">
+        <modelElement href="insurence-service.uml#_L9fmcHXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Mk2hcXXuEfC_3fo_KXq00A" name="getPatientInsurancePlans">
+      <modelElement href="insurence-service.uml#_L9veEHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk2hcnXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_L9wFInXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk2hc3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mk2hdHXuEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Mk2hdXXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L9wFIHXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mk2hdnXuEfC_3fo_KXq00A" name="PatientInsuranceDTO">
+          <modelElement href="insurence-service.uml#_L9owYHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mk2hd3XuEfC_3fo_KXq00A" name="patientId">
+        <modelElement href="insurence-service.uml#_L9veEXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2heHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2heXXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mk2henXuEfC_3fo_KXq00A" name="createEligibilityRecord">
+      <modelElement href="insurence-service.uml#_L9wsMHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk2he3XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_L9wsM3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk2hfHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mk2hfXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mk2hfnXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCFyl3XuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mk2hf3XuEfC_3fo_KXq00A" name="InsuranceEligibility">
+          <modelElement href="insurence-service.uml#_L9FWxHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mk2hgHXuEfC_3fo_KXq00A" name="patientId">
+        <modelElement href="insurence-service.uml#_L9wsMXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2hgXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2hgnXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mk2hg3XuEfC_3fo_KXq00A" name="planId">
+        <modelElement href="insurence-service.uml#_L9wsMnXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2hhHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2hhXXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mk2hhnXuEfC_3fo_KXq00A" name="createErrorResponse">
+      <modelElement href="insurence-service.uml#_L9xTQHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk2hh3XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_L9xTQ3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk2hiHXuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Mk2hiXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mk2hinXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCHAtXXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mk2hi3XuEfC_3fo_KXq00A" name="EligibilityCheckResponse">
+          <modelElement href="insurence-service.uml#_L90WkHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mk2hjHXuEfC_3fo_KXq00A" name="message">
+        <modelElement href="insurence-service.uml#_L9xTQXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2hjXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2hjnXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mk2hj3XuEfC_3fo_KXq00A" name="planId">
+        <modelElement href="insurence-service.uml#_L9xTQnXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2hkHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2hkXXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mk2hknXuEfC_3fo_KXq00A" name="getAllEligibilities">
+      <modelElement href="insurence-service.uml#_L9xTRHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk2hk3XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_L9x6UnXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk2hlHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mk2hlXXuEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Mk2hlnXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L9x6UHXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mk2hl3XuEfC_3fo_KXq00A" name="InsuranceEligibility">
+          <modelElement href="insurence-service.uml#_L9FWxHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Mk2hmHXuEfC_3fo_KXq00A" name="getAllInsurancePlans">
+      <modelElement href="insurence-service.uml#_L9x6U3XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk2hmXXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_L9x6VnXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk2hmnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mk2hm3XuEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Mk2hnHXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L9x6VHXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mk2hnXXuEfC_3fo_KXq00A" name="InsurancePlan">
+          <modelElement href="insurence-service.uml#_L9LdYHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Mk2hnnXuEfC_3fo_KXq00A" name="checkEligibility">
+      <modelElement href="insurence-service.uml#_MCFLgHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk2hn3XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCFykHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk2hoHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mk2hoXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mk2honXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCFLgnXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mk2ho3XuEfC_3fo_KXq00A" name="EligibilityCheckResponse">
+          <modelElement href="insurence-service.uml#_L90WkHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mk2hpHXuEfC_3fo_KXq00A" name="request">
+        <modelElement href="insurence-service.uml#_MCFLgXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2hpXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2hpnXuEfC_3fo_KXq00A" name="EligibilityCheckRequest">
+          <modelElement href="insurence-service.uml#_L92y0HXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mk2hp3XuEfC_3fo_KXq00A" name="verifyEligibility">
+      <modelElement href="insurence-service.uml#_MCFykXXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk2hqHXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCFylnXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk2hqXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mk2hqnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mk2hq3XuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCFylXXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mk2hrHXuEfC_3fo_KXq00A" name="EligibilityCheckResponse">
+          <modelElement href="insurence-service.uml#_L90WkHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mk2hrXXuEfC_3fo_KXq00A" name="eligibilityId">
+        <modelElement href="insurence-service.uml#_MCFyknXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2hrnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2hr3XuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mk2hsHXuEfC_3fo_KXq00A" name="status">
+        <modelElement href="insurence-service.uml#_MCFyk3XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2hsXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2hsnXuEfC_3fo_KXq00A" name="EligibilityStatus">
+          <modelElement href="insurence-service.uml#_L9EIpXXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mk2hs3XuEfC_3fo_KXq00A" name="benefitDetails">
+        <modelElement href="insurence-service.uml#_MCFylHXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2htHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2htXXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mk2htnXuEfC_3fo_KXq00A" name="findPatient">
+      <modelElement href="insurence-service.uml#_MCFymHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk2ht3XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCFym3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk2huHXuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Mk2huXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mk2hunXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCFymnXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mk2hu3XuEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="insurence-service.uml#_L9UAQHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mk2hvHXuEfC_3fo_KXq00A" name="request">
+        <modelElement href="insurence-service.uml#_MCFymXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2hvXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2hvnXuEfC_3fo_KXq00A" name="EligibilityCheckRequest">
+          <modelElement href="insurence-service.uml#_L92y0HXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mk2hv3XuEfC_3fo_KXq00A" name="buildResponseFromExistingEligibility">
+      <modelElement href="insurence-service.uml#_MCGZoHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk2hwHXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCGZpXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk2hwXXuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Mk2hwnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mk2hw3XuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCGZpHXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mk2hxHXuEfC_3fo_KXq00A" name="EligibilityCheckResponse">
+          <modelElement href="insurence-service.uml#_L90WkHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mk2hxXXuEfC_3fo_KXq00A" name="patient">
+        <modelElement href="insurence-service.uml#_MCGZoXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2hxnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2hx3XuEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="insurence-service.uml#_L9UAQHXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mk2hyHXuEfC_3fo_KXq00A" name="plan">
+        <modelElement href="insurence-service.uml#_MCGZonXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2hyXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2hynXuEfC_3fo_KXq00A" name="InsurancePlan">
+          <modelElement href="insurence-service.uml#_L9LdYHXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mk2hy3XuEfC_3fo_KXq00A" name="eligibility">
+        <modelElement href="insurence-service.uml#_MCGZo3XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2hzHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2hzXXuEfC_3fo_KXq00A" name="InsuranceEligibility">
+          <modelElement href="insurence-service.uml#_L9FWxHXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mk2hznXuEfC_3fo_KXq00A" name="createNotFoundResponse">
+      <modelElement href="insurence-service.uml#_MCHAsHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk2hz3XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCHAtHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk2h0HXuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Mk2h0XXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mk2h0nXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCHAs3XuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mk2h03XuEfC_3fo_KXq00A" name="EligibilityCheckResponse">
+          <modelElement href="insurence-service.uml#_L90WkHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mk2h1HXuEfC_3fo_KXq00A" name="patient">
+        <modelElement href="insurence-service.uml#_MCHAsXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2h1XXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2h1nXuEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="insurence-service.uml#_L9UAQHXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mk2h13XuEfC_3fo_KXq00A" name="plan">
+        <modelElement href="insurence-service.uml#_MCHAsnXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2h2HXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2h2XXuEfC_3fo_KXq00A" name="InsurancePlan">
+          <modelElement href="insurence-service.uml#_L9LdYHXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mk2h2nXuEfC_3fo_KXq00A" name="determineCoverageStatus">
+      <modelElement href="insurence-service.uml#_MCHAtnXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk2h23XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCHnwXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk2h3HXuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Mk2h3XXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mk2h3nXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCHnwHXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mk2h33XuEfC_3fo_KXq00A" name="InsuranceCoverageStatus">
+          <modelElement href="insurence-service.uml#_L9EvtXXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mk2h4HXuEfC_3fo_KXq00A" name="status">
+        <modelElement href="insurence-service.uml#_MCHAt3XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2h4XXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2h4nXuEfC_3fo_KXq00A" name="EligibilityStatus">
+          <modelElement href="insurence-service.uml#_L9EIpXXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mk2h43XuEfC_3fo_KXq00A" name="getStatusMessage">
+      <modelElement href="insurence-service.uml#_MCHnwnXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk2h5HXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCIO0HXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk2h5XXuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Mk2h5nXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mk2h53XuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCHnxHXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mk2h6HXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mk2h6XXuEfC_3fo_KXq00A" name="status">
+        <modelElement href="insurence-service.uml#_MCHnw3XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2h6nXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2h63XuEfC_3fo_KXq00A" name="EligibilityStatus">
+          <modelElement href="insurence-service.uml#_L9EIpXXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mk2h7HXuEfC_3fo_KXq00A" name="convertToDTO">
+      <modelElement href="insurence-service.uml#_MCIO0XXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mk2h7XXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCIO1HXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mk2h7nXuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Mk2h73XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mk2h8HXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCIO03XuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mk2h8XXuEfC_3fo_KXq00A" name="PatientInsuranceDTO">
+          <modelElement href="insurence-service.uml#_L9owYHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mk2h8nXuEfC_3fo_KXq00A" name="eligibility">
+        <modelElement href="insurence-service.uml#_MCIO0nXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mk2h83XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mk2h9HXuEfC_3fo_KXq00A" name="InsuranceEligibility">
+          <modelElement href="insurence-service.uml#_L9FWxHXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Mkxo4nXuEfC_3fo_KXq00A" name="InsuranceEligibilityRepository" associationsIn="_MkxB0HXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_L9fmcHXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Mkxo43XuEfC_3fo_KXq00A" position="-5286.0,-256.0" size="212.0,175.0"/>
+    <stereotypes xmi:id="_Mkxo5HXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="insurence-service.uml#_L9gNgHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Mkxo5XXuEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="insurence-service.uml#_L9iCsHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Mkxo5nXuEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_Mkxo53XuEfC_3fo_KXq00A" name="findByPatient_IdAndPlan_Id">
+      <modelElement href="insurence-service.uml#_L9gNgXXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkxo6HXuEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="insurence-service.uml#_L9g0knXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Mkxo6XXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_L9g0k3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkxo6nXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkxo63XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mkxo7HXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCYtgHXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mkxo7XXuEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="insurence-service.uml#_MB9PsHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mkxo7nXuEfC_3fo_KXq00A" name="patientId">
+        <modelElement href="insurence-service.uml#_L9g0kHXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkxo73XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkxo8HXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mkxo8XXuEfC_3fo_KXq00A" name="planId">
+        <modelElement href="insurence-service.uml#_L9g0kXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkxo8nXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkxo83XuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mkxo9HXuEfC_3fo_KXq00A" name="findByPatientId">
+      <modelElement href="insurence-service.uml#_L9hboHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkxo9XXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_L9hbpHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkxo9nXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkxo93XuEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Mkxo-HXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L9hbonXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mkxo-XXuEfC_3fo_KXq00A" name="InsuranceEligibility">
+          <modelElement href="insurence-service.uml#_L9FWxHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mkxo-nXuEfC_3fo_KXq00A" name="patientId">
+        <modelElement href="insurence-service.uml#_L9hboXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkxo-3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkxo_HXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mkxo_XXuEfC_3fo_KXq00A" name="findByPatientIdAndStatus">
+      <modelElement href="insurence-service.uml#_MB_E4HXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkxo_nXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MB_E5XXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkxo_3XuEfC_3fo_KXq00A" label="~"/>
+      <cardinality xmi:id="_MkxpAHXuEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_MkxpAXXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MB_E43XuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkxpAnXuEfC_3fo_KXq00A" name="InsuranceEligibility">
+          <modelElement href="insurence-service.uml#_L9FWxHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MkxpA3XuEfC_3fo_KXq00A" name="patientId">
+        <modelElement href="insurence-service.uml#_MB_E4XXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkxpBHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkxpBXXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkxpBnXuEfC_3fo_KXq00A" name="status">
+        <modelElement href="insurence-service.uml#_MB_E4nXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkxpB3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkxpCHXuEfC_3fo_KXq00A" name="EligibilityStatus">
+          <modelElement href="insurence-service.uml#_L9EIpXXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MkxpCXXuEfC_3fo_KXq00A" name="findByStatus">
+      <modelElement href="insurence-service.uml#_MB_E5nXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkxpCnXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MB_r8nXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkxpC3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkxpDHXuEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_MkxpDXXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MB_r8HXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkxpDnXuEfC_3fo_KXq00A" name="InsuranceEligibility">
+          <modelElement href="insurence-service.uml#_L9FWxHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MkxpD3XuEfC_3fo_KXq00A" name="status">
+        <modelElement href="insurence-service.uml#_MB_E53XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkxpEHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkxpEXXuEfC_3fo_KXq00A" name="EligibilityStatus">
+          <modelElement href="insurence-service.uml#_L9EIpXXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MkxpEnXuEfC_3fo_KXq00A" name="findByPatient_IdAndPlan_IdAndStatus">
+      <modelElement href="insurence-service.uml#_MB_r83XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkxpE3XuEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="insurence-service.uml#_MCATAHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkxpFHXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCATAXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkxpFXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkxpFnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MkxpF3XuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCYtgXXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkxpGHXuEfC_3fo_KXq00A" name="Optional">
+          <modelElement href="insurence-service.uml#_MB9PsHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MkxpGXXuEfC_3fo_KXq00A" name="patientId">
+        <modelElement href="insurence-service.uml#_MB_r9HXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkxpGnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkxpG3XuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkxpHHXuEfC_3fo_KXq00A" name="planId">
+        <modelElement href="insurence-service.uml#_MB_r9XXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkxpHXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkxpHnXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkxpH3XuEfC_3fo_KXq00A" name="status">
+        <modelElement href="insurence-service.uml#_MB_r9nXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkxpIHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkxpIXXuEfC_3fo_KXq00A" name="EligibilityStatus">
+          <modelElement href="insurence-service.uml#_L9EIpXXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Mkq7MHXuEfC_3fo_KXq00A" name="InsurancePlan" associationsIn="_MkjmgHXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_L9LdYHXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Mkq7MXXuEfC_3fo_KXq00A" position="-5518.0,-55.0" size="195.0,363.0"/>
+    <stereotypes xmi:id="_Mkq7MnXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="insurence-service.uml#_L9MEcHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Mkq7M3XuEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="insurence-service.uml#_L9QV4HXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Mkq7NHXuEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_Mkq7NXXuEfC_3fo_KXq00A" name="id">
+      <modelElement href="insurence-service.uml#_MChQaHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkq7NnXuEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="insurence-service.uml#_MCh3cHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Mkq7N3XuEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="insurence-service.uml#_MCh3cXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkq7OHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkq7OXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mkq7OnXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mkq7O3XuEfC_3fo_KXq00A" name="planProvider">
+      <modelElement href="insurence-service.uml#_MCh3cnXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkq7PHXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="insurence-service.uml#_MCiegHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Mkq7PXXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MCiehXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkq7PnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkq7P3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mkq7QHXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mkq7QXXuEfC_3fo_KXq00A" name="planName">
+      <modelElement href="insurence-service.uml#_MCieiHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkq7QnXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="insurence-service.uml#_MCjFkHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Mkq7Q3XuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MCjFlXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkq7RHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkq7RXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mkq7RnXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mkq7R3XuEfC_3fo_KXq00A" name="planType">
+      <modelElement href="insurence-service.uml#_MCjFmHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkq7SHXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="insurence-service.uml#_MCjFmXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Mkq7SXXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MCjso3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkq7SnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkq7S3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mkq7THXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mkq7TXXuEfC_3fo_KXq00A" name="planDescription">
+      <modelElement href="insurence-service.uml#_MCjspnXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkq7TnXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="insurence-service.uml#_MCjsp3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Mkq7T3XuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MCkTsHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkq7UHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkq7UXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mkq7UnXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mkq7U3XuEfC_3fo_KXq00A" name="planCost">
+      <modelElement href="insurence-service.uml#_MCkTs3XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkq7VHXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="insurence-service.uml#_MCkTtHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Mkq7VXXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MCk6wHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkq7VnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkq7V3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mkq7WHXuEfC_3fo_KXq00A" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mkq7WXXuEfC_3fo_KXq00A" name="isActive">
+      <modelElement href="insurence-service.uml#_MCk6w3XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkq7WnXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MCk6xHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkq7W3XuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Mkq7XHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mkq7XXXuEfC_3fo_KXq00A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mkq7XnXuEfC_3fo_KXq00A" defaultValue="new java.util.ArrayList&lt;>()" name="coverages">
+      <modelElement href="insurence-service.uml#_MCk6x3XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkq7X3XuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MClh0XXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkq7YHXuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_Mkq7YXXuEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_Mkq7YnXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Mkq7Y3XuEfC_3fo_KXq00A" name="InsurancePlan">
+      <modelElement href="insurence-service.uml#_L9N5oHXuEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_Mkq7ZHXuEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_Mkq7ZXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkq7ZnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mkq7Z3XuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L9N5o3XuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mkq7aHXuEfC_3fo_KXq00A" name="InsurancePlan">
+          <modelElement href="insurence-service.uml#_L9LdYHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Mkq7aXXuEfC_3fo_KXq00A" name="isActive">
+      <modelElement href="insurence-service.uml#_L9OgsHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkq7anXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_L9OgsnXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkq7a3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkq7bHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mkq7bXXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L9OgsXXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mkq7bnXuEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Mkq7b3XuEfC_3fo_KXq00A" name="setActive">
+      <modelElement href="insurence-service.uml#_L9Ogs3XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkq7cHXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_L9PHwHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkq7cXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkq7cnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Mkq7c3XuEfC_3fo_KXq00A" name="active">
+        <modelElement href="insurence-service.uml#_L9OgtHXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkq7dHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkq7dXXuEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mkq7dnXuEfC_3fo_KXq00A" name="getCoverages">
+      <modelElement href="insurence-service.uml#_L9PHwXXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkq7d3XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_L9PHxHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkq7eHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkq7eXXuEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Mkq7enXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L9PHwnXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mkq7e3XuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Mkq7fHXuEfC_3fo_KXq00A" name="toString">
+      <modelElement href="insurence-service.uml#_L9Pu0HXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkq7fXXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_L9Pu0nXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkq7fnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkq7f3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mkq7gHXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L9Pu0XXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mkq7gXXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Mkq7gnXuEfC_3fo_KXq00A" name="InsurancePlan">
+      <modelElement href="insurence-service.uml#_MCVDIHXuEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_Mkq7g3XuEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_Mkq7hHXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCVqMXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkq7hXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkq7hnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mkq7h3XuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCVqMHXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mkq7iHXuEfC_3fo_KXq00A" name="InsurancePlan">
+          <modelElement href="insurence-service.uml#_L9LdYHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mkq7iXXuEfC_3fo_KXq00A" name="planProvider">
+        <modelElement href="insurence-service.uml#_MCVDIXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkq7inXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkq7i3XuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mkq7jHXuEfC_3fo_KXq00A" name="planName">
+        <modelElement href="insurence-service.uml#_MCVDInXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkq7jXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkq7jnXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mkq7j3XuEfC_3fo_KXq00A" name="planType">
+        <modelElement href="insurence-service.uml#_MCVDI3XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkq7kHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkq7kXXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mkq7knXuEfC_3fo_KXq00A" name="planDescription">
+        <modelElement href="insurence-service.uml#_MCVDJHXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkq7k3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkq7lHXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mkq7lXXuEfC_3fo_KXq00A" name="planCost">
+        <modelElement href="insurence-service.uml#_MCVDJXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkq7lnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkq7l3XuEfC_3fo_KXq00A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mkq7mHXuEfC_3fo_KXq00A" name="isActive">
+        <modelElement href="insurence-service.uml#_MCVDJnXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkq7mXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkq7mnXuEfC_3fo_KXq00A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mkq7m3XuEfC_3fo_KXq00A" name="coverages">
+        <modelElement href="insurence-service.uml#_MCVDJ3XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkq7nHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkq7nXXuEfC_3fo_KXq00A" name="List">
+          <modelElement href="insurence-service.uml#_MBv0U3XuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mkq7nnXuEfC_3fo_KXq00A" name="setCoverages">
+      <modelElement href="insurence-service.uml#_MCVqM3XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkq7n3XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCVqNXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkq7oHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkq7oXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Mkq7onXuEfC_3fo_KXq00A" name="coverages">
+        <modelElement href="insurence-service.uml#_MCVqNHXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkq7o3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkq7pHXuEfC_3fo_KXq00A" name="List">
+          <modelElement href="insurence-service.uml#_MBv0U3XuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MkhxQXXuEfC_3fo_KXq00A" name="EligibilityCheckResponse" associationsOut="_MkgjIHXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_L90WkHXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_MkhxQnXuEfC_3fo_KXq00A" position="-5025.0,-250.0" size="152.0,296.0"/>
+    <stereotypes xmi:id="_MkhxQ3XuEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="insurence-service.uml#_L909oHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_MkhxRHXuEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="insurence-service.uml#_L91ksHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_MkhxRXXuEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_MkhxRnXuEfC_3fo_KXq00A" name="patientId">
+      <modelElement href="insurence-service.uml#_MCqaUHXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkhxR3XuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_MkhxSHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkhxSXXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkhxSnXuEfC_3fo_KXq00A" name="patientName">
+      <modelElement href="insurence-service.uml#_MCqaUXXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkhxS3XuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_MkhxTHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkhxTXXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkhxTnXuEfC_3fo_KXq00A" name="insurancePlanId">
+      <modelElement href="insurence-service.uml#_MCqaUnXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkhxT3XuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_MkhxUHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkhxUXXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkhxUnXuEfC_3fo_KXq00A" name="planName">
+      <modelElement href="insurence-service.uml#_MCqaU3XuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkhxU3XuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_MkhxVHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkhxVXXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkhxVnXuEfC_3fo_KXq00A" name="planProvider">
+      <modelElement href="insurence-service.uml#_MCqaVHXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkhxV3XuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_MkhxWHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkhxWXXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkhxWnXuEfC_3fo_KXq00A" name="eligibilityStatus">
+      <modelElement href="insurence-service.uml#_MCrBYHXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkhxW3XuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_MkhxXHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkhxXXXuEfC_3fo_KXq00A" name="EligibilityStatus">
+        <modelElement href="insurence-service.uml#_L9EIpXXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkhxXnXuEfC_3fo_KXq00A" name="coverageStatus">
+      <modelElement href="insurence-service.uml#_MCrBYXXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkhxX3XuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_MkhxYHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkhxYXXuEfC_3fo_KXq00A" name="InsuranceCoverageStatus">
+        <modelElement href="insurence-service.uml#_L9EvtXXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkhxYnXuEfC_3fo_KXq00A" name="benefitDetails">
+      <modelElement href="insurence-service.uml#_MCrBYnXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkhxY3XuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_MkhxZHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkhxZXXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkhxZnXuEfC_3fo_KXq00A" name="verifiedAt">
+      <modelElement href="insurence-service.uml#_MCrBY3XuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_MkhxZ3XuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_MkhxaHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkhxaXXuEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="insurence-service.uml#_MBumMHXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkhxanXuEfC_3fo_KXq00A" name="isEligibleForBooking">
+      <modelElement href="insurence-service.uml#_MCrBZHXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Mkhxa3XuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_MkhxbHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkhxbXXuEfC_3fo_KXq00A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkhxbnXuEfC_3fo_KXq00A" name="message">
+      <modelElement href="insurence-service.uml#_MCrBZXXuEfC_3fo_KXq00A"/>
+      <visibility xmi:id="_Mkhxb3XuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_MkhxcHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkhxcXXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkhxcnXuEfC_3fo_KXq00A" name="coverages">
+      <modelElement href="insurence-service.uml#_MCrBZnXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkhxc3XuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MCrBaHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkhxdHXuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_MkhxdXXuEfC_3fo_KXq00A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_MkhxdnXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MkjmiXXuEfC_3fo_KXq00A" name="InsuranceEligibility" associationsIn="_Mki_YHXuEfC_3fo_KXq00A _Mki_YXXuEfC_3fo_KXq00A" associationsOut="_Mkjmd3XuEfC_3fo_KXq00A _MkjmgHXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_L9FWxHXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_MkjminXuEfC_3fo_KXq00A" position="-6133.0,141.0" size="269.0,163.0"/>
+    <stereotypes xmi:id="_Mkjmi3XuEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="insurence-service.uml#_L9F90HXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_MkjmjHXuEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="insurence-service.uml#_L9IaEHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_MkjmjXXuEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_MkjmjnXuEfC_3fo_KXq00A" name="id">
+      <modelElement href="insurence-service.uml#_MCeNEHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkjmj3XuEfC_3fo_KXq00A" name="PrimaryKey">
+        <modelElement href="insurence-service.uml#_MCgCQHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkjmkHXuEfC_3fo_KXq00A" name="JPA1StyledElement">
+        <modelElement href="insurence-service.uml#_MCgCQXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkjmkXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkjmknXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mkjmk3XuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkjmlHXuEfC_3fo_KXq00A" name="patient">
+      <modelElement href="insurence-service.uml#_MCgCQnXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkjmlXXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="insurence-service.uml#_MCgCQ3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkjmlnXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MCgpVHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkjml3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkjmmHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkjmmXXuEfC_3fo_KXq00A" name="Patient">
+        <modelElement href="insurence-service.uml#_L9UAQHXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkjmmnXuEfC_3fo_KXq00A" name="plan">
+      <modelElement href="insurence-service.uml#_MCgpVnXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkjmm3XuEfC_3fo_KXq00A" name="LegacyStyledElement">
+        <modelElement href="insurence-service.uml#_MCgpV3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkjmnHXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MChQYHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkjmnXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkjmnnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mkjmn3XuEfC_3fo_KXq00A" name="InsurancePlan">
+        <modelElement href="insurence-service.uml#_L9LdYHXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkjmoHXuEfC_3fo_KXq00A" name="status">
+      <modelElement href="insurence-service.uml#_MChQYnXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkjmoXXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MChQY3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkjmonXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkjmo3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkjmpHXuEfC_3fo_KXq00A" name="EligibilityStatus">
+        <modelElement href="insurence-service.uml#_L9EIpXXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkjmpXXuEfC_3fo_KXq00A" name="verifiedAt">
+      <modelElement href="insurence-service.uml#_MChQZHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkjmpnXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MChQZXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkjmp3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkjmqHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkjmqXXuEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="insurence-service.uml#_MBumMHXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkjmqnXuEfC_3fo_KXq00A" name="benefitDetails">
+      <modelElement href="insurence-service.uml#_MChQZnXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkjmq3XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MChQZ3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkjmrHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkjmrXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkjmrnXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Mkjmr3XuEfC_3fo_KXq00A" name="InsuranceEligibility">
+      <modelElement href="insurence-service.uml#_L9HL8HXuEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_MkjmsHXuEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_MkjmsXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkjmsnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mkjms3XuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L9HL83XuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkjmtHXuEfC_3fo_KXq00A" name="InsuranceEligibility">
+          <modelElement href="insurence-service.uml#_L9FWxHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MkjmtXXuEfC_3fo_KXq00A" name="InsuranceEligibility">
+      <modelElement href="insurence-service.uml#_MCT1AHXuEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_MkjmtnXuEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_Mkjmt3XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCUcFXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkjmuHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkjmuXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MkjmunXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCUcFHXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mkjmu3XuEfC_3fo_KXq00A" name="InsuranceEligibility">
+          <modelElement href="insurence-service.uml#_L9FWxHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MkjmvHXuEfC_3fo_KXq00A" name="id">
+        <modelElement href="insurence-service.uml#_MCT1AXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkjmvXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkjmvnXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mkjmv3XuEfC_3fo_KXq00A" name="patient">
+        <modelElement href="insurence-service.uml#_MCT1AnXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkjmwHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkjmwXXuEfC_3fo_KXq00A" name="Patient">
+          <modelElement href="insurence-service.uml#_L9UAQHXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkjmwnXuEfC_3fo_KXq00A" name="plan">
+        <modelElement href="insurence-service.uml#_MCT1A3XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkjmw3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkjmxHXuEfC_3fo_KXq00A" name="InsurancePlan">
+          <modelElement href="insurence-service.uml#_L9LdYHXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkjmxXXuEfC_3fo_KXq00A" name="status">
+        <modelElement href="insurence-service.uml#_MCT1BHXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkjmxnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkjmx3XuEfC_3fo_KXq00A" name="EligibilityStatus">
+          <modelElement href="insurence-service.uml#_L9EIpXXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkjmyHXuEfC_3fo_KXq00A" name="verifiedAt">
+        <modelElement href="insurence-service.uml#_MCUcEHXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkjmyXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkjmynXuEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="insurence-service.uml#_MBumMHXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mkjmy3XuEfC_3fo_KXq00A" name="benefitDetails">
+        <modelElement href="insurence-service.uml#_MCUcEXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkjmzHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkjmzXXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MkbDkHXuEfC_3fo_KXq00A" name="GlobalExceptionHandler">
+    <modelElement href="insurence-service.uml#_L86-sHXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_MkbDkXXuEfC_3fo_KXq00A" position="-5843.0,91.0" size="192.0,126.0"/>
+    <stereotypes xmi:id="_MkbDknXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="insurence-service.uml#_L86-sXXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_MkbDk3XuEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="insurence-service.uml#_L86-snXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_MkbDlHXuEfC_3fo_KXq00A" label="+"/>
+    <operations xmi:id="_MkbDlXXuEfC_3fo_KXq00A" name="handleRuntimeException">
+      <modelElement href="insurence-service.uml#_MCRYwHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkbDlnXuEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="insurence-service.uml#_MCRYwnXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkbDl3XuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MCRYxHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkbDmHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkbDmXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MkbDmnXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCRYw3XuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkbDm3XuEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="insurence-service.uml#_MBvNQXXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MkbDnHXuEfC_3fo_KXq00A" name="e">
+        <modelElement href="insurence-service.uml#_MCRYwXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkbDnXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkbDnnXuEfC_3fo_KXq00A" name="RuntimeException">
+          <modelElement href="insurence-service.uml#_MCQxsHXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MkbDn3XuEfC_3fo_KXq00A" name="handleValidationException">
+      <modelElement href="insurence-service.uml#_MCR_0XXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkbDoHXuEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="insurence-service.uml#_MCR_03XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkbDoXXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MCSm4XXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkbDonXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkbDo3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MkbDpHXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCSm4HXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkbDpXXuEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="insurence-service.uml#_MBvNQXXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MkbDpnXuEfC_3fo_KXq00A" name="e">
+        <modelElement href="insurence-service.uml#_MCR_0nXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkbDp3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkbDqHXuEfC_3fo_KXq00A" name="MethodArgumentNotValidException">
+          <modelElement href="insurence-service.uml#_MBvNQ3XuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MkcRuXXuEfC_3fo_KXq00A" name="InsuranceEligibilityController" associationsOut="_MkcRsHXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_L87lwHXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_MkcRunXuEfC_3fo_KXq00A" position="-5298.0,-52.0" size="212.0,196.0"/>
+    <stereotypes xmi:id="_MkcRu3XuEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="insurence-service.uml#_L88z4HXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_MkcRvHXuEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="insurence-service.uml#_L9BFUXXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_MkcRvXXuEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_MkcRvnXuEfC_3fo_KXq00A" name="eligibilityService">
+      <modelElement href="insurence-service.uml#_MCdmAHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkcRv3XuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MCdmAXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkcRwHXuEfC_3fo_KXq00A" label="-"/>
+      <cardinality xmi:id="_MkcRwXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkcRwnXuEfC_3fo_KXq00A" name="InsuranceEligibilityService">
+        <modelElement href="insurence-service.uml#_L9to4HXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_MkcRw3XuEfC_3fo_KXq00A" name="getPatientInsurancePlans">
+      <modelElement href="insurence-service.uml#_L88z4XXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkcRxHXuEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="insurence-service.uml#_L89a8XXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkcRxXXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_L89a9HXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkcRxnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkcRx3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MkcRyHXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCTN8HXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkcRyXXuEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="insurence-service.uml#_MBvNQXXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MkcRynXuEfC_3fo_KXq00A" name="patientId">
+        <modelElement href="insurence-service.uml#_L89a8HXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkcRy3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkcRzHXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MkcRzXXuEfC_3fo_KXq00A" name="createEligibilityRecord">
+      <modelElement href="insurence-service.uml#_L8-CAXXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkcRznXuEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="insurence-service.uml#_L8-pEHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkcRz3XuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_L8-pFXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkcR0HXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkcR0XXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MkcR0nXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCTN8nXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkcR03XuEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="insurence-service.uml#_MBvNQXXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MkcR1HXuEfC_3fo_KXq00A" name="patientId">
+        <modelElement href="insurence-service.uml#_L8-CAnXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkcR1XXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkcR1nXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkcR13XuEfC_3fo_KXq00A" name="planId">
+        <modelElement href="insurence-service.uml#_L8-CA3XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkcR2HXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkcR2XXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MkcR2nXuEfC_3fo_KXq00A" name="checkEligibilityBeforeBooking">
+      <modelElement href="insurence-service.uml#_L8-pGHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkcR23XuEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="insurence-service.uml#_L8_QIHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkcR3HXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_L8_3MHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkcR3XXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkcR3nXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MkcR33XuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCTN83XuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkcR4HXuEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="insurence-service.uml#_MBvNQXXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MkcR4XXuEfC_3fo_KXq00A" name="patientId">
+        <modelElement href="insurence-service.uml#_L8-pGXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkcR4nXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkcR43XuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkcR5HXuEfC_3fo_KXq00A" name="insurancePlanId">
+        <modelElement href="insurence-service.uml#_L8-pGnXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkcR5XXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkcR5nXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MkcR53XuEfC_3fo_KXq00A" name="getAllEligibilityRecords">
+      <modelElement href="insurence-service.uml#_L8_3M3XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkcR6HXuEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="insurence-service.uml#_L8_3NHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkcR6XXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_L9AeQHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkcR6nXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkcR63XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MkcR7HXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCTN9HXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkcR7XXuEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="insurence-service.uml#_MBvNQXXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MkcR7nXuEfC_3fo_KXq00A" name="getAllInsuranceplans">
+      <modelElement href="insurence-service.uml#_L9AeQ3XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkcR73XuEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="insurence-service.uml#_L9AeRHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkcR8HXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_L9AeRXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkcR8XXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkcR8nXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MkcR83XuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCTN9XXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkcR9HXuEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="insurence-service.uml#_MBvNQXXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MkcR9XXuEfC_3fo_KXq00A" name="checkEligibility">
+      <modelElement href="insurence-service.uml#_MBzesXXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkcR9nXuEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="insurence-service.uml#_MBzes3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkcR93XuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MB0Fw3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkcR-HXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkcR-XXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MkcR-nXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCSm5HXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkcR-3XuEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="insurence-service.uml#_MBvNQXXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MkcR_HXuEfC_3fo_KXq00A" name="request">
+        <modelElement href="insurence-service.uml#_MBzesnXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkcR_XXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkcR_nXuEfC_3fo_KXq00A" name="EligibilityCheckRequest">
+          <modelElement href="insurence-service.uml#_L92y0HXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MkcR_3XuEfC_3fo_KXq00A" name="verifyEligibility">
+      <modelElement href="insurence-service.uml#_MB0s0HXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkcSAHXuEfC_3fo_KXq00A" name="Generics">
+        <modelElement href="insurence-service.uml#_MB1T4HXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MkcSAXXuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_MB1T6HXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkcSAnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkcSA3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MkcSBHXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCTN8XXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkcSBXXuEfC_3fo_KXq00A" name="ResponseEntity">
+          <modelElement href="insurence-service.uml#_MBvNQXXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MkcSBnXuEfC_3fo_KXq00A" name="eligibilityId">
+        <modelElement href="insurence-service.uml#_MB0s0XXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkcSB3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkcSCHXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkcSCXXuEfC_3fo_KXq00A" name="status">
+        <modelElement href="insurence-service.uml#_MB0s0nXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkcSCnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkcSC3XuEfC_3fo_KXq00A" name="EligibilityStatus">
+          <modelElement href="insurence-service.uml#_L9EIpXXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkcSDHXuEfC_3fo_KXq00A" name="benefitDetails">
+        <modelElement href="insurence-service.uml#_MB0s03XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkcSDXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkcSDnXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Mkf8EHXuEfC_3fo_KXq00A" name="EligibilityCheckRequest">
+    <modelElement href="insurence-service.uml#_L92y0HXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Mkf8EXXuEfC_3fo_KXq00A" position="-5307.0,152.0" size="204.0,183.0"/>
+    <stereotypes xmi:id="_Mkf8EnXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="insurence-service.uml#_L94A8HXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Mkf8E3XuEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="insurence-service.uml#_L95PFXXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Mkf8FHXuEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_Mkf8FXXuEfC_3fo_KXq00A" name="patientId">
+      <modelElement href="insurence-service.uml#_MCrocHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkf8FnXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCrocXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkf8F3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkf8GHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mkf8GXXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mkf8GnXuEfC_3fo_KXq00A" name="insurancePlanId">
+      <modelElement href="insurence-service.uml#_MCrocnXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkf8G3XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCroc3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkf8HHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkf8HXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mkf8HnXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mkf8H3XuEfC_3fo_KXq00A" name="userEmail">
+      <modelElement href="insurence-service.uml#_MCrodHXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkf8IHXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCrodXXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkf8IXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkf8InXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_Mkf8I3XuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Mkf8JHXuEfC_3fo_KXq00A" name="EligibilityCheckRequest">
+      <modelElement href="insurence-service.uml#_L94oAHXuEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_Mkf8JXXuEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_Mkf8JnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkf8J3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mkf8KHXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L94oA3XuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mkf8KXXuEfC_3fo_KXq00A" name="EligibilityCheckRequest">
+          <modelElement href="insurence-service.uml#_L92y0HXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Mkf8KnXuEfC_3fo_KXq00A" name="EligibilityCheckRequest">
+      <modelElement href="insurence-service.uml#_L94oBHXuEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_Mkf8K3XuEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_Mkf8LHXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_L95PEHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkf8LXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkf8LnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mkf8L3XuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L94oCnXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mkf8MHXuEfC_3fo_KXq00A" name="EligibilityCheckRequest">
+          <modelElement href="insurence-service.uml#_L92y0HXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mkf8MXXuEfC_3fo_KXq00A" name="patientId">
+        <modelElement href="insurence-service.uml#_L94oBXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkf8MnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkf8M3XuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mkf8NHXuEfC_3fo_KXq00A" name="insurancePlanId">
+        <modelElement href="insurence-service.uml#_L94oBnXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkf8NXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkf8NnXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mkf8N3XuEfC_3fo_KXq00A" name="userEmail">
+        <modelElement href="insurence-service.uml#_L94oB3XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_Mkf8OHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_Mkf8OXXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mkf8OnXuEfC_3fo_KXq00A" name="toString">
+      <modelElement href="insurence-service.uml#_L95PEXXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_Mkf8O3XuEfC_3fo_KXq00A" name="Annotations">
+        <modelElement href="insurence-service.uml#_L95PE3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_Mkf8PHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_Mkf8PXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mkf8PnXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L95PEnXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_Mkf8P3XuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MkeG8HXuEfC_3fo_KXq00A" name="PatientInsuranceDTO" associationsIn="_Mkdf0HXuEfC_3fo_KXq00A _MkeG6HXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_L9owYHXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_MkeG8XXuEfC_3fo_KXq00A" position="-5073.0,66.0" size="192.0,243.0"/>
+    <stereotypes xmi:id="_MkeG8nXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="insurence-service.uml#_L9p-gHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_MkeG83XuEfC_3fo_KXq00A" name="Annotations">
+      <modelElement href="insurence-service.uml#_L9rzsHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_MkeG9HXuEfC_3fo_KXq00A" label="+"/>
+    <attributes xmi:id="_MkeG9XXuEfC_3fo_KXq00A" name="eligibilityId">
+      <modelElement href="insurence-service.uml#_MColJ3XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkeG9nXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MColKHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkeG93XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkeG-HXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkeG-XXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkeG-nXuEfC_3fo_KXq00A" name="planName">
+      <modelElement href="insurence-service.uml#_MColKXXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkeG-3XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCpMMHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkeG_HXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkeG_XXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkeG_nXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkeG_3XuEfC_3fo_KXq00A" name="planProvider">
+      <modelElement href="insurence-service.uml#_MCpMMXXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkeHAHXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCpMMnXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkeHAXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkeHAnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkeHA3XuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkeHBHXuEfC_3fo_KXq00A" name="planType">
+      <modelElement href="insurence-service.uml#_MCpMM3XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkeHBXXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCpMNHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkeHBnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkeHB3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkeHCHXuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkeHCXXuEfC_3fo_KXq00A" name="planCost">
+      <modelElement href="insurence-service.uml#_MCpMNXXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkeHCnXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCpMNnXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkeHC3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkeHDHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkeHDXXuEfC_3fo_KXq00A" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkeHDnXuEfC_3fo_KXq00A" name="status">
+      <modelElement href="insurence-service.uml#_MCpMN3XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkeHD3XuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCpMOHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkeHEHXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkeHEXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkeHEnXuEfC_3fo_KXq00A" name="EligibilityStatus">
+        <modelElement href="insurence-service.uml#_L9EIpXXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkeHE3XuEfC_3fo_KXq00A" name="benefitDetails">
+      <modelElement href="insurence-service.uml#_MCpMOXXuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkeHFHXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCpMOnXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkeHFXXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkeHFnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkeHF3XuEfC_3fo_KXq00A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MkeHGHXuEfC_3fo_KXq00A" name="verifiedAt">
+      <modelElement href="insurence-service.uml#_MCpMO3XuEfC_3fo_KXq00A"/>
+      <stereotypes xmi:id="_MkeHGXXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCpMPHXuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkeHGnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkeHG3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <type xmi:id="_MkeHHHXuEfC_3fo_KXq00A" name="LocalDateTime">
+        <modelElement href="insurence-service.uml#_MBumMHXuEfC_3fo_KXq00A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_MkeHHXXuEfC_3fo_KXq00A" name="PatientInsuranceDTO">
+      <modelElement href="insurence-service.uml#_L9qlkHXuEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_MkeHHnXuEfC_3fo_KXq00A" keyword="create"/>
+      <visibility xmi:id="_MkeHH3XuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkeHIHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MkeHIXXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_L9rMonXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkeHInXuEfC_3fo_KXq00A" name="PatientInsuranceDTO">
+          <modelElement href="insurence-service.uml#_L9owYHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MkeHI3XuEfC_3fo_KXq00A" name="PatientInsuranceDTO">
+      <modelElement href="insurence-service.uml#_MCZ7oHXuEfC_3fo_KXq00A"/>
+      <keywords xmi:id="_MkeHJHXuEfC_3fo_KXq00A" keyword="create"/>
+      <stereotypes xmi:id="_MkeHJXXuEfC_3fo_KXq00A" name="StyledElement">
+        <modelElement href="insurence-service.uml#_MCait3XuEfC_3fo_KXq00A"/>
+      </stereotypes>
+      <visibility xmi:id="_MkeHJnXuEfC_3fo_KXq00A" label="+"/>
+      <cardinality xmi:id="_MkeHJ3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MkeHKHXuEfC_3fo_KXq00A">
+        <modelElement href="insurence-service.uml#_MCaitnXuEfC_3fo_KXq00A"/>
+        <type xmi:id="_MkeHKXXuEfC_3fo_KXq00A" name="PatientInsuranceDTO">
+          <modelElement href="insurence-service.uml#_L9owYHXuEfC_3fo_KXq00A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MkeHKnXuEfC_3fo_KXq00A" name="eligibilityId">
+        <modelElement href="insurence-service.uml#_MCZ7oXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkeHK3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkeHLHXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkeHLXXuEfC_3fo_KXq00A" name="planName">
+        <modelElement href="insurence-service.uml#_MCZ7onXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkeHLnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkeHL3XuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkeHMHXuEfC_3fo_KXq00A" name="planProvider">
+        <modelElement href="insurence-service.uml#_MCZ7o3XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkeHMXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkeHMnXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkeHM3XuEfC_3fo_KXq00A" name="planType">
+        <modelElement href="insurence-service.uml#_MCZ7pHXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkeHNHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkeHNXXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkeHNnXuEfC_3fo_KXq00A" name="planCost">
+        <modelElement href="insurence-service.uml#_MCaisHXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkeHN3XuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkeHOHXuEfC_3fo_KXq00A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkeHOXXuEfC_3fo_KXq00A" name="status">
+        <modelElement href="insurence-service.uml#_MCaisXXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkeHOnXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkeHO3XuEfC_3fo_KXq00A" name="EligibilityStatus">
+          <modelElement href="insurence-service.uml#_L9EIpXXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkeHPHXuEfC_3fo_KXq00A" name="benefitDetails">
+        <modelElement href="insurence-service.uml#_MCaisnXuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkeHPXXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkeHPnXuEfC_3fo_KXq00A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MkeHP3XuEfC_3fo_KXq00A" name="verifiedAt">
+        <modelElement href="insurence-service.uml#_MCais3XuEfC_3fo_KXq00A"/>
+        <cardinality xmi:id="_MkeHQHXuEfC_3fo_KXq00A" label="1" max="1" min="1"/>
+        <type xmi:id="_MkeHQXXuEfC_3fo_KXq00A" name="LocalDateTime">
+          <modelElement href="insurence-service.uml#_MBumMHXuEfC_3fo_KXq00A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_Mkoe8HXuEfC_3fo_KXq00A" name="EligibilityStatus" associationsOut="_Mki_YHXuEfC_3fo_KXq00A _Mkdf0HXuEfC_3fo_KXq00A">
+    <modelElement href="insurence-service.uml#_L9EIpXXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_Mkoe8XXuEfC_3fo_KXq00A" position="-5825.0,224.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Mkoe8nXuEfC_3fo_KXq00A" name="LegacyStyledElement">
+      <modelElement href="insurence-service.uml#_L9EvsHXuEfC_3fo_KXq00A"/>
+    </stereotypes>
+    <visibility xmi:id="_Mkoe83XuEfC_3fo_KXq00A" label="+"/>
+    <literals xmi:id="_Mkoe9HXuEfC_3fo_KXq00A" name="VERIFIED">
+      <modelElement href="insurence-service.uml#_L9EvsXXuEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_Mkoe9XXuEfC_3fo_KXq00A" name="PENDING">
+      <modelElement href="insurence-service.uml#_L9EvsnXuEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_Mkoe9nXuEfC_3fo_KXq00A" name="NOTELIGIBLE">
+      <modelElement href="insurence-service.uml#_L9Evs3XuEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_Mkoe93XuEfC_3fo_KXq00A" name="EXPIRED">
+      <modelElement href="insurence-service.uml#_L9EvtHXuEfC_3fo_KXq00A"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_MklboHXuEfC_3fo_KXq00A" name="InsuranceCoverageStatus">
+    <modelElement href="insurence-service.uml#_L9EvtXXuEfC_3fo_KXq00A"/>
+    <visualProperties xmi:id="_MklboXXuEfC_3fo_KXq00A" position="-6353.0,220.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_MklbonXuEfC_3fo_KXq00A" label="+"/>
+    <literals xmi:id="_Mklbo3XuEfC_3fo_KXq00A" name="COVERED">
+      <modelElement href="insurence-service.uml#_L9FWwHXuEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_MklbpHXuEfC_3fo_KXq00A" name="NOT_COVERED">
+      <modelElement href="insurence-service.uml#_L9FWwXXuEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_MklbpXXuEfC_3fo_KXq00A" name="UNKNOWN">
+      <modelElement href="insurence-service.uml#_L9FWwnXuEfC_3fo_KXq00A"/>
+    </literals>
+    <literals xmi:id="_MklbpnXuEfC_3fo_KXq00A" name="PENDING">
+      <modelElement href="insurence-service.uml#_L9FWw3XuEfC_3fo_KXq00A"/>
+    </literals>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

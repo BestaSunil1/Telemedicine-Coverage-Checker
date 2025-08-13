@@ -134,7 +134,10 @@ public class InsuranceEligibilityService {
         boolean isEligible = eligibility.getStatus() == EligibilityStatus.VERIFIED;
         InsuranceCoverageStatus coverageStatus = determineCoverageStatus(eligibility.getStatus());
         
-        return EligibilityCheckResponse.builder()
+        System.out.println("Plan coverages: " + plan.getCoverages());
+        System.out.println("Plan coverages type: " + (plan.getCoverages() != null ? plan.getCoverages().getClass() : "null"));
+        
+        EligibilityCheckResponse response = EligibilityCheckResponse.builder()
             .patientId(patient.getId())
             .patientName(patient.getUser().getUsername())
             .insurancePlanId(plan.getId())
@@ -146,9 +149,12 @@ public class InsuranceEligibilityService {
             .verifiedAt(eligibility.getVerifiedAt())
             .isEligibleForBooking(isEligible)
             .message(getStatusMessage(eligibility.getStatus()))
+            .coverages(plan.getCoverages())
             .build();
+        
+        System.out.println("Response coverages: " + response.getCoverages());
+        return response;
     }
-    
     private EligibilityCheckResponse createNotFoundResponse(Patient patient, InsurancePlan plan) {
         return EligibilityCheckResponse.builder()
             .patientId(patient.getId())
@@ -218,4 +224,8 @@ public class InsuranceEligibilityService {
     public List<InsuranceEligibility> getAllEligibilities() {
 		return eligibilityRepository.findAll();
     }
+    
+    public List<InsurancePlan> getAllInsurancePlans() {
+		return insurancePlanRepository.findAll();
+	}
 }

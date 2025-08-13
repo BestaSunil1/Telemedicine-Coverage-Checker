@@ -13,17 +13,17 @@ public class Doctor {
 	private String id;
 	@DBRef(lazy = false)
 	private User user;
-	private byte[] profilePicture; 
-	private boolean active;
+	private String profilePhoto;; 
+	private boolean active = true;
 	private List<String> specializations;
 	
 	public Doctor() {
 	}
 	
-	public Doctor(String id, User user, byte[] profilePicture, boolean active, List<String> specializations) {
+	public Doctor(String id, User user, String profilePicture, boolean active, List<String> specializations) {
 		this.id = id;
 		this.user = user;
-		this.profilePicture = profilePicture;
+		this.profilePhoto = profilePicture;
 		this.active = active;
 		this.specializations = specializations;
 	}
@@ -44,12 +44,14 @@ public class Doctor {
 		this.user = user;
 	}
 
-	public byte[] getProfilePicture() {
-		return profilePicture;
+	
+
+	public String getProfilePhoto() {
+		return profilePhoto;
 	}
 
-	public void setProfilePicture(byte[] profilePicture) {
-		this.profilePicture = profilePicture;
+	public void setProfilePhoto(String profilePhoto) {
+		this.profilePhoto = profilePhoto;
 	}
 
 	public boolean isActive() {
